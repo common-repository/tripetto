@@ -1,0 +1,29 @@
+{
+  "direction": "vertical",
+  "verticalAlignment": "middle",
+  "hidePast": false,
+  "hideUpcoming": true,
+  "showNavigation": "never",
+  "showProgressbar": false,
+  "showEnumerators": false,
+  "autoFocus": true,
+  "showSeparateSubmit": false,
+  "showPreviousButton": true,
+  "showScrollbar": false,
+  "hideRequiredIndicator": true,
+  "disableScrolling": false,
+  "noBranding": true,
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "5.0.3" },
+  "font": { "size": 16, "family": "Poppins" },
+  "buttons": { "mode": "fill", "roundness": 8, "baseColor": "{{primary}}" },
+  "inputs": {
+    "borderSize": 1,
+    "roundness": 8,
+    "agreeColor": "{{primary}}",
+    "declineColor": "{{secondary}}",
+    "selectionColor": "{{primary}}",
+    "errorColor": "{{primary}}"
+  },
+  "background": { "color": "{{background}}" },
+  "color": "{{secondary}}"
+}

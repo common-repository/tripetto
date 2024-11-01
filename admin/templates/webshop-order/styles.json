@@ -1,0 +1,23 @@
+{
+  "mode": "paginated",
+  "autoFocus": false,
+  "showEnumerators": false,
+  "showPageIndicators": false,
+  "showProgressbar": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-classic", "version": "1.9.5-6" },
+  "font": { "size": 16, "family": "Roboto Condensed" },
+  "background": { "color": "#EFF2F6" },
+  "inputs": {
+    "backgroundColor": "white",
+    "borderSize": 1,
+    "roundness": 4,
+    "errorColor": "red",
+    "agreeColor": "green",
+    "declineColor": "red",
+    "borderColor": "transparent",
+    "selectionColor": "#30CA89",
+    "textColor": "#18214D"
+  },
+  "buttons": { "mode": "fill", "roundness": 4, "baseColor": "#855FFB" }
+}

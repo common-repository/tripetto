@@ -1,0 +1,20 @@
+{
+  "locale": "auto",
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "5.0.3" },
+  "translations": {
+    "": {
+      "language": "en",
+      "plural-forms": "nplurals=2; plural=(n != 1);",
+      "plural-family": "Germanic (Danish, Dutch, English, Faroese, Frisian, German, Norwegian, Swedish)"
+    },
+    "runner#1|🆗 Buttons\u0004Submit": [null, "Complete"],
+    "runner#3|🩺 Status information\u0004Submitting...": [
+      null,
+      "One moment..."
+    ],
+    "runner#9|⚠ Errors|Submit error\u0004Something went wrong while submitting your conversation.": [
+      null,
+      "Something went wrong while completing the onboarding process!"
+    ]
+  }
+}

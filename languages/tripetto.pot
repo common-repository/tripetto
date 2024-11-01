@@ -1,0 +1,1601 @@
+# Copyright (C) 2023 Tripetto
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tripetto 5.7.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tripetto\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-26T13:35:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: tripetto\n"
+
+msgid "100%"
+msgstr ""
+
+msgid "All good!"
+msgstr ""
+
+msgid "All without logic"
+msgstr ""
+
+msgid "Allow access to uploaded files"
+msgstr ""
+
+msgid "Allow direct access to uploaded files without WP admin login"
+msgstr ""
+
+#: elementor/widget.php:129
+#: gutenberg/gutenberg.php:70
+msgid "Allow pausing and resuming"
+msgstr ""
+
+msgid "Allow webhook to access uploaded files"
+msgstr ""
+
+#: elementor/widget.php:130
+#: gutenberg/gutenberg.php:71
+msgid "Allows users to pause the form and continue with it later by sending a resume link to the user's email address."
+msgstr ""
+
+msgid "Are you sure you want to reset the styles for this form?"
+msgstr ""
+
+msgid "Ask support"
+msgstr ""
+
+#: elementor/widget.php:154
+#: gutenberg/gutenberg.php:81
+msgid "Asynchronous loading helps avoiding caching issues, but sometimes results in longer form loading times because the page has already been rendered before the form is loaded. Enabling this option will load the form together with the page itself. Some cache plugins cache the page including the form. If this option is checked and your form doesn't update when you make a change, you probably need to clear the cache of your cache plugin."
+msgstr ""
+
+#: gutenberg/gutenberg.php:63
+msgid "Automate"
+msgstr ""
+
+msgid "Autoscroll"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Both the form and collected data are hosted and stored in _your own WordPress instance_. Not a single connection related to Tripetto is ever made with an external host other than yours. It's all in your own instance, under your control. Hello [GDPR](%1)!"
+msgstr ""
+
+msgid "Build"
+msgstr ""
+
+msgid "Buy a pro license now"
+msgstr ""
+
+#: admin/forms/list.php:130
+#: admin/results/list.php:77
+#: admin/results/results.php:330
+#: admin/templates/templates.php:127
+msgid "Cancel"
+msgstr ""
+
+msgid "Chat"
+msgstr ""
+
+msgid "Cheatsheet"
+msgstr ""
+
+msgid "Classic"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Configure [Make](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid "Configure [Pabbly Connect](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid "Configure [Zapier](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid "Configure your [Facebook Pixel](%1) setup and copy-paste your Pixel ID here:"
+msgstr ""
+
+msgid "Configure your [Google Analytics](%1) or [Google Tag Manager](%2) setup and copy-paste your Measurement, Tracking or Container ID here:"
+msgstr ""
+
+#: gutenberg/gutenberg.php:65
+msgid "Connections"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+#: admin/forms/list.php:185
+msgid "Copy to clipboard"
+msgstr ""
+
+msgid "Custom code might break your form!"
+msgstr ""
+
+msgid "Custom tracking code"
+msgstr ""
+
+msgid "Custom webhook"
+msgstr ""
+
+#: admin/forms/list.php:194
+msgid "Customize"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+#: elementor/widget.php:153
+#: gutenberg/gutenberg.php:80
+msgid "Disable asynchronous loading"
+msgstr ""
+
+msgid "Display form as full page overlay"
+msgstr ""
+
+#: elementor/widget.php:212
+#: gutenberg/gutenberg.php:94
+msgid "Don't use this, unless you know what you are doing. We don't give support on forms with custom CSS! If you have a problem with a form that uses custom CSS, then first disable the custom CSS and check if the problem persists."
+msgstr ""
+
+msgid "Email notification"
+msgstr ""
+
+msgid "Events to track:"
+msgstr ""
+
+msgid "Facebook Pixel"
+msgstr ""
+
+msgid "Facebook Pixel is already installed on my website"
+msgstr ""
+
+msgid "Form appearance"
+msgstr ""
+
+#: gutenberg/gutenberg.php:56
+msgid "Form face"
+msgstr ""
+
+msgid "Form is gone!"
+msgstr ""
+
+msgid "Form is outdated!"
+msgstr ""
+
+msgid "Google Analytics / Google Tag Manager"
+msgstr ""
+
+msgid "Google Analytics or Google Tag Manager is already installed on my website"
+msgstr ""
+
+msgid "Help center"
+msgstr ""
+
+msgid "Help with form faces"
+msgstr ""
+
+msgid "If you also share your form using the shareable link, make sure to supply an ID. If you only embed this form, you can omit the ID in case you are using GTM."
+msgstr ""
+
+msgid "Implement your custom JavaScript code for event tracking and connect Tripetto to other tracking services."
+msgstr ""
+
+msgid "Include response data in the message"
+msgstr ""
+
+msgid "Learn"
+msgstr ""
+
+msgid "Make"
+msgstr ""
+
+msgid "Make sure the provided code is valid and **always test your form** after submitting or changing the custom code!"
+msgstr ""
+
+msgid "More..."
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+#: elementor/widget.php:136
+#: elementor/widget.php:148
+#: elementor/widget.php:160
+msgid "No"
+msgstr ""
+
+msgid "Not all data is saved! Please wait a moment before navigating away from this page."
+msgstr ""
+
+#: gutenberg/gutenberg.php:64
+msgid "Notifications"
+msgstr ""
+
+msgid "Open in browser"
+msgstr ""
+
+msgid "Our promise on data privacy"
+msgstr ""
+
+msgid "Overwrite"
+msgstr ""
+
+msgid "Please create an incoming [Slack webhook](https://api.slack.com/incoming-webhooks) and enter the URL of the webhook here:"
+msgstr ""
+
+msgid "Please only use this option if you're an expert on webhooks. When enabled this option sends way more data to your webhook and in such a format your automation tool cannot process this by default. By leaving this option disabled, you can just use your response data easily."
+msgstr ""
+
+msgid "Post the data to the following URL:"
+msgstr ""
+
+msgid "Pro license required"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Reload from server"
+msgstr ""
+
+msgid "Reset styles"
+msgstr ""
+
+#: admin/forms/list.php:71
+msgid "Results"
+msgstr ""
+
+#: gutenberg/gutenberg.php:55
+msgid "Retry"
+msgstr ""
+
+#: admin/forms/list.php:62
+#: admin/results/results.php:189
+msgid "Run"
+msgstr ""
+
+#: elementor/widget.php:141
+#: gutenberg/gutenberg.php:75
+msgid "Save and restore uncompleted forms"
+msgstr ""
+
+#: elementor/widget.php:142
+#: gutenberg/gutenberg.php:76
+msgid "Saves uncompleted forms in the local storage of the browser. Next time the user visits the form it is restored so the user can continue."
+msgstr ""
+
+msgid "Send a Slack message when someone completes your form ([learn more](%1))"
+msgstr ""
+
+msgid "Send a notification to:"
+msgstr ""
+
+msgid "Send an email when someone completes your form ([learn more](%1))"
+msgstr ""
+
+msgid "Send raw response data to webhook ([learn more](%1))"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Shareable link"
+msgstr ""
+
+msgid "Slack notification"
+msgstr ""
+
+msgid "Something's wrong"
+msgstr ""
+
+msgid "Something’s cracking"
+msgstr ""
+
+msgid "Specify a fixed height for the form"
+msgstr ""
+
+msgid "Specify a fixed width for the form"
+msgstr ""
+
+#: elementor/widget.php:198
+#: gutenberg/gutenberg.php:90
+msgid "Specify a loader placeholder message"
+msgstr ""
+
+#: elementor/widget.php:211
+#: gutenberg/gutenberg.php:93
+msgid "Specify custom CSS styles"
+msgstr ""
+
+msgid "Styles"
+msgstr ""
+
+msgid "Subform"
+msgstr ""
+
+msgid "Submit completed forms to %1 ([learn more](%2))"
+msgstr ""
+
+msgid "Submit completed forms to a custom webhook ([learn more](%1))"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Test with logic"
+msgstr ""
+
+msgid "Testing..."
+msgstr ""
+
+#: elementor/widget.php:199
+#: gutenberg/gutenberg.php:91
+msgid "This message is shown while the form is loading. You can specify text or HTML."
+msgstr ""
+
+msgid "This will allow %1 access to any uploaded files (only applies for forms that use the file upload block)."
+msgstr ""
+
+msgid "This will give the webhook access to the uploaded files for this form. If left unchecked uploaded files are only downloadable from within your WordPress admin environment. So a webhook endpoint cannot access those files. Only activate this checkbox if your webhook needs access to the uploaded files."
+msgstr ""
+
+msgid "To specify rules for a specific block, use this selector: %1"
+msgstr ""
+
+msgid "Track blur"
+msgstr ""
+
+msgid "Track focus"
+msgstr ""
+
+msgid "Track form activity with Facebook Pixel ([learn more](%1))"
+msgstr ""
+
+msgid "Track form activity with Google Analytics ([learn more](%1)) or Google Tag Manager ([learn more](%2))"
+msgstr ""
+
+msgid "Track form activity with custom tracking code ([learn more](%1))"
+msgstr ""
+
+msgid "Track form completion"
+msgstr ""
+
+msgid "Track form pausing"
+msgstr ""
+
+msgid "Track form starting"
+msgstr ""
+
+msgid "Track staged blocks"
+msgstr ""
+
+msgid "Track unstaged blocks"
+msgstr ""
+
+#: gutenberg/gutenberg.php:66
+msgid "Tracking"
+msgstr ""
+
+msgid "Tracks when a block becomes available (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a block becomes unavailable (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is completed (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is paused (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is started (event name: %1)."
+msgstr ""
+
+msgid "Tracks when an input element gains focus (event name: %1)."
+msgstr ""
+
+msgid "Tracks when an input element loses focus (event name: %1)."
+msgstr ""
+
+msgid "Translations"
+msgstr ""
+
+msgid "Unnamed"
+msgstr ""
+
+msgid "Unnamed subform"
+msgstr ""
+
+msgid "Use the shortcode below to embed the form on any page on your website ([learn more](%1))."
+msgstr ""
+
+msgid "Use the tracking code already available on the page hosting the Tripetto form. This prevents Tripetto placing another tracking code on the page."
+msgstr ""
+
+msgid "When checked uploaded files can be directly downloaded from Slack without the need of logging in to your WordPress admin environment. Enable this if you want to allow Slack users (that don't have WordPress admin access) to access uploaded files for this form."
+msgstr ""
+
+msgid "When checked uploaded files can be directly downloaded from the email without the need of logging in to your WordPress admin environment. Enable this if you want to allow email recipients (that don't have WordPress admin access) to access uploaded files for this form."
+msgstr ""
+
+msgid "WordPress"
+msgstr ""
+
+msgid "WordPress shortcode"
+msgstr ""
+
+msgid "Yes, reset it!"
+msgstr ""
+
+msgid "You need a pro license to unlock the full potential of this block. Please click the button below for more information."
+msgstr ""
+
+msgid "Your actions aren't being processed properly and probably not saved to the server. We apologize for the inconvenience. Please try again and drop a line if troubles persist."
+msgstr ""
+
+msgid "Your actions aren't being processed properly because the form seems to be deleted. You cannot make changes to this form anymore."
+msgstr ""
+
+msgid "Your changes cannot be saved because your version of the form is outdated (so the version saved on the server is newer). The form is changed by someone else or by you in another browser window/tab. What do you want to do with the form?"
+msgstr ""
+
+msgid "Your form is automatically available through a dedicated link ([learn more](%1))."
+msgstr ""
+
+msgid "auto"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/admin.php:85
+#: admin/admin.php:86
+msgid "Tripetto"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://tripetto.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Advanced WordPress form builder plugin to build conversational contact forms, surveys, quizzes and more. Give life to forms and surveys."
+msgstr ""
+
+#: admin/admin.php:77
+#: lib/attachments.php:367
+msgid "You cannot access this page. You are not authorized."
+msgstr ""
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:56
+#: admin/builder/builder.php:496
+#: admin/results/results.php:179
+#: elementor/widget.php:72
+#: gutenberg/gutenberg.php:53
+#: gutenberg/gutenberg.php:167
+#: runner/runner.php:1209
+msgid "Unnamed form"
+msgstr ""
+
+#: admin/builder/builder.php:74
+msgid "Creating new form..."
+msgstr ""
+
+#. translators: %s contains the error message
+#: admin/builder/builder.php:83
+msgid "Something went wrong, could not create a new form (%s)."
+msgstr ""
+
+#: admin/builder/builder.php:187
+#: admin/results/columns.php:66
+msgid "One moment please..."
+msgstr ""
+
+#: admin/builder/builder.php:201
+msgid "Something went wrong, could not fetch the form (the form is probably deleted)."
+msgstr ""
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:496
+msgid "Test submission for `%1$s`"
+msgstr ""
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "You are using the %s version"
+msgstr ""
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "Free"
+msgstr ""
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "Pro"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:26
+#: admin/forms/forms.php:70
+#: admin/forms/forms.php:71
+msgid "Onboarding"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:27
+msgid "Settings"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:28
+msgid "Upgrade"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:32
+msgid "Welcome to your Tripetto dashboard."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:33
+msgid "Your fullblown form building and data collection solution. All inside of WordPress."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:35
+#: admin/forms/forms.php:52
+#: admin/forms/forms.php:53
+#: admin/forms/forms.php:152
+msgid "Build Form"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:35
+msgid "Build Your First Form"
+msgstr ""
+
+#. translators: %d is replaced with the number of available forms
+#: admin/dashboard/dashboard.php:38
+msgid "All Forms (%d)"
+msgstr ""
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:42
+msgid "Open the %1$s for settings. Visit the %2$s for tips & tricks."
+msgstr ""
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:42
+msgid "onboarding wizard"
+msgstr ""
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/dashboard/dashboard.php:42
+#: admin/templates/templates.php:97
+msgid "help center"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:45
+msgid "Kickstart your form building"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:46
+msgid "How to build a simple form"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:47
+msgid "Watch Tutorial"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:52
+msgid "Get Pro"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:53
+msgid "From $99 per year"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:54
+msgid "Upgrade to Tripetto Pro for more advanced features and take your forms and surveys to another level."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:55
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:56
+msgid "View pricing"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:59
+msgid "Tripetto Pro completes you."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:60
+msgid "Pro unlocks the following additional features in Tripetto."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:63
+msgid "Action blocks"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:65
+msgid "Calculator"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:66
+msgid "Custom variable"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:67
+msgid "Force stop"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:68
+msgid "Hidden field"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:69
+msgid "Raise error"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:70
+msgid "Send email"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:71
+msgid "Set value"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:73
+msgid "Automations"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:75
+msgid "Notifications (Slack etc.)"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:76
+msgid "Connect 1.000+ services"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:77
+msgid "Form activity tracking"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:81
+msgid "Unbranding"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:83
+msgid "No Tripetto branding"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:85
+msgid "License options"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:87
+msgid "Single-site"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:88
+msgid "5-Sites"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:89
+msgid "Unlimited sites"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:91
+msgid "Service"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:93
+msgid "Access to help center"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:94
+msgid "Priority support"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:95
+msgid "Updates and upgrades"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:103
+msgid "Help Center"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:104
+msgid "Need a helping hand? The help center offers how-to’s and video tutorials. Find answers directly or navigate through specific subjects."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:106
+msgid "Search help articles"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:107
+msgid "Search"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:111
+msgid "How-To’s"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:112
+msgid "Browse help articles by subject to find everything about every feature."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:114
+msgid "Building forms and surveys"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:115
+msgid "Using logic features"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:116
+msgid "Styling and customizing"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:117
+msgid "Automating things"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:118
+msgid "Sharing forms and surveys"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:119
+msgid "Managing data and results"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:121
+msgid "Visit help center"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:124
+msgid "Video Tutorials"
+msgstr ""
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:127
+msgid "Watch these recommended tutorials to get started smartly. Visit the %s for many more video tutorials."
+msgstr ""
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:127
+msgid "Tripetto YouTube channel"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:136
+msgid "All video tutorials"
+msgstr ""
+
+#: admin/forms/forms.php:61
+#: admin/forms/forms.php:62
+#: admin/forms/forms.php:147
+msgid "All Forms"
+msgstr ""
+
+#: admin/forms/forms.php:131
+msgid "Form deleted!"
+msgstr ""
+
+#: admin/forms/forms.php:135
+msgid "Form duplicated!"
+msgstr ""
+
+#: admin/forms/list.php:13
+#: gutenberg/gutenberg.php:42
+msgid "form"
+msgstr ""
+
+#: admin/forms/list.php:14
+msgid "forms"
+msgstr ""
+
+#: admin/forms/list.php:53
+#: admin/results/results.php:196
+msgid "Edit"
+msgstr ""
+
+#: admin/forms/list.php:112
+msgid "Duplicate"
+msgstr ""
+
+#: admin/forms/list.php:124
+#: admin/results/list.php:71
+#: admin/results/results.php:321
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/forms/list.php:125
+msgid "Do you really want to delete this form? All related data and the form itself will be deleted. This cannot be undone."
+msgstr ""
+
+#: admin/forms/list.php:129
+msgid "Delete form"
+msgstr ""
+
+#: admin/forms/list.php:137
+msgid "You need to remove the results first before you can delete the form."
+msgstr ""
+
+#: admin/forms/list.php:139
+#: admin/results/list.php:81
+#: admin/results/list.php:152
+msgid "Delete"
+msgstr ""
+
+#: admin/forms/list.php:242
+msgid "Name"
+msgstr ""
+
+#: admin/forms/list.php:246
+msgid "# Results"
+msgstr ""
+
+#: admin/forms/list.php:249
+msgid "Created"
+msgstr ""
+
+#: admin/forms/list.php:250
+msgid "Modified"
+msgstr ""
+
+#: admin/forms/list.php:251
+msgid "Shortcode"
+msgstr ""
+
+#: admin/header/header.php:32
+msgid "You have the Free version."
+msgstr ""
+
+#: admin/header/header.php:33
+msgid "Tripetto Pro includes even more features."
+msgstr ""
+
+#: admin/header/header.php:36
+msgid "Check out our Black Friday offer for upgrading to Tripetto Pro."
+msgstr ""
+
+#: admin/onboarding/onboarding.php:537
+msgid "New features"
+msgstr ""
+
+#: admin/onboarding/onboarding.php:540
+msgid "Improvements"
+msgstr ""
+
+#: admin/onboarding/onboarding.php:543
+msgid "Bugfixes"
+msgstr ""
+
+#: admin/onboarding/onboarding.php:546
+msgid "Deprecated or removed features"
+msgstr ""
+
+#: admin/results/columns.php:77
+msgid "Select the columns you want to show in your results list and click 'Save'."
+msgstr ""
+
+#: admin/results/columns.php:81
+msgid "You need to select at least one field!"
+msgstr ""
+
+#: admin/results/columns.php:91
+#: admin/results/export.php:46
+#: admin/results/list.php:122
+#: admin/results/results.php:77
+msgid "# Number"
+msgstr ""
+
+#: admin/results/columns.php:97
+#: admin/results/list.php:123
+#: admin/results/results.php:80
+#: admin/results/results.php:298
+msgid "Identifier"
+msgstr ""
+
+#: admin/results/columns.php:103
+#: admin/results/export.php:46
+#: admin/results/list.php:124
+#: admin/results/results.php:83
+#: admin/results/results.php:295
+msgid "Date submitted"
+msgstr ""
+
+#: admin/results/columns.php:123
+msgid "Save"
+msgstr ""
+
+#: admin/results/columns.php:128
+msgid "You need to collect at least one result before you can select columns!"
+msgstr ""
+
+#: admin/results/columns.php:135
+#: admin/results/results.php:204
+msgid "Choose columns"
+msgstr ""
+
+#: admin/results/columns.php:145
+msgid "Something went wrong!"
+msgstr ""
+
+#: admin/results/export.php:46
+msgid "Reference"
+msgstr ""
+
+#: admin/results/list.php:11
+msgid "result"
+msgstr ""
+
+#: admin/results/list.php:12
+msgid "results"
+msgstr ""
+
+#: admin/results/list.php:64
+msgid "View Result"
+msgstr ""
+
+#: admin/results/list.php:72
+#: admin/results/results.php:323
+msgid "Do you really want to delete this result? All data related to this result will be deleted. This cannot be undone."
+msgstr ""
+
+#: admin/results/list.php:76
+#: admin/results/results.php:328
+msgid "Delete result"
+msgstr ""
+
+#. translators: %d is replaced with the number of results deleted
+#: admin/results/results.php:111
+msgid "Results deleted: %d"
+msgstr ""
+
+#: admin/results/results.php:143
+#: admin/results/results.php:148
+msgid "Download to CSV"
+msgstr ""
+
+#: admin/results/results.php:160
+msgid "Version"
+msgstr ""
+
+#: admin/results/results.php:168
+msgid "Why do I see multiple CSV versions?"
+msgstr ""
+
+#: admin/results/results.php:212
+msgid "Something went wrong, could not fetch the results."
+msgstr ""
+
+#: admin/results/results.php:280
+msgid "Information"
+msgstr ""
+
+#: admin/results/results.php:287
+msgid "Form name"
+msgstr ""
+
+#: admin/results/results.php:291
+msgid "Number"
+msgstr ""
+
+#: admin/results/results.php:313
+msgid "Result"
+msgstr ""
+
+#: admin/results/results.php:336
+msgid "Delete Result"
+msgstr ""
+
+#: admin/results/results.php:346
+msgid "Something went wrong, could not fetch the result."
+msgstr ""
+
+#: admin/settings/settings.php:14
+msgid "Tripetto Settings"
+msgstr ""
+
+#: admin/settings/settings.php:35
+msgid "Try the onboarding wizard"
+msgstr ""
+
+#: admin/settings/settings.php:42
+msgid "Email settings"
+msgstr ""
+
+#: admin/settings/settings.php:46
+#: admin/settings/settings.php:121
+msgid "Sender"
+msgstr ""
+
+#: admin/settings/settings.php:50
+msgid "Sender name"
+msgstr ""
+
+#: admin/settings/settings.php:58
+msgid "Sender email address"
+msgstr ""
+
+#: admin/settings/settings.php:64
+msgid "SPAM protection"
+msgstr ""
+
+#: admin/settings/settings.php:68
+#: admin/settings/settings.php:235
+msgid "Spam protection mode"
+msgstr ""
+
+#: admin/settings/settings.php:76
+msgid "Allowlist"
+msgstr ""
+
+#: admin/settings/settings.php:86
+msgid "You can also use the Tripetto onboarding wizard to adjust settings. The onboarding wizard also lets you configure user access and capabilities so you can decide who has access and what they can do within Tripetto."
+msgstr ""
+
+#: admin/settings/settings.php:92
+msgid "Start Onboarding Wizard"
+msgstr ""
+
+#: admin/settings/settings.php:98
+msgid "These settings are used when Tripetto sends an email message."
+msgstr ""
+
+#: admin/settings/settings.php:125
+msgid "WordPress default sender"
+msgstr ""
+
+#: admin/settings/settings.php:148
+msgid "Custom sender"
+msgstr ""
+
+#: admin/settings/settings.php:189
+msgid "Tripetto has a unique approach for preventing spambots abusing your forms. This solution makes CAPTCHAs a thing of the past. We simply don't like those strange, inaccessible puzzles, and so we've engineered a solution where we could eliminate them once and for all. It works out-of-the-box and we strongly advise to only change the mode of operation if you have a good reason for it. You can choose between:"
+msgstr ""
+
+#: admin/settings/settings.php:194
+#: admin/settings/settings.php:240
+msgid "Maximal"
+msgstr ""
+
+#: admin/settings/settings.php:196
+msgid "Maximum protection against spambots, but form submission might be a bit slower in certain conditions"
+msgstr ""
+
+#: admin/settings/settings.php:199
+#: admin/settings/settings.php:246
+msgid "Normal"
+msgstr ""
+
+#: admin/settings/settings.php:201
+msgid "The default protection mode provides good protection against spambots while maintaining optimal performance"
+msgstr ""
+
+#: admin/settings/settings.php:204
+#: admin/settings/settings.php:252
+msgid "Minimal"
+msgstr ""
+
+#: admin/settings/settings.php:206
+msgid "IP filtering will be disabled (use this mode if you expect lots of submission from the same IP address)"
+msgstr ""
+
+#: admin/settings/settings.php:209
+#: admin/settings/settings.php:258
+msgid "Off"
+msgstr ""
+
+#: admin/settings/settings.php:211
+msgid "Disables the spam protection (not recommended)"
+msgstr ""
+
+#: admin/settings/settings.php:279
+msgid "Fill in the IP addresses (separated with a comma) you wish to exclude from the spam protection algorithm. Both IPv4 and IPv6 addresses are allowed."
+msgstr ""
+
+#: admin/templates/templates.php:14
+msgid "Autoscroll form"
+msgstr ""
+
+#: admin/templates/templates.php:24
+msgid "Chat form"
+msgstr ""
+
+#: admin/templates/templates.php:27
+msgid "Classic form"
+msgstr ""
+
+#: admin/templates/templates.php:40
+msgid "Use Template"
+msgstr ""
+
+#: admin/templates/templates.php:42
+msgid "Preview"
+msgstr ""
+
+#: admin/templates/templates.php:48
+msgid "Pro Template"
+msgstr ""
+
+#: admin/templates/templates.php:72
+msgid "Start from scratch..."
+msgstr ""
+
+#: admin/templates/templates.php:73
+msgid "Choose your desired form face and start building right away. You can always switch form faces instantly while working on your form."
+msgstr ""
+
+#: admin/templates/templates.php:74
+msgid "Select your desired form type."
+msgstr ""
+
+#: admin/templates/templates.php:78
+msgid "Autoscroll Form"
+msgstr ""
+
+#: admin/templates/templates.php:79
+msgid "Fluently presents one question at a time."
+msgstr ""
+
+#: admin/templates/templates.php:84
+msgid "Chat Form"
+msgstr ""
+
+#: admin/templates/templates.php:85
+msgid "Presents all questions and answers as a chat."
+msgstr ""
+
+#: admin/templates/templates.php:90
+msgid "Classic Form"
+msgstr ""
+
+#: admin/templates/templates.php:91
+msgid "Presents question fields in a traditional format."
+msgstr ""
+
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/templates/templates.php:97
+msgid "Visit the %1$s for tips & tricks about %2$s."
+msgstr ""
+
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/templates/templates.php:97
+msgid "form faces"
+msgstr ""
+
+#: admin/templates/templates.php:100
+msgid "Or build from a template."
+msgstr ""
+
+#: admin/templates/templates.php:101
+msgid "Choose any of the templates below to build your form even faster. Templates are fully editable and customizable of course."
+msgstr ""
+
+#: admin/templates/templates.php:103
+msgid "Contact Us"
+msgstr ""
+
+#: admin/templates/templates.php:104
+msgid "Support Request"
+msgstr ""
+
+#: admin/templates/templates.php:105
+msgid "Product Evaluation"
+msgstr ""
+
+#: admin/templates/templates.php:106
+msgid "Quiz"
+msgstr ""
+
+#: admin/templates/templates.php:107
+msgid "Quote Request"
+msgstr ""
+
+#: admin/templates/templates.php:108
+msgid "Feedback Collection"
+msgstr ""
+
+#: admin/templates/templates.php:109
+msgid "Job Application"
+msgstr ""
+
+#: admin/templates/templates.php:110
+msgid "Event Registration"
+msgstr ""
+
+#: admin/templates/templates.php:111
+msgid "Customer Satisfaction (NPS)"
+msgstr ""
+
+#: admin/templates/templates.php:112
+msgid "Webshop Order"
+msgstr ""
+
+#: admin/templates/templates.php:113
+msgid "Wedding RSVP"
+msgstr ""
+
+#: admin/templates/templates.php:114
+msgid "Calculation Wizard"
+msgstr ""
+
+#: admin/templates/templates.php:122
+msgid "Build New Form"
+msgstr ""
+
+#: elementor/widget.php:43
+#: elementor/widget.php:80
+#: gutenberg/gutenberg.php:40
+msgid "Tripetto Form"
+msgstr ""
+
+#: elementor/widget.php:65
+msgid "Select a form..."
+msgstr ""
+
+#: elementor/widget.php:90
+msgid "You currently don't have any Tripetto forms."
+msgstr ""
+
+#: elementor/widget.php:95
+msgid "Build a new form"
+msgstr ""
+
+#: elementor/widget.php:103
+msgid "Build a new form or edit existing one"
+msgstr ""
+
+#: elementor/widget.php:107
+msgid "You currently don't have any Tripetto forms or insufficient access rights to use forms."
+msgstr ""
+
+#: elementor/widget.php:113
+msgid "Use the following form"
+msgstr ""
+
+#: elementor/widget.php:125
+#: gutenberg/gutenberg.php:69
+msgid "Options"
+msgstr ""
+
+#: elementor/widget.php:135
+#: elementor/widget.php:147
+#: elementor/widget.php:159
+msgid "Yes"
+msgstr ""
+
+#: elementor/widget.php:168
+#: gutenberg/gutenberg.php:85
+msgid "Width"
+msgstr ""
+
+#: elementor/widget.php:172
+#: gutenberg/gutenberg.php:86
+msgid "Specify a fixed width"
+msgstr ""
+
+#: elementor/widget.php:181
+#: gutenberg/gutenberg.php:87
+msgid "Height"
+msgstr ""
+
+#: elementor/widget.php:185
+#: gutenberg/gutenberg.php:88
+msgid "Specify a fixed height"
+msgstr ""
+
+#: elementor/widget.php:194
+#: gutenberg/gutenberg.php:89
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/widget.php:207
+#: gutenberg/gutenberg.php:92
+msgid "Custom CSS"
+msgstr ""
+
+#. translators: %s is replaced with a code example for the CSS selector
+#: elementor/widget.php:220
+#: gutenberg/gutenberg.php:100
+msgid "To specify rules for a specific block, use this selector: %s"
+msgstr ""
+
+#: elementor/widget.php:264
+msgid "Select a form and see a live preview here."
+msgstr ""
+
+#: gutenberg/gutenberg.php:41
+msgid "Show a Tripetto form or survey."
+msgstr ""
+
+#: gutenberg/gutenberg.php:43
+msgid "survey"
+msgstr ""
+
+#: gutenberg/gutenberg.php:44
+msgid "Preparing live preview..."
+msgstr ""
+
+#: gutenberg/gutenberg.php:45
+msgid "Loading forms..."
+msgstr ""
+
+#: gutenberg/gutenberg.php:46
+msgid "Live preview not available!"
+msgstr ""
+
+#: gutenberg/gutenberg.php:47
+msgid "Error while loading your list of available forms!"
+msgstr ""
+
+#: gutenberg/gutenberg.php:48
+msgid "Error while loading form (is the form deleted?)"
+msgstr ""
+
+#: gutenberg/gutenberg.php:49
+msgid "You have insufficient rights to select existing forms or create new forms."
+msgstr ""
+
+#: gutenberg/gutenberg.php:50
+msgid "Select existing form"
+msgstr ""
+
+#: gutenberg/gutenberg.php:51
+msgid "Build new form"
+msgstr ""
+
+#: gutenberg/gutenberg.php:52
+msgid "Or"
+msgstr ""
+
+#: gutenberg/gutenberg.php:54
+msgid "Select another form"
+msgstr ""
+
+#: gutenberg/gutenberg.php:57
+msgid "Select form face"
+msgstr ""
+
+#: gutenberg/gutenberg.php:58
+msgid "Edit form"
+msgstr ""
+
+#: gutenberg/gutenberg.php:59
+msgid "Edit form (fullscreen)"
+msgstr ""
+
+#: gutenberg/gutenberg.php:60
+msgid "Edit form (side by side)"
+msgstr ""
+
+#: gutenberg/gutenberg.php:61
+msgid "Edit styles"
+msgstr ""
+
+#: gutenberg/gutenberg.php:62
+msgid "Edit translations"
+msgstr ""
+
+#: gutenberg/gutenberg.php:67
+msgid "View results"
+msgstr ""
+
+#: gutenberg/gutenberg.php:68
+msgid "Restart form preview"
+msgstr ""
+
+#: gutenberg/gutenberg.php:103
+msgid "Detach from block"
+msgstr ""
+
+#: gutenberg/gutenberg.php:104
+msgid "Help"
+msgstr ""
+
+#: lib/variables.php:29
+msgid "User / Username"
+msgstr ""
+
+#: lib/variables.php:30
+msgid "User / Username (URL sanitized)"
+msgstr ""
+
+#: lib/variables.php:31
+msgid "User / Nickname"
+msgstr ""
+
+#: lib/variables.php:32
+msgid "User / Display name"
+msgstr ""
+
+#: lib/variables.php:33
+msgid "User / First name"
+msgstr ""
+
+#: lib/variables.php:34
+msgid "User / Last name"
+msgstr ""
+
+#: lib/variables.php:35
+msgid "User / Email address"
+msgstr ""
+
+#: lib/variables.php:36
+msgid "User / Website"
+msgstr ""
+
+#: lib/variables.php:37
+msgid "User / Biographical info"
+msgstr ""
+
+#: lib/variables.php:38
+msgid "User / Avatar (URL)"
+msgstr ""
+
+#: lib/variables.php:39
+msgid "User / Language"
+msgstr ""
+
+#: lib/variables.php:40
+msgid "User / ID"
+msgstr ""
+
+#: lib/variables.php:43
+msgid "Website / Title"
+msgstr ""
+
+#: lib/variables.php:44
+msgid "Website / Tagline"
+msgstr ""
+
+#: lib/variables.php:45
+msgid "Website / Administration email address"
+msgstr ""
+
+#: lib/variables.php:46
+msgid "Website / Language"
+msgstr ""
+
+#: lib/variables.php:48
+msgid "Visitor / IP address"
+msgstr ""
+
+#: lib/variables.php:49
+msgid "Visitor / Language"
+msgstr ""
+
+#: lib/variables.php:50
+msgid "Visitor / Referrer URL"
+msgstr ""
+
+#: lib/variables.php:52
+msgid "Server / URL"
+msgstr ""
+
+#: lib/variables.php:53
+msgid "Server / Protocol"
+msgstr ""
+
+#: lib/variables.php:54
+msgid "Server / Port"
+msgstr ""
+
+#: lib/variables.php:55
+msgid "Server / Host name"
+msgstr ""
+
+#: lib/variables.php:56
+msgid "Server / Path"
+msgstr ""
+
+#: lib/variables.php:58
+msgid "Server / IP address"
+msgstr ""
+
+#: lib/variables.php:59
+msgid "Server / Software"
+msgstr ""
+
+#: lib/variables.php:60
+msgid "Server / WordPress version"
+msgstr ""
+
+#: lib/variables.php:61
+msgid "Server / PHP version"
+msgstr ""
+
+#: runner/runner.php:594
+msgid "Normally you should see a Tripetto form over here, but it needs JavaScript to run properly and it seems that is disabled in your browser. Please enable JavaScript to see and use the form."
+msgstr ""
+
+#. translators: %1$s is replaced with the form name and %2$d is replaced with the form index
+#: runner/runner.php:1224
+msgid "New submission from %1$s (#%2$d)"
+msgstr ""
+
+#. translators: %1$d is replaced with the form index and %2$s is replaced with the form name
+#: runner/runner.php:1255
+msgid "New submission `#%1$d` for `%2$s`"
+msgstr ""
+
+#: runner/runner.php:1458
+msgid "Resume your form with this magic link"
+msgstr ""
+
+#: templates/footer.php:21
+msgid "Sent to"
+msgstr ""
+
+#: templates/footer.php:23
+msgid "by"
+msgstr ""
+
+#: templates/footer.php:27
+msgid "Get conversational!"
+msgstr ""
+
+#: templates/notification.php:15
+msgid "New submission"
+msgstr ""
+
+#: templates/notification.php:18
+msgid "A new submission (#{{index}}) was received for form"
+msgstr ""
+
+#: templates/notification.php:19
+msgid "View in WordPress"
+msgstr ""
+
+#: templates/snapshot.php:15
+msgid "Form paused"
+msgstr ""
+
+#: templates/snapshot.php:18
+msgid "You took a break while filling out the form. Sweet!"
+msgstr ""
+
+#: templates/snapshot.php:20
+msgid "Click the link below at any time to continue right where you left off."
+msgstr ""
+
+#: templates/snapshot.php:24
+msgid "Resume your form"
+msgstr ""
+
+#: gutenberg/block.json
+msgctxt "block title"
+msgid "Tripetto Form"
+msgstr ""
+
+#: gutenberg/block.json
+msgctxt "block description"
+msgid "Show a Tripetto form or survey."
+msgstr ""
+
+#: gutenberg/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: gutenberg/block.json
+msgctxt "block keyword"
+msgid "survey"
+msgstr ""

@@ -1,0 +1,461 @@
+{
+  "": {
+    "project-id-version": "@tripetto/runner-chat 2.0.1",
+    "report-msgid-bugs-to": "support@tripetto.com",
+    "pot-creation-date": "2021-09-13 16:36+0200",
+    "po-revision-date": "2021-09-13 16:37+0200",
+    "last-translator": "Mark van den Brink <mark@vandenbr.ink>",
+    "language-team": "",
+    "language": "de",
+    "mime-version": "1.0",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-transfer-encoding": "8bit",
+    "x-generator": "Poedit 3.0",
+    "plural-forms": "nplurals=2; plural=(n != 1);"
+  },
+  "runner:chat\u0004100% height, width centered": [
+    null,
+    "100% Höhe, Breite zentriert"
+  ],
+  "runner:chat\u0004100% width, height centered": [
+    null,
+    "100% Breite, Höhe zentriert"
+  ],
+  "runner:chat\u0004Agree color (input buttons)": [
+    null,
+    "Farbe bei Zustimmung (Input-Buttons)"
+  ],
+  "runner:chat\u0004Alignment": [null, "Ausrichtung"],
+  "runner:chat\u0004Angry": [null, "Verärgert"],
+  "runner:chat\u0004Angry (natural)": [null, "Verärgert (natürlich)"],
+  "runner:chat\u0004Answers": [null, "Antworten"],
+  "runner:chat\u0004Appearance": [null, "Aussehen"],
+  "runner:chat\u0004Auburn": [null, "Rotbraun"],
+  "runner:chat\u0004Automatically gain focus": [
+    null,
+    "Automatisch mehr Konzentration"
+  ],
+  "runner:chat\u0004Automatically open chat window": [
+    null,
+    "Chatfenster automatisch öffnen"
+  ],
+  "runner:chat\u0004Avatar": [null, "Avatar"],
+  "runner:chat\u0004Avatar image (URL)": [null, "Avatarbild (URL)"],
+  "runner:chat\u0004Background": [null, "Hintergrund"],
+  "runner:chat\u0004Background color": [null, "Hintergrundfarbe"],
+  "runner:chat\u0004Bat": [null, "Fledermaus"],
+  "runner:chat\u0004Bear": [null, "Bär"],
+  "runner:chat\u0004Black": [null, "Schwarz"],
+  "runner:chat\u0004Blazer with shirt": [null, "Anzug mit Hemd"],
+  "runner:chat\u0004Blazer with sweater": [null, "Anzug mit Sweater"],
+  "runner:chat\u0004Blonde": [null, "Blond"],
+  "runner:chat\u0004Blonde (golden)": [null, "Blond (gold)"],
+  "runner:chat\u0004Blue (variant 1)": [null, "Blau (Variante 1)"],
+  "runner:chat\u0004Blue (variant 2)": [null, "Blau (Variante 2)"],
+  "runner:chat\u0004Blue (variant 3)": [null, "Blau (Variante 3)"],
+  "runner:chat\u0004Border color": [null, "Randfarbe"],
+  "runner:chat\u0004Border size": [null, "Randgröße"],
+  "runner:chat\u0004Brown": [null, "Braun"],
+  "runner:chat\u0004Brown (dark)": [null, "Braun (dunkel)"],
+  "runner:chat\u0004Button": [null, "Button"],
+  "runner:chat\u0004Button color": [null, "Buttonfarbe"],
+  "runner:chat\u0004Buttons": [null, "Buttons"],
+  "runner:chat\u0004Center": [null, "Mitte"],
+  "runner:chat\u0004Chat button": [null, "Chat-Button"],
+  "runner:chat\u0004Chat content will be displayed inline with other page content.": [
+    null,
+    "Der Chatinhalt wird inline mit den anderen Seiteninhalten angezeigt."
+  ],
+  "runner:chat\u0004Chat needs to be opened with a chat button (only supported when embedding the chat).": [
+    null,
+    "Der Chat wird mithilfe des Chat-Buttons geöffnet (nur bei eingebettetem Chat möglich)."
+  ],
+  "runner:chat\u0004Closed": [null, "Geschlossen"],
+  "runner:chat\u0004Collar with sweater": [null, "Kragen mit Sweater"],
+  "runner:chat\u0004Color": [null, "Farbe"],
+  "runner:chat\u0004Concerned": [null, "Besorgt"],
+  "runner:chat\u0004Contain (full image stretched over screen)": [
+    null,
+    "Eingrenzen (gestrecktes Bild)"
+  ],
+  "runner:chat\u0004Cover (full screen)": [null, "Bedecken (Vollbild)"],
+  "runner:chat\u0004Create one now!": [null, "Jetzt erstellen!"],
+  "runner:chat\u0004Crying": [null, "Weinen"],
+  "runner:chat\u0004Cumbia": [null, "Cumbia"],
+  "runner:chat\u0004Custom fonts": [null, "Benutzerdefinierte Schriftarten"],
+  "runner:chat\u0004Custom image": [null, "Benutzerdefinierte Abbildung"],
+  "runner:chat\u0004Decline color (input buttons)": [
+    null,
+    "Farbe bei Ablehnung (Input-Buttons)"
+  ],
+  "runner:chat\u0004Deer": [null, "Hirsch"],
+  "runner:chat\u0004Default": [null, "Standardeinstellung"],
+  "runner:chat\u0004Diamond": [null, "Diamant"],
+  "runner:chat\u0004Disbelief": [null, "Unglaube"],
+  "runner:chat\u0004Dizzy": [null, "Schwindelig"],
+  "runner:chat\u0004Eating": [null, "Beim Essen"],
+  "runner:chat\u0004Eye-rolling": [null, "Augenrollen"],
+  "runner:chat\u0004Eyepatch": [null, "Augenklappe"],
+  "runner:chat\u0004Fancy moustache": [null, "Ausgefallener Schnurrbart"],
+  "runner:chat\u0004Fill": [null, "Füllen"],
+  "runner:chat\u0004Flat": [null, "Flach"],
+  "runner:chat\u0004Font": [null, "Schriftart"],
+  "runner:chat\u0004Font family": [null, "Schriftfamilie"],
+  "runner:chat\u0004Font size": [null, "Schriftgröße"],
+  "runner:chat\u0004Font size for small screens": [
+    null,
+    "Schriftgröße für kleine Bildschirme"
+  ],
+  "runner:chat\u0004Google Fonts or URL": [null, "Google Fonts oder URL"],
+  "runner:chat\u0004Gray (variant 1)": [null, "Grau (Variante 1)"],
+  "runner:chat\u0004Gray (variant 2)": [null, "Grau (Variante 2)"],
+  "runner:chat\u0004Grimace": [null, "Grimasse"],
+  "runner:chat\u0004Happy": [null, "Glücklich"],
+  "runner:chat\u0004Hat": [null, "Kopfbedeckung"],
+  "runner:chat\u0004Hearts": [null, "Herzen"],
+  "runner:chat\u0004Heather": [null, "Heather"],
+  "runner:chat\u0004Hide all the Tripetto branding": [
+    null,
+    "Tripetto-Logo etc. ausblenden"
+  ],
+  "runner:chat\u0004Hijab": [null, "Hijab"],
+  "runner:chat\u0004Hola": [null, "Hola"],
+  "runner:chat\u0004Hoodie": [null, "Hoodie"],
+  "runner:chat\u0004Icon (URL)": [null, "Symbol (URL)"],
+  "runner:chat\u0004Illustration": [null, "Abbildung"],
+  "runner:chat\u0004Image (URL)": [null, "Abbildung (URL)"],
+  "runner:chat\u0004Inline": [null, "Inline"],
+  "runner:chat\u0004Inputs": [null, "Inputs"],
+  "runner:chat\u0004Kurt": [null, "Kurt"],
+  "runner:chat\u0004Left": [null, "Links"],
+  "runner:chat\u0004Light beard": [null, "Kurzer Bart"],
+  "runner:chat\u0004Long hair / Big": [null, "Lange Haare / Voluminös"],
+  "runner:chat\u0004Long hair / Bob": [null, "Lange Haare / Bob"],
+  "runner:chat\u0004Long hair / Bun": [null, "Lange Haare / Dutt"],
+  "runner:chat\u0004Long hair / Curly": [null, "Lange Haare / Lockig"],
+  "runner:chat\u0004Long hair / Curvy": [null, "Lange Haare / Curvy"],
+  "runner:chat\u0004Long hair / Dreads": [null, "Lange Haare / Dreads"],
+  "runner:chat\u0004Long hair / Frida": [null, "Lange Haare / Frida"],
+  "runner:chat\u0004Long hair / Fro": [null, "Lange Haare / Fro"],
+  "runner:chat\u0004Long hair / Fro (with band)": [
+    null,
+    "Lange Haare / Fro (mit Band)"
+  ],
+  "runner:chat\u0004Long hair / Mia Wallace": [
+    null,
+    "Lange Haare / Mia Wallace"
+  ],
+  "runner:chat\u0004Long hair / Not too long": [
+    null,
+    "Lange Haare / Mittellang"
+  ],
+  "runner:chat\u0004Long hair / Shaved sides": [null, "Lange Haare / Sidecut"],
+  "runner:chat\u0004Long hair / Straight (variant 1)": [
+    null,
+    "Lange Haare / Glatt (Variante 1)"
+  ],
+  "runner:chat\u0004Long hair / Straight (variant 2)": [
+    null,
+    "Lange Haare / Glatt (Variante 2)"
+  ],
+  "runner:chat\u0004Long hair / Straight strand": [
+    null,
+    "Lange Haare / Gerade Strähnen"
+  ],
+  "runner:chat\u0004Magestic beard": [null, "Prächtiger Bart"],
+  "runner:chat\u0004Magnum moustache": [null, "Magnum-Schnauzer"],
+  "runner:chat\u0004Medium beard": [null, "Mittellanger Bart"],
+  "runner:chat\u0004Neutral": [null, "Neutral"],
+  "runner:chat\u0004Neutral (natural)": [null, "Neutral (natürlich)"],
+  "runner:chat\u0004No facial hair": [null, "Kein Bart"],
+  "runner:chat\u0004No hair": [null, "Keine Haare"],
+  "runner:chat\u0004None": [null, "Keine"],
+  "runner:chat\u0004Only applies when embedding the chat.": [
+    null,
+    "Nur bei Einbettung des Chats zutreffend."
+  ],
+  "runner:chat\u0004Opacity": [null, "Lichtundurchlässigkeit"],
+  "runner:chat\u0004Options": [null, "Optionen"],
+  "runner:chat\u0004Outline": [null, "Outline"],
+  "runner:chat\u0004Pastel (pink)": [null, "Pastell (rosa)"],
+  "runner:chat\u0004Pastel blue": [null, "Pastellblau"],
+  "runner:chat\u0004Pastel green": [null, "Pastellgrün"],
+  "runner:chat\u0004Pastel orange": [null, "Pastellorange"],
+  "runner:chat\u0004Pastel red": [null, "Pastellrot"],
+  "runner:chat\u0004Pastel yellow": [null, "Pastellgelb"],
+  "runner:chat\u0004Pink": [null, "Rosa"],
+  "runner:chat\u0004Pizza": [null, "Pizza"],
+  "runner:chat\u0004Platinum": [null, "Platin"],
+  "runner:chat\u0004Please add a block first to get the magic going.": [
+    null,
+    "Bitte fügen Sie einen Block hinzu, damit der Zauber beginnen kann."
+  ],
+  "runner:chat\u0004Positioning": [null, "Positionierung"],
+  "runner:chat\u0004Prescription (variant 1)": [null, "Rezept (Variante 1)"],
+  "runner:chat\u0004Prescription (variant 2)": [null, "Rezept (Variante 2)"],
+  "runner:chat\u0004Questions": [null, "Fragen"],
+  "runner:chat\u0004Raised/excited": [null, "Hochgezogen/aufgeregt"],
+  "runner:chat\u0004Raised/excited (natural)": [
+    null,
+    "Hochgezogen/aufgeregt (natürlich)"
+  ],
+  "runner:chat\u0004Red": [null, "Rot"],
+  "runner:chat\u0004Repeat": [null, "Wiederholen"],
+  "runner:chat\u0004Required/error color": [
+    null,
+    "Farbe für verpflichtende Elemente/bei Auftreten eines Fehlers"
+  ],
+  "runner:chat\u0004Resist": [null, "Widerstehen"],
+  "runner:chat\u0004Right": [null, "Rechts"],
+  "runner:chat\u0004Round": [null, "Rund"],
+  "runner:chat\u0004Roundness": [null, "Rundung"],
+  "runner:chat\u0004Sad": [null, "Traurig"],
+  "runner:chat\u0004Sad/concerned": [null, "Traurig/besorgt"],
+  "runner:chat\u0004Sad/concerned (natural)": [
+    null,
+    "Traurig/besorgt (natürlich)"
+  ],
+  "runner:chat\u0004Screaming": [null, "Schreiend"],
+  "runner:chat\u0004Selection color (input buttons)": [
+    null,
+    "Farbe für die Auswahl (Input-Buttons)"
+  ],
+  "runner:chat\u0004Selena": [null, "Selena"],
+  "runner:chat\u0004Serious": [null, "Ernst"],
+  "runner:chat\u0004Shirt (V-neck)": [null, "Oberteil (V-Ausschnitt)"],
+  "runner:chat\u0004Shirt (crew neck)": [null, "Oberteil (Rundhalsausschnitt)"],
+  "runner:chat\u0004Shirt (scoop neck)": [null, "Oberteil (U-Ausschnitt)"],
+  "runner:chat\u0004Shirt (with graphic)": [null, "Oberteil (bedruckt)"],
+  "runner:chat\u0004Short hair / Curly": [null, "Kurze Haare / Lockig"],
+  "runner:chat\u0004Short hair / Dreads (variant 1)": [
+    null,
+    "Kurze Haare / Dreads (Variante 1)"
+  ],
+  "runner:chat\u0004Short hair / Dreads (variant 2)": [
+    null,
+    "Kurze Haare / Dreads (Variante 2"
+  ],
+  "runner:chat\u0004Short hair / Flat": [null, "Kurze Haare / Flach"],
+  "runner:chat\u0004Short hair / Frizzle": [null, "Kurze Haare / Gekräuselt"],
+  "runner:chat\u0004Short hair / Round": [null, "Kurze Haare / Rund"],
+  "runner:chat\u0004Short hair / Shaggy mullet": [
+    null,
+    "Kurze Haare / Shaggy Mullet"
+  ],
+  "runner:chat\u0004Short hair / Sides": [null, "Kurze Haare / Seiten"],
+  "runner:chat\u0004Short hair / The Caesar": [
+    null,
+    "Kurze Haare / Caesar-Schnitt"
+  ],
+  "runner:chat\u0004Short hair / The caesar (side part)": [
+    null,
+    "Kurze Haare / Caesar-Schnitt (seitlich)"
+  ],
+  "runner:chat\u0004Short hair / Waved": [null, "Kurze Haare / Wellig"],
+  "runner:chat\u0004Show scrollbar": [null, "Bildlaufleiste einblenden"],
+  "runner:chat\u0004Side": [null, "Seite"],
+  "runner:chat\u0004SilverGray": [null, "Silbergrau"],
+  "runner:chat\u0004Skull": [null, "Schädel"],
+  "runner:chat\u0004Skull (outline)": [null, "Schädel (Grundzüge)"],
+  "runner:chat\u0004Smiling": [null, "Lächeln"],
+  "runner:chat\u0004Squint": [null, "Schielen"],
+  "runner:chat\u0004Standard fonts": [null, "Standardschriftarten"],
+  "runner:chat\u0004Style": [null, "Stil"],
+  "runner:chat\u0004Sunglasses": [null, "Sonnenbrille"],
+  "runner:chat\u0004Surprised": [null, "Überrascht"],
+  "runner:chat\u0004Tap or click to set a preview answer": [
+    null,
+    "Drücken oder klicken Sie hier, um eine Antwort für die Vorschau festzulegen"
+  ],
+  "runner:chat\u0004Test again": [null, "Noch mal testen"],
+  "runner:chat\u0004Text color": [null, "Textfarbe"],
+  "runner:chat\u0004The supplied URL is invalid!": [
+    null,
+    "Die angegebene URL ist ungültig!"
+  ],
+  "runner:chat\u0004The test conversation has ended. In a live environment this conversation will now redirect to:": [
+    null,
+    "Die Test-Unterhaltung ist nun vorbei. In einer Live-Umgebung werden Sie nun weitergeleitet zu:"
+  ],
+  "runner:chat\u0004Tongue": [null, "Zunge"],
+  "runner:chat\u0004Tripetto is for making elegantly personal form and survey experiences with response boosting conversational powers.": [
+    null,
+    "Erstellen Sie mit Tripetto elegante personalisierte Formulare und Umfragen, die mit ihrer Originalität und ihrer starken Interaktionsförderung begeistern."
+  ],
+  "runner:chat\u0004Turban": [null, "Turban"],
+  "runner:chat\u0004Twinkle": [null, "Glitzern"],
+  "runner:chat\u0004Type": [null, "Typ"],
+  "runner:chat\u0004Unibrow": [null, "Monobraue"],
+  "runner:chat\u0004Up and down": [null, "Nach oben und nach unten"],
+  "runner:chat\u0004Up and down (natural)": [
+    null,
+    "Nach oben und nach unten (natürlich)"
+  ],
+  "runner:chat\u0004Use any font available on [Google Fonts](https://fonts.google.com/) or supply a custom font URL. Please note that the Google Fonts name is case sensitive.": [
+    null,
+    "Sie können jede der auf [Google Fonts](https://fonts.google.com/) verfügbaren Schriftarten verwenden oder die URL einer benutzerdefinierten Schriftart angeben. Bitte achten Sie bei den Namen der Google-Schriftarten auf die Groß- und Kleinschreibung."
+  ],
+  "runner:chat\u0004Use full width": [null, "Die ganze Breite verwenden"],
+  "runner:chat\u0004Vomit": [null, "Erbrechen"],
+  "runner:chat\u0004Want to make a chat-style conversation like this for free?": [
+    null,
+    "Sie möchten auch so eine Unterhaltung im Chat-Stil erstellen - und das kostenlos?"
+  ],
+  "runner:chat\u0004Wayfarers": [null, "Wayfarer-Sonnenbrille"],
+  "runner:chat\u0004White": [null, "Weiß"],
+  "runner:chat\u0004Wink": [null, "Zwinkern"],
+  "runner:chat\u0004Wink (wacky)": [null, "Zwinkern (lustig)"],
+  "runner:chat\u0004Winter hat (variant 1)": [null, "Wintermütze (Variante 1)"],
+  "runner:chat\u0004Winter hat (variant 2)": [null, "Wintermütze (Variante 2)"],
+  "runner:chat\u0004Winter hat (variant 3)": [null, "Wintermütze (Variante 3)"],
+  "runner:chat\u0004Winter hat (variant 4)": [null, "Wintermütze (Variante 4)"],
+  "runner:chat\u0004_Note_: This size applies to small screens (like mobile devices). Switch to the mobile device preview to see and test this small font size.": [
+    null,
+    "_Hinweis_: Diese Größe gilt für kleine Bildschirme (z. B. Mobilgeräte). Wechseln Sie zur Vorschau für mobile Geräte, um diese kleine Schriftgröße zu sehen und zu testen."
+  ],
+  "runner:chat\u0004✂ Hair/hat": [null, "✂ Haare/Kopfbedeckung"],
+  "runner:chat\u0004✏ Eyebrow": [null, "✏ Augenbrauen"],
+  "runner:chat\u0004🎅 Hat color": [null, "🎅 Farbe der Kopfbedeckung"],
+  "runner:chat\u0004🎨 Clothing color": [null, "🎨 Farbe der Kleidung"],
+  "runner:chat\u0004🎨 Facial hair color": [null, "🎨 Bartfarbe"],
+  "runner:chat\u0004🎨 Hair color": [null, "🎨 Haarfarbe"],
+  "runner:chat\u0004👁 Eyes": [null, "👁 Augen"],
+  "runner:chat\u0004👄 Mouth": [null, "👄 Mund"],
+  "runner:chat\u0004👋 Hi there!": [null, "👋 Hallo!"],
+  "runner:chat\u0004👓 Accessories": [null, "👓 Accessoires"],
+  "runner:chat\u0004👔 Clothing": [null, "👔 Kleidung"],
+  "runner:chat\u0004🖼 Clothing graphic": [null, "🖼 Aufdruck auf der Kleidung"],
+  "runner:chat\u0004🤝🏼 Skin": [null, "🤝🏼 Haut"],
+  "runner:chat\u0004🪒 Facial hair": [null, "🪒 Bart"],
+  "runner#6|📂 File upload\u0004Allowed extensions: %1": [
+    null,
+    "Zulässige Erweiterungen: %1"
+  ],
+  "runner#6|📂 File upload\u0004Choose or drag a file here": [
+    null,
+    "Datei auswählen oder herziehen"
+  ],
+  "runner#6|📂 File upload\u0004Delete": [null, "Löschen"],
+  "runner#6|📂 File upload\u0004Drop your file now": [
+    null,
+    "Datei jetzt ablegen"
+  ],
+  "runner#6|📂 File upload\u0004Extension is not allowed.": [
+    null,
+    "Erweiterung ist nicht erlaubt."
+  ],
+  "runner#6|📂 File upload\u0004File size is too large.": [
+    null,
+    "Die Datei ist zu groß."
+  ],
+  "runner#6|📂 File upload\u0004Size limit: %1": [
+    null,
+    "Größenbeschränkung: %1"
+  ],
+  "runner#6|📂 File upload\u0004Something went wrong while uploading%1.": [
+    null,
+    "Irgendetwas ist beim Hochladen%1 schief gelaufen."
+  ],
+  "runner#6|📂 File upload\u0004This file can't be used": [
+    null,
+    "Diese Datei kann nicht verwendet werden"
+  ],
+  "runner#6|📂 File upload\u0004Too many files selected.": [
+    null,
+    "Es wurden zu viele Dateien ausgewählt."
+  ],
+  "runner#6|📂 File upload\u0004Try again": [null, "Erneut versuchen"],
+  "runner#6|📂 File upload\u0004Uploading (%1)": [null, "Hochladen (%1)"],
+  "runner#1|🆗 Buttons\u0004Back": [null, "Zurück"],
+  "runner#1|🆗 Buttons\u0004Pause": [null, "Pause"],
+  "runner#1|🆗 Buttons\u0004Reload": [null, "Neu laden"],
+  "runner#1|🆗 Buttons\u0004Retry": [null, "Erneut versuchen"],
+  "runner#1|🆗 Buttons\u0004Skip": [null, "Überspringen"],
+  "runner#1|🆗 Buttons\u0004Submit": [null, "Absenden"],
+  "runner#8|⏸ Pause conversation\u0004Cancel pausing": [
+    null,
+    "Pausenfunktion deaktivieren"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Pause this conversation": [
+    null,
+    "Diese Unterhaltung pausieren"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive a link by email to resume later on any device, right where you left off.": [
+    null,
+    "Sie bekommen per E-Mail einen Link zugeschickt, mit dem Sie später auf einem beliebigen Gerät dort weitermachen können, wo Sie aufgehört haben."
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive resume link": [
+    null,
+    "Link senden, um später fortzusetzen"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Your email address...": [
+    null,
+    "Ihre E-Mail-Adresse ..."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed, but you can try to reload the new version of the form while maintaining the data you've filled in. Click the reload button to try this. Please check your data after reloading and then submit again.": [
+    null,
+    "Wie es scheint, wurde das Formular vom Ersteller geändert, während Sie es bearbeitet haben. Ihre Daten können nicht verarbeitet werden, aber Sie können versuchen, die neue Version des Formulars zu laden, ohne dass dabei die von Ihnen eingegebenen Daten verloren gehen. Dazu müssen Sie auf den „Neu laden“-Button klicken. Bitte überprüfen Sie Ihre Daten nach dem Neuladen und klicken Sie dann auf „Absenden“."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed. Try reloading the form.": [
+    null,
+    "Wie es scheint, wurde das Formular vom Ersteller geändert, während Sie es bearbeitet haben. Ihre Daten können nicht verarbeitet werden. Versuchen Sie, das Formular neu zu laden."
+  ],
+  "runner#6|🔷 Yes/No\u0004No": [null, "Nein"],
+  "runner#6|🔷 Yes/No\u0004Yes": [null, "Ja"],
+  "runner#2|💬 Messages|Nothing selected\u0004Nothing selected": [
+    null,
+    "Keine Auswahl getroffen"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004Nothing to talk about. The conversation is closed 🤐": [
+    null,
+    "Es gibt nichts mehr zu sagen. Die Unterhaltung ist beendet 🤐"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004👋 Hi there!": [
+    null,
+    "👋 Hallo!"
+  ],
+  "runner#2|💬 Messages|Pause request\u0004Pause this conversation": [
+    null,
+    "Diese Unterhaltung pausieren"
+  ],
+  "runner#9|⚠ Errors|Connection error\u0004Please check your connection and try again (for the techies: The error console of your browser might contain more technical information about what went wrong).": [
+    null,
+    "Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es dann erneut (für Technikaffine: In der Fehler-Konsole Ihres Browsers finden Sie mehr technische Informationen dazu, was schief gelaufen ist)."
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004Reopen conversation": [
+    null,
+    "Unterhaltung erneut öffnen"
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004Thank you for this conversation!": [
+    null,
+    "Danke für das Gespräch!"
+  ],
+  "runner#9|⚠ Errors|Pausing error\u0004Something went wrong while pausing your conversation.": [
+    null,
+    "Irgendetwas ist schief gelaufen, während Sie die Unterhaltung pausiert haben."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Something went wrong while submitting your conversation.": [
+    null,
+    "Irgendetwas ist beim Absenden Ihrer Unterhaltung schief gelaufen."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004The form is outdated.": [
+    null,
+    "Das Formular ist abgelaufen."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Your data is rejected.": [
+    null,
+    "Ihre Daten wurden abgelehnt."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004The conversation is now paused.": [
+    null,
+    "Die Unterhaltung wurde pausiert."
+  ],
+  "runner#9|⚠ Errors|Rejected error\u0004Unfortunately, your data is marked as invalid and therefore rejected. If you believe this is a mistake, please contact the form owner. We're sorry for the inconvenience.": [
+    null,
+    "Leider sind die von Ihnen angegebenen Daten ungültig und werden daher abgelehnt. Bitte kontaktieren Sie den Ersteller des Formulars, wenn Sie glauben, dass hier ein Fehler vorliegt. Wir entschuldigen uns für die Unannehmlichkeiten."
+  ],
+  "runner#2|💬 Messages|Skipped\u0004You skipped this question": [
+    null,
+    "Sie haben diese Frage ausgelassen"
+  ]
+}

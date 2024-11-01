@@ -1,0 +1,633 @@
+{
+  "name": "Quote Request",
+  "language": "en",
+  "prologue": {
+    "title": "Get a quote for your next car.",
+    "description": "By filling out this car configurator, you can configure your new car and get an instant calculation of its price.",
+    "button": "Start car configurator"
+  },
+  "epilogue": {
+    "title": "Total price: @0f811aa2427ced85f00afd7a34dc29c117bd3fbb2c38f23ec1b2036120f079c3",
+    "description": "Your car configuration:\n\nModel: **@ccf34ead3bcc8f49997fd35ca853d10952e4910ec3c9ea24ecb8133b225bc919 (@73530ebcb5eaddc147da8163c0130564fad0f68a8c459b2822e8b116e0b8435b)**\nEngine: **@82af86bc4f85db1339d58b410d84e8eee053abe45ae298779fc9c820d35e78d3 (@a4785686fa1106840fd7df0ae252205ebd7b8e571485be21e7f2bf21ee92cc76)**\nPaint: **@cb2c4a965a5fb658bffb12acd5ebf3a16c854a2446cf6c795f8218e6080cb1e1 (@dec266865b61fdf66898d60f1828704910c2f7f4ba82c78c2bc4fa61315c7074)**\nOptions: **@a930879e394bc526c52ed0c573032ce3abfb8dc2f09b8b7891563de88066cb1c (@62d42fa5f87e9c4cef3ca4a658cef0ed44d34800de3b0a3919de7a76586bc241)**",
+    "repeatable": true
+  },
+  "clusters": [
+    {
+      "id": "1467e76e4e06a5a40c9258f6f4126467a3e256b6a7fb315d23818a83d5e76a67",
+      "name": "Step 1",
+      "nodes": [
+        {
+          "id": "b842fde3bee3e1ebf19fc02cea36fbcf79784d939db97eeaa5e29c96b7ddf160",
+          "name": "Step 1 - Model",
+          "nameVisible": true,
+          "description": "Select your model.",
+          "slots": [
+            {
+              "id": "ccf34ead3bcc8f49997fd35ca853d10952e4910ec3c9ea24ecb8133b225bc919",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Image",
+              "required": true
+            },
+            {
+              "id": "73530ebcb5eaddc147da8163c0130564fad0f68a8c459b2822e8b116e0b8435b",
+              "type": "numeric",
+              "kind": "feature",
+              "reference": "score",
+              "label": "Score",
+              "exportable": true,
+              "separator": ",",
+              "prefix": "€"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "0d39e517d3cfc659a0c1c1151bd7976679700cbd21bc5565c8f2be4fa5b4190a",
+                "name": "Compact",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1604410869154-3c16714cd476?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80",
+                "description": "€30,000",
+                "score": 30000
+              },
+              {
+                "id": "1074ea58155e2f8af559c0ce1c97902afee352d793d8f663ce3b0241ad4acd8d",
+                "name": "Sedan",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+                "description": "€50,000",
+                "score": 40000
+              },
+              {
+                "id": "9a53543231e64cb949adf4ce96e0ef8187a13f9ecddc97733ccbf419527b365a",
+                "name": "SUV",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1598248691267-4a62dfdfd8a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                "description": "€60,000",
+                "score": 50000
+              }
+            ],
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5f5f92d706c68c76b0acc73792113002604a8467ca4e4b5ab6a6ce033e57be9b",
+      "name": "Step 2",
+      "nodes": [
+        {
+          "id": "7c2b7082c097585c28e861c6d0caaf7f29a2310e3b58d8d820f584b0fcaa1d3b",
+          "explanation": "Price: @9c2c0ab52dcd0c63fc2f8836d89bb76f4a7c7f2aa1cf7cd1dc0c62ffb1e3bf1f",
+          "name": "Step 2 - Engine",
+          "nameVisible": true,
+          "description": "Select your engine.",
+          "slots": [
+            {
+              "id": "82af86bc4f85db1339d58b410d84e8eee053abe45ae298779fc9c820d35e78d3",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Choice",
+              "required": true
+            },
+            {
+              "id": "a4785686fa1106840fd7df0ae252205ebd7b8e571485be21e7f2bf21ee92cc76",
+              "type": "numeric",
+              "kind": "feature",
+              "reference": "score",
+              "label": "Score",
+              "exportable": true,
+              "separator": ",",
+              "prefix": "€"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-multiple-choice",
+            "version": "5.1.0",
+            "choices": [
+              {
+                "id": "c3edb1a2a1072386ec2c774521d58c126d6d3c9ba4b64d1114c58e06a1db4a0d",
+                "name": "Petrol",
+                "description": "Included",
+                "score": 0
+              },
+              {
+                "id": "987ac5a5f47f677bebb1b935c5407895026a5a275cc012c92b3c5299419fc351",
+                "name": "Hybrid",
+                "description": "+€4,000",
+                "score": 4000
+              },
+              {
+                "id": "549c9ab1dfad44dc7c4af4c2599a44d6e8430dc2d9c47c437a7faf3786809e18",
+                "name": "Electric",
+                "description": "+€8,000",
+                "score": 8000
+              }
+            ],
+            "alignment": true,
+            "required": true
+          }
+        },
+        {
+          "id": "faba724be28f9a1574d9c44d37713b96da8657b507a21799ec9d4aa94dbfd55b",
+          "name": "Subtotal step 2",
+          "slots": [
+            {
+              "id": "9c2c0ab52dcd0c63fc2f8836d89bb76f4a7c7f2aa1cf7cd1dc0c62ffb1e3bf1f",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Subtotal step 2",
+              "separator": ",",
+              "prefix": "€",
+              "precision": 0
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "eb46d9ccef70b990701869127b6b40b55e95c88720baf0260c2e0de7e025092c",
+                "operator": "+",
+                "opcode": "number",
+                "value": "73530ebcb5eaddc147da8163c0130564fad0f68a8c459b2822e8b116e0b8435b"
+              },
+              {
+                "id": "67b97333e11f04f02567330c919ddf4062a6dafc5fe5865663aa76b50a76a7f6",
+                "operator": "+",
+                "opcode": "number",
+                "value": "a4785686fa1106840fd7df0ae252205ebd7b8e571485be21e7f2bf21ee92cc76"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b28c5f315cad5bc0991ad18c66c2457522bc59e06833c99a58c054238072950c",
+      "name": "Step 3",
+      "nodes": [
+        {
+          "id": "149233b66281cff5ad524a6bcee8b37975356fe380feb90392b433451e6199be",
+          "explanation": "Price: @89e971d3a9a38a9405f789d2f45bb7d796c73a60321412cb99764cc16dd585e1",
+          "name": "Step 3 - Paint",
+          "nameVisible": true,
+          "description": "Select your paint color.",
+          "slots": [
+            {
+              "id": "cb2c4a965a5fb658bffb12acd5ebf3a16c854a2446cf6c795f8218e6080cb1e1",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Image",
+              "required": true
+            },
+            {
+              "id": "dec266865b61fdf66898d60f1828704910c2f7f4ba82c78c2bc4fa61315c7074",
+              "type": "numeric",
+              "kind": "feature",
+              "reference": "score",
+              "label": "Score",
+              "exportable": true,
+              "separator": ",",
+              "prefix": "€"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "e27fcdbe0416b66ec1eddff513d3fe6920b13bcb54532deb82e8d7e3d3af5aeb",
+                "name": "White",
+                "nameVisible": true,
+                "emoji": "⚪",
+                "description": "Included",
+                "score": 0
+              },
+              {
+                "id": "0f2fec54d4ccb4c30012e10fd30542862e5cb9858dfd3586cb066e1ba99d1379",
+                "name": "Black",
+                "nameVisible": true,
+                "emoji": "⚫",
+                "description": "Included",
+                "score": 0
+              },
+              {
+                "id": "3edfb51bbd6f8f8a5f833d3fb9e1a5ba3c7220e436895803ac2d5d5d1de891eb",
+                "name": "Blue",
+                "nameVisible": true,
+                "emoji": "🔵",
+                "description": "+€1,000",
+                "score": 1000
+              },
+              {
+                "id": "5fa021bca72abe41b79c2a28b00f2261f0a8890b7907406a8766d04db429c314",
+                "name": "Red",
+                "nameVisible": true,
+                "emoji": "🔴",
+                "description": "+€1,500",
+                "score": 1500
+              }
+            ],
+            "required": true,
+            "size": "small"
+          }
+        },
+        {
+          "id": "321874a306fdcd2105a22a85ba654e85d014aea71eea20133b7340d7493e6ca6",
+          "name": "Subtotal step 3",
+          "slots": [
+            {
+              "id": "89e971d3a9a38a9405f789d2f45bb7d796c73a60321412cb99764cc16dd585e1",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Subtotal step 3",
+              "separator": ",",
+              "prefix": "€",
+              "precision": 0
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "787565495baec2be6941bbf2bb7d3ab05dedbecc93995b0acef280aa4dd9f983",
+                "operator": "+",
+                "opcode": "number",
+                "value": "9c2c0ab52dcd0c63fc2f8836d89bb76f4a7c7f2aa1cf7cd1dc0c62ffb1e3bf1f"
+              },
+              {
+                "id": "dcfc63d84c5d504a5af7a6c57ca3746bb6a416fd6645248f1030c4088ea50228",
+                "operator": "+",
+                "opcode": "number",
+                "value": "dec266865b61fdf66898d60f1828704910c2f7f4ba82c78c2bc4fa61315c7074"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3175ad03be7dd85316c31ad7255e417ea4935feafd89742a36d34be5c5ce58d3",
+      "name": "Step 4",
+      "nodes": [
+        {
+          "id": "3cc5907a1b0b5ebe394fdafea0df662e6e42c0ab9d0ab08dc7a0c3fdf2088858",
+          "explanation": "Price: @0f811aa2427ced85f00afd7a34dc29c117bd3fbb2c38f23ec1b2036120f079c3",
+          "name": "Step 4 - Options",
+          "nameVisible": true,
+          "description": "Select your options.",
+          "slots": [
+            {
+              "id": "1bb066e89d8a69c946be7037322640c710d71469d704a6e92750981c889f5de9",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "416e0e51ba6615816d6237d99e13026eadf272c1130bc22fe07d4e4db472359a",
+              "sequence": 0,
+              "label": "Checkbox",
+              "name": "All options",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": {
+                  "string": "All options",
+                  "markdown": "**All options**"
+                },
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "c3122ed64a2eab03094794faa91921946734bae6226373034a290e913cdcb917",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "e27fcdbe0416b66ec1eddff513d3fe6920b13bcb54532deb82e8d7e3d3af5aeb",
+              "sequence": 1,
+              "label": "Checkbox",
+              "name": "Airco",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "d10f7f27c57ccda44066a52aa1908cd9cb676a9bd2df64ca1f48352a129c56d2",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "0f2fec54d4ccb4c30012e10fd30542862e5cb9858dfd3586cb066e1ba99d1379",
+              "sequence": 2,
+              "label": "Checkbox",
+              "name": "Climate control",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "b7115b23e704c9b67f50eea8d31504b2f2a387ccd9d658662a51b04fd1787e72",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "b1317c1387210bc4bb4f3f84ff979de4a8112f35f3e06bf2f7657064a96887e1",
+              "sequence": 3,
+              "label": "Checkbox",
+              "name": "Heated seats",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "b772661d4f00828a48180115ae80d45df7e3a83e4da9260ce5d96819fc8aa7ad",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "d5f55bd3a01cff3fb428e6f768110ca622eaed7d1667e4e64f61ef494225ecd5",
+              "sequence": 4,
+              "label": "Checkbox",
+              "name": "Navigation",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "df9b33ca9db256788ea5128e2d7217f16c2b204820f28ee574d16addcee18158",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "5fa021bca72abe41b79c2a28b00f2261f0a8890b7907406a8766d04db429c314",
+              "sequence": 5,
+              "label": "Checkbox",
+              "name": "Park assistance",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "1ebb181e9b666411f14804e8518ae21245aa0d4bfe3642f9e12753fbb9e01f33",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "3edfb51bbd6f8f8a5f833d3fb9e1a5ba3c7220e436895803ac2d5d5d1de891eb",
+              "sequence": 6,
+              "label": "Checkbox",
+              "name": "Cameras",
+              "pipeable": {
+                "label": "Checkbox",
+                "content": "name",
+                "legacy": "Checkbox"
+              },
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            },
+            {
+              "id": "82dd4df0da09b03af2bcc40b170d62a05837907ec4692c8857bbff851f250969",
+              "type": "number",
+              "kind": "feature",
+              "reference": "counter",
+              "label": "Counter",
+              "exportable": false
+            },
+            {
+              "id": "62d42fa5f87e9c4cef3ca4a658cef0ed44d34800de3b0a3919de7a76586bc241",
+              "type": "numeric",
+              "kind": "feature",
+              "reference": "score",
+              "label": "Score",
+              "exportable": true,
+              "separator": ",",
+              "prefix": "€"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-checkboxes",
+            "version": "6.0.1",
+            "checkboxes": [
+              {
+                "id": "416e0e51ba6615816d6237d99e13026eadf272c1130bc22fe07d4e4db472359a",
+                "name": "**All options**",
+                "description": "+€4,800",
+                "score": 4800,
+                "exclusive": true
+              },
+              {
+                "id": "e27fcdbe0416b66ec1eddff513d3fe6920b13bcb54532deb82e8d7e3d3af5aeb",
+                "name": "Airco",
+                "description": "+€600",
+                "score": 600
+              },
+              {
+                "id": "0f2fec54d4ccb4c30012e10fd30542862e5cb9858dfd3586cb066e1ba99d1379",
+                "name": "Climate control",
+                "description": "+€600",
+                "score": 600
+              },
+              {
+                "id": "b1317c1387210bc4bb4f3f84ff979de4a8112f35f3e06bf2f7657064a96887e1",
+                "name": "Heated seats",
+                "description": "+€800",
+                "score": 800
+              },
+              {
+                "id": "d5f55bd3a01cff3fb428e6f768110ca622eaed7d1667e4e64f61ef494225ecd5",
+                "name": "Navigation",
+                "description": "+€600",
+                "score": 600
+              },
+              {
+                "id": "5fa021bca72abe41b79c2a28b00f2261f0a8890b7907406a8766d04db429c314",
+                "name": "Park assistance",
+                "description": "+€1,000",
+                "score": 1000
+              },
+              {
+                "id": "3edfb51bbd6f8f8a5f833d3fb9e1a5ba3c7220e436895803ac2d5d5d1de891eb",
+                "name": "Cameras",
+                "description": "+€1,200",
+                "score": 1200
+              }
+            ]
+          }
+        },
+        {
+          "id": "9a52bb6dc677536a9671fcd229f97095418950f8f22a0bcc9f6791d41b71c17c",
+          "name": "Subtotal step 4",
+          "slots": [
+            {
+              "id": "0f811aa2427ced85f00afd7a34dc29c117bd3fbb2c38f23ec1b2036120f079c3",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Subtotal step 4",
+              "separator": ",",
+              "prefix": "€",
+              "precision": 0
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "787565495baec2be6941bbf2bb7d3ab05dedbecc93995b0acef280aa4dd9f983",
+                "operator": "+",
+                "opcode": "number",
+                "value": "89e971d3a9a38a9405f789d2f45bb7d796c73a60321412cb99764cc16dd585e1"
+              },
+              {
+                "id": "523dcbeed390cd75e50f9c3164f32409a3e45e7190ccf75ef02adfb02f9c7a8f",
+                "operator": "+",
+                "opcode": "score",
+                "value": "a930879e394bc526c52ed0c573032ce3abfb8dc2f09b8b7891563de88066cb1c",
+                "scores": {
+                  "e27fcdbe0416b66ec1eddff513d3fe6920b13bcb54532deb82e8d7e3d3af5aeb": 600,
+                  "0f2fec54d4ccb4c30012e10fd30542862e5cb9858dfd3586cb066e1ba99d1379": 600,
+                  "b1317c1387210bc4bb4f3f84ff979de4a8112f35f3e06bf2f7657064a96887e1": 800,
+                  "d5f55bd3a01cff3fb428e6f768110ca622eaed7d1667e4e64f61ef494225ecd5": 600,
+                  "5fa021bca72abe41b79c2a28b00f2261f0a8890b7907406a8766d04db429c314": 1000,
+                  "3edfb51bbd6f8f8a5f833d3fb9e1a5ba3c7220e436895803ac2d5d5d1de891eb": 1200
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "e01965f3c6df094cbcbd978fb764b4a461574347206b44503ccdbc0b018b83e6",
+      "name": "Copy",
+      "nodes": [
+        {
+          "id": "bec25d1f219ce0276edee84d0ce7f74f1e41ee9d666a24db023538aa8d5544eb",
+          "name": "Would you like to receive a copy of this quote in your inbox?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "9b85f6ac81ab897b50119e41506effda7e67b4f24a29b3aa3a2ac398f09f6bf7",
+              "type": "string",
+              "kind": "static",
+              "reference": "answer",
+              "label": "Answer",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-yes-no", "version": "4.0.2" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "72630f53d8e56d6d69b74857f5f26ce9a6f2a352023bee1887951b77b3e799f0",
+          "name": "Send copy branch",
+          "clusters": [
+            {
+              "id": "524215feec396a12442a240054c1c5caffe716d8fdf06244d149bb13d5951ca9",
+              "name": "Send copy",
+              "nodes": [
+                {
+                  "id": "2d4c4f46f53a4b286645e6610dfeaab935b5288f33c7fba6ce8aed9ea6f55b3b",
+                  "name": "Where can we send the copy?",
+                  "nameVisible": true,
+                  "placeholder": "Enter your email address...",
+                  "slots": [
+                    {
+                      "id": "4a9accf1c06759c63e178c5f78a52d312636f2dbd0225a296e632cb283c19db0",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "email",
+                      "label": "Email address",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-email",
+                    "version": "5.0.0"
+                  }
+                },
+                {
+                  "id": "846e4bbfdf6e414f6790c428f5daf3c18bc23b73363418f4d82e9652763977b2",
+                  "name": "Your car quote",
+                  "description": "Hi 👋,\n\nThis is a copy of the quote for your next car.",
+                  "slots": [
+                    {
+                      "id": "5781a421095bb46133f415620af0f919d52d2e09ae77df4c9d5c2d0612fc9647",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "recipient",
+                      "label": "Recipient",
+                      "actionable": true
+                    },
+                    {
+                      "id": "e75670ae9c6df44292534ee1c21671b05958f461bf0001ad15841a164221f844",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "subject",
+                      "label": "Subject",
+                      "actionable": true
+                    },
+                    {
+                      "id": "a1a119c933c08eea35cfc0dc469f5c6fa125448cc252dfa45276426501c90c69",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "message",
+                      "label": "Message",
+                      "actionable": true
+                    },
+                    {
+                      "id": "a8884017184eec7252df38e64f585e21dffa91640c3f89e976ceedde47ce6193",
+                      "type": "boolean",
+                      "kind": "static",
+                      "reference": "data",
+                      "label": "Data",
+                      "pipeable": false,
+                      "exportable": false,
+                      "actionable": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-mailer",
+                    "version": "5.0.1",
+                    "recipient": "4a9accf1c06759c63e178c5f78a52d312636f2dbd0225a296e632cb283c19db0",
+                    "includeData": true
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "4186ea7feace7fff6ab8409d4fea7bc3364a452d593b5ba3d02b5fda05fef442",
+              "block": {
+                "type": "tripetto-block-yes-no:yes",
+                "version": "4.0.2",
+                "node": "bec25d1f219ce0276edee84d0ce7f74f1e41ee9d666a24db023538aa8d5544eb",
+                "slot": "9b85f6ac81ab897b50119e41506effda7e67b4f24a29b3aa3a2ac398f09f6bf7"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

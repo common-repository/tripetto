@@ -1,0 +1,42 @@
+{
+  "direction": "horizontal",
+  "verticalAlignment": "middle",
+  "hidePast": true,
+  "hideUpcoming": true,
+  "showNavigation": "auto",
+  "showProgressbar": true,
+  "showEnumerators": false,
+  "autoFocus": false,
+  "showSeparateSubmit": false,
+  "showPreviousButton": false,
+  "showScrollbar": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "5.4.1" },
+  "background": {
+    "color": "#6487FB",
+    "url": "https://www.psd.gov.sg/images/default-source/challenge-library/lifestyle/trivia-quiz/quiz-trivia-edm/trivia-quiz-00-main-1600x900-thumbnail.jpg",
+    "opacity": 15,
+    "positioning": "auto"
+  },
+  "buttons": {
+    "mode": "fill",
+    "roundness": 4,
+    "baseColor": "#F4DD39",
+    "textColor": "#18214D"
+  },
+  "inputs": {
+    "borderSize": 1,
+    "roundness": 4,
+    "errorColor": "#4bb9b7",
+    "declineColor": "#3E2AE5",
+    "borderColor": "#4bb9b7",
+    "backgroundColor": "#fff",
+    "selectionColor": "#F4DD39",
+    "agreeColor": "#3E2AE5",
+    "textColor": "#18214D"
+  },
+  "font": { "size": 16, "family": "Chewy", "sizeSmall": 14 },
+  "navigation": { "backgroundColor": "#394C98", "progressbarColor": "#F4DD39" },
+  "hideRequiredIndicator": false,
+  "disableScrolling": false
+}

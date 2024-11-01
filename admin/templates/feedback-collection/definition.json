@@ -1,0 +1,190 @@
+{
+  "name": "Feedback Collection",
+  "language": "en",
+  "clusters": [
+    {
+      "id": "fc6b2fe434aaaacdb4ff50e3502209334cfe8ccba78dcfec1460213e1d28607f",
+      "name": "Helpful?",
+      "nodes": [
+        {
+          "id": "ea3c26d60b34c159b1f8f08c82f7d2243532106fad4926b193c29e3a3e6215ed",
+          "name": "How do you rate the overall article?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "b2c96eb68a1631ef31a5c54b83e0d079a7bf1b4044421589c05d57728d23b320",
+              "type": "number",
+              "kind": "static",
+              "reference": "scale",
+              "label": "Scale",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-scale",
+            "version": "3.0.1",
+            "mode": "numeric",
+            "from": 0,
+            "to": 10,
+            "stepSize": 1,
+            "labelLeft": "👎 Very bad",
+            "labelCenter": "",
+            "labelRight": "Excellent 👍",
+            "justify": true
+          }
+        },
+        {
+          "id": "f9eab42da97aa059743b2a4a24cf9f35c530dea2372683b2c74da6b7ba63855d",
+          "name": "What do you think of the length of the article?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "870095df642b9a2d87e98de09fe23e665bc36d9d4e492ab18ce755260854e7c7",
+              "type": "string",
+              "kind": "static",
+              "reference": "scale",
+              "label": "Scale",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-scale",
+            "version": "3.0.1",
+            "mode": "options",
+            "options": [
+              {
+                "id": "50afaef2b3af930b39bdd52575c644cff88bb8b793952123e9c5932f8308eb57",
+                "name": "Too short"
+              },
+              {
+                "id": "d030876a2265aea87802974a3f5e6df7a6f0010234af33db2915237f61adb51c",
+                "name": "Good"
+              },
+              {
+                "id": "53e5eea80b8af8fc0ba1a747270c62eda328e113a20c2025e98f42dcd825c161",
+                "name": "Too long"
+              }
+            ],
+            "justify": true
+          }
+        },
+        {
+          "id": "c89bbb61852cceacde2fc321cad76192eb8fdca235b309cfbbe38e7ef77b839d",
+          "name": "Did the article answer your question(s)?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "9ae4ce45c13ddcb98dd325b0112ec01422cf500bb3881185b02cd27fb04beaee",
+              "type": "string",
+              "kind": "static",
+              "reference": "scale",
+              "label": "Scale",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-scale",
+            "version": "3.0.1",
+            "mode": "options",
+            "options": [
+              {
+                "id": "8828b501c97b1c15da6478755cd0de8e794dd000cfa18499b167fa929f1f1f03",
+                "name": "Totally"
+              },
+              {
+                "id": "c2a05f62866bb9828099af496f550fff6a9f38db4ae4e674a55971ed45db7c4c",
+                "name": "Mostly"
+              },
+              {
+                "id": "f142fd88baf171cec54e2c84ee9d618f8e20b39aac1012e5741191a8b35ed9e9",
+                "name": "Not at all"
+              }
+            ],
+            "justify": true
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "2167853afac6ad1cec495b126677b22ae42b5a035173c365baaaeeeecab13f99",
+          "name": "Branch for Totally",
+          "conditions": [
+            {
+              "id": "4bf005c238bf186c9ed03be98ae32a2accb8cf9b6d93c885ac42a5ca2d46fcac",
+              "block": {
+                "option": "8828b501c97b1c15da6478755cd0de8e794dd000cfa18499b167fa929f1f1f03",
+                "type": "tripetto-block-scale:match",
+                "version": "3.0.1",
+                "node": "c89bbb61852cceacde2fc321cad76192eb8fdca235b309cfbbe38e7ef77b839d",
+                "slot": "9ae4ce45c13ddcb98dd325b0112ec01422cf500bb3881185b02cd27fb04beaee"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Thanks for your feedback",
+            "description": "Happy to hear you've got your answers 😄"
+          }
+        },
+        {
+          "id": "54eefb0539cb4ca8514913f400cccbe4acd14cdd53dabfe3292174fe465b30a3",
+          "name": "Branch for Mostly/Not at all",
+          "clusters": [
+            {
+              "id": "84c5175dd345c39f593c5a3d7ed7fd5e22825723c5f56d9676d568e1f4c6b53f",
+              "name": "Feedback",
+              "nodes": [
+                {
+                  "id": "01802501c05b3751ca3ecc2c3cb0ff9f02f06af3199e1a166011995ef54bdc9e",
+                  "name": "What can we do to improve this article?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "fa90ad4207349a917c65744a6a917178a3b9c12852a250e95e03d5a17bd158f2",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Multi-line text"
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-textarea",
+                    "version": "5.1.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "a91a50465ba6a900964ebbef1cc198d02832adce8686f0a0f8536c6432a45e54",
+              "block": {
+                "option": "c2a05f62866bb9828099af496f550fff6a9f38db4ae4e674a55971ed45db7c4c",
+                "type": "tripetto-block-scale:match",
+                "version": "3.0.1",
+                "node": "c89bbb61852cceacde2fc321cad76192eb8fdca235b309cfbbe38e7ef77b839d",
+                "slot": "9ae4ce45c13ddcb98dd325b0112ec01422cf500bb3881185b02cd27fb04beaee"
+              }
+            },
+            {
+              "id": "66da62788a257933d6bdcd133b0d7f416680b75252b4ebfa10124db0c05a548d",
+              "block": {
+                "option": "f142fd88baf171cec54e2c84ee9d618f8e20b39aac1012e5741191a8b35ed9e9",
+                "type": "tripetto-block-scale:match",
+                "version": "3.0.1",
+                "node": "c89bbb61852cceacde2fc321cad76192eb8fdca235b309cfbbe38e7ef77b839d",
+                "slot": "9ae4ce45c13ddcb98dd325b0112ec01422cf500bb3881185b02cd27fb04beaee"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Thanks for your feedback!",
+            "description": "We'll have a look if we can improve the article with your feedback!"
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

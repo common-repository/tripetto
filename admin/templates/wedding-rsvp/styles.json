@@ -1,0 +1,44 @@
+{
+  "display": "inline",
+  "autoFocus": false,
+  "fullWidth": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-chat", "version": "1.6.1" },
+  "questions": {
+    "alignment": "left",
+    "roundness": 16,
+    "backgroundColor": "#54b0a5",
+    "textColor": "#fff"
+  },
+  "color": "#54b0a5",
+  "font": { "size": 16, "family": "Grandstander" },
+  "answers": {
+    "alignment": "right",
+    "roundness": 16,
+    "backgroundColor": "#343d4e"
+  },
+  "background": { "positioning": "auto", "color": "#e3e5e6" },
+  "inputs": {
+    "borderSize": 1,
+    "roundness": 8,
+    "errorColor": "#f46c5e",
+    "agreeColor": "#343d4e",
+    "declineColor": "#343d4e",
+    "backgroundColor": "#8893a8",
+    "textColor": "#fff",
+    "selectionColor": "#343d4e"
+  },
+  "avatar": {
+    "type": "avataaar",
+    "skin": "Light",
+    "eyes": "Wink",
+    "eyeBrow": "Neutral",
+    "mouth": "Neutral",
+    "top": "LongHairStraight2",
+    "facialHair": "None",
+    "clothing": "ShirtScoopNeck",
+    "accessories": "None",
+    "hairColor": "Brown",
+    "clothingFabric": "Gray01"
+  }
+}

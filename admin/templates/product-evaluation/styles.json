@@ -1,0 +1,37 @@
+{
+  "display": "inline",
+  "autoFocus": false,
+  "fullWidth": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-chat", "version": "2.0.1" },
+  "buttons": {
+    "mode": "fill",
+    "roundness": 24,
+    "baseColor": "#285dab",
+    "textColor": "#fff"
+  },
+  "inputs": {
+    "borderSize": 2,
+    "roundness": 24,
+    "errorColor": "#333",
+    "agreeColor": "#333",
+    "declineColor": "#333",
+    "selectionColor": "#333",
+    "borderColor": "#bbbbbb",
+    "textColor": "#333"
+  },
+  "font": { "size": 16, "family": "Fira Sans" },
+  "color": "#0090e3",
+  "background": { "color": "#f2f7fc" },
+  "answers": {
+    "alignment": "left",
+    "roundness": 24,
+    "backgroundColor": "#fff",
+    "borderColor": "#bbbbbb",
+    "textColor": "#333"
+  },
+  "avatar": {
+    "type": "image",
+    "image": "https://tripetto.com/images/examples/product-evaluation-logo.png"
+  }
+}

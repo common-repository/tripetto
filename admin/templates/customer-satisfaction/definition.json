@@ -1,0 +1,265 @@
+{
+  "name": "Customer Satisfaction (NPS)",
+  "language": "en",
+  "prologue": {
+    "title": "Customer satisfaction survey",
+    "description": "Please let us know your feedback, so we can improve.",
+    "button": "Start survey"
+  },
+  "epilogue": {
+    "title": "End of survey.",
+    "description": "Thanks for your feedback!"
+  },
+  "clusters": [
+    {
+      "id": "6afc647fcdf14861d0dcff698e1c904e296b50325f15e21e8b2be4732bb8b29c",
+      "name": "Ratings",
+      "nodes": [
+        {
+          "id": "5c42c00c0524fb0f4e162c60d05d91375ecdf9d6294d1c056eef1d9f01fdb979",
+          "explanation": "This is a **[Net Promoter Score (NPS)](https://en.wikipedia.org/wiki/Net_Promoter)** question.",
+          "name": "How likely is it that you will recommend us to a friend or colleague?",
+          "nameVisible": true,
+          "description": "On a scale from 0-10, please select your verdict.",
+          "slots": [
+            {
+              "id": "f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038",
+              "type": "number",
+              "kind": "static",
+              "reference": "scale",
+              "label": "Scale",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-scale",
+            "version": "3.0.1",
+            "mode": "numeric",
+            "from": 0,
+            "to": 10,
+            "stepSize": 1,
+            "justify": true
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "3d31278222eead6d1e2483cd318983fd4ce00241e8b8c24b1e0dcb93bca081ea",
+          "name": "Detractors - 1 star",
+          "clusters": [
+            {
+              "id": "a25cec00825076dfe1376464f4896e1583d065c31d3c72596a5d3bf4536229f1",
+              "name": "Detractors - Follow-up",
+              "nodes": [
+                {
+                  "id": "d0d761af4870b430a95eb544907490500bf6052e77c288fcb8b37b3d20fe14e6",
+                  "name": "You selected _@f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038_.\nNot so good 😭",
+                  "nameVisible": true,
+                  "description": "Could you elaborate on why you gave us a @f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038?",
+                  "slots": [
+                    {
+                      "id": "bbda750412b53d531ed13380f83cc4bfff65d6f2cf694231ca3f75dd86b38aa6",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Multi-line text"
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-textarea",
+                    "version": "5.1.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "34d17974bec323770aba252f733ecf5b04da0b22ba19369e37c871661d4107a4",
+              "block": {
+                "type": "tripetto-block-scale:compare",
+                "version": "3.0.1",
+                "node": "5c42c00c0524fb0f4e162c60d05d91375ecdf9d6294d1c056eef1d9f01fdb979",
+                "slot": "f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038",
+                "mode": "below",
+                "value": 7
+              }
+            }
+          ]
+        },
+        {
+          "id": "2166056620dc20c3f4812c5aebe670404d896a406b4dc0196aadff109248417a",
+          "name": "Passives - 7 to 8 stars",
+          "clusters": [
+            {
+              "id": "16ea1924019a7146e51abc14cb1b13dc3e54a0e16382cd0f4894ee278cd0b0dc",
+              "name": "Passives - Follow-up",
+              "nodes": [
+                {
+                  "id": "db826614e0d8f3cd0f78769f5fe517325c10a532140f44e4cd685b264803826c",
+                  "name": "You selected _@f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038_.\nOkay, but room for improvement 😅",
+                  "nameVisible": true,
+                  "description": "Do you have tips for us to improve?",
+                  "slots": [
+                    {
+                      "id": "1f6f8eee2622c0db12f3eacc3104ab73a4590c097b93c267a0afe4d32c3f2178",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Multi-line text"
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-textarea",
+                    "version": "5.1.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "81e0457b7506f26c4e681bb34945c8b4d361ba1ae98c635d6a08481a21ba2668",
+              "block": {
+                "type": "tripetto-block-scale:compare",
+                "version": "3.0.1",
+                "node": "5c42c00c0524fb0f4e162c60d05d91375ecdf9d6294d1c056eef1d9f01fdb979",
+                "slot": "f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038",
+                "mode": "between",
+                "value": 7,
+                "to": 8
+              }
+            }
+          ]
+        },
+        {
+          "id": "cbcd27095e8e002f46e9f934b3eac432e325408b792f0ddf01657152e2f235ef",
+          "name": "Promotors - 9 to 10 stars",
+          "clusters": [
+            {
+              "id": "75c03712fe7ae96cff902a5efaf31c5e5b7c158fb80ab8a6f46d40758ca097ea",
+              "name": "Promoters - Follow-up",
+              "nodes": [
+                {
+                  "id": "6014354bcb90d0b87695de3e77a00675f9ed2787ab20a3901fe7ceb8bb3ec022",
+                  "name": "You selected _@f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038_.\nThank you! 🙏",
+                  "nameVisible": true,
+                  "description": "We're happy to hear you like us.",
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0",
+                    "imageURL": "https://media.giphy.com/media/Is1O1TWV0LEJi/giphy.gif",
+                    "imageAboveText": false,
+                    "imageWidth": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "580f8b0039f748c09d4889a4a8547f6d1cc30f1fda29b4efef648aec8384f7a7",
+              "block": {
+                "type": "tripetto-block-scale:compare",
+                "version": "3.0.1",
+                "node": "5c42c00c0524fb0f4e162c60d05d91375ecdf9d6294d1c056eef1d9f01fdb979",
+                "slot": "f5dfc5462c245262ba370d72ab09805055167742f1079000160181d159e91038",
+                "mode": "above",
+                "value": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a6dfb04f8e14033ca6e92bf5a540748ed667f8b3e5868f4a44d21588347699cf",
+      "name": "Matrix",
+      "nodes": [
+        {
+          "id": "25b1293aa1aa4bc967e1a3b8f66c859de975034f61bdb5809de7267f4a1fede3",
+          "name": "What's your opinion about the following aspects?",
+          "nameVisible": true,
+          "description": "",
+          "slots": [
+            {
+              "id": "1ef26a20cf5265ec6328dae79c0d5507bb7ddf0bbf50443702920cae75ec8680",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "efc2ce415fdeafa33b784462dc8de1ffb61ce0be204216c3170b5843bd756650",
+              "sequence": 0,
+              "label": "Matrix row",
+              "name": "Our products in general",
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            },
+            {
+              "id": "f5b2cef40b2fe6a29eb29f9943aa4d7fc0f2f157f110b705a492bde174f8e454",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "0476923f767c00dc19a277c035b093f55f24768de3b89c7267eb426e9f207a6a",
+              "sequence": 1,
+              "label": "Matrix row",
+              "name": "Our sales department",
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            },
+            {
+              "id": "6b6ac21f2b85a0f6869d0e332f27750f99fed424c837468f19bb761d1afd31bf",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "49874e6dc57d67eb8e6eb962e0ab410e6db76bbfdfa770694915b103a7182b84",
+              "sequence": 2,
+              "label": "Matrix row",
+              "name": "Our customer service department",
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-matrix",
+            "version": "4.1.0",
+            "columns": [
+              {
+                "id": "3369ad291e006c548f5f8c84d7b99a08b71f840277078b422980ccc4ad7bb86c",
+                "label": "Bad"
+              },
+              {
+                "id": "023a3a8759a9fbbacd7b47d1d10d03bbdbff8f8901b8bae08b7ebbde7ed25fb0",
+                "label": "Neutral"
+              },
+              {
+                "id": "e2a3fbb74a6f1c2ff794798497223fc3995b2594b13ae8dc01d5b97251e37a90",
+                "label": "Good"
+              }
+            ],
+            "rows": [
+              {
+                "id": "efc2ce415fdeafa33b784462dc8de1ffb61ce0be204216c3170b5843bd756650",
+                "name": "Our products in general"
+              },
+              {
+                "id": "0476923f767c00dc19a277c035b093f55f24768de3b89c7267eb426e9f207a6a",
+                "name": "Our sales department"
+              },
+              {
+                "id": "49874e6dc57d67eb8e6eb962e0ab410e6db76bbfdfa770694915b103a7182b84",
+                "name": "Our customer service department"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

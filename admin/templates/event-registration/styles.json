@@ -1,0 +1,25 @@
+{
+  "mode": "progressive",
+  "autoFocus": false,
+  "showEnumerators": false,
+  "hideRequiredIndicator": false,
+  "showPageIndicators": false,
+  "showProgressbar": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-classic", "version": "3.4.1" },
+  "background": {
+    "color": "#fbce37",
+    "url": "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80",
+    "opacity": 10,
+    "positioning": "cover"
+  },
+  "color": "#644e02",
+  "font": { "size": 16, "sizeSmall": 14, "family": "Merriweather" },
+  "inputs": {
+    "borderSize": 2,
+    "roundness": 16,
+    "errorColor": "red",
+    "agreeColor": "green",
+    "declineColor": "red"
+  }
+}

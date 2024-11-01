@@ -1,0 +1,36 @@
+{
+  "direction": "vertical",
+  "verticalAlignment": "middle",
+  "hidePast": false,
+  "hideUpcoming": false,
+  "showNavigation": "auto",
+  "showProgressbar": true,
+  "showEnumerators": false,
+  "autoFocus": false,
+  "showSeparateSubmit": true,
+  "showPreviousButton": true,
+  "hideRequiredIndicator": false,
+  "showScrollbar": false,
+  "disableScrolling": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "5.4.1" },
+  "font": { "size": 20, "sizeSmall": 14, "family": "Karla" },
+  "background": {
+    "color": "rgb(216, 235, 235)",
+    "url": "https://images.unsplash.com/photo-1580893246395-52aead8960dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+    "opacity": 10,
+    "positioning": "cover"
+  },
+  "buttons": { "mode": "fill", "roundness": 8, "baseColor": "#fff" },
+  "inputs": {
+    "borderSize": 1,
+    "roundness": 8,
+    "errorColor": "#fff",
+    "agreeColor": "#333",
+    "declineColor": "#333",
+    "backgroundColor": "#fff",
+    "borderColor": "#333",
+    "textColor": "#333",
+    "selectionColor": "#333"
+  }
+}

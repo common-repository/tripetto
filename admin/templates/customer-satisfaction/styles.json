@@ -1,0 +1,39 @@
+{
+  "direction": "vertical",
+  "verticalAlignment": "middle",
+  "hidePast": false,
+  "hideUpcoming": false,
+  "showNavigation": "auto",
+  "showProgressbar": true,
+  "showEnumerators": false,
+  "autoFocus": false,
+  "showSeparateSubmit": false,
+  "showPreviousButton": true,
+  "showScrollbar": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "4.0.1" },
+  "buttons": {
+    "mode": "fill",
+    "roundness": 28,
+    "baseColor": "#18214d",
+    "finishColor": "#ee3557"
+  },
+  "font": { "size": 18, "family": "Merriweather" },
+  "inputs": {
+    "borderSize": 2,
+    "roundness": 8,
+    "errorColor": "#ee3557",
+    "agreeColor": "#18214d",
+    "declineColor": "#18214d",
+    "borderColor": "#18214d",
+    "textColor": "#18214d",
+    "selectionColor": "#18214d"
+  },
+  "background": {
+    "positioning": "cover",
+    "url": "https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80",
+    "color": "#fff",
+    "opacity": 40
+  },
+  "color": "#18214d"
+}

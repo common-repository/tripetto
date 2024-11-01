@@ -1,0 +1,28 @@
+{
+  "mode": "progressive",
+  "autoFocus": false,
+  "showEnumerators": false,
+  "hideRequiredIndicator": true,
+  "showPageIndicators": false,
+  "showProgressbar": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-classic", "version": "3.4.1" },
+  "font": { "size": 16, "sizeSmall": 14, "family": "Trebuchet MS" },
+  "inputs": {
+    "borderSize": 1,
+    "roundness": 8,
+    "errorColor": "red",
+    "agreeColor": "green",
+    "declineColor": "red",
+    "backgroundColor": "#eeeeee",
+    "borderColor": "#eeeeee",
+    "selectionColor": "#333333"
+  },
+  "buttons": {
+    "mode": "outline",
+    "roundness": 8,
+    "baseColor": "#dd4b39",
+    "finishColor": "#dd4b39"
+  },
+  "color": "#333333"
+}

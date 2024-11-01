@@ -1,0 +1,397 @@
+{
+  "name": "Quiz",
+  "language": "en",
+  "prologue": {
+    "title": "It's quiz time!",
+    "description": "Ready for some trivia quiz?!",
+    "button": "Start Quizzing"
+  },
+  "epilogue": {
+    "title": "End of demo.",
+    "repeatable": true,
+    "button": {
+      "label": "See more examples",
+      "url": "https://tripetto.com/examples/",
+      "target": "blank"
+    },
+    "description": "Thanks for checking out this example. We won't use the data you entered."
+  },
+  "clusters": [
+    {
+      "id": "8d076c365ecda7a54481b065bd405558945b21ce265a9dad9ee2d0047ac8ebc4",
+      "name": "Intro",
+      "nodes": [
+        {
+          "id": "01de88c3c1f40b391dc44ed9c214ba3fe2d1db3577f19d581ab2f07e7132629f",
+          "explanation": "This is **not** part of the quiz yet. We're sorry 😂",
+          "name": "What's your name, quizzer?",
+          "nameVisible": true,
+          "placeholder": "Just your first name, or a nickname...",
+          "description": "First things first: your name.",
+          "slots": [
+            {
+              "id": "cdeebeda412d8159427e2e79d34b6196de8bd0ce109fcfb21963177d6d6e88dc",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true,
+              "transformation": "capitalize"
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "3fe90a92fc0ec2b5da3325cf1443fa2ce0a781a90123388f1ce8032ee232d425",
+          "name": "Okay @cdeebeda412d8159427e2e79d34b6196de8bd0ce109fcfb21963177d6d6e88dc, let's see what you've got!",
+          "nameVisible": true,
+          "description": "Now the quiz really starts, so be sharp.",
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        }
+      ]
+    },
+    {
+      "id": "07228e1c684ea897312622a8c1cafe986f4ff3601c864843dbab4b6bef5d6572",
+      "name": "Quiz Part 1",
+      "nodes": [
+        {
+          "id": "03e5897c35eb7d3499ff9522a2f941c3a9bacef62ea33418f77077b821536d7a",
+          "explanation": "*Image from [Unsplash](https://unsplash.com/photos/xkEtD4Stn0I).*",
+          "name": "Who invented the electric light bulb?",
+          "nameVisible": true,
+          "description": "",
+          "slots": [
+            {
+              "id": "53f94ed9d2e6fe0eb8ab29cc946c2718c859c00de768475c2642a328b5e7b642",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Choice",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-multiple-choice",
+            "version": "5.1.0",
+            "imageURL": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2090&q=80",
+            "imageWidth": "400",
+            "imageAboveText": true,
+            "choices": [
+              {
+                "id": "e14b8b2bd5a418c891268f215ef86b14900e4925ccf2c7bf36e1c4a3a6da17c4",
+                "name": "Nikola Tesla"
+              },
+              {
+                "id": "0febb2de052cf74a24c96ef627fd51c8bba1355ca47140f85d12db7c7a5f14a5",
+                "name": "Thomas Edison"
+              },
+              {
+                "id": "d2a55ca754c943087b82b31a744e317234d71b54a6978ec8cf771898f18e6f00",
+                "name": "Alexander Graham Bell"
+              },
+              {
+                "id": "237bdae328f8f9ba1361a35b530b10c1ca6a0cfd5b5dbcb6f5f2f79fb4139cb1",
+                "name": "Benjamin Franklin"
+              }
+            ],
+            "alignment": true,
+            "required": true
+          }
+        },
+        {
+          "id": "3da5407c0b34826abd466319b6fd1dce12dffce2f9c5043d3bb59cd56758a430",
+          "explanation": "*Images from [Wikipedia](https://wikipedia.org).*",
+          "name": "Which of these is the Dutch flag (The Netherlands)?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "fec4c0eb21264dfc10b54af0cd2820c3fe635d11eb83e9e65cde597d3c870b52",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Image",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "c7f084580676af2b1c2a9ddaa27f5d7ff559ac52ab8cbfa5b220dbe0f7c754bf",
+                "name": "A",
+                "nameVisible": true,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+              },
+              {
+                "id": "45c1c5b3f7d833b83d15f3c25e57bbb0b0638c32b5d344abcfe471d8d40663cd",
+                "name": "B",
+                "nameVisible": true,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+              },
+              {
+                "id": "1f74d8263ad1bd20863991d57f10de4528943f7e669ca5a6adf1103e7d2cb910",
+                "name": "C",
+                "nameVisible": true,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+              },
+              {
+                "id": "5b7f768f36a7b78c2e23a5a95b200ea9eaf1a3477fb1be7a68e819b6225863ef",
+                "name": "D",
+                "nameVisible": true,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+              }
+            ],
+            "required": true,
+            "size": "small"
+          }
+        },
+        {
+          "id": "c2bb3703941d4686f87e93f2b967531cfc32d7aaf7108ea107d5cbd1a631ac7d",
+          "name": "What's the maximum score in a regular darts match with 3 darts?",
+          "nameVisible": true,
+          "placeholder": "What do you think?",
+          "description": "Hint: it's somewhere between 1 and 200.",
+          "slots": [
+            {
+              "id": "c63124aecdb8cbb362159b4e62bb9229ac16299c47ec8e16354f326d5d16cd90",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "number",
+              "label": "Number",
+              "required": true,
+              "minimum": 1,
+              "maximum": 200,
+              "precision": 0
+            }
+          ],
+          "block": { "type": "tripetto-block-number", "version": "7.0.2" }
+        },
+        {
+          "id": "3f42c6c380fe759e2685594d7a7c9c34adbe890e4b11822ecc7e6085c1993391",
+          "name": "How many lives does a cat have?",
+          "nameVisible": true,
+          "description": "Hint: it's somewhere between 1 and 10.",
+          "slots": [
+            {
+              "id": "a9b49802948826c537c7016c59af7684298e6f185d6daf7f8141c55c1dfabd03",
+              "type": "number",
+              "kind": "static",
+              "reference": "rating",
+              "label": "Rating",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-rating",
+            "version": "5.0.1",
+            "shape": "hearts",
+            "steps": 10
+          }
+        },
+        {
+          "id": "f7abef520e0e63ee791212861ec4284cbc60999f135c6ea75bcb04b6ac82f0b7",
+          "name": "Who wrote the books of Bridget Jones?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "d4346baf966cc34def9e2110818a01b1a0947573e117e9c99d2f30d452dc2d1f",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Choice",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-multiple-choice",
+            "version": "5.1.0",
+            "choices": [
+              {
+                "id": "c0dbdfe1eb5498e45fea24d4985268d2780c7456b6b344f59cb4cf19b3b96624",
+                "name": "Jeaniene Frost"
+              },
+              {
+                "id": "17fd2b9d0875eb0a9a4f4d09376c15b7ed0119567cff5fcd286f86eeb3fef518",
+                "name": "Francine Pascal"
+              },
+              {
+                "id": "958b024bc0ed25e94381eb34e051dfc80ce578b36afd7e26423ff8f20e829eac",
+                "name": "Ann Martin"
+              },
+              {
+                "id": "7976e419c8dede2023777ee3c3505dc3343465c0add6f3609bfe5c700afc96e0",
+                "name": "Helen Fielding"
+              }
+            ],
+            "alignment": true,
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "aa3c9157fbae96c030401db61d92d9d4a28b3311549eab5f3977df26e47a9856",
+      "name": "Quiz End",
+      "nodes": [
+        {
+          "id": "f9a37359d74a8b9c241def74baf665b129f29c31d294eb0698b58156f00611cb",
+          "name": "Quiz Score",
+          "slots": [
+            {
+              "id": "f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Quiz Score"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "bf35a4bf07d56a963d6c1857fb7715401d595f42be76475d61ed4a65a5cc3bb0",
+                "operator": "+",
+                "opcode": "score",
+                "value": "53f94ed9d2e6fe0eb8ab29cc946c2718c859c00de768475c2642a328b5e7b642",
+                "scores": {
+                  "e14b8b2bd5a418c891268f215ef86b14900e4925ccf2c7bf36e1c4a3a6da17c4": 0,
+                  "0febb2de052cf74a24c96ef627fd51c8bba1355ca47140f85d12db7c7a5f14a5": 1,
+                  "d2a55ca754c943087b82b31a744e317234d71b54a6978ec8cf771898f18e6f00": 0,
+                  "237bdae328f8f9ba1361a35b530b10c1ca6a0cfd5b5dbcb6f5f2f79fb4139cb1": 0
+                }
+              },
+              {
+                "id": "1e4395e17d92eefe23a6ac278f6f5597d3ab4d6fe514002fdaadc15587b9623e",
+                "operator": "+",
+                "opcode": "score",
+                "value": "fec4c0eb21264dfc10b54af0cd2820c3fe635d11eb83e9e65cde597d3c870b52",
+                "scores": {
+                  "c7f084580676af2b1c2a9ddaa27f5d7ff559ac52ab8cbfa5b220dbe0f7c754bf": 0,
+                  "45c1c5b3f7d833b83d15f3c25e57bbb0b0638c32b5d344abcfe471d8d40663cd": 0,
+                  "1f74d8263ad1bd20863991d57f10de4528943f7e669ca5a6adf1103e7d2cb910": 1,
+                  "5b7f768f36a7b78c2e23a5a95b200ea9eaf1a3477fb1be7a68e819b6225863ef": 0
+                }
+              },
+              {
+                "id": "2fadcb8b12a821a96e88efe4b7c686d6b1450788895cccb3dcee6fb15859f130",
+                "operator": "+",
+                "opcode": "equation",
+                "value": "c63124aecdb8cbb362159b4e62bb9229ac16299c47ec8e16354f326d5d16cd90",
+                "cona": 180,
+                "conb": 0,
+                "outa": 1,
+                "outb": 0,
+                "compareMode": "equal"
+              },
+              {
+                "id": "ebc4eb21b39457b24f6b4f547b9c1061c5a5c9f6cc6f2ff987af65971e6a4026",
+                "operator": "+",
+                "opcode": "equation",
+                "value": "a9b49802948826c537c7016c59af7684298e6f185d6daf7f8141c55c1dfabd03",
+                "cona": 9,
+                "conb": 0,
+                "outa": 1,
+                "outb": 0,
+                "compareMode": "equal"
+              },
+              {
+                "id": "581a863e50b6e25dacab4ace4c795726012459d51a4d409bef700142f7d11d3e",
+                "operator": "+",
+                "opcode": "score",
+                "value": "d4346baf966cc34def9e2110818a01b1a0947573e117e9c99d2f30d452dc2d1f",
+                "scores": {
+                  "c0dbdfe1eb5498e45fea24d4985268d2780c7456b6b344f59cb4cf19b3b96624": 0,
+                  "17fd2b9d0875eb0a9a4f4d09376c15b7ed0119567cff5fcd286f86eeb3fef518": 0,
+                  "958b024bc0ed25e94381eb34e051dfc80ce578b36afd7e26423ff8f20e829eac": 0,
+                  "7976e419c8dede2023777ee3c3505dc3343465c0add6f3609bfe5c700afc96e0": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1619468775014f25af27f0f9a134795987d7f06d121b191c1c387d5f92b94946",
+          "name": "That's it, quiz completed! 🎉",
+          "nameVisible": true,
+          "description": "Curious how you scored? Let's find out!",
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "af5138aa9fa642a6170a57fa5448c6a3d857d1ba21043d928cb76148afa0bc2a",
+          "name": "Score < 3",
+          "conditions": [
+            {
+              "id": "1cd0ddcf07c10c36e2fc828635dcdca82a7bdf4f196ebe5a985c0f090bb3289b",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f9a37359d74a8b9c241def74baf665b129f29c31d294eb0698b58156f00611cb",
+                "slot": "f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac",
+                "mode": "below",
+                "value": 3
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "You scored @f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac out of 5 😵",
+            "description": "You can't be happy with this, right?!\nLucky you can just start over again!",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "7ba4030dde7a6a283689758df78774ff1a2735509c6ce17d16e51223cc845142",
+          "name": "Score 3 or 4",
+          "conditions": [
+            {
+              "id": "7e200f581a6573abbf56bbbba5747e8d3de7b264ef616cc5184e1d440d79174a",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f9a37359d74a8b9c241def74baf665b129f29c31d294eb0698b58156f00611cb",
+                "slot": "f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac",
+                "mode": "between",
+                "value": 3,
+                "to": 4
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "You scored @f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac out of 5 🤔",
+            "description": "It's okay, but we're sure you can do better!\nLucky you can just start over again!",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "5018a7f7c2d32bbc8e111cb311ea50ec280082cfa3a2bdc63975f200a10d90f5",
+          "name": "Score 5",
+          "conditions": [
+            {
+              "id": "258eae3dd0af46783534b2955762a2fee874ced1cbbe33f28994945e1009a294",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f9a37359d74a8b9c241def74baf665b129f29c31d294eb0698b58156f00611cb",
+                "slot": "f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac",
+                "mode": "equal",
+                "value": 5
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "You scored @f2d6efc094b00a1cd650f14c8c32465755ec6c1284b6ee1da008bac3abf08eac out of 5 🤯",
+            "description": "That's just perfect!",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

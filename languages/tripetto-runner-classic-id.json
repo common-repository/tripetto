@@ -1,0 +1,278 @@
+{
+  "": {
+    "project-id-version": "@tripetto/runner-classic 2.0.1",
+    "report-msgid-bugs-to": "support@tripetto.com",
+    "pot-creation-date": "2022-11-02 15:30+0100",
+    "po-revision-date": "2022-11-02 15:32+0100",
+    "last-translator": "Hisam Fahri",
+    "language-team": "",
+    "language": "id",
+    "mime-version": "1.0",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-transfer-encoding": "8bit",
+    "plural-forms": "nplurals=1; plural=0;",
+    "x-generator": "Poedit 3.2"
+  },
+  "runner:classic\u0004100% height, width centered": [
+    null,
+    "100% tinggi, lebar di tengah"
+  ],
+  "runner:classic\u0004100% width, height centered": [
+    null,
+    "100% lebar, tinggi di tengah"
+  ],
+  "runner:classic\u0004Agree color (input buttons)": [
+    null,
+    "Setujui warna (tombol masukan)"
+  ],
+  "runner:classic\u0004Appearance": [null, "Tampilan"],
+  "runner:classic\u0004Automatically gain focus": [
+    null,
+    "Dapatkan fokus secara otomatis"
+  ],
+  "runner:classic\u0004Background": [null, "Latar belakang"],
+  "runner:classic\u0004Background color": [null, "Warna latar belakang"],
+  "runner:classic\u0004Border color": [null, "Warna garis"],
+  "runner:classic\u0004Border size": [null, "Ukuran pembatas"],
+  "runner:classic\u0004Button color": [null, "Warna tombol"],
+  "runner:classic\u0004Buttons": [null, "Tombol"],
+  "runner:classic\u0004Center": [null, "Tengah"],
+  "runner:classic\u0004Color": [null, "Warna"],
+  "runner:classic\u0004Contain (full image stretched over screen)": [
+    null,
+    "Mengandung (gambar penuh membentang di atas layar)"
+  ],
+  "runner:classic\u0004Continuous": [null, "Kontinu"],
+  "runner:classic\u0004Cover (full screen)": [null, "Sampul (layar penuh)"],
+  "runner:classic\u0004Create one now!": [null, "Buat satu sekarang!"],
+  "runner:classic\u0004Custom fonts": [null, "Huruf kustom"],
+  "runner:classic\u0004Customize": [null, "Sesuaikan"],
+  "runner:classic\u0004Decline color (input buttons)": [
+    null,
+    "Penurunan warna (tombol masukan)"
+  ],
+  "runner:classic\u0004Default": [null, "Default"],
+  "runner:classic\u0004Did you know you can customize this closing message?": [
+    null,
+    "Apakah kamu tau kamu bisa mengatur pesan penutup ini?"
+  ],
+  "runner:classic\u0004Display numbering": [null, "Tampilkan angka"],
+  "runner:classic\u0004Display page indicators": [
+    null,
+    "Tampilkan indikator halaman"
+  ],
+  "runner:classic\u0004Display progressbar": [null, "Tampilkan bilah kemajuan"],
+  "runner:classic\u0004Fill": [null, "Isi"],
+  "runner:classic\u0004Font": [null, "Huruf"],
+  "runner:classic\u0004Font family": [null, "Kelompok huruf"],
+  "runner:classic\u0004Font size": [null, "Ukuran huruf"],
+  "runner:classic\u0004Font size for small screens": [
+    null,
+    "Ukuran font untuk layar kecil"
+  ],
+  "runner:classic\u0004Google Fonts or URL": [null, "Font Google atau URL"],
+  "runner:classic\u0004Hide all the Tripetto branding": [
+    null,
+    "Sembunyikan semua merek Tripetto"
+  ],
+  "runner:classic\u0004Hide asterisk for required questions": [
+    null,
+    "Sembunyikan tanda bintang untuk pertanyaan yang diperlukan"
+  ],
+  "runner:classic\u0004Image (URL)": [null, "Gambar (URL)"],
+  "runner:classic\u0004In a live environment the form will redirect to:": [
+    null,
+    "Dalam kondisi live formulir akan dialihkan ke:"
+  ],
+  "runner:classic\u0004Inputs": [null, "Masukan"],
+  "runner:classic\u0004Keep answered blocks in view while working through the form.": [
+    null,
+    "Pertahankan blok yang telah dijawab tetap terlihat saat mengerjakan formulir."
+  ],
+  "runner:classic\u0004Only applies when embedding the form.": [
+    null,
+    "Hanya berlaku saat menyematkan formulir."
+  ],
+  "runner:classic\u0004Only available for paginated forms.": [
+    null,
+    "Hanya tersedia untuk formulir berpaginasi."
+  ],
+  "runner:classic\u0004Opacity": [null, "Opasitas"],
+  "runner:classic\u0004Options": [null, "Pilihan"],
+  "runner:classic\u0004Outline": [null, "Garis luar"],
+  "runner:classic\u0004Page %1": [null, "Halaman %1"],
+  "runner:classic\u0004Paginated": [null, "Paginasi"],
+  "runner:classic\u0004Please add a block first to get the magic going.": [
+    null,
+    "Harap tambahkan satu blok terlebih dahulu untuk memulai keajaiban."
+  ],
+  "runner:classic\u0004Positioning": [null, "Pemosisian"],
+  "runner:classic\u0004Powered by Tripetto": [
+    null,
+    "Dipersembahkan oleh Tripetto"
+  ],
+  "runner:classic\u0004Present the whole form at once.": [
+    null,
+    "Tampilkan seluruh formulir sekaligus."
+  ],
+  "runner:classic\u0004Progressive": [null, "Progresif"],
+  "runner:classic\u0004Repeat": [null, "Ulangi"],
+  "runner:classic\u0004Required/error color": [null, "Wajib/kesalahan warna"],
+  "runner:classic\u0004Roundness": [null, "Kebulatan"],
+  "runner:classic\u0004Section %1": [null, "Bagian %1"],
+  "runner:classic\u0004Selection color (input buttons)": [
+    null,
+    "Pilihan warna (tombol masukan)"
+  ],
+  "runner:classic\u0004Standard fonts": [null, "Huruf standar"],
+  "runner:classic\u0004Style": [null, "Gaya"],
+  "runner:classic\u0004Submit button color": [null, "Warna tombol kirim"],
+  "runner:classic\u0004Test again": [null, "Uji ulang"],
+  "runner:classic\u0004Text color": [null, "Ukuran teks"],
+  "runner:classic\u0004The supplied URL is invalid!": [
+    null,
+    "URL yang diberikan tidak valid!"
+  ],
+  "runner:classic\u0004Tripetto is for making elegantly personal form and survey experiences with response boosting conversational powers.": [
+    null,
+    "Tripetto adalah untuk membuat formulir pribadi yang elegan dan pengalaman survei dengan respons yang meningkatkan kekuatan percakapan."
+  ],
+  "runner:classic\u0004Use any font available on [Google Fonts](https://fonts.google.com/) or supply a custom font URL. Please note that the Google Fonts name is case sensitive.": [
+    null,
+    "Gunakan font apa pun yang tersedia di [Google Fonts] (https://fonts.google.com/) atau berikan URL font kustom. Harap perhatikan bahwa nama Google Fonts peka terhadap huruf besar-kecil."
+  ],
+  "runner:classic\u0004Use pagination for the form and let the user navigate through the form using the next and back buttons.": [
+    null,
+    "Gunakan paginasi untuk formulir dan biarkan pengguna menavigasi formulir menggunakan tombol selanjutnya dan kembali."
+  ],
+  "runner:classic\u0004Want to make a form like this for free?": [
+    null,
+    "Ingin membut formulir seperti ini secara gratis?"
+  ],
+  "runner:classic\u0004_Note_: This size applies to small screens (like mobile devices). Switch to the mobile device preview to see and test this small font size.": [
+    null,
+    "_Catatan_: Ukuran ini berlaku untuk layar kecil (seperti perangkat seluler). Beralih ke pratinjau perangkat seluler untuk melihat dan menguji ukuran font kecil ini."
+  ],
+  "runner:classic\u0004🎉 Test completed": [null, "🎉 Tes selesai"],
+  "runner:classic\u0004👋 Hi there!": [null, "👋 Hai!"],
+  "runner#6|📂 File upload\u0004Allowed extensions: %1": [
+    null,
+    "Ekstensi yang diperbolehkan: %1"
+  ],
+  "runner#6|📂 File upload\u0004Choose or drag a file here": [
+    null,
+    "Pilih atau seret berkas di sini"
+  ],
+  "runner#6|📂 File upload\u0004Delete": [null, "Hapus"],
+  "runner#6|📂 File upload\u0004Drop your file now": [
+    null,
+    "Masukkan berkas anda sekarang"
+  ],
+  "runner#6|📂 File upload\u0004Extension is not allowed.": [
+    null,
+    "Ekstensi tidak diperbolehkan."
+  ],
+  "runner#6|📂 File upload\u0004File size is too large.": [
+    null,
+    "Ukuran berkas terlalu besar."
+  ],
+  "runner#6|📂 File upload\u0004Size limit: %1": [null, "Batas ukuran: %1"],
+  "runner#6|📂 File upload\u0004Something went wrong while uploading%1.": [
+    null,
+    "Ada yang tidak beres saat mengunggah%1."
+  ],
+  "runner#6|📂 File upload\u0004This file can't be used.": [
+    null,
+    "Berkas ini tidak dapat digunakan."
+  ],
+  "runner#6|📂 File upload\u0004Too many files selected.": [
+    null,
+    "Terlalu banyak berkas yang dipilih."
+  ],
+  "runner#6|📂 File upload\u0004Try again": [null, "Coba lagi"],
+  "runner#6|📂 File upload\u0004Uploading (%1)": [null, "Mengunggah (%1)"],
+  "runner#1|🆗 Buttons\u0004Back": [null, "Kembali"],
+  "runner#1|🆗 Buttons\u0004Next": [null, "Selanjutnya"],
+  "runner#1|🆗 Buttons\u0004Reload": [null, "Muat ulang"],
+  "runner#1|🆗 Buttons\u0004Retry": [null, "Mengulangi"],
+  "runner#1|🆗 Buttons\u0004Start": [null, "Mulai"],
+  "runner#1|🆗 Buttons\u0004Start again": [null, "Mulai ulang"],
+  "runner#1|🆗 Buttons\u0004Submit": [null, "Kirim"],
+  "runner#8|⏸ Pause conversation\u0004Cancel pausing": [
+    null,
+    "Batalkan penundaan"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Pause this conversation": [
+    null,
+    "Jeda percakapan ini"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive a link by email to resume later on any device, right where you left off.": [
+    null,
+    "Terima tautan melalui email untuk melanjutkan percakapan nanti di perangkat apa pun, tepat di tempat Anda tinggalkan."
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive resume link": [
+    null,
+    "Terima tautan lanjutan"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Your email address...": [
+    null,
+    "Alamat email anda..."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed, but you can try to reload the new version of the form while maintaining the data you've filled in. Click the reload button to try this. Please check your data after reloading and then submit again.": [
+    null,
+    "Tampaknya formulir diubah oleh pemiliknya saat Anda mengisi formulir. Data Anda tidak dapat diproses, tetapi Anda dapat mencoba memuat ulang versi baru formulir sambil mempertahankan data yang telah Anda isi. Klik tombol muat ulang untuk mencoba ini. Silakan periksa data Anda setelah memuat ulang dan kemudian kirimkan lagi."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed. Try reloading the form.": [
+    null,
+    "Tampaknya formulir diubah oleh pemiliknya saat Anda mengisi formulir. Data Anda tidak dapat diproses. Coba muat ulang formulir."
+  ],
+  "runner#6|🔷 Yes/No\u0004No": [null, "Tidak"],
+  "runner#6|🔷 Yes/No\u0004Yes": [null, "Ya"],
+  "runner#2|💬 Messages|Conversation closed\u0004Nothing to talk about. The conversation is closed 🤐": [
+    null,
+    "Tidak ada yang perlu dibicarakan. Percakapan ditutup 🤐"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004👋 Hi there!": [
+    null,
+    "👋 Hai!"
+  ],
+  "runner#3|🩺 Status information\u0004Pausing...": [null, "Menjeda..."],
+  "runner#3|🩺 Status information\u0004Submitting...": [null, "Mengirim..."],
+  "runner#3|🩺 Status information\u0004⏳ One moment please...": [
+    null,
+    "⏳ Tunggu sejenak..."
+  ],
+  "runner#9|⚠ Errors|Connection error\u0004Please check your connection and try again (for the techies: The error console of your browser might contain more technical information about what went wrong).": [
+    null,
+    "Silakan periksa koneksi Anda dan coba lagi (untuk teknisi: Konsol eror browser Anda mungkin berisi lebih banyak informasi teknis tentang apa yang salah)."
+  ],
+  "runner#9|⚠ Errors|Pausing error\u0004Something went wrong while pausing your conversation.": [
+    null,
+    "Ada yang tidak beres saat menjeda percakapan Anda."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Something went wrong while submitting your conversation.": [
+    null,
+    "Ada yang tidak beres saat mengirim percakapan Anda."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004The form is outdated.": [
+    null,
+    "Formulir sudah usang."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Your data is rejected.": [
+    null,
+    "Data anda ditolak."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004The conversation is now paused.": [
+    null,
+    "Percakapan dijeda."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004⏸ Paused": [null, "⏸ Ditunda"],
+  "runner#9|⚠ Errors|Rejected error\u0004Unfortunately, your data is marked as invalid and therefore rejected. If you believe this is a mistake, please contact the form owner. We're sorry for the inconvenience.": [
+    null,
+    "Sayangnya, data Anda ditandai sebagai tidak valid dan oleh karena itu ditolak. Jika Anda yakin ini adalah kesalahan, harap hubungi pemilik formulir. Kami mohon maaf atas ketidaknyamanan ini."
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004🎉 It's a wrap!": [
+    null,
+    "🎉 Luar biasa!"
+  ]
+}

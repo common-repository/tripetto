@@ -1,0 +1,464 @@
+{
+  "": {
+    "project-id-version": "@tripetto/runner-chat 2.0.1",
+    "report-msgid-bugs-to": "support@tripetto.com",
+    "pot-creation-date": "2021-09-13 16:36+0200",
+    "po-revision-date": "2021-09-13 16:39+0200",
+    "last-translator": "Hisam Fahri",
+    "language-team": "",
+    "language": "id",
+    "mime-version": "1.0",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-transfer-encoding": "8bit",
+    "x-generator": "Poedit 3.0",
+    "plural-forms": "nplurals=1; plural=0;"
+  },
+  "runner:chat\u0004100% height, width centered": [
+    null,
+    "100% tinggi, lebar di tengah"
+  ],
+  "runner:chat\u0004100% width, height centered": [
+    null,
+    "100% lebar, tinggi di tengah"
+  ],
+  "runner:chat\u0004Agree color (input buttons)": [
+    null,
+    "Setujui warna (tombol masukan)"
+  ],
+  "runner:chat\u0004Alignment": [null, "Penjajaran"],
+  "runner:chat\u0004Angry": [null, "Marah"],
+  "runner:chat\u0004Angry (natural)": [null, "Marah (natural)"],
+  "runner:chat\u0004Answers": [null, "Jawaban"],
+  "runner:chat\u0004Appearance": [null, "Tampilan"],
+  "runner:chat\u0004Auburn": [null, "Pirang"],
+  "runner:chat\u0004Automatically gain focus": [
+    null,
+    "Mendapatkan fokus secara otomatis"
+  ],
+  "runner:chat\u0004Automatically open chat window": [
+    null,
+    "Membuka jendela percakapan secara otomatis"
+  ],
+  "runner:chat\u0004Avatar": [null, "Avatar"],
+  "runner:chat\u0004Avatar image (URL)": [null, "Gambar avatar (URL)"],
+  "runner:chat\u0004Background": [null, "Latar belakang"],
+  "runner:chat\u0004Background color": [null, "Warna latar belakang"],
+  "runner:chat\u0004Bat": [null, "Kelelawar"],
+  "runner:chat\u0004Bear": [null, "Beruang"],
+  "runner:chat\u0004Black": [null, "Hitam"],
+  "runner:chat\u0004Blazer with shirt": [null, "Blazer dengan kemeja"],
+  "runner:chat\u0004Blazer with sweater": [null, "Bleazer dengan sweater"],
+  "runner:chat\u0004Blonde": [null, "Pirang"],
+  "runner:chat\u0004Blonde (golden)": [null, "Pirang (emas)"],
+  "runner:chat\u0004Blue (variant 1)": [null, "Biru (varian 1)"],
+  "runner:chat\u0004Blue (variant 2)": [null, "Biru (varian 2)"],
+  "runner:chat\u0004Blue (variant 3)": [null, "Biru (varian 3)"],
+  "runner:chat\u0004Border color": [null, "Warna garis"],
+  "runner:chat\u0004Border size": [null, "Ukuran garis"],
+  "runner:chat\u0004Brown": [null, "Cokelat"],
+  "runner:chat\u0004Brown (dark)": [null, "Cokelat (gelap)"],
+  "runner:chat\u0004Button": [null, "Tombol"],
+  "runner:chat\u0004Button color": [null, "Warna tombol"],
+  "runner:chat\u0004Buttons": [null, "Tombol-tombol"],
+  "runner:chat\u0004Center": [null, "Tengah"],
+  "runner:chat\u0004Chat button": [null, "Tombol percakapan"],
+  "runner:chat\u0004Chat content will be displayed inline with other page content.": [
+    null,
+    "Konten percakapan akan ditampilkan sejajar dengan konten halaman lainnya."
+  ],
+  "runner:chat\u0004Chat needs to be opened with a chat button (only supported when embedding the chat).": [
+    null,
+    "Percakapan perlu dibuka dengan tombol percakapan (hanya didukung saat menyematkan percakapan)."
+  ],
+  "runner:chat\u0004Closed": [null, "Tertutup"],
+  "runner:chat\u0004Collar with sweater": [null, "Kerah dengan sweater"],
+  "runner:chat\u0004Color": [null, "Warna"],
+  "runner:chat\u0004Concerned": [null, "Gelisah"],
+  "runner:chat\u0004Contain (full image stretched over screen)": [
+    null,
+    "Mengandung (gambar penuh membentang di atas layar)"
+  ],
+  "runner:chat\u0004Cover (full screen)": [null, "Sampul (layar penuh)"],
+  "runner:chat\u0004Create one now!": [null, "Buat satu sekarang!"],
+  "runner:chat\u0004Crying": [null, "Menangis"],
+  "runner:chat\u0004Cumbia": [null, "Cumbia"],
+  "runner:chat\u0004Custom fonts": [null, "Huruf kustom"],
+  "runner:chat\u0004Custom image": [null, "Gambar kustom"],
+  "runner:chat\u0004Decline color (input buttons)": [
+    null,
+    "Penurunan warna (tombol masukan)"
+  ],
+  "runner:chat\u0004Deer": [null, "Rusa"],
+  "runner:chat\u0004Default": [null, "Default"],
+  "runner:chat\u0004Diamond": [null, "Berlian"],
+  "runner:chat\u0004Disbelief": [null, "Tidak percaya"],
+  "runner:chat\u0004Dizzy": [null, "Pusing"],
+  "runner:chat\u0004Eating": [null, "Makan"],
+  "runner:chat\u0004Eye-rolling": [null, "Memutar mata"],
+  "runner:chat\u0004Eyepatch": [null, "Penutup mata"],
+  "runner:chat\u0004Fancy moustache": [null, "Kumis keren"],
+  "runner:chat\u0004Fill": [null, "Isi"],
+  "runner:chat\u0004Flat": [null, "Rata"],
+  "runner:chat\u0004Font": [null, "Huruf"],
+  "runner:chat\u0004Font family": [null, "Kelompok huruf"],
+  "runner:chat\u0004Font size": [null, "Ukuran huruf"],
+  "runner:chat\u0004Font size for small screens": [
+    null,
+    "Ukuran font untuk layar kecil"
+  ],
+  "runner:chat\u0004Google Fonts or URL": [null, "Font Google atau URL"],
+  "runner:chat\u0004Gray (variant 1)": [null, "Abu-abu (varian 1)"],
+  "runner:chat\u0004Gray (variant 2)": [null, "Abu-abu (varian 2)"],
+  "runner:chat\u0004Grimace": [null, "Meringis"],
+  "runner:chat\u0004Happy": [null, "Senang"],
+  "runner:chat\u0004Hat": [null, "Topi"],
+  "runner:chat\u0004Hearts": [null, "Hati"],
+  "runner:chat\u0004Heather": [null, "Heather"],
+  "runner:chat\u0004Hide all the Tripetto branding": [
+    null,
+    "Sembunyikan semua merek Tripetto"
+  ],
+  "runner:chat\u0004Hijab": [null, "Hijab"],
+  "runner:chat\u0004Hola": [null, "Hola"],
+  "runner:chat\u0004Hoodie": [null, "Tudung"],
+  "runner:chat\u0004Icon (URL)": [null, "Ikon (URL)"],
+  "runner:chat\u0004Illustration": [null, "Ilustrasi"],
+  "runner:chat\u0004Image (URL)": [null, "Gambar (URL)"],
+  "runner:chat\u0004Inline": [null, "Dalam barisan"],
+  "runner:chat\u0004Inputs": [null, "Masukan"],
+  "runner:chat\u0004Kurt": [null, "Kurt"],
+  "runner:chat\u0004Left": [null, "Kir"],
+  "runner:chat\u0004Light beard": [null, "Jenggot tipis"],
+  "runner:chat\u0004Long hair / Big": [null, "Rambut panjang / Besar"],
+  "runner:chat\u0004Long hair / Bob": [null, "Rambut panjang / Bob"],
+  "runner:chat\u0004Long hair / Bun": [null, "Rambut panjang / Sanggul"],
+  "runner:chat\u0004Long hair / Curly": [null, "Rambut panjang / Ikal"],
+  "runner:chat\u0004Long hair / Curvy": [null, "Rambut panjang / Bergelombang"],
+  "runner:chat\u0004Long hair / Dreads": [null, "Rambut panjang / Gimbal"],
+  "runner:chat\u0004Long hair / Frida": [null, "Rambut panjang / Frida"],
+  "runner:chat\u0004Long hair / Fro": [null, "Rambut panjang / Fro"],
+  "runner:chat\u0004Long hair / Fro (with band)": [
+    null,
+    "Rambut panjang / Fro (dengan ikat)"
+  ],
+  "runner:chat\u0004Long hair / Mia Wallace": [
+    null,
+    "Rambut panjang / Mia Wallace"
+  ],
+  "runner:chat\u0004Long hair / Not too long": [
+    null,
+    "Rambut panjang / Tidak terlalu panjang"
+  ],
+  "runner:chat\u0004Long hair / Shaved sides": [
+    null,
+    "Rambut panjang / Cukur samping"
+  ],
+  "runner:chat\u0004Long hair / Straight (variant 1)": [
+    null,
+    "Rambut panjang / Lurus (varian 1)"
+  ],
+  "runner:chat\u0004Long hair / Straight (variant 2)": [
+    null,
+    "Rambut panjang / Lurus (varian 2)"
+  ],
+  "runner:chat\u0004Long hair / Straight strand": [
+    null,
+    "Rambut panjang / Lurus berdiri"
+  ],
+  "runner:chat\u0004Magestic beard": [null, "Jenggot megah"],
+  "runner:chat\u0004Magnum moustache": [null, "Kumis magnum"],
+  "runner:chat\u0004Medium beard": [null, "Jenggot medium"],
+  "runner:chat\u0004Neutral": [null, "Netral"],
+  "runner:chat\u0004Neutral (natural)": [null, "Netral (natural)"],
+  "runner:chat\u0004No facial hair": [null, "Tanpa bulu wajah"],
+  "runner:chat\u0004No hair": [null, "Tanpa rambut"],
+  "runner:chat\u0004None": [null, "Tidak ada"],
+  "runner:chat\u0004Only applies when embedding the chat.": [
+    null,
+    "Hanya berlaku saat menyematkan obrolan."
+  ],
+  "runner:chat\u0004Opacity": [null, "Opasitas"],
+  "runner:chat\u0004Options": [null, "Pilihan"],
+  "runner:chat\u0004Outline": [null, "Garis luar"],
+  "runner:chat\u0004Pastel (pink)": [null, "Pastel (pink)"],
+  "runner:chat\u0004Pastel blue": [null, "Biru pastel"],
+  "runner:chat\u0004Pastel green": [null, "Hijau pastel"],
+  "runner:chat\u0004Pastel orange": [null, "Oranye pastel"],
+  "runner:chat\u0004Pastel red": [null, "Merah pastel"],
+  "runner:chat\u0004Pastel yellow": [null, "Kuning pastel"],
+  "runner:chat\u0004Pink": [null, "Pink"],
+  "runner:chat\u0004Pizza": [null, "Pizza"],
+  "runner:chat\u0004Platinum": [null, "Platinum"],
+  "runner:chat\u0004Please add a block first to get the magic going.": [
+    null,
+    "Harap tambahkan satu blok terlebih dahulu untuk memulai keajaiban."
+  ],
+  "runner:chat\u0004Positioning": [null, "Pemosisian"],
+  "runner:chat\u0004Prescription (variant 1)": [null, "Resep (varian 1)"],
+  "runner:chat\u0004Prescription (variant 2)": [null, "Resep (varian 2)"],
+  "runner:chat\u0004Questions": [null, "Pertanyaan"],
+  "runner:chat\u0004Raised/excited": [null, "Dibesarkan/semangat"],
+  "runner:chat\u0004Raised/excited (natural)": [
+    null,
+    "Raised/excited (natural)"
+  ],
+  "runner:chat\u0004Red": [null, "Merah"],
+  "runner:chat\u0004Repeat": [null, "Ulangi"],
+  "runner:chat\u0004Required/error color": [null, "Wajib/kesalahan warna"],
+  "runner:chat\u0004Resist": [null, "Menolak"],
+  "runner:chat\u0004Right": [null, "Kanan"],
+  "runner:chat\u0004Round": [null, "Lingkaran"],
+  "runner:chat\u0004Roundness": [null, "Kebulatan"],
+  "runner:chat\u0004Sad": [null, "Sedih"],
+  "runner:chat\u0004Sad/concerned": [null, "Sedih/prihatin"],
+  "runner:chat\u0004Sad/concerned (natural)": [
+    null,
+    "Sedih/prihatin (natural)"
+  ],
+  "runner:chat\u0004Screaming": [null, "Menjerit"],
+  "runner:chat\u0004Selection color (input buttons)": [
+    null,
+    "Pilihan warna (tombol masukan)"
+  ],
+  "runner:chat\u0004Selena": [null, "Selena"],
+  "runner:chat\u0004Serious": [null, "Serius"],
+  "runner:chat\u0004Shirt (V-neck)": [null, "Kemeja (leher-V)"],
+  "runner:chat\u0004Shirt (crew neck)": [null, "Kemeja (kaos oblong)"],
+  "runner:chat\u0004Shirt (scoop neck)": [null, "Kemeja (leher scoop)"],
+  "runner:chat\u0004Shirt (with graphic)": [null, "Kemeja (dengan gambar)"],
+  "runner:chat\u0004Short hair / Curly": [null, "Rambut pendek / Ikal"],
+  "runner:chat\u0004Short hair / Dreads (variant 1)": [
+    null,
+    "Rambut pendek / Gimbal (varian 1)"
+  ],
+  "runner:chat\u0004Short hair / Dreads (variant 2)": [
+    null,
+    "Rambut pendek / Gimbal (varian 2)"
+  ],
+  "runner:chat\u0004Short hair / Flat": [null, "Rambut pendek / Rata"],
+  "runner:chat\u0004Short hair / Frizzle": [null, "Rambut pendek / Keriting"],
+  "runner:chat\u0004Short hair / Round": [null, "Rambut pendek / Melingkar"],
+  "runner:chat\u0004Short hair / Shaggy mullet": [
+    null,
+    "Rambut pendek / Belanak berbulu"
+  ],
+  "runner:chat\u0004Short hair / Sides": [null, "Rambut pendek / Samping"],
+  "runner:chat\u0004Short hair / The Caesar": [null, "Rambut pendek / Caesar"],
+  "runner:chat\u0004Short hair / The caesar (side part)": [
+    null,
+    "Rambut pendek / Caesa (bagian samping)"
+  ],
+  "runner:chat\u0004Short hair / Waved": [null, "Rambut pendek / Bergelombang"],
+  "runner:chat\u0004Show scrollbar": [null, "Tampilkan bilah gulir"],
+  "runner:chat\u0004Side": [null, "Samping"],
+  "runner:chat\u0004SilverGray": [null, "AbuSilver"],
+  "runner:chat\u0004Skull": [null, "Tengkorak"],
+  "runner:chat\u0004Skull (outline)": [null, "Tengkorak (garis)"],
+  "runner:chat\u0004Smiling": [null, "Tersenyum"],
+  "runner:chat\u0004Squint": [null, "Juling"],
+  "runner:chat\u0004Standard fonts": [null, "Huruf standar"],
+  "runner:chat\u0004Style": [null, "Gaya"],
+  "runner:chat\u0004Sunglasses": [null, "Kacamata"],
+  "runner:chat\u0004Surprised": [null, "Terkejut"],
+  "runner:chat\u0004Tap or click to set a preview answer": [
+    null,
+    "Ketuk atau klik untuk menyetel jawaban pratinjau"
+  ],
+  "runner:chat\u0004Test again": [null, "Uji lagi"],
+  "runner:chat\u0004Text color": [null, "Ukuran teks"],
+  "runner:chat\u0004The supplied URL is invalid!": [
+    null,
+    "URL yang diberikan tidak valid!"
+  ],
+  "runner:chat\u0004The test conversation has ended. In a live environment this conversation will now redirect to:": [
+    null,
+    "Percakapan percobaan telah berakhir. Di kondisi hidup, percakapan ini sekarang akan dialihkan ke:"
+  ],
+  "runner:chat\u0004Tongue": [null, "Lidah"],
+  "runner:chat\u0004Tripetto is for making elegantly personal form and survey experiences with response boosting conversational powers.": [
+    null,
+    "Tripetto adalah untuk membuat formulir pribadi yang elegan dan pengalaman survei dengan respons yang meningkatkan kekuatan percakapan."
+  ],
+  "runner:chat\u0004Turban": [null, "Serban"],
+  "runner:chat\u0004Twinkle": [null, "Kelip"],
+  "runner:chat\u0004Type": [null, "Tulis"],
+  "runner:chat\u0004Unibrow": [null, "Unibrow"],
+  "runner:chat\u0004Up and down": [null, "Naik dan turun"],
+  "runner:chat\u0004Up and down (natural)": [null, "Naik dan turun (natural)"],
+  "runner:chat\u0004Use any font available on [Google Fonts](https://fonts.google.com/) or supply a custom font URL. Please note that the Google Fonts name is case sensitive.": [
+    null,
+    "Gunakan font apa pun yang tersedia di [Google Fonts] (https://fonts.google.com/) atau berikan URL font kustom. Harap perhatikan bahwa nama Google Fonts peka terhadap huruf besar-kecil."
+  ],
+  "runner:chat\u0004Use full width": [null, "Gunakan lebar penuh"],
+  "runner:chat\u0004Vomit": [null, "Muntah"],
+  "runner:chat\u0004Want to make a chat-style conversation like this for free?": [
+    null,
+    "Ingin melakukan percakapan ala chat seperti ini secara gratis?"
+  ],
+  "runner:chat\u0004Wayfarers": [null, "Musafir"],
+  "runner:chat\u0004White": [null, "Putih"],
+  "runner:chat\u0004Wink": [null, "Kedip"],
+  "runner:chat\u0004Wink (wacky)": [null, "Kedip (aneh)"],
+  "runner:chat\u0004Winter hat (variant 1)": [
+    null,
+    "Topi musim dingin (varian 1)"
+  ],
+  "runner:chat\u0004Winter hat (variant 2)": [
+    null,
+    "Topi musim dingin (varian 2)"
+  ],
+  "runner:chat\u0004Winter hat (variant 3)": [
+    null,
+    "Topi musim dingin (varian 3)"
+  ],
+  "runner:chat\u0004Winter hat (variant 4)": [
+    null,
+    "Topi musim dingin (varian 4)"
+  ],
+  "runner:chat\u0004_Note_: This size applies to small screens (like mobile devices). Switch to the mobile device preview to see and test this small font size.": [
+    null,
+    "_Catatan_: Ukuran ini berlaku untuk layar kecil (seperti perangkat seluler). Beralih ke pratinjau perangkat seluler untuk melihat dan menguji ukuran font kecil ini."
+  ],
+  "runner:chat\u0004✂ Hair/hat": [null, "✂ Rambut/topi"],
+  "runner:chat\u0004✏ Eyebrow": [null, "✏ Alis"],
+  "runner:chat\u0004🎅 Hat color": [null, "🎅 Warna topi"],
+  "runner:chat\u0004🎨 Clothing color": [null, "🎨 Warna pakaian"],
+  "runner:chat\u0004🎨 Facial hair color": [null, "🎨 Warna bulu wajah"],
+  "runner:chat\u0004🎨 Hair color": [null, "🎨 Warna rambut"],
+  "runner:chat\u0004👁 Eyes": [null, "👁 Mata"],
+  "runner:chat\u0004👄 Mouth": [null, "👄 Mulut"],
+  "runner:chat\u0004👋 Hi there!": [null, "👋 Hai!"],
+  "runner:chat\u0004👓 Accessories": [null, "👓 Aksesoris"],
+  "runner:chat\u0004👔 Clothing": [null, "👔 Pakaian"],
+  "runner:chat\u0004🖼 Clothing graphic": [null, "🖼 Gambar pakaian"],
+  "runner:chat\u0004🤝🏼 Skin": [null, "🤝🏼 Kulit"],
+  "runner:chat\u0004🪒 Facial hair": [null, "🪒 Bulu wajah"],
+  "runner#6|📂 File upload\u0004Allowed extensions: %1": [
+    null,
+    "Ekstensi yang diperbolehkan: %1"
+  ],
+  "runner#6|📂 File upload\u0004Choose or drag a file here": [
+    null,
+    "Pilih atau seret berkas di sini"
+  ],
+  "runner#6|📂 File upload\u0004Delete": [null, "Hapus"],
+  "runner#6|📂 File upload\u0004Drop your file now": [
+    null,
+    "Masukkan berkas anda sekarang"
+  ],
+  "runner#6|📂 File upload\u0004Extension is not allowed.": [
+    null,
+    "Ekstensi tidak diperbolehkan."
+  ],
+  "runner#6|📂 File upload\u0004File size is too large.": [
+    null,
+    "Ukuran berkas terlalu besar."
+  ],
+  "runner#6|📂 File upload\u0004Size limit: %1": [null, "Batas ukuran: %1"],
+  "runner#6|📂 File upload\u0004Something went wrong while uploading%1.": [
+    null,
+    "Ada yang tidak beres saat mengunggah%1."
+  ],
+  "runner#6|📂 File upload\u0004This file can't be used": [
+    null,
+    "Berkas tidak dapat digunakan"
+  ],
+  "runner#6|📂 File upload\u0004Too many files selected.": [
+    null,
+    "Terlalu banyak berkas yang dipilih."
+  ],
+  "runner#6|📂 File upload\u0004Try again": [null, "Coba lagi"],
+  "runner#6|📂 File upload\u0004Uploading (%1)": [null, "Mengunggah (%1)"],
+  "runner#1|🆗 Buttons\u0004Back": [null, "Kembali"],
+  "runner#1|🆗 Buttons\u0004Pause": [null, "Jeda"],
+  "runner#1|🆗 Buttons\u0004Reload": [null, "Muat ulang"],
+  "runner#1|🆗 Buttons\u0004Retry": [null, "Mengulangi"],
+  "runner#1|🆗 Buttons\u0004Skip": [null, "Lewati"],
+  "runner#1|🆗 Buttons\u0004Submit": [null, "Kirim"],
+  "runner#8|⏸ Pause conversation\u0004Cancel pausing": [
+    null,
+    "Batalkan penundaan"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Pause this conversation": [
+    null,
+    "Jeda percakapan ini"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive a link by email to resume later on any device, right where you left off.": [
+    null,
+    "Terima tautan melalui email untuk melanjutkan percakapan nanti di perangkat apa pun, tepat di tempat Anda tinggalkan."
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive resume link": [
+    null,
+    "Terima tautan lanjutan"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Your email address...": [
+    null,
+    "Alamat email anda..."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed, but you can try to reload the new version of the form while maintaining the data you've filled in. Click the reload button to try this. Please check your data after reloading and then submit again.": [
+    null,
+    "Tampaknya formulir diubah oleh pemiliknya saat Anda mengisi formulir. Data Anda tidak dapat diproses, tetapi Anda dapat mencoba memuat ulang versi baru formulir sambil mempertahankan data yang telah Anda isi. Klik tombol muat ulang untuk mencoba ini. Silakan periksa data Anda setelah memuat ulang dan kemudian kirimkan lagi."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed. Try reloading the form.": [
+    null,
+    "Tampaknya formulir diubah oleh pemiliknya saat Anda mengisi formulir. Data Anda tidak dapat diproses. Coba muat ulang formulir."
+  ],
+  "runner#6|🔷 Yes/No\u0004No": [null, "Tidak"],
+  "runner#6|🔷 Yes/No\u0004Yes": [null, "Ya"],
+  "runner#2|💬 Messages|Nothing selected\u0004Nothing selected": [
+    null,
+    "Tidak ada yang dipilih"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004Nothing to talk about. The conversation is closed 🤐": [
+    null,
+    "Tidak ada yang perlu dibicarakan. Percakapan ditutup 🤐"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004👋 Hi there!": [
+    null,
+    "👋 Hai!"
+  ],
+  "runner#2|💬 Messages|Pause request\u0004Pause this conversation": [
+    null,
+    "Jeda percakapan ini"
+  ],
+  "runner#9|⚠ Errors|Connection error\u0004Please check your connection and try again (for the techies: The error console of your browser might contain more technical information about what went wrong).": [
+    null,
+    "Silakan periksa koneksi Anda dan coba lagi (untuk teknisi: Konsol eror browser Anda mungkin berisi lebih banyak informasi teknis tentang apa yang salah)."
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004Reopen conversation": [
+    null,
+    "Buka ulang percakapan"
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004Thank you for this conversation!": [
+    null,
+    "Terimakasih untuk percakapan ini!"
+  ],
+  "runner#9|⚠ Errors|Pausing error\u0004Something went wrong while pausing your conversation.": [
+    null,
+    "Ada yang tidak beres saat menjeda percakapan Anda."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Something went wrong while submitting your conversation.": [
+    null,
+    "Ada yang tidak beres saat mengirim percakapan Anda."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004The form is outdated.": [
+    null,
+    "Formulir sudah usang."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Your data is rejected.": [
+    null,
+    "Data anda ditolak."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004The conversation is now paused.": [
+    null,
+    "Percakapan dijeda."
+  ],
+  "runner#9|⚠ Errors|Rejected error\u0004Unfortunately, your data is marked as invalid and therefore rejected. If you believe this is a mistake, please contact the form owner. We're sorry for the inconvenience.": [
+    null,
+    "Sayangnya, data Anda ditandai sebagai tidak valid dan oleh karena itu ditolak. Jika Anda yakin ini adalah kesalahan, harap hubungi pemilik formulir. Kami mohon maaf atas ketidaknyamanan ini."
+  ],
+  "runner#2|💬 Messages|Skipped\u0004You skipped this question": [
+    null,
+    "Anda melewati pertanyaan ini"
+  ]
+}

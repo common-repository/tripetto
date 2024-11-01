@@ -1,0 +1,552 @@
+{
+  "name": "Support Request",
+  "language": "en",
+  "prologue": {
+    "title": "Welcome to our online Support Center.",
+    "description": "Please submit your support request via this form and we will help you as soon as possible.",
+    "button": "Start Support Request"
+  },
+  "clusters": [
+    {
+      "id": "54720267d2a4de6cc9c15d6bbaf091822cd6150041726e6da2ba12d17ed1797f",
+      "name": "Product",
+      "nodes": [
+        {
+          "id": "1ee610bee06d96b8df656259f108a6fed52cc87a229b541f726367da6c572633",
+          "name": "Which product is your support request about?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "a6bcc085af6782e65a45e63b9ee8366dea1656be8f39f900e4ffecac39bf0ae8",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Image",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "f49e17d0019366623457bb87fa48a42fa131d9680d47a6234069f2fa6f906ffd",
+                "name": "My Phone",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80"
+              },
+              {
+                "id": "df6d37400d9ba6b4abaa2c33e502dc0a90ca54ffc374e870028668f061baf497",
+                "name": "My Computer",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80"
+              },
+              {
+                "id": "a944dcc2cb1812ec80f79643f3fafa507d8788753f3ab23326a3c313fc56abdc",
+                "name": "My TV",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1586024486164-ce9b3d87e09f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1356&q=80"
+              }
+            ],
+            "required": true
+          }
+        },
+        {
+          "id": "bbb309e13b1d8f9dd0ceef975e09f0e574945d2fad7c4866d5f332cacb3968a7",
+          "name": "Is your product still under warranty?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "41d4b9adc9ccf70b78dc48433a6e632aa3f2e0d884e99dab0b54d9bc0fc6ff07",
+              "type": "string",
+              "kind": "static",
+              "reference": "answer",
+              "label": "Answer",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-yes-no", "version": "4.0.2" }
+        }
+      ]
+    },
+    {
+      "id": "3b13765b1ec29b16d524b841db84016e53d6944e0d072285f6ab3b1a4d189f5f",
+      "name": "Subject",
+      "nodes": [
+        {
+          "id": "fc38bd118f57a3f76c2937dca8509fc3830bf85ec4ef558c81e595584b714185",
+          "name": "What's your question about?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "db8bbe23dc26bb0ceed3b61109e22a831006b2725a81ed5f16b4ba48b07194d9",
+              "type": "string",
+              "kind": "static",
+              "reference": "choice",
+              "label": "Choice",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-multiple-choice",
+            "version": "5.1.0",
+            "choices": [
+              {
+                "id": "764ad71ea35d80a27b32286d363beffe4859a6aff4f63d49aa26790a8e9dbcc9",
+                "name": "Daily Usage"
+              },
+              {
+                "id": "a770d6898ae6d02ef2e329ecc3cbd593056a2577871f14f0bc53d1d5be540f4f",
+                "name": "Repair"
+              },
+              {
+                "id": "e127cc5534149836cc9b8b48218c9cb3e46808545261998e0e3df65b45b873eb",
+                "name": "Replacement"
+              },
+              {
+                "id": "cedbb48685402395265cb3f3d8ffc7fc61708dcb5f01412cc5576fb230b6738e",
+                "name": "Other..."
+              }
+            ],
+            "alignment": true,
+            "required": true
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "d175d27a1c01224a9eed056f5bcf67b46fe84272e94400d37cf3781cbed88bc2",
+          "name": "Branch for other subject",
+          "clusters": [
+            {
+              "id": "b2c9b353220f0447f760607bbc393fe07ba5513a189e3781a5527b2a7c7228bd",
+              "name": "Subject - Other",
+              "nodes": [
+                {
+                  "id": "d79a8118d9ad2b24b610a2ec68ed33fa5432ab1524c6f5af12a72c97f4ca27a4",
+                  "explanation": "Characters remaining: **@200368ca94eb98f9aca4c457558b3ae67d4f81f3efe66d73b10ef929f8f50a43 of 100**",
+                  "name": "What other subject is your question about?",
+                  "nameVisible": true,
+                  "placeholder": "Briefly describe your question or issue...",
+                  "slots": [
+                    {
+                      "id": "68c468dbbf1bc07a6a5b9a63012d26cc2b24a0e6c710469f2500ac8e457693c7",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Text",
+                      "required": true,
+                      "maxLength": 100
+                    }
+                  ],
+                  "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+                },
+                {
+                  "id": "22d210e8c0276ca09a33fa162c3f4b2936da1881589c749630b8ba4489679d31",
+                  "name": "Characters remaining for 'Other subject'",
+                  "slots": [
+                    {
+                      "id": "200368ca94eb98f9aca4c457558b3ae67d4f81f3efe66d73b10ef929f8f50a43",
+                      "type": "numeric",
+                      "kind": "static",
+                      "reference": "calculator",
+                      "label": "Characters remaining for 'Other subject'",
+                      "minimum": 0,
+                      "maximum": 100
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-calculator",
+                    "version": "3.1.1",
+                    "operations": [
+                      {
+                        "id": "42ec93cb9b33645ce2b96e5308b38544810f116c6e091de0035934caac638c8c",
+                        "operator": "=",
+                        "opcode": "number",
+                        "value": 100
+                      },
+                      {
+                        "id": "709848518bc5ca54b6fc8dc103448f04b19ad39774de90be8758a26cfe6c1789",
+                        "operator": "-",
+                        "opcode": "chars",
+                        "value": "68c468dbbf1bc07a6a5b9a63012d26cc2b24a0e6c710469f2500ac8e457693c7"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "e0e30e88529d3d18fdebddf2b32b43849ac60edce2d27df134db8e995a8ae2e3",
+              "block": {
+                "choice": "cedbb48685402395265cb3f3d8ffc7fc61708dcb5f01412cc5576fb230b6738e",
+                "type": "tripetto-block-multiple-choice",
+                "version": "5.1.0",
+                "node": "fc38bd118f57a3f76c2937dca8509fc3830bf85ec4ef558c81e595584b714185",
+                "slot": "db8bbe23dc26bb0ceed3b61109e22a831006b2725a81ed5f16b4ba48b07194d9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25ebeae2d40f2040cba3c026702b6544a7dda41bbecad6d4a4c22eef31f19422",
+      "name": "Message",
+      "nodes": [
+        {
+          "id": "7a48db262c3c81e00e4e980f9f9c8e15f4eeaa9c07890abe12ca09eb4ff96e11",
+          "name": "What's your support request?",
+          "nameVisible": true,
+          "placeholder": "Describe your support request in detail...",
+          "description": "Please describe your support request in detail.",
+          "slots": [
+            {
+              "id": "03937dbab577b08d25c06336cf75c33ca749dc948988f889bf2c6de172e79440",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Multi-line text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-textarea", "version": "5.1.0" }
+        },
+        {
+          "id": "ffd913b7e95286859fd8a1f651bc833e772d0a7c4cc26a07c0d0c94baa3f0cb6",
+          "name": "Optional: attach a screenshot/photo",
+          "nameVisible": true,
+          "description": "Please attach a screenshot/photo if that helps us to investigate your support request. Else, continue to the next step.",
+          "slots": [
+            {
+              "id": "68df2c39febc72981d760d886437e1538f1bd9d7f078373d3e39b78a0a474fb7",
+              "type": "string",
+              "kind": "static",
+              "reference": "file",
+              "label": "File upload",
+              "protected": true
+            }
+          ],
+          "block": { "type": "tripetto-block-file-upload", "version": "4.0.0" }
+        }
+      ]
+    },
+    {
+      "id": "0d44272f32004f2cbb0cf411717af5794cf1e528c8ff48fd93738607acafb27e",
+      "name": "User",
+      "nodes": [
+        {
+          "id": "896758beff2031c93019769c249b9fc722f5cfe32d04f9b6fd9352c67b83dfbe",
+          "name": "What's your name?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "c4a976ec6484344ca44e62283a45b51bc853d14124aa75400cc906549d06f38e",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "673670eb773dac63586691ec76e9ed7ee0e916fd17a55530cb0930eec6fdcf7c",
+          "name": "What's your email address?",
+          "nameVisible": true,
+          "description": "We will only use this email address to send you a confirmation message of your support request and to contact you about this support request.",
+          "slots": [
+            {
+              "id": "719a3403f3a777c4cf409bb55d729adecce7c9da15e6556680435242bc6baeae",
+              "type": "string",
+              "kind": "static",
+              "reference": "email",
+              "label": "Email address",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-email", "version": "5.0.0" }
+        }
+      ]
+    },
+    {
+      "id": "621eed105c095d42e0db43e186c9b07cf34aed9d0d0738e1d47c3d904e32138d",
+      "name": "Send emails",
+      "nodes": [
+        {
+          "id": "2dc84929e9aa6f3921b0de2a97ee0d4d657523ec7c3869507d4c2da11cce5a3c",
+          "name": "Confirmation of your support request.",
+          "description": "Hi @c4a976ec6484344ca44e62283a45b51bc853d14124aa75400cc906549d06f38e,\n\nThanks for contacting. We have received your support request and will contact you as soon as possible.",
+          "slots": [
+            {
+              "id": "98f6de56c788efbcdb1c0f98b996814fc6a2e112e93b76d26e672e69ba3c34f0",
+              "type": "string",
+              "kind": "static",
+              "reference": "recipient",
+              "label": "Recipient",
+              "actionable": true
+            },
+            {
+              "id": "07e695d15cf614fbd76015e62b2af63580c98004a4efd2f792b599b02bb0caad",
+              "type": "string",
+              "kind": "static",
+              "reference": "subject",
+              "label": "Subject",
+              "actionable": true
+            },
+            {
+              "id": "e5debcaf1e87c26f0239cc2dce8c2193e91f2327fd64b5ba7cf91160d4ce338e",
+              "type": "text",
+              "kind": "static",
+              "reference": "message",
+              "label": "Message",
+              "actionable": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-mailer",
+            "version": "5.0.1",
+            "recipient": "719a3403f3a777c4cf409bb55d729adecce7c9da15e6556680435242bc6baeae"
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "0c852d85b251a838124c66dddd57a3464c926c28713924d8edae3a3107e32749",
+          "name": "Branch for Phone support",
+          "clusters": [
+            {
+              "id": "c4a9b81a546db8ecb1fc5797ac1fecdaf2b25f8ca0b31f48da2ea0835ba5268d",
+              "name": "Support Ticket to Phone department",
+              "nodes": [
+                {
+                  "id": "8ce9ccd9b6d04c0b5d2d56958737a39d8aa41168e3c47fb9f339c2c0c7f540ab",
+                  "name": "New Phone Support Request",
+                  "description": "A new support request for the Phone department has been submitted. Please see the details below.",
+                  "slots": [
+                    {
+                      "id": "8abb5af57ff8aae6989c8758dbbdc8a41a4d7354a29b08aa9a2f44449d6479b9",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "recipient",
+                      "label": "Recipient",
+                      "actionable": true
+                    },
+                    {
+                      "id": "95c97612b8fdd631e1e9609445fef04e438c76f973e22d03981f7512fa70ad54",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "subject",
+                      "label": "Subject",
+                      "actionable": true
+                    },
+                    {
+                      "id": "b3e14232a46b392bcf0c3e6b242a35d79932196767142000313a1b4b509bed07",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "message",
+                      "label": "Message",
+                      "actionable": true
+                    },
+                    {
+                      "id": "2bac8a4fd1d9388e20e3889ff164d2abf2a762c4f54b3eddb70995697f000a0c",
+                      "type": "boolean",
+                      "kind": "static",
+                      "reference": "data",
+                      "label": "Data",
+                      "pipeable": false,
+                      "exportable": false,
+                      "actionable": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-mailer",
+                    "version": "5.0.1",
+                    "recipient": "fixed",
+                    "recipientFixed": "phone-support@example.com",
+                    "includeData": true
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "2a52498b50a6e9268a2d4bc1a5def15d2958b5d67429eebc593bc07cb2eb77d2",
+              "block": {
+                "choice": "f49e17d0019366623457bb87fa48a42fa131d9680d47a6234069f2fa6f906ffd",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "1ee610bee06d96b8df656259f108a6fed52cc87a229b541f726367da6c572633",
+                "slot": "a6bcc085af6782e65a45e63b9ee8366dea1656be8f39f900e4ffecac39bf0ae8"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Phone Support Request submitted",
+            "description": "Our phone department has received your support request. They will contact you as soon as possible."
+          }
+        },
+        {
+          "id": "45c47101b8bc1ad1ac0768d00303dc885350fd2dd8db8489f7b5da7f53ffc7ff",
+          "name": "Branch for Computer support",
+          "clusters": [
+            {
+              "id": "c3df125bd04cdaa14df7a17eff92e02e18cf360967c9dd582ef2710bba00e3fd",
+              "name": "Support Ticket to Computer department",
+              "nodes": [
+                {
+                  "id": "da075eaf7ed516a167e4b880f3578cbf4144affc2e889a9ef8a2248498bd3a08",
+                  "name": "New Computer Support Request",
+                  "description": "A new support request for the Computer department has been submitted. Please see the details below.",
+                  "slots": [
+                    {
+                      "id": "25c4c059521c3232090a8615802b2c095b538ee07acd0d4f6bfeec9622fd7368",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "recipient",
+                      "label": "Recipient",
+                      "actionable": true
+                    },
+                    {
+                      "id": "5f7cd037842ebca7753f4b83620ac2e3acf6314c71617dd88f0872f1f4ad5871",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "subject",
+                      "label": "Subject",
+                      "actionable": true
+                    },
+                    {
+                      "id": "f482b91d6be02937f9e8399f578d19e371f1fabaa48234985f31e865e59a0cb9",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "message",
+                      "label": "Message",
+                      "actionable": true
+                    },
+                    {
+                      "id": "c582b9b2b97f1a498f1f320913e31f61814ed152a00863a0a8af9df8a058a653",
+                      "type": "boolean",
+                      "kind": "static",
+                      "reference": "data",
+                      "label": "Data",
+                      "pipeable": false,
+                      "exportable": false,
+                      "actionable": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-mailer",
+                    "version": "5.0.1",
+                    "recipient": "fixed",
+                    "recipientFixed": "computer-support@example.com",
+                    "includeData": true
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "55dc73273c02ef1250fdaa41dfce93b610df9f0d6f8111f1ac273b8fac9effbb",
+              "block": {
+                "choice": "df6d37400d9ba6b4abaa2c33e502dc0a90ca54ffc374e870028668f061baf497",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "1ee610bee06d96b8df656259f108a6fed52cc87a229b541f726367da6c572633",
+                "slot": "a6bcc085af6782e65a45e63b9ee8366dea1656be8f39f900e4ffecac39bf0ae8"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Computer Support Request submitted",
+            "description": "Our computer department has received your support request. They will contact you as soon as possible."
+          }
+        },
+        {
+          "id": "5179dca13377b0a04f1864f438a2ad79c4e955bc551705c1833fb31a8f4e2faf",
+          "name": "Branch for TV support",
+          "clusters": [
+            {
+              "id": "0e755bea01bf6e003f38415120bde2ff310b0298a26d7ef555e37233fba62c04",
+              "name": "Support Ticket to TV department",
+              "nodes": [
+                {
+                  "id": "6f5c4ca6875512c19fee572952ee427a7f5394dc2b07b9c4b1554fad9e4552ca",
+                  "name": "New TV Support Request",
+                  "description": "A new support request for the TV department has been submitted. Please see the details below.",
+                  "slots": [
+                    {
+                      "id": "0a16fd979cdf40f00896b1bb921a3d7146d92191447953a9ee28b6280a8a7c12",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "recipient",
+                      "label": "Recipient",
+                      "actionable": true
+                    },
+                    {
+                      "id": "b6e1fd65a7cd479d972adc35941d968120dd3bb0b102855f4c3e7bbb4fac0c5a",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "subject",
+                      "label": "Subject",
+                      "actionable": true
+                    },
+                    {
+                      "id": "c7f5f88dc45e6a8ed85da1fbc9ce135543334b0cec2a0f032e7ecb89608500e1",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "message",
+                      "label": "Message",
+                      "actionable": true
+                    },
+                    {
+                      "id": "169273c18149d2edf4a7deaaf5e81a5603b2de06a35cefd2a8c581239aed4a10",
+                      "type": "boolean",
+                      "kind": "static",
+                      "reference": "data",
+                      "label": "Data",
+                      "pipeable": false,
+                      "exportable": false,
+                      "actionable": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-mailer",
+                    "version": "5.0.1",
+                    "recipient": "fixed",
+                    "recipientFixed": "tv-support@example.com",
+                    "includeData": true
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "9c32357efd48b84694c7966c05f113051bc5fee204f76b71ebee7aca60b120b0",
+              "block": {
+                "choice": "a944dcc2cb1812ec80f79643f3fafa507d8788753f3ab23326a3c313fc56abdc",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "1ee610bee06d96b8df656259f108a6fed52cc87a229b541f726367da6c572633",
+                "slot": "a6bcc085af6782e65a45e63b9ee8366dea1656be8f39f900e4ffecac39bf0ae8"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "TV Support Request submitted",
+            "description": "Our TV department has received your support request. They will contact you as soon as possible."
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

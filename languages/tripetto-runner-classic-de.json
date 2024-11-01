@@ -1,0 +1,290 @@
+{
+  "": {
+    "project-id-version": "@tripetto/runner-classic 2.0.1",
+    "report-msgid-bugs-to": "support@tripetto.com",
+    "pot-creation-date": "2022-11-02 15:30+0100",
+    "po-revision-date": "2022-11-02 15:31+0100",
+    "last-translator": "Mark van den Brink <mark@vandenbr.ink>",
+    "language-team": "",
+    "language": "de",
+    "mime-version": "1.0",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-transfer-encoding": "8bit",
+    "plural-forms": "nplurals=2; plural=(n != 1);",
+    "x-generator": "Poedit 3.2"
+  },
+  "runner:classic\u0004100% height, width centered": [
+    null,
+    "100% Höhe, Breite zentriert"
+  ],
+  "runner:classic\u0004100% width, height centered": [
+    null,
+    "100% Breite, Höhe zentriert"
+  ],
+  "runner:classic\u0004Agree color (input buttons)": [
+    null,
+    "Farbe bei Zustimmung (Input-Buttons)"
+  ],
+  "runner:classic\u0004Appearance": [null, "Aussehen"],
+  "runner:classic\u0004Automatically gain focus": [
+    null,
+    "Automatisch mehr Konzentration"
+  ],
+  "runner:classic\u0004Background": [null, "Hintergrund"],
+  "runner:classic\u0004Background color": [null, "Hintergrundfarbe"],
+  "runner:classic\u0004Border color": [null, "Randfarbe"],
+  "runner:classic\u0004Border size": [null, "Randgröße"],
+  "runner:classic\u0004Button color": [null, "Buttonfarbe"],
+  "runner:classic\u0004Buttons": [null, "Buttons"],
+  "runner:classic\u0004Center": [null, "Mitte"],
+  "runner:classic\u0004Color": [null, "Farbe"],
+  "runner:classic\u0004Contain (full image stretched over screen)": [
+    null,
+    "Eingrenzen (gestrecktes Bild)"
+  ],
+  "runner:classic\u0004Continuous": [null, "Kontinuierlich"],
+  "runner:classic\u0004Cover (full screen)": [null, "Bedecken (Vollbild)"],
+  "runner:classic\u0004Create one now!": [null, "Jetzt erstellen!"],
+  "runner:classic\u0004Custom fonts": [null, "Benutzerdefinierte Schriftarten"],
+  "runner:classic\u0004Customize": [null, "Individuell anpassen"],
+  "runner:classic\u0004Decline color (input buttons)": [
+    null,
+    "Farbe bei Ablehnung (Input-Buttons)"
+  ],
+  "runner:classic\u0004Default": [null, "Standardeinstellung"],
+  "runner:classic\u0004Did you know you can customize this closing message?": [
+    null,
+    "Wussten Sie, dass Sie diese abschließende Botschaft individuell gestalten können?"
+  ],
+  "runner:classic\u0004Display numbering": [null, "Nummerierung anzeigen"],
+  "runner:classic\u0004Display page indicators": [
+    null,
+    "Seitenzahlen anzeigen"
+  ],
+  "runner:classic\u0004Display progressbar": [
+    null,
+    "Fortschrittsbalken anzeigen"
+  ],
+  "runner:classic\u0004Fill": [null, "Füllen"],
+  "runner:classic\u0004Font": [null, "Schriftart"],
+  "runner:classic\u0004Font family": [null, "Schriftfamilie"],
+  "runner:classic\u0004Font size": [null, "Schriftgröße"],
+  "runner:classic\u0004Font size for small screens": [
+    null,
+    "Schriftgröße für kleine Bildschirme"
+  ],
+  "runner:classic\u0004Google Fonts or URL": [null, "Google Fonts oder URL"],
+  "runner:classic\u0004Hide all the Tripetto branding": [
+    null,
+    "Tripetto-Logo etc. ausblenden"
+  ],
+  "runner:classic\u0004Hide asterisk for required questions": [
+    null,
+    "Sternchen für erforderliche Fragen ausblenden"
+  ],
+  "runner:classic\u0004Image (URL)": [null, "Abbildung (URL)"],
+  "runner:classic\u0004In a live environment the form will redirect to:": [
+    null,
+    "In einer Live-Umgebung werden Sie umgeleitet zu:"
+  ],
+  "runner:classic\u0004Inputs": [null, "Inputs"],
+  "runner:classic\u0004Keep answered blocks in view while working through the form.": [
+    null,
+    "Bereits beantwortete Blöcke während der Bearbeitung des Formulars anzeigen."
+  ],
+  "runner:classic\u0004Only applies when embedding the form.": [
+    null,
+    "Nur bei Einbettung des Formulars zutreffend."
+  ],
+  "runner:classic\u0004Only available for paginated forms.": [
+    null,
+    "Nur für Formulare mit Seitennummerierung erhältlich."
+  ],
+  "runner:classic\u0004Opacity": [null, "Lichtundurchlässigkeit"],
+  "runner:classic\u0004Options": [null, "Optionen"],
+  "runner:classic\u0004Outline": [null, "Outline"],
+  "runner:classic\u0004Page %1": [null, "Seite %1"],
+  "runner:classic\u0004Paginated": [null, "Mit Seitennummerierung"],
+  "runner:classic\u0004Please add a block first to get the magic going.": [
+    null,
+    "Bitte fügen Sie einen Block hinzu, damit der Zauber beginnen kann."
+  ],
+  "runner:classic\u0004Positioning": [null, "Positionierung"],
+  "runner:classic\u0004Powered by Tripetto": [null, "Powered by Tripetto"],
+  "runner:classic\u0004Present the whole form at once.": [
+    null,
+    "Das Formular als Ganzes anzeigen."
+  ],
+  "runner:classic\u0004Progressive": [null, "Progressiv"],
+  "runner:classic\u0004Repeat": [null, "Wiederholen"],
+  "runner:classic\u0004Required/error color": [
+    null,
+    "Farbe für verpflichtende Elemente/bei Auftreten eines Fehlers"
+  ],
+  "runner:classic\u0004Roundness": [null, "Rundung"],
+  "runner:classic\u0004Section %1": [null, "Abschnitt %1"],
+  "runner:classic\u0004Selection color (input buttons)": [
+    null,
+    "Farbauswahl (Input-Buttons)"
+  ],
+  "runner:classic\u0004Standard fonts": [null, "Standardschriftarten"],
+  "runner:classic\u0004Style": [null, "Stil"],
+  "runner:classic\u0004Submit button color": [
+    null,
+    "Farbe des Absende-Buttons"
+  ],
+  "runner:classic\u0004Test again": [null, "Noch mal testen"],
+  "runner:classic\u0004Text color": [null, "Textfarbe"],
+  "runner:classic\u0004The supplied URL is invalid!": [
+    null,
+    "Die angegebene URL ist ungültig!"
+  ],
+  "runner:classic\u0004Tripetto is for making elegantly personal form and survey experiences with response boosting conversational powers.": [
+    null,
+    "Erstellen Sie mit Tripetto elegante personalisierte Formulare und Umfragen, die mit ihrer Originalität und ihrer starken Interaktionsförderung begeistern."
+  ],
+  "runner:classic\u0004Use any font available on [Google Fonts](https://fonts.google.com/) or supply a custom font URL. Please note that the Google Fonts name is case sensitive.": [
+    null,
+    "Sie können jede der auf [Google Fonts](https://fonts.google.com/) verfügbaren Schriftarten verwenden oder die URL einer benutzerdefinierten Schriftart angeben. Bitte achten Sie bei den Namen der Google-Schriftarten auf die Groß- und Kleinschreibung."
+  ],
+  "runner:classic\u0004Use pagination for the form and let the user navigate through the form using the next and back buttons.": [
+    null,
+    "Verwenden Sie bei Ihrem Formular Seitennummerierung. User können die Weiter- und Zurück-Buttons zur Navigation durch das Formular verwenden."
+  ],
+  "runner:classic\u0004Want to make a form like this for free?": [
+    null,
+    "Sie möchten auch so ein Formular erstellen - und das kostenlos?"
+  ],
+  "runner:classic\u0004_Note_: This size applies to small screens (like mobile devices). Switch to the mobile device preview to see and test this small font size.": [
+    null,
+    "_Hinweis_: Diese Größe gilt für kleine Bildschirme (z. B. Mobilgeräte). Wechseln Sie zur Vorschau für mobile Geräte, um diese kleine Schriftgröße zu sehen und zu testen."
+  ],
+  "runner:classic\u0004🎉 Test completed": [null, "🎉 Test abgeschlossen"],
+  "runner:classic\u0004👋 Hi there!": [null, "👋 Hallo!"],
+  "runner#6|📂 File upload\u0004Allowed extensions: %1": [
+    null,
+    "Zulässige Erweiterungen: %1"
+  ],
+  "runner#6|📂 File upload\u0004Choose or drag a file here": [
+    null,
+    "Datei auswählen oder herziehen"
+  ],
+  "runner#6|📂 File upload\u0004Delete": [null, "Löschen"],
+  "runner#6|📂 File upload\u0004Drop your file now": [
+    null,
+    "Datei jetzt ablegen"
+  ],
+  "runner#6|📂 File upload\u0004Extension is not allowed.": [
+    null,
+    "Verzögerung ist nicht erlaubt."
+  ],
+  "runner#6|📂 File upload\u0004File size is too large.": [
+    null,
+    "Die Datei ist zu groß."
+  ],
+  "runner#6|📂 File upload\u0004Size limit: %1": [
+    null,
+    "Größenbeschränkung: %1"
+  ],
+  "runner#6|📂 File upload\u0004Something went wrong while uploading%1.": [
+    null,
+    "Irgendetwas ist beim Hochladen%1 schief gelaufen."
+  ],
+  "runner#6|📂 File upload\u0004This file can't be used.": [
+    null,
+    "Diese Datei kann nicht verwendet werden."
+  ],
+  "runner#6|📂 File upload\u0004Too many files selected.": [
+    null,
+    "Es wurden zu viele Dateien ausgewählt."
+  ],
+  "runner#6|📂 File upload\u0004Try again": [null, "Erneut versuchen"],
+  "runner#6|📂 File upload\u0004Uploading (%1)": [null, "Hochladen (%1)"],
+  "runner#1|🆗 Buttons\u0004Back": [null, "Zurück"],
+  "runner#1|🆗 Buttons\u0004Next": [null, "Weiter"],
+  "runner#1|🆗 Buttons\u0004Reload": [null, "Neu laden"],
+  "runner#1|🆗 Buttons\u0004Retry": [null, "Erneut versuchen"],
+  "runner#1|🆗 Buttons\u0004Start": [null, "Start"],
+  "runner#1|🆗 Buttons\u0004Start again": [null, "Neu starten"],
+  "runner#1|🆗 Buttons\u0004Submit": [null, "Absenden"],
+  "runner#8|⏸ Pause conversation\u0004Cancel pausing": [
+    null,
+    "Pausenfunktion deaktivieren"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Pause this conversation": [
+    null,
+    "Diese Unterhaltung pausieren"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive a link by email to resume later on any device, right where you left off.": [
+    null,
+    "Sie bekommen per E-Mail einen Link zugeschickt, mit dem Sie später auf einem beliebigen Gerät dort weitermachen können, wo Sie aufgehört haben."
+  ],
+  "runner#8|⏸ Pause conversation\u0004Receive resume link": [
+    null,
+    "Link erhalten, um später fortzusetzen"
+  ],
+  "runner#8|⏸ Pause conversation\u0004Your email address...": [
+    null,
+    "Ihre E-Mail-Adresse ..."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed, but you can try to reload the new version of the form while maintaining the data you've filled in. Click the reload button to try this. Please check your data after reloading and then submit again.": [
+    null,
+    "Wie es scheint, wurde das Formular vom Ersteller geändert, während Sie es bearbeitet haben. Ihre Daten können nicht verarbeitet werden, aber Sie können versuchen, die neue Version des Formulars zu laden, ohne dass dabei die von Ihnen eingegebenen Daten verloren gehen. Dazu müssen Sie auf den „Neu laden“-Button klicken. Bitte überprüfen Sie Ihre Daten nach dem Neuladen und klicken Sie dann auf „Absenden“."
+  ],
+  "runner#9|⚠ Errors|Outdated error\u0004It seems the form is changed by the owner while you were filling in the form. Your data cannot be processed. Try reloading the form.": [
+    null,
+    "Wie es scheint, wurde das Formular vom Ersteller geändert, während Sie es bearbeitet haben. Ihre Daten können nicht verarbeitet werden. Versuchen Sie, das Formular neu zu laden."
+  ],
+  "runner#6|🔷 Yes/No\u0004No": [null, "Nein"],
+  "runner#6|🔷 Yes/No\u0004Yes": [null, "Ja"],
+  "runner#2|💬 Messages|Conversation closed\u0004Nothing to talk about. The conversation is closed 🤐": [
+    null,
+    "Es gibt nichts mehr zu sagen. Die Unterhaltung ist beendet 🤐"
+  ],
+  "runner#2|💬 Messages|Conversation closed\u0004👋 Hi there!": [
+    null,
+    "👋 Hallo!"
+  ],
+  "runner#3|🩺 Status information\u0004Pausing...": [null, "Pause ..."],
+  "runner#3|🩺 Status information\u0004Submitting...": [
+    null,
+    "Wird gesendet ..."
+  ],
+  "runner#3|🩺 Status information\u0004⏳ One moment please...": [
+    null,
+    "⏳ Einen Moment bitte ..."
+  ],
+  "runner#9|⚠ Errors|Connection error\u0004Please check your connection and try again (for the techies: The error console of your browser might contain more technical information about what went wrong).": [
+    null,
+    "Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es dann erneut (für Technikaffine: In der Fehler-Konsole Ihres Browsers finden Sie mehr technische Informationen dazu, was schief gelaufen ist)."
+  ],
+  "runner#9|⚠ Errors|Pausing error\u0004Something went wrong while pausing your conversation.": [
+    null,
+    "Irgendetwas ist schief gelaufen, während Sie die Unterhaltung pausiert haben."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Something went wrong while submitting your conversation.": [
+    null,
+    "Irgendetwas ist beim Absenden der Unterhaltung schief gelaufen."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004The form is outdated.": [
+    null,
+    "Das Formular ist abgelaufen."
+  ],
+  "runner#9|⚠ Errors|Submit error\u0004Your data is rejected.": [
+    null,
+    "Ihre Daten wurden abgelehnt."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004The conversation is now paused.": [
+    null,
+    "Die Unterhaltung wurde pausiert."
+  ],
+  "runner#2|💬 Messages|Conversation paused\u0004⏸ Paused": [null, "⏸ Pause"],
+  "runner#9|⚠ Errors|Rejected error\u0004Unfortunately, your data is marked as invalid and therefore rejected. If you believe this is a mistake, please contact the form owner. We're sorry for the inconvenience.": [
+    null,
+    "Leider sind die von Ihnen angegebenen Daten ungültig und werden daher abgelehnt. Bitte kontaktieren Sie den Ersteller des Formulars, wenn Sie glauben, dass hier ein Fehler vorliegt. Wir entschuldigen uns für die Unannehmlichkeiten."
+  ],
+  "runner#2|💬 Messages|Conversation ended\u0004🎉 It's a wrap!": [
+    null,
+    "🎉 Fertig, das war's schon!"
+  ]
+}

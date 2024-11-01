@@ -1,0 +1,1806 @@
+# Copyright (C) 2020 Tripetto
+# This file is distributed under the same license as the Tripetto plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tripetto 2.2.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tripetto\n"
+"POT-Creation-Date: 2023-04-26T13:35:35+00:00\n"
+"PO-Revision-Date: 2023-04-26 15:39+0200\n"
+"Last-Translator: Mark van den Brink <mark@vandenbr.ink>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: tripetto\n"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "All good!"
+msgstr "In orde!"
+
+msgid "All without logic"
+msgstr "Alles zonder logica"
+
+msgid "Allow access to uploaded files"
+msgstr "Toegang verlenen tot geüploade bestanden"
+
+msgid "Allow direct access to uploaded files without WP admin login"
+msgstr "Geef directe toegang tot geüploade bestanden zonder WP admin login"
+
+#: elementor/widget.php:129 gutenberg/gutenberg.php:70
+msgid "Allow pausing and resuming"
+msgstr "Sta pauzeren en hervatten toe"
+
+msgid "Allow webhook to access uploaded files"
+msgstr "Geef webhook toegang tot geüploade bestanden"
+
+#: elementor/widget.php:130 gutenberg/gutenberg.php:71
+msgid ""
+"Allows users to pause the form and continue with it later by sending a "
+"resume link to the user's email address."
+msgstr ""
+"Hiermee kunnen gebruikers het formulier pauzeren en later doorgaan middels "
+"een koppeling die per e-mail wordt verzonden."
+
+msgid "Are you sure you want to reset the styles for this form?"
+msgstr "Weet je zeker dat je de stijlen voor dit formulier wilt resetten?"
+
+msgid "Ask support"
+msgstr "Vraag ondersteuning"
+
+#: elementor/widget.php:154 gutenberg/gutenberg.php:81
+msgid ""
+"Asynchronous loading helps avoiding caching issues, but sometimes results in "
+"longer form loading times because the page has already been rendered before "
+"the form is loaded. Enabling this option will load the form together with "
+"the page itself. Some cache plugins cache the page including the form. If "
+"this option is checked and your form doesn't update when you make a change, "
+"you probably need to clear the cache of your cache plugin."
+msgstr ""
+"Asynchroon laden helpt caching problemen te voorkomen, maar resulteert soms "
+"in langere laadtijden omdat de pagina al wordt weergegeven voordat het "
+"formulier is geladen. Als u deze optie inschakelt, wordt het formulier samen "
+"met de pagina zelf geladen. Sommige cache-plugins cachen de pagina met "
+"inbegrip van het formulier. Als deze optie is ingeschakeld en uw formulier "
+"wordt niet bijgewerkt wanneer u een wijziging aanbrengt, moet u "
+"waarschijnlijk de cache van uw cache-plugin wissen."
+
+#: gutenberg/gutenberg.php:63
+msgid "Automate"
+msgstr "Automatiseer"
+
+msgid "Autoscroll"
+msgstr "Autoscroll"
+
+msgid "Back"
+msgstr "Vorige"
+
+msgid ""
+"Both the form and collected data are hosted and stored in _your own "
+"WordPress instance_. Not a single connection related to Tripetto is ever "
+"made with an external host other than yours. It's all in your own instance, "
+"under your control. Hello [GDPR](%1)!"
+msgstr ""
+"Zowel het formulier als de verzamelde gegevens worden gehost en opgeslagen "
+"in _uw eigen WordPress-installatie_. Er wordt door Tripetto nooit een "
+"verbinding gemaakt met een externe host anders dan uw eigen host. Alles is "
+"dus opgeslagen in uw eigen installatie en daarmee onder uw volledig "
+"controle. Hallo [AVG](%1)!"
+
+msgid "Build"
+msgstr "Bouw"
+
+msgid "Buy a pro license now"
+msgstr "Koop een pro licentie"
+
+#: admin/forms/list.php:130 admin/results/list.php:77
+#: admin/results/results.php:330 admin/templates/templates.php:127
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Cheatsheet"
+msgstr "Spiekbriefje"
+
+msgid "Classic"
+msgstr "Klassiek"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Configure [Make](%1) and paste their webhook URL here:"
+msgstr "Configureer [Make](%1) en plak hun webhook URL hier:"
+
+msgid "Configure [Pabbly Connect](%1) and paste their webhook URL here:"
+msgstr "Configureer [Pabbly Connect](%1) en plak hun webhook URL hier:"
+
+msgid "Configure [Zapier](%1) and paste their webhook URL here:"
+msgstr "Configureer [Zapier](%1) en plak hun webhook URL hier:"
+
+msgid ""
+"Configure your [Facebook Pixel](%1) setup and copy-paste your Pixel ID here:"
+msgstr "Configureer uw [Facebook Pixel](%1) en kopieer-plak uw Pixel ID hier:"
+
+msgid ""
+"Configure your [Google Analytics](%1) or [Google Tag Manager](%2) setup and "
+"copy-paste your Measurement, Tracking or Container ID here:"
+msgstr ""
+"Configureer uw [Google Analytics](%1) of [Google Tag Manager](%2) account en "
+"kopieer-plak hier uw Measurement, Tracking of Container ID:"
+
+#: gutenberg/gutenberg.php:65
+msgid "Connections"
+msgstr "Koppelingen"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: admin/forms/list.php:185
+msgid "Copy to clipboard"
+msgstr "Zet op klembord"
+
+msgid "Custom code might break your form!"
+msgstr "Eigen code kan de werking van het formulier beïnvloeden!"
+
+msgid "Custom tracking code"
+msgstr "Eigen traceercode"
+
+msgid "Custom webhook"
+msgstr "Eigen webhook"
+
+#: admin/forms/list.php:194
+msgid "Customize"
+msgstr "Personaliseer"
+
+msgid "Design"
+msgstr "Ontwerp"
+
+#: elementor/widget.php:153 gutenberg/gutenberg.php:80
+msgid "Disable asynchronous loading"
+msgstr "Asynchroon laden uitschakelen"
+
+msgid "Display form as full page overlay"
+msgstr "Formulier weergeven als volledige pagina"
+
+#: elementor/widget.php:212 gutenberg/gutenberg.php:94
+msgid ""
+"Don't use this, unless you know what you are doing. We don't give support on "
+"forms with custom CSS! If you have a problem with a form that uses custom "
+"CSS, then first disable the custom CSS and check if the problem persists."
+msgstr ""
+"Gebruik dit alleen als je weet wat je doet. We geven geen enkele "
+"ondersteuning op formulieren met aangepaste CSS regels! Als u een probleem "
+"heeft met een formulier dat aangepaste CSS gebruikt, schakelt u dan eerst de "
+"aangepaste CSS uit en controleer of het probleem blijft bestaan."
+
+msgid "Email notification"
+msgstr "E-mail melding"
+
+msgid "Events to track:"
+msgstr "Gebeurtenissen om te volgen:"
+
+msgid "Facebook Pixel"
+msgstr "Facebook Pixel"
+
+msgid "Facebook Pixel is already installed on my website"
+msgstr "Facebook Pixel is reeds geïnstalleerd op mijn website"
+
+msgid "Form appearance"
+msgstr "Formulierweergave"
+
+#: gutenberg/gutenberg.php:56
+msgid "Form face"
+msgstr "Formulieruiterlijk"
+
+msgid "Form is gone!"
+msgstr "Het formulier is weg!"
+
+msgid "Form is outdated!"
+msgstr "Het formulier is verouderd!"
+
+msgid "Google Analytics / Google Tag Manager"
+msgstr "Google Analytics / Google Tag Manager"
+
+msgid ""
+"Google Analytics or Google Tag Manager is already installed on my website"
+msgstr ""
+"Google Analytics of Google Tag Manager is reeds geïnstalleerd op mijn website"
+
+msgid "Help center"
+msgstr "Helpcentrum"
+
+msgid "Help with form faces"
+msgstr "Help bij formulieruiterlijken"
+
+msgid ""
+"If you also share your form using the shareable link, make sure to supply an "
+"ID. If you only embed this form, you can omit the ID in case you are using "
+"GTM."
+msgstr ""
+"Als u uw formulier ook deelt via de deelbare link, zorg er dan voor dat u "
+"een ID opgeeft. Als u dit formulier alleen insluit, kunt u het ID leeglaten "
+"wanneer u GTM gebruikt."
+
+msgid ""
+"Implement your custom JavaScript code for event tracking and connect "
+"Tripetto to other tracking services."
+msgstr ""
+"Implementeer uw eigen JavaScript-code voor het volgen van gebeurtenissen en "
+"verbind Tripetto met andere traceerdiensten."
+
+msgid "Include response data in the message"
+msgstr "Gegevens opnemen in het bericht"
+
+msgid "Learn"
+msgstr "Leer"
+
+msgid "Make"
+msgstr "Make"
+
+msgid ""
+"Make sure the provided code is valid and **always test your form** after "
+"submitting or changing the custom code!"
+msgstr ""
+"Zorg ervoor dat de ingevoerde code geldig is en **test altijd uw formulier** "
+"na het invoeren of wijzigen van eigen code!"
+
+msgid "More..."
+msgstr "Meer…"
+
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: elementor/widget.php:136 elementor/widget.php:148 elementor/widget.php:160
+msgid "No"
+msgstr "Nee"
+
+msgid ""
+"Not all data is saved! Please wait a moment before navigating away from this "
+"page."
+msgstr ""
+"Niet alle gegevens worden opgeslagen! Wacht even voordat u deze pagina "
+"verlaat."
+
+#: gutenberg/gutenberg.php:64
+msgid "Notifications"
+msgstr "Meldingen"
+
+msgid "Open in browser"
+msgstr "Openen in browser"
+
+msgid "Our promise on data privacy"
+msgstr "Onze belofte over gegevensprivacy"
+
+msgid "Overwrite"
+msgstr "Overschrijven"
+
+msgid ""
+"Please create an incoming [Slack webhook](https://api.slack.com/incoming-"
+"webhooks) and enter the URL of the webhook here:"
+msgstr ""
+"Maak een binnenkomende [Slack webhook](https://api.slack.com/incoming-"
+"webhooks) en voer hier de URL van de webhook in:"
+
+msgid ""
+"Please only use this option if you're an expert on webhooks. When enabled "
+"this option sends way more data to your webhook and in such a format your "
+"automation tool cannot process this by default. By leaving this option "
+"disabled, you can just use your response data easily."
+msgstr ""
+"Gebruik deze optie alleen als u een expert bent op het gebied van webhooks. "
+"Indien ingeschakeld stuurt deze optie veel meer gegevens naar uw webhook en "
+"in een dusdanig formaat dat uw automatiseringstool dit standaard niet kan "
+"verwerken. Door deze optie uitgeschakeld te laten, kunt u uw "
+"antwoordgegevens gewoon gebruiken."
+
+msgid "Post the data to the following URL:"
+msgstr "Stuur de gegevens naar de volgende URL:"
+
+msgid "Pro license required"
+msgstr "Pro licentie vereist"
+
+msgid "Properties"
+msgstr "Eigenschappen"
+
+msgid "Reload from server"
+msgstr "Herladen van server"
+
+msgid "Reset styles"
+msgstr "Stijlen opnieuw instellen"
+
+#: admin/forms/list.php:71
+msgid "Results"
+msgstr "Resultaten"
+
+#: gutenberg/gutenberg.php:55
+msgid "Retry"
+msgstr "Probeer opnieuw"
+
+#: admin/forms/list.php:62 admin/results/results.php:189
+msgid "Run"
+msgstr "Uitvoeren"
+
+#: elementor/widget.php:141 gutenberg/gutenberg.php:75
+msgid "Save and restore uncompleted forms"
+msgstr "Onvoltooide formulieren opslaan en herstellen"
+
+#: elementor/widget.php:142 gutenberg/gutenberg.php:76
+msgid ""
+"Saves uncompleted forms in the local storage of the browser. Next time the "
+"user visits the form it is restored so the user can continue."
+msgstr ""
+"Slaat onvoltooide formulieren op in de lokale opslag van de browser. De "
+"volgende keer dat de gebruiker het formulier bezoekt, wordt het formulier "
+"hersteld, zodat de gebruiker verder kan gaan."
+
+msgid ""
+"Send a Slack message when someone completes your form ([learn more](%1))"
+msgstr ""
+"Een Slack-bericht verzenden wanneer iemand uw formulier invult ([meer "
+"informatie](%1))"
+
+msgid "Send a notification to:"
+msgstr "Stuur een melding naar:"
+
+msgid "Send an email when someone completes your form ([learn more](%1))"
+msgstr ""
+"Een e-mail verzenden wanneer iemand uw formulier invult ([meer informatie]"
+"(%1))"
+
+msgid "Send raw response data to webhook ([learn more](%1))"
+msgstr "Ruwe gegevens naar webhook verzenden ([meer informatie](%1))"
+
+msgid "Share"
+msgstr "Deel"
+
+msgid "Shareable link"
+msgstr "Deelbare koppeling"
+
+msgid "Slack notification"
+msgstr "Slack melding"
+
+msgid "Something's wrong"
+msgstr "Er is iets mis"
+
+msgid "Something’s cracking"
+msgstr "Er gaat iets mis"
+
+msgid "Specify a fixed height for the form"
+msgstr "Een vaste hoogte voor het formulier opgeven"
+
+msgid "Specify a fixed width for the form"
+msgstr "Een vaste breedte voor het formulier opgeven"
+
+#: elementor/widget.php:198 gutenberg/gutenberg.php:90
+msgid "Specify a loader placeholder message"
+msgstr "Een laadbericht instellen"
+
+#: elementor/widget.php:211 gutenberg/gutenberg.php:93
+msgid "Specify custom CSS styles"
+msgstr "Aangepaste CSS-stijlen opgeven"
+
+msgid "Styles"
+msgstr "Stijlen"
+
+msgid "Subform"
+msgstr "Subformulier"
+
+msgid "Submit completed forms to %1 ([learn more](%2))"
+msgstr "Stuur ingevulde formulieren naar %1 ([meer informatie](%2))"
+
+msgid "Submit completed forms to a custom webhook ([learn more](%1))"
+msgstr ""
+"Verzend ingevulde formulieren naar een eigen webhook ([meer informatie](%1))"
+
+msgid "Support"
+msgstr "Ondersteuning"
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Test with logic"
+msgstr "Testen met logica"
+
+msgid "Testing..."
+msgstr "Testen..."
+
+#: elementor/widget.php:199 gutenberg/gutenberg.php:91
+msgid ""
+"This message is shown while the form is loading. You can specify text or "
+"HTML."
+msgstr ""
+"Dit bericht wordt weergegeven tijdens het laden van het formulier. U kunt "
+"tekst of HTML-code invoeren."
+
+msgid ""
+"This will allow %1 access to any uploaded files (only applies for forms that "
+"use the file upload block)."
+msgstr ""
+"Dit geeft %1 toegang tot alle geüploade bestanden (alleen van toepassing op "
+"formulieren die het bestandsuploadblok gebruiken)."
+
+msgid ""
+"This will give the webhook access to the uploaded files for this form. If "
+"left unchecked uploaded files are only downloadable from within your "
+"WordPress admin environment. So a webhook endpoint cannot access those "
+"files. Only activate this checkbox if your webhook needs access to the "
+"uploaded files."
+msgstr ""
+"Dit geeft de webhook toegang tot de geüploade bestanden voor dit formulier. "
+"Als deze optie niet is aangevinkt, kunnen geüploade bestanden alleen worden "
+"gedownload vanuit uw WordPress admin omgeving. Dus een webhook kan dan geen "
+"toegang krijgen tot deze bestanden. Activeer deze optie alleen als uw "
+"webhook toegang tot de geüploade bestanden nodig heeft."
+
+msgid "To specify rules for a specific block, use this selector: %1"
+msgstr ""
+"Als u regels voor een specifiek blok wilt opgeven, gebruikt u deze regel: %1"
+
+msgid "Track blur"
+msgstr "Volg verloren focus"
+
+msgid "Track focus"
+msgstr "Volg verkregen focus"
+
+msgid "Track form activity with Facebook Pixel ([learn more](%1))"
+msgstr ""
+"Formulieractiviteit bijhouden met Facebook Pixel ([meer informatie](%1))"
+
+msgid ""
+"Track form activity with Google Analytics ([learn more](%1)) or Google Tag "
+"Manager ([learn more](%2))"
+msgstr ""
+"Formulieractiviteit bijhouden met Google Analytics ([meer informatie](%1)) "
+"of Google Tag Manager ([meer informatie](%2))"
+
+msgid "Track form activity with custom tracking code ([learn more](%1))"
+msgstr ""
+"Formulieractiviteit volgen met aangepaste traceercode ([meer informatie](%1))"
+
+msgid "Track form completion"
+msgstr "Volg afgeronde formulieren"
+
+msgid "Track form pausing"
+msgstr "Volg gepauzeerde formulieren"
+
+msgid "Track form starting"
+msgstr "Volg gestarte formulieren"
+
+msgid "Track staged blocks"
+msgstr "Volg blokken die beschikbaar worden"
+
+msgid "Track unstaged blocks"
+msgstr "Volg blokken die onbeschikbaar worden"
+
+#: gutenberg/gutenberg.php:66
+msgid "Tracking"
+msgstr "Volgen"
+
+msgid "Tracks when a block becomes available (event name: %1)."
+msgstr "Houdt bij wanneer een blok beschikbaar komt (event naam: %1)."
+
+msgid "Tracks when a block becomes unavailable (event name: %1)."
+msgstr "Houdt bij wanneer een blok onbeschikbaar wordt (event naam: %1)."
+
+msgid "Tracks when a form is completed (event name: %1)."
+msgstr "Houdt bij wanneer een formulier is ingevuld (event naam: %1)."
+
+msgid "Tracks when a form is paused (event name: %1)."
+msgstr "Houdt bij wanneer een formulier wordt gepauzeerd (event naam: %1)."
+
+msgid "Tracks when a form is started (event name: %1)."
+msgstr "Houdt bij wanneer een formulier wordt gestart (event naam: %1)."
+
+msgid "Tracks when an input element gains focus (event name: %1)."
+msgstr "Houdt bij wanneer een invoerelement focus krijgt (event naam: %1)."
+
+msgid "Tracks when an input element loses focus (event name: %1)."
+msgstr ""
+"Houdt bij wanneer een invoerelement de focus verliest (event naam: %1)."
+
+msgid "Translations"
+msgstr "Vertalingen"
+
+msgid "Unnamed"
+msgstr "Naamloos"
+
+msgid "Unnamed subform"
+msgstr "Naamloos subformulier"
+
+msgid ""
+"Use the shortcode below to embed the form on any page on your website "
+"([learn more](%1))."
+msgstr ""
+"Gebruik onderstaande shortcode om het formulier in te sluiten op een pagina "
+"op uw website ([meer informatie](%1))."
+
+msgid ""
+"Use the tracking code already available on the page hosting the Tripetto "
+"form. This prevents Tripetto placing another tracking code on the page."
+msgstr ""
+"Gebruik de tracking code die al beschikbaar is op de pagina waarop het "
+"Tripetto formulier staat. Dit voorkomt dat Tripetto een dubbele tracking "
+"code op de pagina plaatst."
+
+msgid ""
+"When checked uploaded files can be directly downloaded from Slack without "
+"the need of logging in to your WordPress admin environment. Enable this if "
+"you want to allow Slack users (that don't have WordPress admin access) to "
+"access uploaded files for this form."
+msgstr ""
+"Indien aangevinkt kunnen geüploade bestanden direct worden gedownload vanuit "
+"Slack zonder dat u hoeft in te loggen in uw WordPress admin omgeving. Vink "
+"dit aan als u Slack gebruikers (die geen WordPress admin toegang hebben) "
+"toegang wilt geven tot geüploade bestanden voor dit formulier."
+
+msgid ""
+"When checked uploaded files can be directly downloaded from the email "
+"without the need of logging in to your WordPress admin environment. Enable "
+"this if you want to allow email recipients (that don't have WordPress admin "
+"access) to access uploaded files for this form."
+msgstr ""
+"Indien aangevinkt kunnen geüploade bestanden direct vanuit de e-mail worden "
+"gedownload zonder dat u hoeft in te loggen in uw WordPress admin omgeving. "
+"Vink dit aan als u wilt dat e-mail ontvangers (die geen WordPress admin "
+"toegang hebben) toegang krijgen tot geüploade bestanden voor dit formulier."
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "WordPress shortcode"
+msgstr "WordPress shortcode"
+
+msgid "Yes, reset it!"
+msgstr "Ja, stel opnieuw in!"
+
+msgid ""
+"You need a pro license to unlock the full potential of this block. Please "
+"click the button below for more information."
+msgstr ""
+"U heeft een pro licentie nodig om alle functionaliteiten van dit blok te "
+"kunnen gebruiken. Klik op de knop hieronder voor meer informatie."
+
+msgid ""
+"Your actions aren't being processed properly and probably not saved to the "
+"server. We apologize for the inconvenience. Please try again and drop a line "
+"if troubles persist."
+msgstr ""
+"Uw acties worden niet goed verwerkt en worden waarschijnlijk niet opgeslagen "
+"op de server. Onze excuses voor het ongemak. Probeer het opnieuw en laat het "
+"ons weten als de problemen aanhouden."
+
+msgid ""
+"Your actions aren't being processed properly because the form seems to be "
+"deleted. You cannot make changes to this form anymore."
+msgstr ""
+"Uw acties worden niet goed verwerkt omdat het formulier verwijderd lijkt te "
+"zijn. U kunt geen wijzigingen meer aanbrengen in dit formulier."
+
+msgid ""
+"Your changes cannot be saved because your version of the form is outdated "
+"(so the version saved on the server is newer). The form is changed by "
+"someone else or by you in another browser window/tab. What do you want to do "
+"with the form?"
+msgstr ""
+"Uw wijzigingen kunnen niet worden opgeslagen omdat uw versie van het "
+"formulier verouderd is (de versie op de server is dus nieuwer). Het "
+"formulier is gewijzigd door iemand anders of door u in een ander "
+"browservenster. Wat wilt u met het formulier doen?"
+
+msgid ""
+"Your form is automatically available through a dedicated link ([learn more]"
+"(%1))."
+msgstr ""
+"Uw formulier is automatisch beschikbaar via een directe link ([meer "
+"informatie](%1))."
+
+msgid "auto"
+msgstr "auto"
+
+msgid "or"
+msgstr "of"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/admin.php:85 admin/admin.php:86
+msgid "Tripetto"
+msgstr "Tripetto"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://tripetto.com"
+msgstr "https://tripetto.com"
+
+#. Description of the plugin
+msgid ""
+"Advanced WordPress form builder plugin to build conversational contact "
+"forms, surveys, quizzes and more. Give life to forms and surveys."
+msgstr ""
+"Geavanceerde WordPress formulier plugin om slimme contactformulieren, "
+"enquêtes, quizzen en nog veel meer te bouwen. Breng uw formulieren en "
+"enquêtes tot leven."
+
+#: admin/admin.php:77 lib/attachments.php:367
+msgid "You cannot access this page. You are not authorized."
+msgstr "U heeft geen toegang tot deze pagina. U bent niet bevoegd."
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:56 admin/builder/builder.php:496
+#: admin/results/results.php:179 elementor/widget.php:72
+#: gutenberg/gutenberg.php:53 gutenberg/gutenberg.php:167
+#: runner/runner.php:1209
+msgid "Unnamed form"
+msgstr "Naamloos formulier"
+
+#: admin/builder/builder.php:74
+msgid "Creating new form..."
+msgstr "Nieuw formulier wordt aangemaakt..."
+
+#. translators: %s contains the error message
+#: admin/builder/builder.php:83
+msgid "Something went wrong, could not create a new form (%s)."
+msgstr "Er ging iets mis, kon geen nieuw formulier maken (%s)."
+
+#: admin/builder/builder.php:187 admin/results/columns.php:66
+msgid "One moment please..."
+msgstr "Een ogenblik geduld alstublieft..."
+
+#: admin/builder/builder.php:201
+msgid ""
+"Something went wrong, could not fetch the form (the form is probably "
+"deleted)."
+msgstr ""
+"Er ging iets mis, kon het formulier niet ophalen (het formulier is "
+"waarschijnlijk verwijderd)."
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:496
+msgid "Test submission for `%1$s`"
+msgstr "Nieuwe inzending voor '%1$s'"
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "You are using the %s version"
+msgstr "U gebruikt de %s versie"
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "Free"
+msgstr "Gratis"
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:24
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/dashboard/dashboard.php:26 admin/forms/forms.php:70
+#: admin/forms/forms.php:71
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: admin/dashboard/dashboard.php:27
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/dashboard/dashboard.php:28
+msgid "Upgrade"
+msgstr "Upgraden"
+
+#: admin/dashboard/dashboard.php:32
+msgid "Welcome to your Tripetto dashboard."
+msgstr "Welkom bij uw Tripetto startscherm."
+
+#: admin/dashboard/dashboard.php:33
+msgid ""
+"Your fullblown form building and data collection solution. All inside of "
+"WordPress."
+msgstr ""
+"Bouw formulieren en verzamel gegevens. En dat alles direct vanuit WordPress."
+
+#: admin/dashboard/dashboard.php:35 admin/forms/forms.php:52
+#: admin/forms/forms.php:53 admin/forms/forms.php:152
+msgid "Build Form"
+msgstr "Maak Formulier"
+
+#: admin/dashboard/dashboard.php:35
+msgid "Build Your First Form"
+msgstr "Maak Uw Eerste Formulier"
+
+#. translators: %d is replaced with the number of available forms
+#: admin/dashboard/dashboard.php:38
+msgid "All Forms (%d)"
+msgstr "Alle Formulieren (%d)"
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:42
+msgid "Open the %1$s for settings. Visit the %2$s for tips & tricks."
+msgstr "Open de %1$s. Bezoek het %2$s voor tips & trucs."
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:42
+msgid "onboarding wizard"
+msgstr "onboarding wizard"
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/dashboard/dashboard.php:42 admin/templates/templates.php:97
+msgid "help center"
+msgstr "helpcentrum"
+
+#: admin/dashboard/dashboard.php:45
+msgid "Kickstart your form building"
+msgstr "Begin met bouwen"
+
+#: admin/dashboard/dashboard.php:46
+msgid "How to build a simple form"
+msgstr "Bouw een simpel formulier"
+
+#: admin/dashboard/dashboard.php:47
+msgid "Watch Tutorial"
+msgstr "Bekijk Tutorial"
+
+#: admin/dashboard/dashboard.php:52
+msgid "Get Pro"
+msgstr "Word Pro"
+
+#: admin/dashboard/dashboard.php:53
+msgid "From $99 per year"
+msgstr "Vanaf $99 per jaar"
+
+#: admin/dashboard/dashboard.php:54
+msgid ""
+"Upgrade to Tripetto Pro for more advanced features and take your forms and "
+"surveys to another level."
+msgstr ""
+"Upgrade naar Tripetto Pro voor meer geavanceerde functies en breng uw "
+"formulieren verder tot leven."
+
+#: admin/dashboard/dashboard.php:55
+msgid "Upgrade to Pro"
+msgstr "Upgraden"
+
+#: admin/dashboard/dashboard.php:56
+msgid "View pricing"
+msgstr "Bekijk prijzen"
+
+#: admin/dashboard/dashboard.php:59
+msgid "Tripetto Pro completes you."
+msgstr "Tripetto Pro maakt u compleet."
+
+#: admin/dashboard/dashboard.php:60
+msgid "Pro unlocks the following additional features in Tripetto."
+msgstr "Pro ontsluit de volgende extra functies in Tripetto."
+
+#: admin/dashboard/dashboard.php:63
+msgid "Action blocks"
+msgstr "Actie blokken"
+
+#: admin/dashboard/dashboard.php:65
+msgid "Calculator"
+msgstr "Rekenmachine"
+
+#: admin/dashboard/dashboard.php:66
+msgid "Custom variable"
+msgstr "Losse variabele"
+
+#: admin/dashboard/dashboard.php:67
+msgid "Force stop"
+msgstr "Forceer stop"
+
+#: admin/dashboard/dashboard.php:68
+msgid "Hidden field"
+msgstr "Verborgen veld"
+
+#: admin/dashboard/dashboard.php:69
+msgid "Raise error"
+msgstr "Fout opwerpen"
+
+#: admin/dashboard/dashboard.php:70
+msgid "Send email"
+msgstr "Verstuur e-mail"
+
+#: admin/dashboard/dashboard.php:71
+msgid "Set value"
+msgstr "Waarde instellen"
+
+#: admin/dashboard/dashboard.php:73
+msgid "Automations"
+msgstr "Automatiseringen"
+
+#: admin/dashboard/dashboard.php:75
+msgid "Notifications (Slack etc.)"
+msgstr "Meldingen (Slack, enz.)"
+
+#: admin/dashboard/dashboard.php:76
+msgid "Connect 1.000+ services"
+msgstr "Verbind 1.000+ diensten"
+
+#: admin/dashboard/dashboard.php:77
+msgid "Form activity tracking"
+msgstr "Formulier activiteit volgen"
+
+#: admin/dashboard/dashboard.php:81
+msgid "Unbranding"
+msgstr "Geen reclame"
+
+#: admin/dashboard/dashboard.php:83
+msgid "No Tripetto branding"
+msgstr "Geen Tripetto-reclame"
+
+#: admin/dashboard/dashboard.php:85
+msgid "License options"
+msgstr "Licentie opties"
+
+#: admin/dashboard/dashboard.php:87
+msgid "Single-site"
+msgstr "Enkele site"
+
+#: admin/dashboard/dashboard.php:88
+msgid "5-Sites"
+msgstr "5-site"
+
+#: admin/dashboard/dashboard.php:89
+msgid "Unlimited sites"
+msgstr "Onbeperkte sites"
+
+#: admin/dashboard/dashboard.php:91
+msgid "Service"
+msgstr "Ondersteuning"
+
+#: admin/dashboard/dashboard.php:93
+msgid "Access to help center"
+msgstr "Toegang tot helpcentrum"
+
+#: admin/dashboard/dashboard.php:94
+msgid "Priority support"
+msgstr "Voorrangsondersteuning"
+
+#: admin/dashboard/dashboard.php:95
+msgid "Updates and upgrades"
+msgstr "Updates en upgrades"
+
+#: admin/dashboard/dashboard.php:103
+msgid "Help Center"
+msgstr "Help Centrum"
+
+#: admin/dashboard/dashboard.php:104
+msgid ""
+"Need a helping hand? The help center offers how-to’s and video tutorials. "
+"Find answers directly or navigate through specific subjects."
+msgstr ""
+"Een helpende hand nodig? Het helpcentrum biedt how-to's en video tutorials. "
+"Vind direct antwoorden of navigeer door specifieke onderwerpen."
+
+#: admin/dashboard/dashboard.php:106
+msgid "Search help articles"
+msgstr "Help-artikelen zoeken"
+
+#: admin/dashboard/dashboard.php:107
+msgid "Search"
+msgstr "Zoeken"
+
+#: admin/dashboard/dashboard.php:111
+msgid "How-To’s"
+msgstr "Instructies"
+
+#: admin/dashboard/dashboard.php:112
+msgid "Browse help articles by subject to find everything about every feature."
+msgstr ""
+"Blader door helpartikelen op onderwerp om alles te vinden over elke functie."
+
+#: admin/dashboard/dashboard.php:114
+msgid "Building forms and surveys"
+msgstr "Bouw formulieren en vragenlijsten"
+
+#: admin/dashboard/dashboard.php:115
+msgid "Using logic features"
+msgstr "Gebruik logica"
+
+#: admin/dashboard/dashboard.php:116
+msgid "Styling and customizing"
+msgstr "Stijl en maak eigen"
+
+#: admin/dashboard/dashboard.php:117
+msgid "Automating things"
+msgstr "Automatiseer dingen"
+
+#: admin/dashboard/dashboard.php:118
+msgid "Sharing forms and surveys"
+msgstr "Deel formulieren en vragenlijsten"
+
+#: admin/dashboard/dashboard.php:119
+msgid "Managing data and results"
+msgstr "Beheer gegevens en resultaten"
+
+#: admin/dashboard/dashboard.php:121
+msgid "Visit help center"
+msgstr "Bezoek het helpcentrum"
+
+#: admin/dashboard/dashboard.php:124
+msgid "Video Tutorials"
+msgstr "Video Handleidingen"
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:127
+msgid ""
+"Watch these recommended tutorials to get started smartly. Visit the %s for "
+"many more video tutorials."
+msgstr ""
+"Bekijk deze aanbevolen tutorials om direct aan de slag te gaan. Bezoek de %s "
+"voor veel meer video tutorials."
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:127
+msgid "Tripetto YouTube channel"
+msgstr "Tripetto YouTube-kanaal"
+
+#: admin/dashboard/dashboard.php:136
+msgid "All video tutorials"
+msgstr "Alle video tutorials"
+
+#: admin/forms/forms.php:61 admin/forms/forms.php:62 admin/forms/forms.php:147
+msgid "All Forms"
+msgstr "Alle Formulieren"
+
+#: admin/forms/forms.php:131
+msgid "Form deleted!"
+msgstr "Formulier verwijderd!"
+
+#: admin/forms/forms.php:135
+msgid "Form duplicated!"
+msgstr "Formulier gedupliceerd!"
+
+#: admin/forms/list.php:13 gutenberg/gutenberg.php:42
+msgid "form"
+msgstr "formulier"
+
+#: admin/forms/list.php:14
+msgid "forms"
+msgstr "formulieren"
+
+#: admin/forms/list.php:53 admin/results/results.php:196
+msgid "Edit"
+msgstr "Bewerken"
+
+#: admin/forms/list.php:112
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: admin/forms/list.php:124 admin/results/list.php:71
+#: admin/results/results.php:321
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: admin/forms/list.php:125
+msgid ""
+"Do you really want to delete this form? All related data and the form itself "
+"will be deleted. This cannot be undone."
+msgstr ""
+"Wilt u dit formulier echt verwijderen? Alle gerelateerde gegevens zullen "
+"worden verwijderd. Dit kan niet ongedaan worden gemaakt."
+
+#: admin/forms/list.php:129
+msgid "Delete form"
+msgstr "Verwijder formulier"
+
+#: admin/forms/list.php:137
+msgid "You need to remove the results first before you can delete the form."
+msgstr ""
+"U moet eerst de resultaten verwijderen voordat u het formulier kunt "
+"verwijderen."
+
+#: admin/forms/list.php:139 admin/results/list.php:81
+#: admin/results/list.php:152
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/forms/list.php:242
+msgid "Name"
+msgstr "Naam"
+
+#: admin/forms/list.php:246
+msgid "# Results"
+msgstr "# Resultaten"
+
+#: admin/forms/list.php:249
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: admin/forms/list.php:250
+msgid "Modified"
+msgstr "Gewijzigd"
+
+#: admin/forms/list.php:251
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/header/header.php:32
+msgid "You have the Free version."
+msgstr "U gebruikt de gratis versie."
+
+#: admin/header/header.php:33
+msgid "Tripetto Pro includes even more features."
+msgstr "Tripetto Pro bevat nog meer functies."
+
+#: admin/header/header.php:36
+msgid "Check out our Black Friday offer for upgrading to Tripetto Pro."
+msgstr ""
+"Bekijk onze Black Friday-aanbieding voor een upgrade naar Tripetto Pro."
+
+#: admin/onboarding/onboarding.php:537
+msgid "New features"
+msgstr "Nieuwe functies"
+
+#: admin/onboarding/onboarding.php:540
+msgid "Improvements"
+msgstr "Verbeteringen"
+
+#: admin/onboarding/onboarding.php:543
+msgid "Bugfixes"
+msgstr "Opgeloste fouten"
+
+#: admin/onboarding/onboarding.php:546
+msgid "Deprecated or removed features"
+msgstr "Uitgeschakelde of verwijderde functies"
+
+#: admin/results/columns.php:77
+msgid ""
+"Select the columns you want to show in your results list and click 'Save'."
+msgstr ""
+"Selecteer de kolommen die u in uw resultatenlijst wilt tonen en klik op "
+"'Opslaan'."
+
+#: admin/results/columns.php:81
+msgid "You need to select at least one field!"
+msgstr "U moet ten minste één veld selecteren!"
+
+#: admin/results/columns.php:91 admin/results/export.php:46
+#: admin/results/list.php:122 admin/results/results.php:77
+msgid "# Number"
+msgstr "# Nummer"
+
+#: admin/results/columns.php:97 admin/results/list.php:123
+#: admin/results/results.php:80 admin/results/results.php:298
+msgid "Identifier"
+msgstr "Identificatie"
+
+#: admin/results/columns.php:103 admin/results/export.php:46
+#: admin/results/list.php:124 admin/results/results.php:83
+#: admin/results/results.php:295
+msgid "Date submitted"
+msgstr "Datum ingediend"
+
+#: admin/results/columns.php:123
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/results/columns.php:128
+msgid "You need to collect at least one result before you can select columns!"
+msgstr ""
+"U moet ten minste één resultaat verzamelen voordat u kolommen kunt "
+"selecteren!"
+
+#: admin/results/columns.php:135 admin/results/results.php:204
+msgid "Choose columns"
+msgstr "Kies kolommen"
+
+#: admin/results/columns.php:145
+msgid "Something went wrong!"
+msgstr "Er is iets fout gegaan!"
+
+#: admin/results/export.php:46
+msgid "Reference"
+msgstr "Referentie"
+
+#: admin/results/list.php:11
+msgid "result"
+msgstr "resultaat"
+
+#: admin/results/list.php:12
+msgid "results"
+msgstr "resultaten"
+
+#: admin/results/list.php:64
+msgid "View Result"
+msgstr "Resultaat weergeven"
+
+#: admin/results/list.php:72 admin/results/results.php:323
+msgid ""
+"Do you really want to delete this result? All data related to this result "
+"will be deleted. This cannot be undone."
+msgstr ""
+"Wilt u dit resultaat echt verwijderen? Alle gegevens zullen worden "
+"verwijderd. Dit kan niet ongedaan worden gemaakt."
+
+#: admin/results/list.php:76 admin/results/results.php:328
+msgid "Delete result"
+msgstr "Verwijder resultaat"
+
+#. translators: %d is replaced with the number of results deleted
+#: admin/results/results.php:111
+msgid "Results deleted: %d"
+msgstr "Resultaten verwijderd: %d"
+
+#: admin/results/results.php:143 admin/results/results.php:148
+msgid "Download to CSV"
+msgstr "Downloaden naar CSV"
+
+#: admin/results/results.php:160
+msgid "Version"
+msgstr "Versie"
+
+#: admin/results/results.php:168
+msgid "Why do I see multiple CSV versions?"
+msgstr "Waarom zie ik meerdere CSV-versies?"
+
+#: admin/results/results.php:212
+msgid "Something went wrong, could not fetch the results."
+msgstr "Er ging iets mis, kon de resultaten niet ophalen."
+
+#: admin/results/results.php:280
+msgid "Information"
+msgstr "Informatie"
+
+#: admin/results/results.php:287
+msgid "Form name"
+msgstr "Formuliernaam"
+
+#: admin/results/results.php:291
+msgid "Number"
+msgstr "Nummer"
+
+#: admin/results/results.php:313
+msgid "Result"
+msgstr "Resultaat"
+
+#: admin/results/results.php:336
+msgid "Delete Result"
+msgstr "Resultaat verwijderen"
+
+#: admin/results/results.php:346
+msgid "Something went wrong, could not fetch the result."
+msgstr "Er ging iets mis, kon het resultaat niet ophalen."
+
+#: admin/settings/settings.php:14
+msgid "Tripetto Settings"
+msgstr "Tripetto Instellingen"
+
+#: admin/settings/settings.php:35
+msgid "Try the onboarding wizard"
+msgstr "Probeer de onboarding wizard"
+
+#: admin/settings/settings.php:42
+msgid "Email settings"
+msgstr "E-mailinstellingen"
+
+#: admin/settings/settings.php:46 admin/settings/settings.php:121
+msgid "Sender"
+msgstr "Afzender"
+
+#: admin/settings/settings.php:50
+msgid "Sender name"
+msgstr "Naam afzender"
+
+#: admin/settings/settings.php:58
+msgid "Sender email address"
+msgstr "E-mailadres van afzender"
+
+#: admin/settings/settings.php:64
+msgid "SPAM protection"
+msgstr "Spambeveiliging"
+
+#: admin/settings/settings.php:68 admin/settings/settings.php:235
+msgid "Spam protection mode"
+msgstr "Modus spambeveiliging"
+
+#: admin/settings/settings.php:76
+msgid "Allowlist"
+msgstr "Toegangslijst"
+
+#: admin/settings/settings.php:86
+msgid ""
+"You can also use the Tripetto onboarding wizard to adjust settings. The "
+"onboarding wizard also lets you configure user access and capabilities so "
+"you can decide who has access and what they can do within Tripetto."
+msgstr ""
+"U kunt ook de Tripetto onboarding wizard gebruiken om instellingen aan te "
+"passen. Met de onboarding wizard kunt u ook de gebruikerstoegang en "
+"mogelijkheden configureren, zodat u kunt bepalen wie toegang heeft en wat ze "
+"kunnen doen binnen Tripetto."
+
+#: admin/settings/settings.php:92
+msgid "Start Onboarding Wizard"
+msgstr "Start Onboarding Wizard"
+
+#: admin/settings/settings.php:98
+msgid "These settings are used when Tripetto sends an email message."
+msgstr ""
+"Deze instellingen worden gebruikt wanneer Tripetto een e-mail bericht "
+"verstuurt."
+
+#: admin/settings/settings.php:125
+msgid "WordPress default sender"
+msgstr "WordPress standaard afzender"
+
+#: admin/settings/settings.php:148
+msgid "Custom sender"
+msgstr "Aangepaste afzender"
+
+#: admin/settings/settings.php:189
+msgid ""
+"Tripetto has a unique approach for preventing spambots abusing your forms. "
+"This solution makes CAPTCHAs a thing of the past. We simply don't like those "
+"strange, inaccessible puzzles, and so we've engineered a solution where we "
+"could eliminate them once and for all. It works out-of-the-box and we "
+"strongly advise to only change the mode of operation if you have a good "
+"reason for it. You can choose between:"
+msgstr ""
+"Tripetto heeft een unieke aanpak om te voorkomen dat spambots misbruik maken "
+"van uw formulieren. Met deze oplossing behoren CAPTCHA's tot het verleden. "
+"Wij houden gewoon niet van die rare, ontoegankelijke puzzels en daarom "
+"hebben we een oplossing bedacht waarmee we ze voor eens en voor altijd "
+"kunnen elimineren. Het werkt out-of-the-box en we raden sterk aan om de "
+"modus alleen te veranderen als je er een goede reden voor hebt. Je kunt "
+"kiezen tussen:"
+
+#: admin/settings/settings.php:194 admin/settings/settings.php:240
+msgid "Maximal"
+msgstr "Maximaal"
+
+#: admin/settings/settings.php:196
+msgid ""
+"Maximum protection against spambots, but form submission might be a bit "
+"slower in certain conditions"
+msgstr ""
+"Maximale bescherming tegen spambots, maar het indienen van formulieren kan "
+"in bepaalde omstandigheden iets trager verlopen"
+
+#: admin/settings/settings.php:199 admin/settings/settings.php:246
+msgid "Normal"
+msgstr "Normaal"
+
+#: admin/settings/settings.php:201
+msgid ""
+"The default protection mode provides good protection against spambots while "
+"maintaining optimal performance"
+msgstr ""
+"De standaard beschermingsmodus biedt een goede bescherming tegen spambots "
+"met behoud van optimale prestaties"
+
+#: admin/settings/settings.php:204 admin/settings/settings.php:252
+msgid "Minimal"
+msgstr "Minimaal"
+
+#: admin/settings/settings.php:206
+msgid ""
+"IP filtering will be disabled (use this mode if you expect lots of "
+"submission from the same IP address)"
+msgstr ""
+"IP filtering zal worden uitgeschakeld (gebruik deze modus als u veel "
+"inzendingen van hetzelfde IP adres verwacht)"
+
+#: admin/settings/settings.php:209 admin/settings/settings.php:258
+msgid "Off"
+msgstr "Uit"
+
+#: admin/settings/settings.php:211
+msgid "Disables the spam protection (not recommended)"
+msgstr "Schakelt de spambeveiliging uit (niet aanbevolen)"
+
+#: admin/settings/settings.php:279
+msgid ""
+"Fill in the IP addresses (separated with a comma) you wish to exclude from "
+"the spam protection algorithm. Both IPv4 and IPv6 addresses are allowed."
+msgstr ""
+"Vul de IP-adressen in (gescheiden door een komma) die u wilt uitsluiten van "
+"het spambeveiligingsalgoritme. Zowel IPv4- als IPv6-adressen zijn toegestaan."
+
+#: admin/templates/templates.php:14
+msgid "Autoscroll form"
+msgstr "Autoscroll formulier"
+
+#: admin/templates/templates.php:24
+msgid "Chat form"
+msgstr "Chat formulier"
+
+#: admin/templates/templates.php:27
+msgid "Classic form"
+msgstr "Klassiek formulier"
+
+#: admin/templates/templates.php:40
+msgid "Use Template"
+msgstr "Gebruik"
+
+#: admin/templates/templates.php:42
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: admin/templates/templates.php:48
+msgid "Pro Template"
+msgstr "Pro Sjabloon"
+
+#: admin/templates/templates.php:72
+msgid "Start from scratch..."
+msgstr "Begin blanco..."
+
+#: admin/templates/templates.php:73
+msgid ""
+"Choose your desired form face and start building right away. You can always "
+"switch form faces instantly while working on your form."
+msgstr ""
+"Kies het gewenste formulieruiterlijk en begin meteen met bouwen. U kunt "
+"altijd achteraf van formulieruiterlijk wisselen terwijl u aan uw formulier "
+"werkt."
+
+#: admin/templates/templates.php:74
+msgid "Select your desired form type."
+msgstr "Selecteer het gewenste formuliertype."
+
+#: admin/templates/templates.php:78
+msgid "Autoscroll Form"
+msgstr "Autoscroll formulier"
+
+#: admin/templates/templates.php:79
+msgid "Fluently presents one question at a time."
+msgstr "Eén vraag per keer in een soepele beweging."
+
+#: admin/templates/templates.php:84
+msgid "Chat Form"
+msgstr "Chat Formulier"
+
+#: admin/templates/templates.php:85
+msgid "Presents all questions and answers as a chat."
+msgstr "Presenteer vraag en antwoord als een chat."
+
+#: admin/templates/templates.php:90
+msgid "Classic Form"
+msgstr "Klassieke Formulier"
+
+#: admin/templates/templates.php:91
+msgid "Presents question fields in a traditional format."
+msgstr "Traditionele weergave van vragen."
+
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/templates/templates.php:97
+msgid "Visit the %1$s for tips & tricks about %2$s."
+msgstr "Bezoek het %1$s voor tips & trucs over %2$s."
+
+#. translators: %1$s is replaced with `help center` and %2$s is replaced with `form faces`
+#: admin/templates/templates.php:97
+msgid "form faces"
+msgstr "formulieruiterlijken"
+
+#: admin/templates/templates.php:100
+msgid "Or build from a template."
+msgstr "Of gebruik een sjabloon."
+
+#: admin/templates/templates.php:101
+msgid ""
+"Choose any of the templates below to build your form even faster. Templates "
+"are fully editable and customizable of course."
+msgstr ""
+"Kies een van de sjablonen hieronder om uw formulier nog sneller op te "
+"bouwen. De sjablonen zijn uiteraard volledig bewerkbaar en aanpasbaar."
+
+#: admin/templates/templates.php:103
+msgid "Contact Us"
+msgstr "Contact Formulier"
+
+#: admin/templates/templates.php:104
+msgid "Support Request"
+msgstr "Vraag ondersteuning"
+
+#: admin/templates/templates.php:105
+msgid "Product Evaluation"
+msgstr "Product Evaluatie"
+
+#: admin/templates/templates.php:106
+msgid "Quiz"
+msgstr "Quiz"
+
+#: admin/templates/templates.php:107
+msgid "Quote Request"
+msgstr "Offerte-aanvraag"
+
+#: admin/templates/templates.php:108
+msgid "Feedback Collection"
+msgstr "Feedbackverzameling"
+
+#: admin/templates/templates.php:109
+msgid "Job Application"
+msgstr "Sollicitatie"
+
+#: admin/templates/templates.php:110
+msgid "Event Registration"
+msgstr "Evenement Registratie"
+
+#: admin/templates/templates.php:111
+msgid "Customer Satisfaction (NPS)"
+msgstr "Klanttevredenheid (NPS)"
+
+#: admin/templates/templates.php:112
+msgid "Webshop Order"
+msgstr "Webshop Bestelformulier"
+
+#: admin/templates/templates.php:113
+msgid "Wedding RSVP"
+msgstr "Bruiloft RSVP"
+
+#: admin/templates/templates.php:114
+msgid "Calculation Wizard"
+msgstr "Rekenmachine"
+
+#: admin/templates/templates.php:122
+msgid "Build New Form"
+msgstr "Maak Nieuw Formulier"
+
+#: elementor/widget.php:43 elementor/widget.php:80 gutenberg/gutenberg.php:40
+msgid "Tripetto Form"
+msgstr "Tripetto Formulier"
+
+#: elementor/widget.php:65
+msgid "Select a form..."
+msgstr "Selecteer een formulier..."
+
+#: elementor/widget.php:90
+msgid "You currently don't have any Tripetto forms."
+msgstr "U heeft momenteel nog geen Tripetto formulieren."
+
+#: elementor/widget.php:95
+msgid "Build a new form"
+msgstr "Bouw een nieuw formulier"
+
+#: elementor/widget.php:103
+msgid "Build a new form or edit existing one"
+msgstr "Nieuw formulier maken of bestaand formulier bewerken"
+
+#: elementor/widget.php:107
+msgid ""
+"You currently don't have any Tripetto forms or insufficient access rights to "
+"use forms."
+msgstr ""
+"U heeft op dit moment nog geen Tripetto formulieren of onvoldoende "
+"toegangsrechten om formulieren te gebruiken."
+
+#: elementor/widget.php:113
+msgid "Use the following form"
+msgstr "Gebruik het volgende formulier"
+
+#: elementor/widget.php:125 gutenberg/gutenberg.php:69
+msgid "Options"
+msgstr "Opties"
+
+#: elementor/widget.php:135 elementor/widget.php:147 elementor/widget.php:159
+msgid "Yes"
+msgstr "Ja"
+
+#: elementor/widget.php:168 gutenberg/gutenberg.php:85
+msgid "Width"
+msgstr "Breedte"
+
+#: elementor/widget.php:172 gutenberg/gutenberg.php:86
+msgid "Specify a fixed width"
+msgstr "Geef een vaste breedte op"
+
+#: elementor/widget.php:181 gutenberg/gutenberg.php:87
+msgid "Height"
+msgstr "Hoogte"
+
+#: elementor/widget.php:185 gutenberg/gutenberg.php:88
+msgid "Specify a fixed height"
+msgstr "Geef een vaste hoogte op"
+
+#: elementor/widget.php:194 gutenberg/gutenberg.php:89
+msgid "Placeholder"
+msgstr "Laadbericht"
+
+#: elementor/widget.php:207 gutenberg/gutenberg.php:92
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#. translators: %s is replaced with a code example for the CSS selector
+#: elementor/widget.php:220 gutenberg/gutenberg.php:100
+msgid "To specify rules for a specific block, use this selector: %s"
+msgstr ""
+"Als u regels voor een specifiek blok wilt opgeven, gebruikt u deze regel: %s"
+
+#: elementor/widget.php:264
+msgid "Select a form and see a live preview here."
+msgstr "Selecteer een formulier en bekijk hier een live voorbeeld."
+
+#: gutenberg/gutenberg.php:41
+msgid "Show a Tripetto form or survey."
+msgstr "Toon een Tripetto formulier of vragenlijst."
+
+#: gutenberg/gutenberg.php:43
+msgid "survey"
+msgstr "vragenlijst"
+
+#: gutenberg/gutenberg.php:44
+msgid "Preparing live preview..."
+msgstr "Voorbereiden live voorbeeld..."
+
+#: gutenberg/gutenberg.php:45
+msgid "Loading forms..."
+msgstr "Bezig met formulieren laden..."
+
+#: gutenberg/gutenberg.php:46
+msgid "Live preview not available!"
+msgstr "Live preview niet beschikbaar!"
+
+#: gutenberg/gutenberg.php:47
+msgid "Error while loading your list of available forms!"
+msgstr "Fout bij het laden van de lijst met beschikbare formulieren!"
+
+#: gutenberg/gutenberg.php:48
+msgid "Error while loading form (is the form deleted?)"
+msgstr "Fout bij het laden van het formulier (is het formulier verwijderd?)"
+
+#: gutenberg/gutenberg.php:49
+msgid ""
+"You have insufficient rights to select existing forms or create new forms."
+msgstr ""
+"U heeft onvoldoende rechten om bestaande formulieren te selecteren of om "
+"nieuwe formulieren te maken."
+
+#: gutenberg/gutenberg.php:50
+msgid "Select existing form"
+msgstr "Selecteer bestaand formulier"
+
+#: gutenberg/gutenberg.php:51
+msgid "Build new form"
+msgstr "Maak nieuw formulier"
+
+#: gutenberg/gutenberg.php:52
+msgid "Or"
+msgstr "Of"
+
+#: gutenberg/gutenberg.php:54
+msgid "Select another form"
+msgstr "Selecteer een ander formulier"
+
+#: gutenberg/gutenberg.php:57
+msgid "Select form face"
+msgstr "Selecteer formulieruiterlijk"
+
+#: gutenberg/gutenberg.php:58
+msgid "Edit form"
+msgstr "Bewerk formulier"
+
+#: gutenberg/gutenberg.php:59
+msgid "Edit form (fullscreen)"
+msgstr "Formulier bewerken (volledig scherm)"
+
+#: gutenberg/gutenberg.php:60
+msgid "Edit form (side by side)"
+msgstr "Formulier bewerken (naast elkaar)"
+
+#: gutenberg/gutenberg.php:61
+msgid "Edit styles"
+msgstr "Stijlen bewerken"
+
+#: gutenberg/gutenberg.php:62
+msgid "Edit translations"
+msgstr "Vertalingen bewerken"
+
+#: gutenberg/gutenberg.php:67
+msgid "View results"
+msgstr "Bekijk resultaten"
+
+#: gutenberg/gutenberg.php:68
+msgid "Restart form preview"
+msgstr "Formulier opnieuw starten"
+
+#: gutenberg/gutenberg.php:103
+msgid "Detach from block"
+msgstr "Losmaken van blok"
+
+#: gutenberg/gutenberg.php:104
+msgid "Help"
+msgstr "Help"
+
+#: lib/variables.php:29
+msgid "User / Username"
+msgstr "Gebruiker / Gebruikersnaam"
+
+#: lib/variables.php:30
+msgid "User / Username (URL sanitized)"
+msgstr "Gebruiker / Gebruikersnaam (veilig voor URL)"
+
+#: lib/variables.php:31
+msgid "User / Nickname"
+msgstr "Gebruiker / Schermnaam"
+
+#: lib/variables.php:32
+msgid "User / Display name"
+msgstr "Gebruiker / Weergavenaam"
+
+#: lib/variables.php:33
+msgid "User / First name"
+msgstr "Gebruiker / Voornaam"
+
+#: lib/variables.php:34
+msgid "User / Last name"
+msgstr "Gebruiker / Achternaam"
+
+#: lib/variables.php:35
+msgid "User / Email address"
+msgstr "Gebruiker / E-mailadres"
+
+#: lib/variables.php:36
+msgid "User / Website"
+msgstr "Gebruiker / Website"
+
+#: lib/variables.php:37
+msgid "User / Biographical info"
+msgstr "Gebruiker / Biografie"
+
+#: lib/variables.php:38
+msgid "User / Avatar (URL)"
+msgstr "Gebruiker / Avatar (URL)"
+
+#: lib/variables.php:39
+msgid "User / Language"
+msgstr "Gebruiker / Taal"
+
+#: lib/variables.php:40
+msgid "User / ID"
+msgstr "Gebruiker / ID"
+
+#: lib/variables.php:43
+msgid "Website / Title"
+msgstr "Website / Titel"
+
+#: lib/variables.php:44
+msgid "Website / Tagline"
+msgstr "Website / Ondertitel"
+
+#: lib/variables.php:45
+msgid "Website / Administration email address"
+msgstr "Website / Administratie e-mailadres"
+
+#: lib/variables.php:46
+msgid "Website / Language"
+msgstr "Website / Taal"
+
+#: lib/variables.php:48
+msgid "Visitor / IP address"
+msgstr "Bezoeker / IP-adres"
+
+#: lib/variables.php:49
+msgid "Visitor / Language"
+msgstr "Bezoeker / Taal"
+
+#: lib/variables.php:50
+msgid "Visitor / Referrer URL"
+msgstr "Bezoeker / Referrer URL"
+
+#: lib/variables.php:52
+msgid "Server / URL"
+msgstr "Server / URL"
+
+#: lib/variables.php:53
+msgid "Server / Protocol"
+msgstr "Server / Protocol"
+
+#: lib/variables.php:54
+msgid "Server / Port"
+msgstr "Server / Poort"
+
+#: lib/variables.php:55
+msgid "Server / Host name"
+msgstr "Server / Hostnaam"
+
+#: lib/variables.php:56
+msgid "Server / Path"
+msgstr "Server / Pad"
+
+#: lib/variables.php:58
+msgid "Server / IP address"
+msgstr "Server / IP-adres"
+
+#: lib/variables.php:59
+msgid "Server / Software"
+msgstr "Server / Software"
+
+#: lib/variables.php:60
+msgid "Server / WordPress version"
+msgstr "Server / WordPress-versie"
+
+#: lib/variables.php:61
+msgid "Server / PHP version"
+msgstr "Server / PHP-versie"
+
+#: runner/runner.php:594
+msgid ""
+"Normally you should see a Tripetto form over here, but it needs JavaScript "
+"to run properly and it seems that is disabled in your browser. Please enable "
+"JavaScript to see and use the form."
+msgstr ""
+"Normaal gesproken zou u hier een Tripetto formulier zien. Alleen is hier "
+"JavaScript ondersteuning voor nodig en het lijkt erop dat dat is "
+"uitgeschakeld in uw browser. Om het formulier te kunnen zien en gebruiken, "
+"dient u JavaScript in uw browser te activeren."
+
+#. translators: %1$s is replaced with the form name and %2$d is replaced with the form index
+#: runner/runner.php:1224
+msgid "New submission from %1$s (#%2$d)"
+msgstr "Nieuwe inzending van %1$s (#%2$d)"
+
+#. translators: %1$d is replaced with the form index and %2$s is replaced with the form name
+#: runner/runner.php:1255
+msgid "New submission `#%1$d` for `%2$s`"
+msgstr "Nieuwe inzending '#%1$d' voor '%2$s'"
+
+#: runner/runner.php:1458
+msgid "Resume your form with this magic link"
+msgstr "Hervat uw formulier met deze magische link"
+
+#: templates/footer.php:21
+msgid "Sent to"
+msgstr "Verstuurd naar"
+
+#: templates/footer.php:23
+msgid "by"
+msgstr "door"
+
+#: templates/footer.php:27
+msgid "Get conversational!"
+msgstr "Get conversational!"
+
+#: templates/notification.php:15
+msgid "New submission"
+msgstr "Nieuwe inzending"
+
+#: templates/notification.php:18
+msgid "A new submission (#{{index}}) was received for form"
+msgstr "Er is een nieuwe inzending (#{{index}}) ontvangen voor formulier"
+
+#: templates/notification.php:19
+msgid "View in WordPress"
+msgstr "Bekijken in WordPress"
+
+#: templates/snapshot.php:15
+msgid "Form paused"
+msgstr "Formulier gepauzeerd"
+
+#: templates/snapshot.php:18
+msgid "You took a break while filling out the form. Sweet!"
+msgstr "Je nam een pauze tijdens het invullen van het formulier. Prima!"
+
+#: templates/snapshot.php:20
+msgid "Click the link below at any time to continue right where you left off."
+msgstr "Klik op de onderstaande link om verder te gaan waar je was gebleven."
+
+#: templates/snapshot.php:24
+msgid "Resume your form"
+msgstr "Uw formulier hervatten"
+
+#: gutenberg/block.json
+msgctxt "block title"
+msgid "Tripetto Form"
+msgstr "Tripetto Formulier"
+
+#: gutenberg/block.json
+msgctxt "block description"
+msgid "Show a Tripetto form or survey."
+msgstr "Toon een Tripetto formulier of vragenlijst."
+
+#: gutenberg/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulier"
+
+#: gutenberg/block.json
+msgctxt "block keyword"
+msgid "survey"
+msgstr "vragenlijst"

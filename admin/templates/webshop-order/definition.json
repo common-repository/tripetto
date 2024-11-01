@@ -1,0 +1,601 @@
+{
+  "name": "Webshop Order",
+  "language": "en",
+  "epilogue": {
+    "title": "Thanks for your order!",
+    "description": "Please contact us if you have any other questions.\n\nIf you opted in for an email confirmation of your order, we have sent that to @51fe89cd89950c4875c17341917c953c4464f998979bca6debcf235d80cd255d.",
+    "repeatable": true
+  },
+  "clusters": [
+    {
+      "id": "e6084dfd407d08e12ebd9fd8f11c6bff2f5703408769ef9d13d8d11305a04975",
+      "name": "Products",
+      "nodes": [
+        {
+          "id": "366dfa3a6e1ae2437da71e2eb8a76feeaeaf57ec3957c5a3d00fa125ddfcfebc",
+          "name": "Your product selection",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "849806c2b8f5225b800402adba2bc00a82c53019a62ddb00ea4b13d3619b7894",
+          "name": "Which product(s) would you like to order?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "2337113ccbc5bfd2ce4ff9b49dc7e31fbabcaeccdec1a17ec28f1208894dd36d",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "49bc55cd5787e23384ba1979ad87b1fdba7f4f044202eb50e1c02335a543f66b",
+              "sequence": 0,
+              "label": "Image",
+              "name": "Champagne",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": {
+                  "string": "Champagne",
+                  "markdown": "bottles of champagne"
+                },
+                "alias": "PRODUCTS",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "546857118f1fc23e337cb5208957273adc1053c82c8d4ae12aa7cb82aaf07ec1",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "413044745e1890b143609e0bd011bbc902f63544f486175989c84f3fd420921f",
+              "sequence": 1,
+              "label": "Image",
+              "name": "Basket Ball",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": {
+                  "string": "Basket Ball",
+                  "markdown": "basket balls"
+                },
+                "alias": "PRODUCTS",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "98437b941635ab5b020e8ba074c9719942059c657eadbf8e5aeb919c77676798",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "c568ed71559e7e8aec12fc02b416696c7be987f2ae7cda4c9d2c110824728c71",
+              "sequence": 2,
+              "label": "Image",
+              "name": "Cake",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": { "string": "Cake", "markdown": "cakes" },
+                "alias": "PRODUCTS",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "50fc0ca6623d45ce19cb88a3eedeb87aa96bd8f5205266cf536877d3ae1b2358",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "a5eac5c49839098041a66096ae138872742f6b56e8c6290cff76a16333a07a28",
+              "sequence": 3,
+              "label": "Image",
+              "name": "Flashlight",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": {
+                  "string": "Flashlight",
+                  "markdown": "flashlights"
+                },
+                "alias": "PRODUCTS",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "92bd4702b8af7cde432fe48f9f6a61f61990f1292a30a923c753c2011e59e0c0",
+              "type": "number",
+              "kind": "feature",
+              "reference": "counter",
+              "label": "Counter",
+              "exportable": false
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "49bc55cd5787e23384ba1979ad87b1fdba7f4f044202eb50e1c02335a543f66b",
+                "name": "Champagne",
+                "nameVisible": true,
+                "emoji": "🍾",
+                "description": "€ 19.99",
+                "moniker": "bottles of champagne"
+              },
+              {
+                "id": "413044745e1890b143609e0bd011bbc902f63544f486175989c84f3fd420921f",
+                "name": "Basket Ball",
+                "nameVisible": true,
+                "emoji": "🏀",
+                "description": "€ 10.00",
+                "moniker": "basket balls"
+              },
+              {
+                "id": "c568ed71559e7e8aec12fc02b416696c7be987f2ae7cda4c9d2c110824728c71",
+                "name": "Cake",
+                "nameVisible": true,
+                "emoji": "🎂",
+                "description": "€ 7.99",
+                "moniker": "cakes"
+              },
+              {
+                "id": "a5eac5c49839098041a66096ae138872742f6b56e8c6290cff76a16333a07a28",
+                "name": "Flashlight",
+                "nameVisible": true,
+                "emoji": "🔦",
+                "description": "€ 5.99",
+                "moniker": "flashlights"
+              }
+            ],
+            "multiple": true,
+            "required": true,
+            "alias": "PRODUCTS"
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "17c977b77dfb7ef91ba4abbf45f99e27eb4d34d5c689aee4d6720b9a8aa1411d",
+          "name": "Iterating branch",
+          "clusters": [
+            {
+              "id": "2139e21386ec2461f78be5371031dd59aa822a03f302308416f419c93468d22f",
+              "name": "Amounts",
+              "nodes": [
+                {
+                  "id": "88ca8ac10c81d409d1b6727e32fce0e7f94abc8e770ea24141d31d63adaacf21",
+                  "name": "Your amounts",
+                  "nameVisible": true,
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0"
+                  }
+                },
+                {
+                  "id": "2c03947c03c41b56bf0c17a328eb16b18e6fcddc97eb2e4dea464424b665ecf0",
+                  "explanation": "Subtotal for @964a67bdfce9e262041934acbb39f3cef417f9bf179957700fe26754e65acaac @23d05ef023396c936e9a112844d62ec266469ae303969c0588f944ba562bc0c2: **@5a1b6a82967413beced7f4d72f35385323e98b9011021976a1426eb1c3ce9c61**",
+                  "name": "How many **@41064c5605eb489efd3b72c536e15153b1be00c7c21f9fa5eb690b95fd52f0f9** would you like to order?",
+                  "nameVisible": true,
+                  "placeholder": "Enter your amount...",
+                  "slots": [
+                    {
+                      "id": "964a67bdfce9e262041934acbb39f3cef417f9bf179957700fe26754e65acaac",
+                      "type": "numeric",
+                      "kind": "static",
+                      "reference": "number",
+                      "label": "Number",
+                      "alias": "AMOUNT",
+                      "required": true,
+                      "minimum": 1,
+                      "maximum": 100,
+                      "precision": 0
+                    },
+                    {
+                      "id": "5a1b6a82967413beced7f4d72f35385323e98b9011021976a1426eb1c3ce9c61",
+                      "type": "numeric",
+                      "kind": "feature",
+                      "reference": "calculator",
+                      "label": "Calculation",
+                      "exportable": true,
+                      "prefix": "€ ",
+                      "precision": 2
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-number",
+                    "version": "7.0.2",
+                    "operations": [
+                      {
+                        "id": "230d0e730f13334cee90574cba672a6d269c67a89b57e750be0af2a11ae929ef",
+                        "operator": "*",
+                        "opcode": "score",
+                        "value": "23d05ef023396c936e9a112844d62ec266469ae303969c0588f944ba562bc0c2",
+                        "scores": {
+                          "49bc55cd5787e23384ba1979ad87b1fdba7f4f044202eb50e1c02335a543f66b": 19.99,
+                          "413044745e1890b143609e0bd011bbc902f63544f486175989c84f3fd420921f": 10,
+                          "c568ed71559e7e8aec12fc02b416696c7be987f2ae7cda4c9d2c110824728c71": 7.99,
+                          "a5eac5c49839098041a66096ae138872742f6b56e8c6290cff76a16333a07a28": 5.99
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "03f3c2ef66c32d8072b67c0afe1ec6bca47306d8ed1ba34b4691911263bfd0fb",
+              "block": {
+                "choice": "49bc55cd5787e23384ba1979ad87b1fdba7f4f044202eb50e1c02335a543f66b",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "849806c2b8f5225b800402adba2bc00a82c53019a62ddb00ea4b13d3619b7894",
+                "slot": "2337113ccbc5bfd2ce4ff9b49dc7e31fbabcaeccdec1a17ec28f1208894dd36d"
+              }
+            },
+            {
+              "id": "3175ccbab4191c327a2c7b710d27e23d470c9b232151696c5d23205f26fb1d6f",
+              "block": {
+                "choice": "413044745e1890b143609e0bd011bbc902f63544f486175989c84f3fd420921f",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "849806c2b8f5225b800402adba2bc00a82c53019a62ddb00ea4b13d3619b7894",
+                "slot": "546857118f1fc23e337cb5208957273adc1053c82c8d4ae12aa7cb82aaf07ec1"
+              }
+            },
+            {
+              "id": "d5a84ef927fd2f8790297d25596146d64bf19878523d8288b612e147a9b34ca3",
+              "block": {
+                "choice": "c568ed71559e7e8aec12fc02b416696c7be987f2ae7cda4c9d2c110824728c71",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "849806c2b8f5225b800402adba2bc00a82c53019a62ddb00ea4b13d3619b7894",
+                "slot": "98437b941635ab5b020e8ba074c9719942059c657eadbf8e5aeb919c77676798"
+              }
+            },
+            {
+              "id": "542012bcb62b0cb8461b59fa8537bdbebc09d5f1e56ca196df14a28814e4db1b",
+              "block": {
+                "choice": "a5eac5c49839098041a66096ae138872742f6b56e8c6290cff76a16333a07a28",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "849806c2b8f5225b800402adba2bc00a82c53019a62ddb00ea4b13d3619b7894",
+                "slot": "50fc0ca6623d45ce19cb88a3eedeb87aa96bd8f5205266cf536877d3ae1b2358"
+              }
+            }
+          ],
+          "culling": "each"
+        }
+      ]
+    },
+    {
+      "id": "42cf896e1470dbd0d5fc2a463df1edb400b538b6779c16205deb0eb57a4efcab",
+      "name": "Discount",
+      "nodes": [
+        {
+          "id": "c56eb419ba745838728ee6524735e26785b0948ab1a983754b52051b167f3531",
+          "name": "Your price is: @5a1b6a82967413beced7f4d72f35385323e98b9011021976a1426eb1c3ce9c61",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "c43e0144300e1980c92c01132ef2a6cd857bf6de6ab283f2ac437a715360ffdf",
+          "name": "Do you have a discount code?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "e410a7cc700b5e7f554bbf9aa683a124780a2b67d50073d612ba292ccc1a7ca0",
+              "type": "string",
+              "kind": "static",
+              "reference": "answer",
+              "label": "Answer",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-yes-no", "version": "4.0.2" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "92dd77d8fb26ef5f184d19959484a8ca62a023d792938916b773dbd23223a80a",
+          "name": "Discount branch",
+          "clusters": [
+            {
+              "id": "f7e4f7d31f0a002d2862e01fdc532ba5e9553cc2c4d0e91c0735947350bc0aaa",
+              "name": "Discount code",
+              "nodes": [
+                {
+                  "id": "4eb78c76ebb628da112099c66ccbac1ffb9a8c7e04070fed4500b7182a544030",
+                  "name": "Your discount code",
+                  "nameVisible": true,
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0"
+                  }
+                },
+                {
+                  "id": "e464108c6504bc97eafd268042bcce8820832aee9b3e5c26f18c6e54c5e001d0",
+                  "name": "Your discount code",
+                  "nameVisible": true,
+                  "placeholder": "Enter your discount code...",
+                  "description": "Our little secret: use code *DISCOUNT* 🤫",
+                  "slots": [
+                    {
+                      "id": "1ff9f527b04865037c762be234ee47a6cadf16e7f1c84eace05ffad8f3c34c84",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Text",
+                      "alias": "CODE",
+                      "transformation": "uppercase"
+                    }
+                  ],
+                  "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "e387ab9e8da9b63f98b431f2e85769154e287a1a241b1007d332ec9fc991c76d",
+              "block": {
+                "type": "tripetto-block-yes-no:yes",
+                "version": "4.0.2",
+                "node": "c43e0144300e1980c92c01132ef2a6cd857bf6de6ab283f2ac437a715360ffdf",
+                "slot": "e410a7cc700b5e7f554bbf9aa683a124780a2b67d50073d612ba292ccc1a7ca0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0222ab113b060a806b5f59232db1815dd0780243af5201a50c086c39e9807c51",
+      "name": "Pricing",
+      "nodes": [
+        {
+          "id": "92d1f0119b7ab8c788f5df0a474f1fffcc0079912be5e3a1e90e1b8f6e1fe022",
+          "name": "Discount",
+          "slots": [
+            {
+              "id": "78615e2b2bdbdc9e5d70daa6fd823f6c7b8defacc101a6c4c486295a7cc4601e",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Discount",
+              "prefix": "€ ",
+              "precision": 2
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "724eb8f3f3c2dd482a016de6d91c8603310b1970134d418ff70b0f766f2b5445",
+                "operator": "+",
+                "opcode": "evaluate",
+                "value": "1ff9f527b04865037c762be234ee47a6cadf16e7f1c84eace05ffad8f3c34c84",
+                "cona": "DISCOUNT",
+                "conb": 0,
+                "outa": 10,
+                "outb": 0,
+                "compareMode": "equal",
+                "ignoreCase": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "99a4ddca90e643b65fe392b2a3fd01187a6e77ecec7b1341aaafd4468c962c09",
+          "name": "Price",
+          "slots": [
+            {
+              "id": "6f5022d1b237da6efdca3412f94983330420b5049c2102ae957323cf70240291",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Price",
+              "prefix": "€ ",
+              "precision": 2
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "9d592555ab25ecf2879acfd49347710dc22dd38f4f98b7dedaf6bdbf106d1a2f",
+                "operator": "=",
+                "opcode": "number",
+                "value": "5a1b6a82967413beced7f4d72f35385323e98b9011021976a1426eb1c3ce9c61"
+              },
+              {
+                "id": "1e15cb6bb324729bf0ca2241a0f7f5bb070e4930a0c1475a81249dcafb011e96",
+                "operator": "-",
+                "opcode": "number",
+                "value": "78615e2b2bdbdc9e5d70daa6fd823f6c7b8defacc101a6c4c486295a7cc4601e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2b5e1d38d840c2b867b04335f84531c29f0d4ef876defd34203eee0c292eefd0",
+          "name": "Your price",
+          "nameVisible": true,
+          "description": "Subtotal: @5a1b6a82967413beced7f4d72f35385323e98b9011021976a1426eb1c3ce9c61\nDiscount: @78615e2b2bdbdc9e5d70daa6fd823f6c7b8defacc101a6c4c486295a7cc4601e\n**Your total price is: @6f5022d1b237da6efdca3412f94983330420b5049c2102ae957323cf70240291**\n\nLet's continue your purchase.",
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        }
+      ]
+    },
+    {
+      "id": "a2434b4b40b41f37756f8174acbac086a8cab97384835e61f8df427206e2ba2a",
+      "name": "Personal information",
+      "nodes": [
+        {
+          "id": "cd271d87b5940e823d1bc2d1000952bf9d287cd7f6d407d82d2907b1f23b4d0e",
+          "name": "Your details",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "5fd559d61fbc9a43b30cc9702fd7dd6bb938725ccbac2bd469fa26cc81bdb830",
+          "name": "Your name",
+          "nameVisible": true,
+          "placeholder": "Enter your name...",
+          "slots": [
+            {
+              "id": "923c002ae4573838334335f0dab1207e838eb005eb903a6adf1ca9e1766c6d48",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "0f5ded4162f0175ad4c1daa9c0a7c9371b0e2747ac2993e05a17169f0465d02e",
+          "name": "Would you like to receive a confirmation in your mail?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "ca031745ac554bae0850cff3a62296b3f13e1a9be491d6e7ef73e57c7d794f67",
+              "type": "string",
+              "kind": "static",
+              "reference": "answer",
+              "label": "Answer",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-yes-no", "version": "4.0.2" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "dd12a3a2028c779b526d8063afc658b7b1bae1cda00d3454186768a965e6bf6d",
+          "name": "Email branch",
+          "clusters": [
+            {
+              "id": "3195a4e2465a67a06b8ebbc42b92e1e989f4d16b41a6709438f9cc386813812d",
+              "name": "Email",
+              "nodes": [
+                {
+                  "id": "8333ce711ceb2f874eafb2665d30d88862ef45d0ac1212e48c75bc49857422f9",
+                  "name": "Your details",
+                  "nameVisible": true,
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0"
+                  }
+                },
+                {
+                  "id": "85bc5ae3c1ac822e1d517bc183cbdd83363f0480d3ecc8544eddf88dc7f93417",
+                  "name": "Your email address",
+                  "nameVisible": true,
+                  "placeholder": "Enter your email address...",
+                  "slots": [
+                    {
+                      "id": "51fe89cd89950c4875c17341917c953c4464f998979bca6debcf235d80cd255d",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "email",
+                      "label": "Email address",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-email",
+                    "version": "5.0.0"
+                  }
+                },
+                {
+                  "id": "d2b73d8ca133e4f616f6468b37e74e83118d3e78c067ad72c02c722353c83fe6",
+                  "name": "Confirmation of your order",
+                  "description": "Hi @923c002ae4573838334335f0dab1207e838eb005eb903a6adf1ca9e1766c6d48,\n\nThis is a confirmation of your order with total price of @6f5022d1b237da6efdca3412f94983330420b5049c2102ae957323cf70240291.",
+                  "slots": [
+                    {
+                      "id": "1cb01ee873700639cf97b2a04b7152f0ef55ab5de1cacb0a456ccc762ea2edbb",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "recipient",
+                      "label": "Recipient",
+                      "actionable": true
+                    },
+                    {
+                      "id": "186fcbb89e0d9b37fbff60df996b086ead576fecfeaeb339cda26addc568cb5a",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "subject",
+                      "label": "Subject",
+                      "actionable": true
+                    },
+                    {
+                      "id": "04f50d65a322d26d041b335c42f403aa4bb0a2ca9295a4bca75d0e9faf7c78a8",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "message",
+                      "label": "Message",
+                      "actionable": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-mailer",
+                    "version": "5.0.1",
+                    "recipient": "51fe89cd89950c4875c17341917c953c4464f998979bca6debcf235d80cd255d"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "3e342f1b2d055795f3b1b36fd997d347210c0a29758bbcc3cc02ba0c29b18494",
+              "block": {
+                "type": "tripetto-block-yes-no:yes",
+                "version": "4.0.2",
+                "node": "0f5ded4162f0175ad4c1daa9c0a7c9371b0e2747ac2993e05a17169f0465d02e",
+                "slot": "ca031745ac554bae0850cff3a62296b3f13e1a9be491d6e7ef73e57c7d794f67"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ffccd6b667251f765ce6d9be0ca36328d14ad209cd2d042fb3c573a49aba0099",
+      "name": "Terms",
+      "nodes": [
+        {
+          "id": "a553ca646dda681d73af3d5b9510aea8717b6f51ef315aeca43e7c1dbe112336",
+          "name": "Please review your price",
+          "nameVisible": true,
+          "description": "Total price is @6f5022d1b237da6efdca3412f94983330420b5049c2102ae957323cf70240291",
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "521123aefa1ffe30982220350e3cfb7c89a8f80aba407ac5761f02107a1f4684",
+          "name": "I agree with this price of @6f5022d1b237da6efdca3412f94983330420b5049c2102ae957323cf70240291",
+          "slots": [
+            {
+              "id": "6617830713f7882ab2bd789ef7bf8ef017eb7299636fc4def3abf18c7a390a70",
+              "type": "boolean",
+              "kind": "static",
+              "reference": "checked",
+              "label": "Checkbox",
+              "required": true,
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            }
+          ],
+          "block": { "type": "tripetto-block-checkbox", "version": "5.1.0" }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

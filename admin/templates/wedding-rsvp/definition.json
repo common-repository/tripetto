@@ -1,0 +1,361 @@
+{
+  "name": "Wedding RSVP",
+  "language": "en",
+  "prologue": {
+    "title": "**We're getting married!**",
+    "description": "**We hope to see you all on our big day.**\nBut of course, we've got some planning to do. So can you please let us know if you're able to join?",
+    "button": "Start RSVP",
+    "image": "https://image.freepik.com/free-vector/nice-wedding-couple-cartoon-style_23-2147546616.jpg"
+  },
+  "epilogue": { "title": "We're looking forward having you as our guest!" },
+  "clusters": [
+    {
+      "id": "2c260dbd3ddfbd697e0c9f9838e62f4842171e5463d4007cc3bc1b29925e8c11",
+      "name": "Intro",
+      "nodes": [
+        {
+          "id": "d24b92281bfdca91c470e87d6a1b5523366424259943123396aea589265264e4",
+          "name": "Who's answering?",
+          "nameVisible": true,
+          "placeholder": "Your first name...",
+          "slots": [
+            {
+              "id": "6c063eba7dbc3323968fecb01d855756e66731b03f5a8bb3c3580041ce2526e3",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "alias": "Name",
+              "required": true,
+              "transformation": "capitalize-words"
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        }
+      ]
+    },
+    {
+      "id": "2d70730e4e2aede3d42c72d0f5e611de987329e8a3a9666cc2f1363e7544be1a",
+      "name": "Presence",
+      "nodes": [
+        {
+          "id": "fc7e9c96a66780cd2a0f76f81dbc6b40ba1f279d79b8142264d99cec9a20ab12",
+          "name": "Hi **@6c063eba7dbc3323968fecb01d855756e66731b03f5a8bb3c3580041ce2526e3**, thanks for taking the time to reply. Are you joining us on our big day?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "5d7f13f79fe1604054d28ec5a291795619cf951d79fd7b0fce2487e23946b6d6",
+              "type": "string",
+              "kind": "static",
+              "reference": "answer",
+              "label": "Answer",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-yes-no",
+            "version": "4.0.2",
+            "altYes": "😍 Of course!",
+            "altNo": "😞 I can't make it..."
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "477b24f45394ea54a3c6b706abd550cb90168406c3ee385e3c77a1583b0e47ea",
+          "name": "Coming",
+          "clusters": [
+            {
+              "id": "7a363b039fe65c9120ffec0f26b18f0cd46bdd392c1b02875a0e61dab19bc7e7",
+              "name": "Guests",
+              "nodes": [
+                {
+                  "id": "8e0841a6b2963163ffc1461f8066ebda84a5fbb81dd5cf0f56a4acd06426f280",
+                  "name": "Sweet! Looking forward seeing you!",
+                  "nameVisible": true,
+                  "description": "We've got a few more questions for you.",
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0"
+                  }
+                },
+                {
+                  "id": "8e071ee36690e0385b3b5a595e847c8673946bb1b416eacaa85ae0fcc46c4594",
+                  "name": "Are you bringing your partner?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "ca1d61bed277157840df6139ec2ddc4b001978586a3207f91c2498b588f6ddcb",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "answer",
+                      "label": "Answer",
+                      "alias": "Partner",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-yes-no",
+                    "version": "4.0.2",
+                    "altYes": "Yes, I am.",
+                    "altNo": "No, just me."
+                  }
+                },
+                {
+                  "id": "15a3f7b7edb109d9c6b052599355228db902c6f2432792db516fad54e51b2af8",
+                  "name": "And are you bringing any kids with you?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "aec42a460e9411c77ba5d7061b30113a080e5bb26a1c3fe10625b813bba8b962",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "answer",
+                      "label": "Answer",
+                      "alias": "Kids",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-yes-no",
+                    "version": "4.0.2"
+                  }
+                }
+              ],
+              "branches": [
+                {
+                  "id": "2467b21c41060941394d00721778ea781b5ebf93de432bad1444d8ce6cf22ab6",
+                  "name": "Kids",
+                  "clusters": [
+                    {
+                      "id": "2c365166413374dfc65647f4bc7ddf59544510104b08772c17ef99bf0d5f3c62",
+                      "name": "Number of kids",
+                      "nodes": [
+                        {
+                          "id": "63340c80d0eae36eb66a125db306e7ace8361578460d92331a01cfdd125b5f89",
+                          "name": "How many kids?",
+                          "nameVisible": true,
+                          "description": "Just to know how many kids meals we should order 😋",
+                          "slots": [
+                            {
+                              "id": "349ac3e268bb32cc2cd4110c87cdb3091ad7d59b1d0550f2d8359024730ebf1d",
+                              "type": "numeric",
+                              "kind": "static",
+                              "reference": "number",
+                              "label": "Number",
+                              "alias": "Kids - Amount",
+                              "required": true,
+                              "precision": 0
+                            }
+                          ],
+                          "block": {
+                            "type": "tripetto-block-number",
+                            "version": "7.0.2"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "id": "9bd38c9511c1ff5cdfe2400a6604ceb92582947b8f0e0345855454540dc2b603",
+                      "block": {
+                        "type": "tripetto-block-yes-no:yes",
+                        "version": "4.0.2",
+                        "node": "15a3f7b7edb109d9c6b052599355228db902c6f2432792db516fad54e51b2af8",
+                        "slot": "aec42a460e9411c77ba5d7061b30113a080e5bb26a1c3fe10625b813bba8b962"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8e4a18cccb9c969aba80d07670af687971204cf00ebd383f1c46e8b19c3fe8d2",
+              "name": "Parts of the day",
+              "nodes": [
+                {
+                  "id": "cf0f1742687e1e37bfd72eac5257ff45e27936f7bead3e12cf96b8e888ef0946",
+                  "explanation": "Please select all parts that you're planning to visit.",
+                  "name": "Which part(s) of the day will you be joining us?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "e7e70d209dcdf5885709be43a126b7338959346316cdf7fbbf3eb885c74fd126",
+                      "type": "boolean",
+                      "kind": "dynamic",
+                      "reference": "909a6bf2159eeb392f8a3a1132ba70aac9cc1a346d920a403a954f5a247b11e5",
+                      "sequence": 0,
+                      "label": "Image",
+                      "name": "Ceremony",
+                      "required": true,
+                      "pipeable": {
+                        "label": "Image",
+                        "content": "name",
+                        "legacy": "Image"
+                      },
+                      "labelForFalse": "Not selected",
+                      "labelForTrue": "Selected"
+                    },
+                    {
+                      "id": "1f6db77e0d45d8120267be3d5306141549867b45ccd5d62e6480948ba77cde5b",
+                      "type": "boolean",
+                      "kind": "dynamic",
+                      "reference": "2242c03f56e9b97be8e699283bf7960de7bb2cad477e534e9562a9b98997f182",
+                      "sequence": 1,
+                      "label": "Image",
+                      "name": "Reception",
+                      "required": true,
+                      "pipeable": {
+                        "label": "Image",
+                        "content": "name",
+                        "legacy": "Image"
+                      },
+                      "labelForFalse": "Not selected",
+                      "labelForTrue": "Selected"
+                    },
+                    {
+                      "id": "d48e9ea7135a20eb96208f405f7f344e73afc026893f0404648c98015a37d38b",
+                      "type": "boolean",
+                      "kind": "dynamic",
+                      "reference": "bd8768d0ecbf0044a99d3ba1395bcb4d7bf27cbcc5a0aa8187d5d7efa5450f6d",
+                      "sequence": 2,
+                      "label": "Image",
+                      "name": "Dinner",
+                      "required": true,
+                      "pipeable": {
+                        "label": "Image",
+                        "content": "name",
+                        "legacy": "Image"
+                      },
+                      "labelForFalse": "Not selected",
+                      "labelForTrue": "Selected"
+                    },
+                    {
+                      "id": "efab5d638b4e3cd97b180cf477659d1e570a4c6722c48d16df17fc328a1918ed",
+                      "type": "boolean",
+                      "kind": "dynamic",
+                      "reference": "6bee5bd422f1c948e9e0cdf2af1a54fa75234c7c98a314c199ed8441c864e654",
+                      "sequence": 3,
+                      "label": "Image",
+                      "name": "Party",
+                      "required": true,
+                      "pipeable": {
+                        "label": "Image",
+                        "content": "name",
+                        "legacy": "Image"
+                      },
+                      "labelForFalse": "Not selected",
+                      "labelForTrue": "Selected"
+                    },
+                    {
+                      "id": "a3573f7f39ef3f4d46c262be77cb29d10d67afd737ac57736ea682229fef77fb",
+                      "type": "boolean",
+                      "kind": "dynamic",
+                      "reference": "e544f0617fb9ae693e6e537ae9a80febe34581ad39701fed7428735dc40b8693",
+                      "sequence": 4,
+                      "label": "Image",
+                      "name": "Afterparty",
+                      "required": true,
+                      "pipeable": {
+                        "label": "Image",
+                        "content": "name",
+                        "legacy": "Image"
+                      },
+                      "labelForFalse": "Not selected",
+                      "labelForTrue": "Selected"
+                    },
+                    {
+                      "id": "7bdb509124dbcd56caa48ab078c5c5a556a46fc83497d7312de34df94e8b9e2b",
+                      "type": "number",
+                      "kind": "feature",
+                      "reference": "counter",
+                      "label": "Counter",
+                      "exportable": false
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-picture-choice",
+                    "version": "4.1.0",
+                    "choices": [
+                      {
+                        "id": "909a6bf2159eeb392f8a3a1132ba70aac9cc1a346d920a403a954f5a247b11e5",
+                        "name": "Ceremony",
+                        "nameVisible": true,
+                        "emoji": "💍",
+                        "description": "12am-2pm"
+                      },
+                      {
+                        "id": "2242c03f56e9b97be8e699283bf7960de7bb2cad477e534e9562a9b98997f182",
+                        "name": "Reception",
+                        "nameVisible": true,
+                        "emoji": "🍰",
+                        "description": "3pm-5pm"
+                      },
+                      {
+                        "id": "bd8768d0ecbf0044a99d3ba1395bcb4d7bf27cbcc5a0aa8187d5d7efa5450f6d",
+                        "name": "Dinner",
+                        "nameVisible": true,
+                        "emoji": "🍴",
+                        "description": "6pm-8pm"
+                      },
+                      {
+                        "id": "6bee5bd422f1c948e9e0cdf2af1a54fa75234c7c98a314c199ed8441c864e654",
+                        "name": "Party",
+                        "nameVisible": true,
+                        "emoji": "💃",
+                        "description": "9pm-12pm"
+                      },
+                      {
+                        "id": "e544f0617fb9ae693e6e537ae9a80febe34581ad39701fed7428735dc40b8693",
+                        "name": "Afterparty",
+                        "nameVisible": true,
+                        "emoji": "😜",
+                        "description": "12pm-4am"
+                      }
+                    ],
+                    "multiple": true,
+                    "required": true,
+                    "size": "small"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "8f246463c4d41504dd07bda2559684a87e44f421500b423885c7843e3c17d41f",
+              "block": {
+                "type": "tripetto-block-yes-no:yes",
+                "version": "4.0.2",
+                "node": "fc7e9c96a66780cd2a0f76f81dbc6b40ba1f279d79b8142264d99cec9a20ab12",
+                "slot": "5d7f13f79fe1604054d28ec5a291795619cf951d79fd7b0fce2487e23946b6d6"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1dd459e01016fd07f7303cb3c57fefe245d159147653f11e71f234226b7ee8c5",
+          "name": "Not coming",
+          "conditions": [
+            {
+              "id": "0a03ec88bff8950a68e248f4fd7445d3d25d56d60ae988fc0f1d727c4fb63e7c",
+              "block": {
+                "type": "tripetto-block-yes-no:no",
+                "version": "4.0.2",
+                "node": "fc7e9c96a66780cd2a0f76f81dbc6b40ba1f279d79b8142264d99cec9a20ab12",
+                "slot": "5d7f13f79fe1604054d28ec5a291795619cf951d79fd7b0fce2487e23946b6d6"
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Too bad you can't make it that day.",
+            "description": "But no worries! We will send you the pictures afterwards 😜 Hope to see you again soon!"
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

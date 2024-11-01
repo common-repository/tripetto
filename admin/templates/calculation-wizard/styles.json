@@ -1,0 +1,36 @@
+{
+  "display": "inline",
+  "autoFocus": false,
+  "fullWidth": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-chat", "version": "1.9.6" },
+  "background": {
+    "url": "https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8d2VpZ2h0fGVufDB8fDB8&auto=format&fit=crop&w=800&q=60",
+    "positioning": "cover",
+    "color": "#fff",
+    "opacity": 50
+  },
+  "questions": {
+    "alignment": "left",
+    "roundness": 20,
+    "backgroundColor": "#EFF2F6"
+  },
+  "answers": {
+    "alignment": "right",
+    "roundness": 20,
+    "backgroundColor": "#18214D"
+  },
+  "font": { "size": 16, "family": "Poppins" },
+  "avatar": {
+    "type": "avataaar",
+    "skin": "Brown",
+    "eyes": "Side",
+    "eyeBrow": "NeutralNatural",
+    "mouth": "Smile",
+    "top": "LongHairStraightStrand",
+    "facialHair": "None",
+    "clothing": "BlazerShirt",
+    "accessories": "None",
+    "hairColor": "Brown"
+  }
+}

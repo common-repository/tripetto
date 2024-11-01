@@ -1,0 +1,33 @@
+{
+  "direction": "horizontal",
+  "verticalAlignment": "middle",
+  "hidePast": false,
+  "hideUpcoming": false,
+  "showNavigation": "never",
+  "showProgressbar": false,
+  "showEnumerators": false,
+  "autoFocus": false,
+  "showSeparateSubmit": false,
+  "showPreviousButton": true,
+  "hideRequiredIndicator": true,
+  "showScrollbar": false,
+  "disableScrolling": true,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-autoscroll", "version": "5.4.1" },
+  "background": {
+    "color": "#1f2024",
+    "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80",
+    "opacity": 8,
+    "positioning": "cover"
+  },
+  "font": { "size": 16, "sizeSmall": 14, "family": "Ubuntu" },
+  "inputs": {
+    "borderSize": 2,
+    "roundness": 0,
+    "errorColor": "white",
+    "agreeColor": "white",
+    "declineColor": "white",
+    "selectionColor": "white"
+  },
+  "buttons": { "mode": "fill", "roundness": 0, "finishColor": "#4f83df" }
+}

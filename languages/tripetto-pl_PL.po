@@ -1,0 +1,1517 @@
+# Copyright (C) 2020 Tripetto
+# This file is distributed under the same license as the Tripetto plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tripetto 3.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tripetto\n"
+"POT-Creation-Date: 2021-07-27T08:33:21+00:00\n"
+"PO-Revision-Date: 2021-07-27 10:36+0200\n"
+"Last-Translator: Krzysztof Kamiński <krzysztof.tomasz.kaminski@gmail.com>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: tripetto\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "All good!"
+msgstr "Wszytko w porządki!"
+
+msgid "All without logic"
+msgstr "Podgląd z wyłączoną logiką"
+
+msgid "Allow access to uploaded files"
+msgstr ""
+
+msgid "Allow direct access to uploaded files without WP admin login"
+msgstr ""
+
+msgid "Allow pausing and resuming"
+msgstr "Zezwól na wstrzymywanie i wznawianie"
+
+msgid "Allow webhook to access uploaded files"
+msgstr ""
+
+msgid ""
+"Allows users to pause the form and continue with it later by sending a "
+"resume link to the user's email address."
+msgstr ""
+"Zezwól na wstrzymanie formularza i późniejszą kontynuację na pomocą linku "
+"wznowienia wysłanego na adres email użytkownika."
+
+msgid "Are you sure you want to reset the styles for this form?"
+msgstr "Czy na pewno chcesz zresetować style tego formularza?"
+
+#, fuzzy
+#| msgid "Ask for support"
+msgid "Ask support"
+msgstr "Poproś o pomoc (ENG)"
+
+msgid ""
+"Asynchronous loading helps avoid caching issues, but sometimes results in "
+"longer form loading times because the page has already been rendered before "
+"the form is loaded. Enabling this option will load the form together with "
+"the page itself. Some cache plugins cache the page including the form. If "
+"this option is checked and your form doesn't update when you make a change, "
+"you probably need to clear the cache of your cache plugin."
+msgstr ""
+
+msgid "Automate"
+msgstr "Automatyzuj"
+
+msgid "Autoscroll"
+msgstr "Konwersacyjny"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid ""
+"Both the form and collected data are hosted and stored in _your own "
+"WordPress instance_. Not a single connection related to Tripetto is ever "
+"made with an external host other than yours. It's all in your own instance, "
+"under your control. Hello [GDPR](%1)!"
+msgstr ""
+"Zarówno formularz jaki i zebrane dane są przechowywane w _należącej do "
+"Ciebie instancji Wordpressa_. Tripetto nie komunikuje się z żadnym "
+"zewnętrznym hostem. Wszystkie dane znajdują się w Twojej instancji, pod "
+"Twoją wyłączną kontrolą. Wszystko zgodnie z [RODO](%1)!"
+
+msgid "Build"
+msgstr "Twórz"
+
+msgid "Buy a pro license now"
+msgstr ""
+
+msgid "Chat"
+msgstr "Czat"
+
+msgid "Cheatsheet"
+msgstr "Ściąga"
+
+msgid "Classic"
+msgstr "Klasyczny"
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Configure [Make](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid "Configure [Pabbly Connect](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid "Configure [Zapier](%1) and paste their webhook URL here:"
+msgstr ""
+
+msgid ""
+"Configure your [Facebook Pixel](%1) setup and copy-paste your Pixel ID here:"
+msgstr ""
+
+msgid ""
+"Configure your [Google Analytics](%1) setup and copy-paste your Measurement "
+"ID or Tracking ID here:"
+msgstr ""
+
+msgid "Connections"
+msgstr ""
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Copied!"
+msgstr "Skopiowano!"
+
+#: admin/forms/list.php:176
+msgid "Copy to clipboard"
+msgstr "Skopiuj do schowka"
+
+msgid "Custom tracking code"
+msgstr ""
+
+#, fuzzy
+#| msgid "Customize"
+msgid "Custom webhook"
+msgstr "Personalizuj"
+
+#: admin/forms/list.php:185
+msgid "Customize"
+msgstr "Personalizuj"
+
+msgid "Design"
+msgstr "Projektuj"
+
+msgid "Disable asynchronous loading"
+msgstr ""
+
+msgid "Display form as full page overlay"
+msgstr "Wyświetl formularz zakrywając całą przestrzeń strony"
+
+msgid ""
+"Don't use this, unless you know what you are doing. We don't give support on "
+"forms with custom CSS! If you have a problem with a form that uses custom "
+"CSS, then first disable the custom CSS and check if the problem persists."
+msgstr ""
+"Nie korzystaj z tej funkcji jeżeli nie wiesz co robisz. Nie świadczymy "
+"wsparcia dla formularzy z niestandardowymi stylami CSS! Jeżeli masz problem "
+"z formularzem wykorzystującym niestandardowe style CSS, w pierwszej "
+"kolejności wyłącz niestandardowe style CSS i sprawdź, czy problem występuje "
+"nadal."
+
+msgid "Email notification"
+msgstr "Powiadomienie email"
+
+msgid "Events to track:"
+msgstr ""
+
+msgid "Facebook Pixel"
+msgstr ""
+
+msgid "Form appearance"
+msgstr "Wygląd formularza"
+
+msgid "Form face"
+msgstr "Typ formularza"
+
+msgid "Google Analytics"
+msgstr ""
+
+msgid "Help center"
+msgstr "Centrum pomocy"
+
+msgid "Help with form faces"
+msgstr "Pomoc dotycząca typów formularzy"
+
+msgid ""
+"Implement your custom JavaScript code for event tracking and connect "
+"Tripetto to other tracking services."
+msgstr ""
+
+msgid "Include response data in the message"
+msgstr "Dołącz dane odpowiedzi do wiadomości"
+
+msgid "Learn"
+msgstr ""
+
+msgid "More..."
+msgstr "Więcej..."
+
+msgid "Navigation"
+msgstr "Nawigacja"
+
+msgid "No"
+msgstr "Nie"
+
+#, fuzzy
+#| msgid "Send a notification to:"
+msgid "Notifications"
+msgstr "Wyślij powiadomienie:"
+
+msgid "Open in browser"
+msgstr "Otwórz w przeglądarce"
+
+msgid "Our promise on data privacy"
+msgstr "Nasza obietnica dotycząca prywatności danych"
+
+msgid ""
+"Please create an incoming [Slack webhook](https://api.slack.com/incoming-"
+"webhooks) and enter the URL of the webhook here:"
+msgstr ""
+"Utwórz przychodzący [webhook Slack'a] (https://api.slack.com/incoming-"
+"webhooks) and wprowadź tutaj adres URL webhooka:"
+
+msgid ""
+"Please only use this option if you're an expert on webhooks. When enabled "
+"this option sends way more data to your webhook and in such a format your "
+"automation tool cannot process this by default. By leaving this option "
+"disabled, you can just use your response data easily."
+msgstr ""
+
+msgid "Post the data to the following URL:"
+msgstr "Wyślij dane na wskazany adres URL:"
+
+msgid "Pro license required"
+msgstr ""
+
+msgid "Properties"
+msgstr "Włąściwości"
+
+msgid "Reset styles"
+msgstr "Zresetuj style"
+
+#: admin/forms/list.php:71 admin/results/results.php:75
+msgid "Results"
+msgstr "Odpowiedzi"
+
+#: admin/forms/list.php:62
+msgid "Run"
+msgstr "Uruchom"
+
+msgid "Save and restore uncompleted forms"
+msgstr "Zapisz i przywróć nieukończone formularze"
+
+msgid ""
+"Saves uncompleted forms in the local storage of the browser. Next time the "
+"user visits the form it is restored so the user can continue."
+msgstr ""
+"Zapisuje nieukończone formularze w pamięci przeglądarki. Przy kolejnym "
+"otwarciu formularza przez użytkownika stan formularza zostanie przywrócony i "
+"użytkownik będzie mógł go kontynuować."
+
+msgid ""
+"Send a Slack message when someone completes your form ([learn more](%1))"
+msgstr ""
+"Wyślij wiadomość na Slack'u gdy ktoś wypełni twój formularz ([dowiedz się "
+"więcej])(%1))"
+
+msgid "Send a notification to:"
+msgstr "Wyślij powiadomienie:"
+
+msgid "Send an email when someone completes your form ([learn more](%1))"
+msgstr ""
+"Wyślij wiadomość email gdy ktoś wypełni twój formularz ([dowiedz się więcej])"
+"(%1))"
+
+msgid "Send raw response data to webhook"
+msgstr "Wyślij surowe dane do webhooka"
+
+msgid "Share"
+msgstr "Udostępnij"
+
+msgid "Shareable link"
+msgstr "Link do udostępnienia"
+
+msgid "Slack notification"
+msgstr "Powiadomienie Slack"
+
+msgid "Something's wrong"
+msgstr "Coś jest nie tak"
+
+msgid "Something’s cracking"
+msgstr "Coś się wysypało"
+
+msgid "Specify a fixed height for the form"
+msgstr "Określ stałą wysokość formularza"
+
+msgid "Specify a fixed width for the form"
+msgstr "Określ stałą szerokość formularza"
+
+msgid "Specify a loader placeholder message"
+msgstr ""
+
+msgid "Specify custom CSS styles"
+msgstr "Dodaj niestandardowe style CSS"
+
+msgid "Styles"
+msgstr "Style"
+
+#, fuzzy
+#| msgid "Send an email when someone completes your form ([learn more](%1))"
+msgid "Submit completed forms to %1 ([learn more](%2))"
+msgstr ""
+"Wyślij wiadomość email gdy ktoś wypełni twój formularz ([dowiedz się więcej])"
+"(%1))"
+
+msgid "Submit completed forms to a custom webhook ([learn more](%1))"
+msgstr ""
+
+msgid "Support"
+msgstr "Wsparcie"
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Test with logic"
+msgstr "Test z logiką"
+
+msgid "Testing..."
+msgstr "Testowanie..."
+
+msgid ""
+"This message is shown while the form is loading. You can specify text or "
+"HTML."
+msgstr ""
+
+msgid ""
+"This will allow %1 access to any uploaded files (only applies for forms that "
+"use the file upload block)."
+msgstr ""
+
+msgid ""
+"This will give the webhook access to the uploaded files for this form. If "
+"left unchecked uploaded files are only downloadable from within your "
+"WordPress admin environment. So a webhook endpoint cannot access those "
+"files. Only activate this checkbox if your webhook needs access to the "
+"uploaded files."
+msgstr ""
+
+msgid "To specify rules for a specific block, use this selector: %1"
+msgstr "Aby określić reguły dla konkretnego bloku, użyj tego selektora: %1"
+
+msgid "Track blur"
+msgstr ""
+
+msgid "Track focus"
+msgstr ""
+
+msgid "Track form activity with Facebook Pixel ([learn more](%1))"
+msgstr ""
+
+msgid "Track form activity with Google Analytics ([learn more](%1))"
+msgstr ""
+
+msgid "Track form activity with custom tracking code ([learn more](%1))"
+msgstr ""
+
+msgid "Track form completion"
+msgstr ""
+
+#, fuzzy
+#| msgid "Thanks for upgrading!"
+msgid "Track form pausing"
+msgstr "Dziękujemy za przejście na premium!"
+
+#, fuzzy
+#| msgid "Thanks for upgrading!"
+msgid "Track form starting"
+msgstr "Dziękujemy za przejście na premium!"
+
+msgid "Track staged blocks"
+msgstr ""
+
+msgid "Track unstaged blocks"
+msgstr ""
+
+msgid "Tracking"
+msgstr ""
+
+msgid "Tracks when a block becomes available (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a block becomes unavailable (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is completed (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is paused (event name: %1)."
+msgstr ""
+
+msgid "Tracks when a form is started (event name: %1)."
+msgstr ""
+
+msgid "Tracks when an input element gains focus (event name: %1)."
+msgstr ""
+
+msgid "Tracks when an input element loses focus (event name: %1)."
+msgstr ""
+
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+msgid "Unnamed"
+msgstr "Bez nazwy"
+
+msgid ""
+"Use the shortcode below to embed the form on any page on your website "
+"([learn more](%1))."
+msgstr ""
+"Użyj poniższego shorcode'a, aby osadzić formularz na dowolnej stronie w "
+"swojej witrynie ([dowiedz się więcej] (% 1))."
+
+msgid ""
+"When checked uploaded files can be directly downloaded from Slack without "
+"the need of logging in to your WordPress admin environment. Enable this if "
+"you want to allow Slack users (that don't have WordPress admin access) to "
+"access uploaded files for this form."
+msgstr ""
+
+msgid ""
+"When checked uploaded files can be directly downloaded from the email "
+"without the need of logging in to your WordPress admin environment. Enable "
+"this if you want to allow email recipients (that don't have WordPress admin "
+"access) to access uploaded files for this form."
+msgstr ""
+
+msgid "WordPress"
+msgstr ""
+
+msgid "WordPress shortcode"
+msgstr "Shorcode do WordPressa"
+
+msgid "Yes, reset it!"
+msgstr "Tak. zresetuj!"
+
+msgid ""
+"You need a pro license to unlock the full potential of this block. Please "
+"click the button below for more information."
+msgstr ""
+
+msgid ""
+"Your actions aren't being processed properly and probably not saved to the "
+"server. We apologize for the inconvenience. Please try again and drop a line "
+"if troubles persist."
+msgstr ""
+"Twoje działania nie są poprawnie przetwarzane i prawdopodobnie nie są "
+"zapisywane na serwerze. Przepraszamy za niedogodności. Spróbuj ponownie, a "
+"jeśli problem nie ustąpi skontaktuj się z nami."
+
+msgid ""
+"Your form is automatically available through a dedicated link ([learn more]"
+"(%1))."
+msgstr ""
+"Twój formularz jest automatycznie dostępny pod dedykowanym linkiem ([dowiedz "
+"się więcej](%1))."
+
+msgid "auto"
+msgstr "auto"
+
+#, fuzzy
+#| msgid "form"
+msgid "or"
+msgstr "od"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/admin.php:77 admin/admin.php:78
+msgid "Tripetto"
+msgstr "Tripetto"
+
+#. Plugin URI of the plugin
+msgid "https://tripetto.com/wordpress"
+msgstr "https://tripetto.com/wordpress"
+
+#. Description of the plugin
+msgid ""
+"Give life to forms and surveys. Boost your completion rates by creating "
+"conversational forms for WordPress in Tripetto’s unique form builder."
+msgstr ""
+
+#. Author URI of the plugin
+#, fuzzy
+#| msgid "https://tripetto.com/wordpress"
+msgid "https://tripetto.com"
+msgstr "https://tripetto.com/wordpress"
+
+#: admin/admin.php:69 lib/attachments.php:310
+msgid "You cannot access this page. You are not authorized."
+msgstr "Nie możesz uzyskać dostępu do tej strony. Nie jesteś upoważniony."
+
+#: admin/builder/builder.php:56
+msgid "Creating new form..."
+msgstr "Tworzenie nowego formularza..."
+
+#. translators: %s contains the error message
+#: admin/builder/builder.php:63
+msgid "Something went wrong, could not create a new form (%s)."
+msgstr "Coś poszło nie tak, nie udało się utworzyć nowego formularza (%s)."
+
+#: admin/builder/builder.php:163
+msgid "One moment please..."
+msgstr "Chwileczkę..."
+
+#: admin/builder/builder.php:177
+msgid "Something went wrong, could not fetch the form."
+msgstr "Coś poszło nie tak, nie udało się pobrać formularza."
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:392
+#, fuzzy
+#| msgid "New submission `#%1$d` for `%2$s`"
+msgid "Test submission for `%1$s`"
+msgstr "Nowa odpowiedź `#%1$d` do `%2$s`"
+
+#. translators: %1$s is replaced with the form name
+#: admin/builder/builder.php:392 runner/runner.php:1048
+msgid "Unnamed form"
+msgstr "Formularz bez nazwy"
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:21
+msgid "You are using the %s version"
+msgstr ""
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:21
+msgid "Free"
+msgstr ""
+
+#. translators: %s is replaced with the active version (free or pro)
+#: admin/dashboard/dashboard.php:21
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/dashboard/dashboard.php:23
+msgid "Onboarding Wizard"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:24
+#, fuzzy
+#| msgid "Upgrade To Pro"
+msgid "Upgrade"
+msgstr "Przejdź na Pro"
+
+#: admin/dashboard/dashboard.php:28
+#, fuzzy
+#| msgid "Welcome to Tripetto!"
+msgid "Welcome to your Tripetto dashboard."
+msgstr "Witaj w Tripetto!"
+
+#: admin/dashboard/dashboard.php:29
+msgid ""
+"Your fullblown form building and data collection solution. All inside of "
+"WordPress."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:31 admin/forms/forms.php:50
+#: admin/forms/forms.php:51
+#, fuzzy
+#| msgid "Build"
+msgid "Build Form"
+msgstr "Twórz"
+
+#: admin/dashboard/dashboard.php:31
+msgid "Build Your First Form"
+msgstr ""
+
+#. translators: %d is replaced with the number of available forms
+#: admin/dashboard/dashboard.php:34
+#, fuzzy
+#| msgid "All Forms"
+msgid "All Forms (%d)"
+msgstr "Wszystkie formularze"
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:38
+msgid "Open the %1$s for settings. Visit the %2$s for tips & tricks."
+msgstr ""
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:38
+msgid "onboarding wizard"
+msgstr ""
+
+#. translators: %1$s is replaced with `onboarding wizard` and %2$s is replaced with `help center`
+#: admin/dashboard/dashboard.php:38
+msgid "help center"
+msgstr "centrum pomocy"
+
+#: admin/dashboard/dashboard.php:41
+msgid "Kickstart your form building"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:42
+msgid "How to build a simple form"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:43
+#, fuzzy
+#| msgid "Tutorials"
+msgid "Watch Tutorial"
+msgstr "Poradniki"
+
+#: admin/dashboard/dashboard.php:48
+msgid "Get Pro"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:49
+msgid "From $99 per year"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:50
+msgid ""
+"Upgrade to Tripetto Pro for more advanced features and take your forms and "
+"surveys to another level."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:51
+#, fuzzy
+#| msgid "Upgrade To Pro"
+msgid "Upgrade to Pro"
+msgstr "Przejdź na Pro"
+
+#: admin/dashboard/dashboard.php:52
+msgid "View pricing"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:55
+msgid "Tripetto Pro completes you."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:56
+msgid "Pro unlocks the following additional features in Tripetto."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:59
+msgid "Action blocks"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:61
+msgid "Calculator"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:62
+#, fuzzy
+#| msgid "Customize"
+msgid "Custom variable"
+msgstr "Personalizuj"
+
+#: admin/dashboard/dashboard.php:63
+msgid "Force stop"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:64
+msgid "Hidden field"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:65
+msgid "Raise error"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:66
+msgid "Send email"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:67
+msgid "Set value"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:69
+#, fuzzy
+#| msgid "Automate"
+msgid "Automations"
+msgstr "Automatyzuj"
+
+#: admin/dashboard/dashboard.php:71
+msgid "Email notifications"
+msgstr "Powiadomienie email"
+
+#: admin/dashboard/dashboard.php:72
+msgid "Slack notifications"
+msgstr "Powiadomienie Slack"
+
+#: admin/dashboard/dashboard.php:73
+msgid "Connect 1.000+ services"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:77
+msgid "Unbranding"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:79
+#, fuzzy
+#| msgid "Remove Tripetto branding"
+msgid "No Tripetto branding"
+msgstr "Usuń branding Tripetto"
+
+#: admin/dashboard/dashboard.php:81
+msgid "License options"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:83
+msgid "Single-site"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:84
+msgid "5-Sites"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:85
+msgid "Unlimited sites"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:87
+msgid "Service"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:89
+#, fuzzy
+#| msgid "help center"
+msgid "Access to help center"
+msgstr "centrum pomocy"
+
+#: admin/dashboard/dashboard.php:90
+#, fuzzy
+#| msgid "Ask for support"
+msgid "Priority support"
+msgstr "Poproś o pomoc (ENG)"
+
+#: admin/dashboard/dashboard.php:91
+msgid "Updates and upgrades"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:99
+#, fuzzy
+#| msgid "Help center"
+msgid "Help Center"
+msgstr "Centrum pomocy"
+
+#: admin/dashboard/dashboard.php:100
+msgid ""
+"Need a helping hand? The help center offers how-to’s and video tutorials. "
+"Find answers directly or navigate through specific subjects."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:102
+msgid "Search help articles"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:103
+msgid "Search"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:107
+msgid "How-To’s"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:108
+msgid "Browse help articles by subject to find everything about every feature."
+msgstr ""
+
+#: admin/dashboard/dashboard.php:110
+msgid "Building forms and surveys"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:111
+#, fuzzy
+#| msgid "Pro features"
+msgid "Using logic features"
+msgstr "Funkcje pro"
+
+#: admin/dashboard/dashboard.php:112
+msgid "Styling and customizing"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:113
+msgid "Automating things"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:114
+msgid "Sharing forms and surveys"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:115
+msgid "Managing data and results"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:117
+#, fuzzy
+#| msgid "Visit our Help Center"
+msgid "Visit help center"
+msgstr "Odwiedź nasze Centrum Pomocy"
+
+#: admin/dashboard/dashboard.php:120
+#, fuzzy
+#| msgid "Tutorials"
+msgid "Video Tutorials"
+msgstr "Poradniki"
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:123
+msgid ""
+"Watch these recommended tutorials to get started smartly. Visit the %s for "
+"many more video tutorials."
+msgstr ""
+
+#. translators: %s is replaced with `Tripetto YouTube channel`
+#: admin/dashboard/dashboard.php:123
+msgid "Tripetto YouTube channel"
+msgstr ""
+
+#: admin/dashboard/dashboard.php:132
+#, fuzzy
+#| msgid "tutorials"
+msgid "All video tutorials"
+msgstr "poradnikami"
+
+#: admin/forms/forms.php:59 admin/forms/forms.php:60
+msgid "All Forms"
+msgstr "Wszystkie formularze"
+
+#: admin/forms/forms.php:68 admin/forms/forms.php:69
+msgid "Onboarding"
+msgstr ""
+
+#: admin/forms/forms.php:114
+msgid "Form deleted!"
+msgstr "Formularz usunięty!"
+
+#: admin/forms/forms.php:118
+msgid "Form duplicated!"
+msgstr "Fromularz zduplikowany!"
+
+#: admin/forms/forms.php:122
+msgid "Tripetto Forms"
+msgstr "Formularze Tripetto"
+
+#: admin/forms/forms.php:128
+msgid "Create New Form"
+msgstr "Stwórz nowy formularz"
+
+#: admin/forms/list.php:13
+msgid "form"
+msgstr "od"
+
+#: admin/forms/list.php:14
+msgid "forms"
+msgstr "formularze"
+
+#: admin/forms/list.php:53
+msgid "Edit"
+msgstr "Edytuj"
+
+#: admin/forms/list.php:112
+msgid "Duplicate"
+msgstr "Duplikuj"
+
+#: admin/forms/list.php:123 admin/results/list.php:39
+#: admin/results/results.php:242
+msgid "Confirm delete"
+msgstr "Potwierdź usunięcie"
+
+#: admin/forms/list.php:124
+msgid ""
+"All the data and the form itself will be removed. This action cannot be made "
+"undone."
+msgstr ""
+"Wszystkie dane i sam formularz zostaną usunięte. Tej czynności nie można "
+"cofnąć."
+
+#: admin/forms/list.php:125 admin/results/list.php:41
+#: admin/results/results.php:246
+msgid "Yes, delete it"
+msgstr "Tak, usuń"
+
+#: admin/forms/list.php:126 admin/results/list.php:42
+#: admin/results/results.php:248
+msgid "No, keep it"
+msgstr "Nie, zachowaj"
+
+#: admin/forms/list.php:130 admin/results/list.php:46
+#: admin/results/list.php:108
+msgid "Delete"
+msgstr "Usuń"
+
+#: admin/forms/list.php:233
+msgid "Name"
+msgstr "Nazwa"
+
+#: admin/forms/list.php:237
+msgid "# Results"
+msgstr "# Wyników"
+
+#: admin/forms/list.php:240
+msgid "Created"
+msgstr "Utworzony"
+
+#: admin/forms/list.php:241
+msgid "Modified"
+msgstr "Zmodyfikowany"
+
+#: admin/forms/list.php:242
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/onboarding/onboarding.php:540
+#, fuzzy
+#| msgid "Pro features"
+msgid "New features"
+msgstr "Funkcje pro"
+
+#: admin/onboarding/onboarding.php:543
+msgid "Improvements"
+msgstr ""
+
+#: admin/onboarding/onboarding.php:546
+msgid "Bugfixes"
+msgstr ""
+
+#: admin/onboarding/onboarding.php:549
+msgid "Deprecated or removed features"
+msgstr ""
+
+#: admin/results/export.php:40 admin/results/list.php:80
+#: admin/results/results.php:231
+msgid "Date submitted"
+msgstr "Data przesłania"
+
+#: admin/results/export.php:40 admin/results/list.php:78
+msgid "# Number"
+msgstr "# Liczba"
+
+#: admin/results/export.php:40
+msgid "Reference"
+msgstr "Odniesienie"
+
+#: admin/results/list.php:9
+msgid "result"
+msgstr "odpowiedź"
+
+#: admin/results/list.php:10 admin/results/results.php:73
+msgid "results"
+msgstr "odpowiedzi"
+
+#: admin/results/list.php:32
+msgid "View Result"
+msgstr "Zobacz"
+
+#: admin/results/list.php:40 admin/results/results.php:244
+msgid "Are you sure you want to delete the result?"
+msgstr "Czy na pewno chcesz usunąć odpowiedź?"
+
+#: admin/results/list.php:79 admin/results/results.php:234
+msgid "Identifier"
+msgstr "Identyfikator"
+
+#. translators: %d is replaced with the number of results deleted
+#: admin/results/results.php:63
+msgid "Results deleted: %d"
+msgstr "Odpowiedzi usunięte: %d"
+
+#: admin/results/results.php:79
+msgid "Back to forms list"
+msgstr "Wróć do listy formularzy"
+
+#: admin/results/results.php:85
+msgid "Edit form"
+msgstr "Edytuj formularz"
+
+#: admin/results/results.php:103 admin/results/results.php:122
+msgid "Export results as CSV"
+msgstr "Wyeksportuj odpowiedzi jako plik CSV"
+
+#: admin/results/results.php:115
+msgid "Version"
+msgstr "Wersja"
+
+#: admin/results/results.php:125
+msgid "Why do I see multiple CSV versions?"
+msgstr "Dlaczego widzę wiele wersji CSV?"
+
+#: admin/results/results.php:146
+msgid "Something went wrong, could not fetch the results."
+msgstr "Coś poszło nie tak, nie udało się pobrać odpowiedzi."
+
+#: admin/results/results.php:171
+msgid "Result"
+msgstr "Odpowiedź"
+
+#: admin/results/results.php:178
+msgid "Back to results"
+msgstr "Wróć do odpowiedzi"
+
+#: admin/results/results.php:216
+msgid "Information"
+msgstr "Informacja"
+
+#: admin/results/results.php:223
+msgid "Form name"
+msgstr "Nazwa formularza"
+
+#: admin/results/results.php:227
+msgid "Number"
+msgstr "Numer"
+
+#: admin/results/results.php:254
+msgid "Delete Result"
+msgstr "Usuń odpowiedź"
+
+#: admin/results/results.php:272
+msgid "Something went wrong, could not fetch the result."
+msgstr "Coś poszło nie tak, nie udało się pobrać odpowiedzi."
+
+#: admin/settings/settings.php:14
+#, fuzzy
+#| msgid "Tripetto Forms"
+msgid "Tripetto Settings"
+msgstr "Formularze Tripetto"
+
+#: admin/settings/settings.php:35
+msgid "Try the onboarding wizard"
+msgstr ""
+
+#: admin/settings/settings.php:42
+msgid "Email settings"
+msgstr ""
+
+#: admin/settings/settings.php:46 admin/settings/settings.php:121
+msgid "Sender"
+msgstr ""
+
+#: admin/settings/settings.php:50
+#, fuzzy
+#| msgid "Form name"
+msgid "Sender name"
+msgstr "Nazwa formularza"
+
+#: admin/settings/settings.php:58
+msgid "Sender email address"
+msgstr ""
+
+#: admin/settings/settings.php:64
+msgid "SPAM protection"
+msgstr ""
+
+#: admin/settings/settings.php:68 admin/settings/settings.php:235
+msgid "Spam protection mode"
+msgstr ""
+
+#: admin/settings/settings.php:76
+msgid "Allowlist"
+msgstr ""
+
+#: admin/settings/settings.php:86
+msgid ""
+"You can also use the Tripetto onboarding wizard to adjust settings. The "
+"onboarding wizard also lets you configure user access and capabilities so "
+"you can decide who has access and what they can do within Tripetto."
+msgstr ""
+
+#: admin/settings/settings.php:92
+msgid "Start Onboarding Wizard"
+msgstr ""
+
+#: admin/settings/settings.php:98
+msgid "These settings are used when Tripetto sends an email message."
+msgstr ""
+
+#: admin/settings/settings.php:125
+msgid "WordPress default sender"
+msgstr ""
+
+#: admin/settings/settings.php:148
+#, fuzzy
+#| msgid "Customize"
+msgid "Custom sender"
+msgstr "Personalizuj"
+
+#: admin/settings/settings.php:189
+msgid ""
+"Tripetto has a unique approach for preventing spambots abusing your forms. "
+"This solution makes CAPTCHAs a thing of the past. We simply don't like those "
+"strange, inaccessible puzzles, and so we've engineered a solution where we "
+"could eliminate them once and for all. It works out-of-the-box and we "
+"strongly advise to only change the mode of operation if you have a good "
+"reason for it. You can choose between:"
+msgstr ""
+
+#: admin/settings/settings.php:194 admin/settings/settings.php:240
+msgid "Maximal"
+msgstr ""
+
+#: admin/settings/settings.php:196
+msgid ""
+"Maximum protection against spambots, but form submission might be a bit "
+"slower in certain conditions"
+msgstr ""
+
+#: admin/settings/settings.php:199 admin/settings/settings.php:246
+msgid "Normal"
+msgstr ""
+
+#: admin/settings/settings.php:201
+msgid ""
+"The default protection mode provides good protection against spambots while "
+"maintaining optimal performance"
+msgstr ""
+
+#: admin/settings/settings.php:204 admin/settings/settings.php:252
+msgid "Minimal"
+msgstr ""
+
+#: admin/settings/settings.php:206
+msgid ""
+"IP filtering will be disabled (use this mode if you expect lots of "
+"submission from the same IP address)"
+msgstr ""
+
+#: admin/settings/settings.php:209 admin/settings/settings.php:258
+msgid "Off"
+msgstr ""
+
+#: admin/settings/settings.php:211
+msgid "Disables the spam protection (not recommended)"
+msgstr ""
+
+#: admin/settings/settings.php:279
+msgid ""
+"Fill in the IP addresses (separated with a comma) you wish to exclude from "
+"the spam protection algorithm. Both IPv4 and IPv6 addresses are allowed."
+msgstr ""
+
+#: lib/variables.php:29
+msgid "User / Username"
+msgstr ""
+
+#: lib/variables.php:30
+msgid "User / Username (URL sanitized)"
+msgstr ""
+
+#: lib/variables.php:31
+msgid "User / Nickname"
+msgstr ""
+
+#: lib/variables.php:32
+msgid "User / Display name"
+msgstr ""
+
+#: lib/variables.php:33
+msgid "User / First name"
+msgstr ""
+
+#: lib/variables.php:34
+msgid "User / Last name"
+msgstr ""
+
+#: lib/variables.php:35
+msgid "User / Email address"
+msgstr ""
+
+#: lib/variables.php:36
+msgid "User / Website"
+msgstr ""
+
+#: lib/variables.php:37
+msgid "User / Biographical info"
+msgstr ""
+
+#: lib/variables.php:38
+msgid "User / Avatar (URL)"
+msgstr ""
+
+#: lib/variables.php:39
+msgid "User / Language"
+msgstr ""
+
+#: lib/variables.php:40
+msgid "User / ID"
+msgstr ""
+
+#: lib/variables.php:43
+msgid "Website / Title"
+msgstr ""
+
+#: lib/variables.php:44
+msgid "Website / Tagline"
+msgstr ""
+
+#: lib/variables.php:45
+msgid "Website / Administration email address"
+msgstr ""
+
+#: lib/variables.php:46
+msgid "Website / Language"
+msgstr ""
+
+#: lib/variables.php:48
+msgid "Visitor / IP address"
+msgstr ""
+
+#: lib/variables.php:49
+msgid "Visitor / Language"
+msgstr ""
+
+#: lib/variables.php:50
+msgid "Visitor / Referrer URL"
+msgstr ""
+
+#: lib/variables.php:52
+msgid "Server / URL"
+msgstr ""
+
+#: lib/variables.php:53
+msgid "Server / Protocol"
+msgstr ""
+
+#: lib/variables.php:54
+msgid "Server / Port"
+msgstr ""
+
+#: lib/variables.php:55
+msgid "Server / Host name"
+msgstr ""
+
+#: lib/variables.php:56
+msgid "Server / Path"
+msgstr ""
+
+#: lib/variables.php:58
+msgid "Server / IP address"
+msgstr ""
+
+#: lib/variables.php:59
+msgid "Server / Software"
+msgstr ""
+
+#: lib/variables.php:60
+msgid "Server / WordPress version"
+msgstr ""
+
+#: lib/variables.php:61
+msgid "Server / PHP version"
+msgstr ""
+
+#: runner/runner.php:440
+msgid ""
+"Normally you should see a Tripetto form over here, but it needs JavaScript "
+"to run properly and it seems that is disabled in your browser. Please enable "
+"JavaScript to see and use the form."
+msgstr ""
+"W normalnych warunkach tutaj powinien znajdować się formularz Tripetto, "
+"jednak, do poprawnego działania potrzebuje on JavaScriptu, a wydaje się, że "
+"jest on wyłączony w twojej przeglądarce. Włącz JavaScript aby zobaczyć i "
+"używać formularza."
+
+#. translators: %1$s is replaced with the form name and %2$d is replaced with the form index
+#: runner/runner.php:1063
+msgid "New submission from %1$s (#%2$d)"
+msgstr "Nowa odpowiedź od %1$s (#%2$d)"
+
+#. translators: %1$d is replaced with the form index and %2$s is replaced with the form name
+#: runner/runner.php:1094
+msgid "New submission `#%1$d` for `%2$s`"
+msgstr "Nowa odpowiedź `#%1$d` do `%2$s`"
+
+#: runner/runner.php:1297
+msgid "Resume your form with this magic link"
+msgstr "Kontynuuj formularz używając tego magicznego linku"
+
+#: templates/footer.php:21
+msgid "Sent to"
+msgstr "Wysłany do"
+
+#: templates/footer.php:23
+msgid "by"
+msgstr "przez"
+
+#: templates/footer.php:27
+msgid "Get conversational!"
+msgstr "Pokonwesujmy!"
+
+#: templates/notification.php:15
+msgid "New submission"
+msgstr "Nowy formularz przesłany"
+
+#: templates/notification.php:18
+msgid "A new submission (#{{index}}) was received for form"
+msgstr "Otrzymano nową odpowiedź (#{{index}}) na formularz"
+
+#: templates/notification.php:19
+msgid "View in WordPress"
+msgstr "Zobacz w Wordpressie"
+
+#: templates/snapshot.php:15
+msgid "Form paused"
+msgstr "Formularz wstrzymany"
+
+#: templates/snapshot.php:18
+msgid "You took a break while filling out the form. Sweet!"
+msgstr "Zrobiłeś sobie przerwę w wypełnianiu formularza. Świetnie!"
+
+#: templates/snapshot.php:20
+msgid "Click the link below at any time to continue right where you left off."
+msgstr ""
+"Kliknij w link poniżej w dowolnym momencie, aby kontynuować od miejsca, w "
+"którym skończyłeś."
+
+#: templates/snapshot.php:24
+msgid "Resume your form"
+msgstr "Wznów formularz"
+
+#~ msgid ""
+#~ "A premium subscription is required to be able to use all the automation "
+#~ "features."
+#~ msgstr "Dostęp do funkcji automatyzacji wymaga subskrypcji premium."
+
+#~ msgid "Contact us"
+#~ msgstr "Skontaktuj się z nami"
+
+#~ msgid "Examples"
+#~ msgstr "Przykłady"
+
+#~ msgid "Follow us"
+#~ msgstr "Śledź nas"
+
+#~ msgid ""
+#~ "Notify an external service when someone completes your form ([learn more]"
+#~ "(%1))"
+#~ msgstr ""
+#~ "Wyślij powiadomienie do zewnętrznej usługi gdy ktoś wypełni twój "
+#~ "formularz ([dowiedz się więcej])(%1))"
+
+#~ msgid "Receive updates"
+#~ msgstr "Otrzymuj aktualizacje"
+
+#~ msgid "Report issue/bug"
+#~ msgstr "Zgłoś problem/błąd"
+
+#~ msgid ""
+#~ "This option sends way more data to your webhook. Unfortunately most "
+#~ "webhooks (like Zapier, Make, etc.) don't like that and want plain "
+#~ "name-value pairs. In that case you should keep this option disabled."
+#~ msgstr ""
+#~ "Ta opcja wysyła znacznie więcej danych do twojego webhooka. Niestety "
+#~ "większości webhooków (takich jak Zapier, Make itp.) niezbyt się to "
+#~ "podoba i oczekują prostych par nazw i wartości. W takich przypadkach "
+#~ "należy wyłączyć tę opcję."
+
+#~ msgid "🔗 Webhook"
+#~ msgstr "🔗 Webhook"
+
+#~ msgid "🩺 Test"
+#~ msgstr "🩺 Test"
+
+#~ msgid ""
+#~ "Give life to forms and surveys. We merged the best of WP Forms, Typeform "
+#~ "and Landbot into a single full-fledged plugin for conversational "
+#~ "experiences."
+#~ msgstr ""
+#~ "Spraw, że twoje formularze I ankiety ożyją. Zwiększ odsetek wypełnionych "
+#~ "formularzy w Wordpressie dzięki konwersacyjnym formularzom i unikalnemu "
+#~ "graficznemu kreatorowi."
+
+#~ msgid ""
+#~ "This is a test message from Tripetto. Your Slack configuration works ✔"
+#~ msgstr ""
+#~ "To jest wiadomość testowa od Tripetto. Twoja konfiguracja Slacka jest "
+#~ "poprawna ✔"
+
+#~ msgid "Hello World!"
+#~ msgstr "Witaj, świecie!"
+
+#~ msgid "Get Started"
+#~ msgstr "Zacznij tworzyć"
+
+#~ msgid "Create your form using the unique visual form builder"
+#~ msgstr ""
+#~ "Stwórz swój formularz korzystając z unikatowego graficznego kreatora"
+
+#~ msgid "See a realtime preview of your form, on different devices"
+#~ msgstr "Zobacz podgląd na żywo, na różnych urządzeniach"
+
+#~ msgid "Style your form and remove branding"
+#~ msgstr "Dostosuj styl formularza i usuń branding"
+
+#~ msgid "Publish your form"
+#~ msgstr "Opublikuj formularz"
+
+#~ msgid "Share your form using a direct link"
+#~ msgstr "Udostępnij formularz używając bezpośredniego linku"
+
+#~ msgid "Or embed on any page using a shortcode"
+#~ msgstr "Lub osadź go na dowlonej stronie używając shortcode'u"
+
+#~ msgid "Learn more about publishing your forms %s"
+#~ msgstr "Dowiedz się więcej o publikacji formularzy %s"
+
+#~ msgid "here"
+#~ msgstr "tutaj"
+
+#~ msgid "Collect results and get notified"
+#~ msgstr "Zbieraj odpowiedzi i otrzymuj powiadomienia"
+
+#~ msgid "View results and export to CSV"
+#~ msgstr "Przeglądaj odpowiedzi i eksportuj je do CSV"
+
+#~ msgid "Push results to Slack"
+#~ msgstr "Wysyłaj odpowiedzi na Slack'a"
+
+#~ msgid "Push results to webhooks (Zapier, Make)"
+#~ msgstr "Wysyłaj wyniki do webhooków (Zapier, Make)"
+
+#~ msgid "View All Forms"
+#~ msgstr "Wyświetl wszystkie formularze"
+
+#~ msgid "Start creating your first Tripetto form!"
+#~ msgstr "Rozpocznij tworzenie pierwszego formularza Tripetto!"
+
+#~ msgid "Or browse our %1$s and %2$s or visit the %3$s if you need help."
+#~ msgstr ""
+#~ "Możesz tez zapoznać się z %1$s i %2$s albo odwiedzić %3$s jeśli "
+#~ "potrzebujesz pomocy."
+
+#~ msgid "examples"
+#~ msgstr "przykładowymi formularzami"
+
+#~ msgid "Statistics"
+#~ msgstr "Statystyki"
+
+#~ msgid "# Forms"
+#~ msgstr "# Formularzy"
+
+#~ msgid "Need help?"
+#~ msgstr "Potrzebujesz pomocy?"
+
+#~ msgid "Changelog"
+#~ msgstr "Lista zmian"
+
+#~ msgid "What's new in v"
+#~ msgstr "Co nowego w v"
+
+#~ msgid "Got a question?"
+#~ msgstr "Masz pytania?"
+
+#~ msgid "Found a bug?"
+#~ msgstr "Znalazłeś błąd?"
+
+#~ msgid "Submit an issue"
+#~ msgstr "Prześlij zgłoszenie"
+
+#~ msgid ""
+#~ "Upgrade to premium and unlock the following extras for all your forms:"
+#~ msgstr ""
+#~ "Przejdź na premium i odblokuj dodatkowe możliwości we wszystkich "
+#~ "formularzach:"
+
+#~ msgid "Receive responses in Slack"
+#~ msgstr "Otrzymuj odpowiedzi na Slack'a"
+
+#~ msgid "Connect with webhooks (Zapier, Make, etc.)"
+#~ msgstr "Komunikuj się z webhookami (Zapier, Make, itp.)"
+
+#~ msgid "Stay tuned - Twitter"
+#~ msgstr "Bądź na bieżąco - Twitter"
+
+#~ msgid "Add New"
+#~ msgstr "Dodaj formularz"
+
+#~ msgid "Welcome to Tripetto version %s"
+#~ msgstr "Witaj w wersji %s Tripetto"
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Dziękujemy za przejście na premium!"
+
+#~ msgid "Want to know what's new?"
+#~ msgstr "Chcesz wiedzieć co się zmieniło?"
+
+#~ msgid "Check out our changelog"
+#~ msgstr "Zobacz listę zmian"
+
+#~ msgid "Want to help improve the product and spread the word?"
+#~ msgstr "Chcesz pomóc ulepszyć product i pomóc mu zaistnieć szerzej?"
+
+#~ msgid "Rate/review us on WordPress"
+#~ msgstr "Oceń/ napisz recenzję na Wordress.org"
+
+#~ msgid "Important message for you"
+#~ msgstr "Ważna wiadomość dla Ciebie"
+
+#~ msgid ""
+#~ "Please note that this latest free version of Tripetto does no longer come "
+#~ "with one free premium form for new users. But you are not a new user! You "
+#~ "were using Tripetto before this big upgrade and we are very grateful for "
+#~ "that. That’s why the form you designated as premium form will keep all "
+#~ "its premium features going forward. You can recognize it by the premium "
+#~ "badge in your list of forms."
+#~ msgstr ""
+#~ "Zauważ proszę, że najnowsza darmowa wersja Tripetto nie udostępnia już "
+#~ "jednego darmowego formularza dla nowych użytkowników. Ale ty nie jesteś "
+#~ "nowym użytkownikiem! Używałeś tripetto przed wielką aktualizacją i "
+#~ "jesteśmy Ci za to bardzo wdzięczni. Dlatego fomularz, który oznaczyłeś "
+#~ "jako premium nadal będzie miał wszystkie funkcje premium w przyszłości. "
+#~ "Możesz go rozpoznać po znaczku premium na liście formularzy."

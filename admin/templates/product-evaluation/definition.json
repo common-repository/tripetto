@@ -1,0 +1,368 @@
+{
+  "name": "Product Evaluation",
+  "language": "en",
+  "prologue": {
+    "title": "**We'd love to hear your evaluation!**",
+    "description": "With this short conversation we would like to hear how you experience your product(s). Hopefully we can learn from it to make our products even better!",
+    "button": "Start evaluation",
+    "image": "https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+  },
+  "epilogue": {
+    "title": "Thanks @66e572a112fb259f01818a14b33da5437dadfc59ab03362a9c1d4767101b4d75!",
+    "description": "We have received your evaluation. To thank you we have a little surprise for you. Please click the button below to get a special discount.",
+    "button": {
+      "label": "Get my surprise 🎁",
+      "url": "https://example.com/",
+      "target": "blank"
+    }
+  },
+  "clusters": [
+    {
+      "id": "a8eda35ef0f50c2d2676575768d40fb8e33051d6f2b8427e2c885cdcc5cb8b99",
+      "name": "Introduction",
+      "nodes": [
+        {
+          "id": "b296afcb49cee37db349ad103f98815240864851577e61ccbac524b9082fb42d",
+          "name": "Let's start with getting to know each other. What's your first name?",
+          "nameVisible": true,
+          "placeholder": "Your first name please...",
+          "slots": [
+            {
+              "id": "66e572a112fb259f01818a14b33da5437dadfc59ab03362a9c1d4767101b4d75",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "alias": "Name",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "729aac62b65fdb7406d6aabab807a379428c0d25b6101cea9b6ae7db48925dec",
+          "name": "Nice to meet you *@66e572a112fb259f01818a14b33da5437dadfc59ab03362a9c1d4767101b4d75* 👋",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        }
+      ]
+    },
+    {
+      "id": "33d1636901a83936655a01cb30798bc0a33cbb6b443dffaf9588c9b3303b60a9",
+      "name": "Products",
+      "nodes": [
+        {
+          "id": "57669fa43e7f03b0c9fe17b9dd898486c1327927c95f30e63042a14e4f79390a",
+          "explanation": "You can select multiple products.",
+          "name": "What products did you use in the last 3 months?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "e3a0a1dcff8520b44703206194e62281e45050bdc59bd1610249e5d68ee91d9e",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "7675c4a7c2c932d6a6c38a0e6195a7edba407aa5bb8f8c6fe03c4af8aec4f9cd",
+              "sequence": 0,
+              "label": "Image",
+              "name": "Mobile phone",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": {
+                  "string": "Mobile phone",
+                  "markdown": "mobile phone"
+                },
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "ca39d25341b5f5537a8170353305defda5427a767a53d9f96e8831bdb12ab2b9",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "c949474f533c93c45db25b0666011335d3d9197f7d276e2bb1f995fa2b3198f4",
+              "sequence": 1,
+              "label": "Image",
+              "name": "Computer",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": { "string": "Computer", "markdown": "computer" },
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "8a571cf6c2ed20f883b27066975d635275407fff6dd491aecad2b40f339d5d3d",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "a3f76fd3b95a3402bb2ccf34d0820f3eb33cbb64cf5c0ca88550130f2957a192",
+              "sequence": 2,
+              "label": "Image",
+              "name": "Smartwatch",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": { "string": "Smartwatch", "markdown": "smartwatch" },
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "95b1bf2e76c9718ba30f8aec11b130aa264cd37c0afb1f1b214e209502d6129b",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "01f5f2bb91fd96b8bf9a6072db465cf59e0e1155bef7e4343de8e07a17e154e9",
+              "sequence": 3,
+              "label": "Image",
+              "name": "Gaming console",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": {
+                  "string": "Gaming console",
+                  "markdown": "gaming console"
+                },
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "3edc0897e57496bb304b98435b8ed254cb97e549526f1b886d8d73e521ab5bf6",
+              "type": "number",
+              "kind": "feature",
+              "reference": "counter",
+              "label": "Counter",
+              "exportable": false
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "7675c4a7c2c932d6a6c38a0e6195a7edba407aa5bb8f8c6fe03c4af8aec4f9cd",
+                "name": "Mobile phone",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+                "moniker": "mobile phone"
+              },
+              {
+                "id": "c949474f533c93c45db25b0666011335d3d9197f7d276e2bb1f995fa2b3198f4",
+                "name": "Computer",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+                "moniker": "computer"
+              },
+              {
+                "id": "a3f76fd3b95a3402bb2ccf34d0820f3eb33cbb64cf5c0ca88550130f2957a192",
+                "name": "Smartwatch",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+                "moniker": "smartwatch"
+              },
+              {
+                "id": "01f5f2bb91fd96b8bf9a6072db465cf59e0e1155bef7e4343de8e07a17e154e9",
+                "name": "Gaming console",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=899&q=80",
+                "moniker": "gaming console"
+              }
+            ],
+            "multiple": true,
+            "required": true,
+            "size": "medium"
+          }
+        },
+        {
+          "id": "64832f0df46f03bf8767bf95a63d16bfc58aec03b3c8b624d442ffffcca789b6",
+          "name": "Cool! We will now ask some question for each of the products you selected. Here we go!",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "2afbada01e79d4bd5c7bd76109773d50ba9047d48ea1efa1b381eed7b85d02ef",
+          "name": "Iteration of selected products",
+          "clusters": [
+            {
+              "id": "e0d03032f6c75748248bc68ae89006770c6026573bcbf3273c509e1fccfc132f",
+              "name": "Follow-up for each product",
+              "nodes": [
+                {
+                  "id": "a9599e7adddafabee8c1eec3ce30603a185c99cf6c1c3036fd98e5616a8413ad",
+                  "name": "What do you think about the following statements regarding our \n**@d9480fabd4db3980f16a02f8253eb3584ffdf0c0601c8f2da02c4661910e2e3a**?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "f21a78705605cddfd428c7765e169cdce1cadb58e22f13dee92c0f63be3d7812",
+                      "type": "string",
+                      "kind": "dynamic",
+                      "reference": "4d1c2a4c62ef98259e8e51f9f87234725c65a2b26e9366e921985013fe153439",
+                      "sequence": 0,
+                      "label": "Matrix row",
+                      "name": "It was easy to setup",
+                      "pipeable": {
+                        "label": "Row",
+                        "content": "value",
+                        "legacy": "Row"
+                      }
+                    },
+                    {
+                      "id": "b2f3f5797baeba84a54679183476e9272d94edd975b2b37f46905204262343f4",
+                      "type": "string",
+                      "kind": "dynamic",
+                      "reference": "25dddfa9e535b55c395142fa3726ef05e4ce16740212ea82ca21fc911d1aa7ff",
+                      "sequence": 1,
+                      "label": "Matrix row",
+                      "name": "The quality is good",
+                      "pipeable": {
+                        "label": "Row",
+                        "content": "value",
+                        "legacy": "Row"
+                      }
+                    },
+                    {
+                      "id": "4120f759c4fe9852ecacf47b2ab12cf5e48ed9f64ed8575df044fbdcb062341e",
+                      "type": "string",
+                      "kind": "dynamic",
+                      "reference": "6c6fb05cc04f6a168a2d952bc968cfe6bfb4e0c903d79245564bfed57ee9f378",
+                      "sequence": 2,
+                      "label": "Matrix row",
+                      "name": "It's easy to use",
+                      "pipeable": {
+                        "label": "Row",
+                        "content": "value",
+                        "legacy": "Row"
+                      }
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-matrix",
+                    "version": "4.1.0",
+                    "columns": [
+                      {
+                        "id": "cd3be5c378323186d41044fd62906545317ca8c8fdc911b1f174693383bb2037",
+                        "label": "Disagree"
+                      },
+                      {
+                        "id": "89d660c81ab4f7a56427a1a7c8b25b19076c9905bbf8845ab1f8638ecaa626c3",
+                        "label": "Neutral"
+                      },
+                      {
+                        "id": "4c0a3f5c8c345d3d188837705a193fbd2515c62486ef488e31f80f7591cf329f",
+                        "label": "Agree"
+                      }
+                    ],
+                    "rows": [
+                      {
+                        "id": "4d1c2a4c62ef98259e8e51f9f87234725c65a2b26e9366e921985013fe153439",
+                        "name": "It was easy to setup"
+                      },
+                      {
+                        "id": "25dddfa9e535b55c395142fa3726ef05e4ce16740212ea82ca21fc911d1aa7ff",
+                        "name": "The quality is good"
+                      },
+                      {
+                        "id": "6c6fb05cc04f6a168a2d952bc968cfe6bfb4e0c903d79245564bfed57ee9f378",
+                        "name": "It's easy to use"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "6b3c60dbaaac8029ca7c08d40646f2104dd1a47bc6dbf72fba8ebd658dda650b",
+                  "name": "What's your overall rating for our\n**@d9480fabd4db3980f16a02f8253eb3584ffdf0c0601c8f2da02c4661910e2e3a**?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "4a77c712652ee10ef239c15199853d3240ec255acf997aa7a81053ab37ab2a36",
+                      "type": "number",
+                      "kind": "static",
+                      "reference": "rating",
+                      "label": "Rating"
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-rating",
+                    "version": "5.0.1",
+                    "shape": "thumbs-up"
+                  }
+                },
+                {
+                  "id": "a4a87808c67f1cd5147c4b87bacefa919a328acae3bd245f0b74c36fd6ce9469",
+                  "name": "Would you recommend our **@d9480fabd4db3980f16a02f8253eb3584ffdf0c0601c8f2da02c4661910e2e3a** to your family/friends/colleagues?",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "70c3c3aab001eeaa5f479ac520706250d05cb66e7959d733ce728e72867baa66",
+                      "type": "string",
+                      "kind": "static",
+                      "reference": "answer",
+                      "label": "Answer"
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-yes-no",
+                    "version": "4.0.2",
+                    "altYes": "👍 For sure!",
+                    "altNo": "👎 Don't think so."
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "5acdeb2fba4274d4d978553d98d8e1cc23b07f1c29a2784a8942f451463742f2",
+              "block": {
+                "choice": "7675c4a7c2c932d6a6c38a0e6195a7edba407aa5bb8f8c6fe03c4af8aec4f9cd",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "57669fa43e7f03b0c9fe17b9dd898486c1327927c95f30e63042a14e4f79390a",
+                "slot": "e3a0a1dcff8520b44703206194e62281e45050bdc59bd1610249e5d68ee91d9e"
+              }
+            },
+            {
+              "id": "619918e719eabab3d8fa5dd365c533a0c8f8db6f268ed96a5a58ee9e79e9225e",
+              "block": {
+                "choice": "c949474f533c93c45db25b0666011335d3d9197f7d276e2bb1f995fa2b3198f4",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "57669fa43e7f03b0c9fe17b9dd898486c1327927c95f30e63042a14e4f79390a",
+                "slot": "ca39d25341b5f5537a8170353305defda5427a767a53d9f96e8831bdb12ab2b9"
+              }
+            },
+            {
+              "id": "624863c16808b2bc8da08a463d210b5883ac86c13f323660fbb64d218cd98b68",
+              "block": {
+                "choice": "a3f76fd3b95a3402bb2ccf34d0820f3eb33cbb64cf5c0ca88550130f2957a192",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "57669fa43e7f03b0c9fe17b9dd898486c1327927c95f30e63042a14e4f79390a",
+                "slot": "8a571cf6c2ed20f883b27066975d635275407fff6dd491aecad2b40f339d5d3d"
+              }
+            },
+            {
+              "id": "1470f038c4af0fad9380659a85179741cb0ba5724c9661453dc160ca64812f4e",
+              "block": {
+                "choice": "01f5f2bb91fd96b8bf9a6072db465cf59e0e1155bef7e4343de8e07a17e154e9",
+                "type": "tripetto-block-picture-choice",
+                "version": "4.1.0",
+                "node": "57669fa43e7f03b0c9fe17b9dd898486c1327927c95f30e63042a14e4f79390a",
+                "slot": "95b1bf2e76c9718ba30f8aec11b130aa264cd37c0afb1f1b214e209502d6129b"
+              }
+            }
+          ],
+          "culling": "each"
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

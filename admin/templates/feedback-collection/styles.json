@@ -1,0 +1,40 @@
+{
+  "display": "inline",
+  "autoFocus": false,
+  "fullWidth": false,
+  "noBranding": false,
+  "contract": { "name": "tripetto-runner-chat", "version": "3.4.1" },
+  "answers": { "alignment": "left", "roundness": 4, "backgroundColor": "#fff" },
+  "questions": {
+    "alignment": "left",
+    "roundness": 4,
+    "backgroundColor": "#128c7e"
+  },
+  "font": { "size": 16, "sizeSmall": 14, "family": "Roboto Slab" },
+  "background": { "color": "#ece5dd" },
+  "avatar": {
+    "type": "avataaar",
+    "skin": "Light",
+    "eyes": "Side",
+    "eyeBrow": "RaisedExcited",
+    "mouth": "Neutral",
+    "top": "LongHairStraightStrand",
+    "clothing": "ShirtScoopNeck",
+    "accessories": "None",
+    "facialHair": "None",
+    "hairColor": "BrownDark",
+    "clothingFabric": "Blue02"
+  },
+  "inputs": {
+    "borderSize": 2,
+    "roundness": 4,
+    "errorColor": "red",
+    "agreeColor": "green",
+    "declineColor": "red",
+    "selectionColor": "#128c7e",
+    "borderColor": "#128c7e",
+    "backgroundColor": "#128c7e",
+    "textColor": "#fff"
+  },
+  "buttons": { "mode": "fill", "roundness": 8, "baseColor": "#075e54" }
+}

@@ -1,0 +1,1277 @@
+{
+  "name": "Event Registration",
+  "language": "en",
+  "prologue": {
+    "title": "Sign up today 🚀",
+    "description": "This year's edition of our Marketing Event will be awesome!\nRegister yourself and your guests now, before it's too late.",
+    "button": "Start my registration",
+    "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+  },
+  "epilogue": {
+    "title": "Thanks for your registration!",
+    "description": "We're looking forward to meeting you!"
+  },
+  "clusters": [
+    {
+      "id": "a535c01df329f04a03ff29635e955e0ff5c0ab912d2a7956629ce02e051da8d3",
+      "name": "Personal information",
+      "nodes": [
+        {
+          "id": "f4a80dad6ea8f87ec77f35f5c7b7fcdf451b4b8401d11f10936212341afc9f77",
+          "name": "Hello there 🙋‍♀️",
+          "nameVisible": true,
+          "description": "🔒 *We will only use your personal information for your registration for this event.*",
+          "block": {
+            "type": "tripetto-block-paragraph",
+            "version": "4.0.0",
+            "caption": "Let's start with your personal information."
+          }
+        },
+        {
+          "id": "e101d4bf0a1ba49a56e8b8e6a17e398e54fae2ed49076200f3bd24cd78d5b565",
+          "name": "First name",
+          "nameVisible": true,
+          "placeholder": "Enter your first name...",
+          "slots": [
+            {
+              "id": "7c5c84329824de78b611ea220427550f81484ca0b9fe42b12543b2379a324abc",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "b5b033f6949dea850253904c40c61fa4430918f7755676083599fa254694d15e",
+          "name": "Last name",
+          "nameVisible": true,
+          "placeholder": "Enter your last name...",
+          "slots": [
+            {
+              "id": "de3426b9cfe4353cf5a569c3f8306f54cbdc6eedbef76afbe4fe0f299e7f00fb",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "7e3c37bbff93e5b7dd8eda4ff875fedb7c1990c4ecf521704da0703a5510ae7a",
+          "name": "Email address",
+          "nameVisible": true,
+          "placeholder": "Enter your email address...",
+          "slots": [
+            {
+              "id": "f38a5721be9fa1f304b2526bc7718602d638ea8ddb3411c3b16ad57976e54d67",
+              "type": "string",
+              "kind": "static",
+              "reference": "email",
+              "label": "Email address",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-email", "version": "5.0.0" }
+        },
+        {
+          "id": "5a5352c6f2be22aaaeee2bb3ef858f02fec5a97a00f682ab6afd2a740302a894",
+          "name": "Country",
+          "nameVisible": true,
+          "placeholder": "Select your country (or start typing)...",
+          "slots": [
+            {
+              "id": "afbe189f646a411057b36daf257ed6e89af5dc5b01c1a57d50a3e3a7d46b93f7",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-text",
+            "version": "5.0.3",
+            "useSuggestions": true,
+            "suggestions": [
+              {
+                "id": "a2213f730bcb08b9109858530f96165b330bd2c9073f16ea91d8c28e0d6e3e82",
+                "name": "Afghanistan"
+              },
+              {
+                "id": "8c9eff0f7edfe9bc2735ec8030ac8d974b754096d0788178caaa8a0f1ad42315",
+                "name": "Albania"
+              },
+              {
+                "id": "13baea489ed16d34e433b2dde3f45b2553384f155120c24437489efb5e8490d4",
+                "name": "Algeria"
+              },
+              {
+                "id": "5e32ebedc0995b7fb9b8723ee0dc1eb62df3ec8d6c8cc7aef620d1a4fa896872",
+                "name": "Andorra"
+              },
+              {
+                "id": "624126036060ca9913300d7bd93a4076103b9d04eb8a4f54519dc7ee84631dd1",
+                "name": "Angola"
+              },
+              {
+                "id": "c776fe05d48d5d3419865cc2683fd999b9834064b42d1e11c95a2b298aaa7bad",
+                "name": "Antigua & Deps"
+              },
+              {
+                "id": "97fd1b0e1d1183fcc734b2f33bd55d0e3ac493747970a47223d2c3e0dc80d5de",
+                "name": "Argentina"
+              },
+              {
+                "id": "57d12a6284f5a371af15e443b5178099bee99be037cdba05ec6fd7ec1b020d1c",
+                "name": "Armenia"
+              },
+              {
+                "id": "17f3b36ace815e2131121c92f21d68b00667af07f5c4484ecee3e5cebb5ef4e2",
+                "name": "Australia"
+              },
+              {
+                "id": "9df8e34d9f4ad8c1783e90aa3c06c303e7588faea25cb9db6979d74c6904f4cf",
+                "name": "Austria"
+              },
+              {
+                "id": "4fe184f52bf983e67b2200e5a4e68e4b34ea389e0a9f7209308f00e5f6fa3546",
+                "name": "Azerbaijan"
+              },
+              {
+                "id": "b14744a2671c4e1ab145878fedb3b4f7d014a2401dbbbcb1b115054b5da5bbaf",
+                "name": "Bahamas"
+              },
+              {
+                "id": "95d55ef60beae250e76ea5de48f28414bab6ed69705ed2f2e72f795dd2a6cd81",
+                "name": "Bahrain"
+              },
+              {
+                "id": "b969c53ce2b65d02fe8f7da2ac7fee327434b5c251c771107004c446182a44e6",
+                "name": "Bangladesh"
+              },
+              {
+                "id": "77bdece4ae63a1277c7ba97035f0c4cfd34aa2567e8719cb69e5f69ab09ee8da",
+                "name": "Barbados"
+              },
+              {
+                "id": "128e89c00696821f8d7d27f8d5d2d213693242940afd5825d309fd0322f9f1e7",
+                "name": "Belarus"
+              },
+              {
+                "id": "8ac9f17ab5b0fd35ece2e1bdc8f6908a7252d6e72114f8ed40d899a1a56ecb0e",
+                "name": "Belgium"
+              },
+              {
+                "id": "188dae1b1267bb6b83e85b5dd4170dffa9b8a3ae0800bdc87d294cdcf56df473",
+                "name": "Belize"
+              },
+              {
+                "id": "45bc31c7069a150bb7507d1e7148d8dd5383805debdfe6ca9d724e7781c036c9",
+                "name": "Benin"
+              },
+              {
+                "id": "5c248dd31bfc09ee23086ac4d2ce36cf93dc6555df345887e6d520834594055a",
+                "name": "Bhutan"
+              },
+              {
+                "id": "2935bc87271d1822433678ceb330100553ecb8294fbb98c515443751937d0502",
+                "name": "Bolivia"
+              },
+              {
+                "id": "dd61f7596da36eea7ea90f984085b039491c2de79379351b73c4132a25519d11",
+                "name": "Bosnia Herzegovina"
+              },
+              {
+                "id": "022961e701073cb5a28b1924b84d90435d374a1f50f7625bf37df84eedecbda4",
+                "name": "Botswana"
+              },
+              {
+                "id": "942ba9b2688876691b5a0ab5dd51c4b651dbdfe45a4e4ac3091c640b6e32a2a3",
+                "name": "Brazil"
+              },
+              {
+                "id": "4c701175dabf0b1e0c28aae4de867202ca5b5e7c2483a4831657658e4a7ae364",
+                "name": "Brunei"
+              },
+              {
+                "id": "087531a84b4fc91611c6e6673eca6189006a3941327afc0ba22b95af6c1ae864",
+                "name": "Bulgaria"
+              },
+              {
+                "id": "987b3656f6f7a0f1f5d3d5dd46c5d498a2b683de5c1152c86db10b90910e6c0f",
+                "name": "Burkina"
+              },
+              {
+                "id": "efae55a1e4b401064f41604ba30342fdb56cb5dde055c52a7084200d4a051271",
+                "name": "Burundi"
+              },
+              {
+                "id": "aa5376c8da55ea63ac5fcab74dbdc89a8bdb55e1f7854b95d42aff7d29b397ac",
+                "name": "Cambodia"
+              },
+              {
+                "id": "8c98d79b16b5a6a415300b9e5c151d0304bc8e5a037fd0efa750a8d1ef62a698",
+                "name": "Cameroon"
+              },
+              {
+                "id": "cc8262e36430cf9328e0775d7ce5af1464eb225c2013bdbc62aecbf0011a805f",
+                "name": "Canada"
+              },
+              {
+                "id": "0e713d1aecbbb508efed12371e1756a9545065a58ae7ef53b50e2adcce773fcf",
+                "name": "Cape Verde"
+              },
+              {
+                "id": "50ac302338cd0eb2868ac2362ac025e8f742c5fbd446fb74b102f3e29996bd64",
+                "name": "Central African Rep"
+              },
+              {
+                "id": "df05af4f5094281eb0202a4b9b1a9afb0e554545cb14af132f0bf4c715443dc2",
+                "name": "Chad"
+              },
+              {
+                "id": "ea3c900b7281f09bc0fe44ea54ade7fcf622aa3371c059a33b468f88abaecb8e",
+                "name": "Chile"
+              },
+              {
+                "id": "273a9a65af1b3cf49222a9006fdab8ada44b8cdef198b6054254e6068dcbe244",
+                "name": "China"
+              },
+              {
+                "id": "3c41cc2ce77217ca0162b9864e6b8abc0b54baf8109e4c27ca660c3cf9f53d1b",
+                "name": "Colombia"
+              },
+              {
+                "id": "b64c489184c5be88b60d38b8f76e8b9cff6fc2fc899fec92602ebfaba8a4e5dc",
+                "name": "Comoros"
+              },
+              {
+                "id": "d3f74f1df4779ef0ddbd46d36d4072236a0df7a4bd1efe5357b31689f9be7592",
+                "name": "Congo"
+              },
+              {
+                "id": "2c43b929dabc28ba6512c687e9bc86319f75ed0c2aa18d65543fb4b18b2ce6ac",
+                "name": "Congo {Democratic Rep}"
+              },
+              {
+                "id": "b4fecd4ce5a85408a79be3c0d4020ca2ecf4751335407fecfc46203d8b2c5a27",
+                "name": "Costa Rica"
+              },
+              {
+                "id": "7566fffc54064a86c05d10a25d1daa285096eadd83f26230f27cf1e08af3c1fc",
+                "name": "Croatia"
+              },
+              {
+                "id": "0f619f52f18f52c3b4119802ec192d1f52671fb2be1792980f9fcc47c8369bce",
+                "name": "Cuba"
+              },
+              {
+                "id": "6cbfb78067b59f03aecc224fbe416d13e8429c3e5a0715a227fb39dfe1b82c85",
+                "name": "Cyprus"
+              },
+              {
+                "id": "f3f5f7739fa128f2f5689dedbf6719943d98920a4b7e9764f6128287577b6995",
+                "name": "Czech Republic"
+              },
+              {
+                "id": "de1ec38e44a7bc59410751e8b8fb36870ac5931c7ad754b0e4a5b14c48f4d97e",
+                "name": "Denmark"
+              },
+              {
+                "id": "903afbc717faef4bf4365475929c18bcea8b12f46a56b4dfc7b4b9362a29e703",
+                "name": "Djibouti"
+              },
+              {
+                "id": "63649eceda0f979f8a3be31be7436235c2cef5f3e5300e0f26012e8afe1a2824",
+                "name": "Dominica"
+              },
+              {
+                "id": "6f23778207abf8687dc5f2af0d7ce0ad71c2a990485f4ca665cd84f3dcd58bd5",
+                "name": "Dominican Republic"
+              },
+              {
+                "id": "f79b77cbda966f28f44e4b3fa1ba8ad79495238c010f189ad94e278d1ba9311d",
+                "name": "East Timor"
+              },
+              {
+                "id": "f90ff825b46703b300e8831e6b6bdaca8b7ff8a87caa99cacf3e1f95a56cd528",
+                "name": "Ecuador"
+              },
+              {
+                "id": "59a80ba29d9a1f0189de3e11020ff1946cd4bb57dc6e346ddf58895517086dbb",
+                "name": "Egypt"
+              },
+              {
+                "id": "3a2f0c52f71c64506ffed5b8b81034ffbd0a5be5209de4bb480e199cce830228",
+                "name": "El Salvador"
+              },
+              {
+                "id": "c5d6ced8f2a4d6ad3ba8cd69987b895e63ce424812ebf11053ca77db12f57000",
+                "name": "Equatorial Guinea"
+              },
+              {
+                "id": "f199f7e0533d185f4925a0de72f33b99c78ebc0a7b3449a4eb79ff72bca7ae21",
+                "name": "Eritrea"
+              },
+              {
+                "id": "97bc6ed13b87d0531da772fd131d4c0d2df965bdb14849be9f0d3c9918e222d8",
+                "name": "Estonia"
+              },
+              {
+                "id": "d2da247808847336c29203338dc945d8c5506f37e84dfdfb6ef0aecdb49138f2",
+                "name": "Ethiopia"
+              },
+              {
+                "id": "708dc460060cbceec79bc6eccba4b61c67e0e80dcb9b1e2c7f67afa260f26a8c",
+                "name": "Fiji"
+              },
+              {
+                "id": "d48238526095a07ce6fe99134beeb3f2444b829e10e65c03c20628eedd80dfe7",
+                "name": "Finland"
+              },
+              {
+                "id": "24ca715b3fa1082b4c277d1be0bc08e86b1b81016e5e9b5e1635f2bd04e4df69",
+                "name": "France"
+              },
+              {
+                "id": "86b3e7928e468d1239ac0c68a29c5c83296b752f7122c86f4da36f940f855fac",
+                "name": "Gabon"
+              },
+              {
+                "id": "9c1857926737fe60b815ee9a0c9dc4aea9fb3137874edb17c71f2a7a0929c64c",
+                "name": "Gambia"
+              },
+              {
+                "id": "143256244ef098405c355ed44db17a80f22fae9931195032c9d6a7afa80990c3",
+                "name": "Georgia"
+              },
+              {
+                "id": "25503b763bad201a406ff6c7334718bd358275ee5f8d31d3dfe81efcc3c8f2d0",
+                "name": "Germany"
+              },
+              {
+                "id": "fb7e5bbd2c2acc984d39e77fba68d8fcad955f6cf28ba387810e4bf2e1ce73e3",
+                "name": "Ghana"
+              },
+              {
+                "id": "4278eb3ce5cf21c2ec58800351b1675ca1a9efeade5b39d7e5993c5dff829f3d",
+                "name": "Greece"
+              },
+              {
+                "id": "770878a734a36fe503b87e7f5126dcf6fe83747c624fb72ffa1e95cf40b5e0ab",
+                "name": "Grenada"
+              },
+              {
+                "id": "a0c71acb4d64e46dea8bca67100870bcf296e4929bfa90200bbe2541e733f09f",
+                "name": "Guatemala"
+              },
+              {
+                "id": "12eaf8c384c83c74756c3dfa7056509b1120eb5f948f52b6af31e302839c1a12",
+                "name": "Guinea"
+              },
+              {
+                "id": "5c1b3eff4e6a3bac5c380fd3387856f828723993838d07eba69780d2935eb873",
+                "name": "Guinea-Bissau"
+              },
+              {
+                "id": "eb13c0d148cb71aa5a28a67866295382bea83fa89e9d6ae65164c448aa6572eb",
+                "name": "Guyana"
+              },
+              {
+                "id": "ae2baccf3b256259eff310d7583cef6197a1802449df03d88ddd28e6f227b65e",
+                "name": "Haiti"
+              },
+              {
+                "id": "a00b8a14c79c1e70d7044d157d5bd18b0940e14d0409a36649ffeb51e392321a",
+                "name": "Honduras"
+              },
+              {
+                "id": "3c2076a798118cb49e6bd69432945e881192c11495ab7bd39537d14ad8572aa6",
+                "name": "Hungary"
+              },
+              {
+                "id": "68f11dfc00b964a3511b192c77f24c5dfd9ec6dd21bd7166ec9004a623b8945a",
+                "name": "Iceland"
+              },
+              {
+                "id": "6129b7ad45a0214a572826a3165c8c0819176c1b53a22f21be18c24cabf959f6",
+                "name": "India"
+              },
+              {
+                "id": "3fa66c38fa770778776693c9f15d88e980169bd72a618c15dd71c1e9c6e58965",
+                "name": "Indonesia"
+              },
+              {
+                "id": "7645fcb0906cbe7a1074e1748083716bbb4d58fd8179f6a8b1609355cbab53cc",
+                "name": "Iran"
+              },
+              {
+                "id": "02039743ed363c7e7fdf81e8bde5775049c62312cfb310eb92361abeda044851",
+                "name": "Iraq"
+              },
+              {
+                "id": "fd4f1b5b471a324b838e015e4305b9bdd5a735124bc078a1488fe418e5d08316",
+                "name": "Ireland {Republic}"
+              },
+              {
+                "id": "04434ca1d13c9d045bbbacba2e6f306553e2a04fde61c486ea83d8b00797ffab",
+                "name": "Israel"
+              },
+              {
+                "id": "d1d1eb78f4ee40895c07c693506fc1639b9faa9181325475dea34f831ff8f8da",
+                "name": "Italy"
+              },
+              {
+                "id": "6ff8d482ceb137a2c79fa0b7db7b79979e108da349f3a2acb3492245e0f9e2a9",
+                "name": "Ivory Coast"
+              },
+              {
+                "id": "a066f686244997f7ccc067498625ffa24df4efcc0e6345a90f855cefaf3dfcf2",
+                "name": "Jamaica"
+              },
+              {
+                "id": "c5771a4a55f3b4010b689d5882d0f75e6253b700c8837a96dafaccbbb1f671af",
+                "name": "Japan"
+              },
+              {
+                "id": "5876d2e15773b4af6a63bc6651526e799901ceabe8c04ac2d174f4666a65a061",
+                "name": "Jordan"
+              },
+              {
+                "id": "4c12c7dd96cc09d36157bfbfae19e0b993067c5665bf0e97583a68caf8004bbc",
+                "name": "Kazakhstan"
+              },
+              {
+                "id": "01a7a2114c25dabea1e906c5d2c107920076c5df5b311d0f210008c47aa5935b",
+                "name": "Kenya"
+              },
+              {
+                "id": "fc53d9ac07c6997932b333fbdfd28d19b31e110b9cf5a301d040bf4364d39cb3",
+                "name": "Kiribati"
+              },
+              {
+                "id": "a0d178bf8fcbdc7c0af9540b809530d48a570eca8b958c17e0bc24729dc560c4",
+                "name": "Korea North"
+              },
+              {
+                "id": "99de94b18d29856ac0d79b2b3d5e8512ee551a7f6752214e780c44279a78c41a",
+                "name": "Korea South"
+              },
+              {
+                "id": "00dedefd63458299c4c7237bc0a040b3f4119ac5dc05709f4ff6efd2d7640424",
+                "name": "Kosovo"
+              },
+              {
+                "id": "bf9c97f8201bf8e08b60c1d48c550141f82febedf6d0b81126772b990008ec65",
+                "name": "Kuwait"
+              },
+              {
+                "id": "1ec762e8da9d248686ef8404f1da7fca6f7e93937ba6a12f4aea19e4a7cff09b",
+                "name": "Kyrgyzstan"
+              },
+              {
+                "id": "85dd895106edbefc5490f5934a7a85f09ada5e0b1b640a568d4185274a76649a",
+                "name": "Laos"
+              },
+              {
+                "id": "861fe9cd5cfbe75287a535147fd3265fa19af01f2701a3460a7c37390fedb2a3",
+                "name": "Latvia"
+              },
+              {
+                "id": "2bdcef5479cdd6baf94efebccaf8af32628f9e2021a513d4bb43ff00b82337d3",
+                "name": "Lebanon"
+              },
+              {
+                "id": "cb3754586b73dc5fda4576009a2776705fe6fe0e32b94c6e7974aa2868861c6e",
+                "name": "Lesotho"
+              },
+              {
+                "id": "33201a311b42424fabbe63d085d673ff6be92adcc5dae5e0da0570bea708d961",
+                "name": "Liberia"
+              },
+              {
+                "id": "cf6aaabc307ea19fbf06cf6ad8a325ed31a95bb6188a2854c912cfea577780c1",
+                "name": "Libya"
+              },
+              {
+                "id": "9757f6608ddf147cb98566e02e0788a32d18b0431f0eef1911bf69d6f3656832",
+                "name": "Liechtenstein"
+              },
+              {
+                "id": "485aaddb782829a71389986ff03ae76d7886ca981a07c5c12385225dd0d8b463",
+                "name": "Lithuania"
+              },
+              {
+                "id": "81824738cde55729e4d0ff3d61e7a7546cb54a5e05a86c8144081c1824aed4d1",
+                "name": "Luxembourg"
+              },
+              {
+                "id": "c2098949a337962f5c9b3165d9ef68b44b492457662192ac6766ac402791eb23",
+                "name": "Macedonia"
+              },
+              {
+                "id": "cfb247a2c7e8d2879d9960680fbb1e849d1011fc49c0af4fdfc80cc5b0d62124",
+                "name": "Madagascar"
+              },
+              {
+                "id": "b0605aa6856699e100c1b5d368c5d99b3211e5bc5d606ef70bdce98e43f97c0e",
+                "name": "Malawi"
+              },
+              {
+                "id": "b3bd42a57852352357355f5c9b373b456ebadedff3782d60b76da26641fd6631",
+                "name": "Malaysia"
+              },
+              {
+                "id": "71c3b0bc61e00c23989f6b39f75d4f1bf302d69e3e2e66f9d9c46c64bd981eeb",
+                "name": "Maldives"
+              },
+              {
+                "id": "4e8968080f7a26de2caad05ef31df5647b27db8edd62d4953cf5b2a6ec6c02f1",
+                "name": "Mali"
+              },
+              {
+                "id": "86621b97802827ce5bf6156b7cae10b040847aab8c4b29e58024e166c5adcdec",
+                "name": "Malta"
+              },
+              {
+                "id": "a239639c473f964fbe243af655885e593c5cf676d0125801802ba6824dbe61c4",
+                "name": "Marshall Islands"
+              },
+              {
+                "id": "1df645307f1679457719a4c79564025ac8f4fea7e946cf751607303a54054ee0",
+                "name": "Mauritania"
+              },
+              {
+                "id": "cd812ca421a08fdd64b66a4579184827264a1e6c1903f24dd4c217b9d9a84f8c",
+                "name": "Mauritius"
+              },
+              {
+                "id": "9ae927b4a832740994b14a67b25f4179771b29ba044f0fe900414002c8459c63",
+                "name": "Mexico"
+              },
+              {
+                "id": "8e512db5818ac032957711306017de886e3b43eb097d4b196c341e6c9bcda53d",
+                "name": "Micronesia"
+              },
+              {
+                "id": "102ae04035d375e5c9d5d856eda5fe81c79a060b98a871a6b1508c6525a71045",
+                "name": "Moldova"
+              },
+              {
+                "id": "8cd07fa33c9b87dc2637a31a12a1ace84e8d1741e4093802a7fc0285bd1970aa",
+                "name": "Monaco"
+              },
+              {
+                "id": "bbb340e62536b326d9a6bac4388e795d209787b1235d3e683b1c9275ef783107",
+                "name": "Mongolia"
+              },
+              {
+                "id": "c63a3f789ca5b2fd89a4f0b47041ca2c8a90070918c2cfc918e5e40df27c9c3b",
+                "name": "Montenegro"
+              },
+              {
+                "id": "60b5591a6fb328bae149bc97844c4feb281b8397bfbd34a0abc4589488846d2e",
+                "name": "Morocco"
+              },
+              {
+                "id": "6bdba12bad697c60dc7e2f4dc238a82324ead0c7f6dd3e9d3eb60e1134eca0a1",
+                "name": "Mozambique"
+              },
+              {
+                "id": "1176f7dd1e6e0153024d880f6c935c14b980b1e2412f7b9c604ef3dfa0601037",
+                "name": "Myanmar, {Burma}"
+              },
+              {
+                "id": "dc55b22b4a1fc4dc478d2dc8f67aa97bdbbb41ca380d635b1863908f168425d0",
+                "name": "Namibia"
+              },
+              {
+                "id": "a6175635778a0bb16522e6161eaf098d5809c11af0952ba4d36e66831dd52c4e",
+                "name": "Nauru"
+              },
+              {
+                "id": "32afb9aeb6d25743087cd2097dbe99edd9582e4d08d4d3a16f86ed9375156be0",
+                "name": "Nepal"
+              },
+              {
+                "id": "4e608ba3fb982a5b60cbbbc825b49c82f7722bb2f035ef4f3ad443ee7ca81cb4",
+                "name": "Netherlands"
+              },
+              {
+                "id": "3a3187a32be36f9001219b96b29dba9e228d66ad5c6d7c5c326c0358b74f8eb3",
+                "name": "New Zealand"
+              },
+              {
+                "id": "19258086358294b6367e6301f7d2236027f604b3301f35df09765c6043752360",
+                "name": "Nicaragua"
+              },
+              {
+                "id": "9fa03f5f57b634cd29a977ff7a082c474024db2b5ae1d60535770d8537048f17",
+                "name": "Niger"
+              },
+              {
+                "id": "74354bb803a516b5df9a37906b3ce5f783b92f79e851b02430c7c944870bda66",
+                "name": "Nigeria"
+              },
+              {
+                "id": "a0906bf8e1c7a7f83418e554e6c32bc9e11f661c470b20661a30ef34e601d0e7",
+                "name": "Norway"
+              },
+              {
+                "id": "c783c485047780d502b7452e8f3023714b8813e67ed8d80ff60736888d6fd494",
+                "name": "Oman"
+              },
+              {
+                "id": "e94e9542475eeb2df65000b5e4ed0903d2e6aef43822a75c27f065a727810ff1",
+                "name": "Pakistan"
+              },
+              {
+                "id": "4a411f0c35e4fced949f7372b23b5f78280281c18bdcb48f9025222346b04e3f",
+                "name": "Palau"
+              },
+              {
+                "id": "440b5d7050e84db15641e2244d635c5479de5e41697dd75e75f338e0edd998cb",
+                "name": "Panama"
+              },
+              {
+                "id": "a239daeb9de5c87ee9801e0b12d4b14bd70521f238ef2c44ff49010b93959984",
+                "name": "Papua New Guinea"
+              },
+              {
+                "id": "8e399227f23ffd906ea0e4549ccb96261ddb0248ae24e97e2aef9ce77acf234e",
+                "name": "Paraguay"
+              },
+              {
+                "id": "379e472b1234b465014bdf2677abc3553f63dd725f2ba200ac568a62d0a75c1a",
+                "name": "Peru"
+              },
+              {
+                "id": "672242613c2b298912d10e6569ba9539d2c929e7589e4a0ee36b02bbd4ba818e",
+                "name": "Philippines"
+              },
+              {
+                "id": "f9212dc3deaf501078d09059e74a0ff0e7c36543aa9036204bfac02bd461ecf2",
+                "name": "Poland"
+              },
+              {
+                "id": "2bd3f5ed440ebbdf1968fd72d2bd9b5286158a66b460b67dedc04122a8ad4974",
+                "name": "Portugal"
+              },
+              {
+                "id": "8ea4f319c650650d888757a3e8da2fd043510e468c13419e722fccdde7699453",
+                "name": "Qatar"
+              },
+              {
+                "id": "14c340d7e8f4e33aed8aab533a4f8aa6e95cc9f5988cc3ecf770ffd4e50cf034",
+                "name": "Romania"
+              },
+              {
+                "id": "72335584fa1125ee4ca18c337e3d3bd23745db565ca5fe02bda6f84f5ecc9b4b",
+                "name": "Russian Federation"
+              },
+              {
+                "id": "2b863d8f8f9974601bd7286b494356d050a2b8b043a4d6b7f5565ff25b1a6b55",
+                "name": "Rwanda"
+              },
+              {
+                "id": "364561d1b2fd94277f59ed5ad5a4436a10070d4641a08631654c693a66279f31",
+                "name": "St Kitts & Nevis"
+              },
+              {
+                "id": "7a1593988c1a4189eda50215bff93734160db5e706801e063432456f696f91d9",
+                "name": "St Lucia"
+              },
+              {
+                "id": "20d0f76a27594d3e1a467fbb012211cce4cd3073caae64a406b1cc37c15ae94f",
+                "name": "Saint Vincent & the Grenadines"
+              },
+              {
+                "id": "98eafd6adc182b069b0435bd9e65b60392b313bfc965f219170165dd64f9d9e0",
+                "name": "Samoa"
+              },
+              {
+                "id": "4f76d6012b7af4498c401643e16c0e575e462acbcd88dc2d75a0e0d72c28fb27",
+                "name": "San Marino"
+              },
+              {
+                "id": "bcad9903e46ba45e88191f186c11e358e09603a49f1210f44df1da6073fedb13",
+                "name": "Sao Tome & Principe"
+              },
+              {
+                "id": "f232cfd9393fe824bef6ddbfea1c933ef110dfd1a238e886aa2ff28570dddcae",
+                "name": "Saudi Arabia"
+              },
+              {
+                "id": "b19eef2fd407cdbb57a8aa5799ebf08aa42e246826c6ccdb599c5936ea134440",
+                "name": "Senegal"
+              },
+              {
+                "id": "c2e061aaf45bc89d94d04926a19382d78434c45eee2f0f57a46f41fa8057e563",
+                "name": "Serbia"
+              },
+              {
+                "id": "060f9d81ba7638feb725a66f5fef25bbb94dda060e6e5ec11abfd66912578c96",
+                "name": "Seychelles"
+              },
+              {
+                "id": "36f5512f21fad562532ca8016905fc2d9cb9c1cd173a2eadbe2b0ed630fc8bc5",
+                "name": "Sierra Leone"
+              },
+              {
+                "id": "b57fc0236a295d9e5d58f426676a5961d5fe8e82424363205846d3a107d2d8f8",
+                "name": "Singapore"
+              },
+              {
+                "id": "bb59968d9da923468ee857653fda4bd3047ac825b3adb95578a46d6b426d44d5",
+                "name": "Slovakia"
+              },
+              {
+                "id": "de67e24178a537ee3d330cd8c42bcbc835cdb3a7ee1c1bff09bcd17cd2b4ea1b",
+                "name": "Slovenia"
+              },
+              {
+                "id": "b246ed3d0da54446d6be126efa392f4732d82203411c8962abc9efcd8a4423c9",
+                "name": "Solomon Islands"
+              },
+              {
+                "id": "e36b55d32fc13c46f8b6487311d39f09d0de45e54ae2661267fb995af7c1335c",
+                "name": "Somalia"
+              },
+              {
+                "id": "e1308899b81627c6f6f9d82a8884b28391cca3ddbd0c7dbe08786b6bd118a238",
+                "name": "South Africa"
+              },
+              {
+                "id": "92c1b2f5e47c24871ca200c1c3e8da7b79779d20ceeae69a98dba9dc3e8d69f9",
+                "name": "South Sudan"
+              },
+              {
+                "id": "c22a838dd2330ce612cf9f249cbd60612ba25c5e09f83fa6a11b362457d661d6",
+                "name": "Spain"
+              },
+              {
+                "id": "ede1a0d54a8197bf1c6d07a5dd7a8a01bacf871f05751aaf6d9db05f97987d9a",
+                "name": "Sri Lanka"
+              },
+              {
+                "id": "2b438cc12d7e673406c65d5766dd0f84471623340eece8e90994fcc4388951b5",
+                "name": "Sudan"
+              },
+              {
+                "id": "d24327a1d743be9f90aa27caf75e80320b7e22c2504a1c36d7a3f53a76b5e4c0",
+                "name": "Suriname"
+              },
+              {
+                "id": "fc71c30de22fd9805a1abc327dc3f4013e1a0998807f0476ccddbf60dcbf6cf2",
+                "name": "Swaziland"
+              },
+              {
+                "id": "be4f7cffe899d475ed52d12dd1aab0a7a85f7252aa649f0863615d34713151a8",
+                "name": "Sweden"
+              },
+              {
+                "id": "1651f187e2ab67494ca4a4fbbb92b0b0a876cae8fa30f16edeb8fecaef624852",
+                "name": "Switzerland"
+              },
+              {
+                "id": "28461ef2e8d01b923040c2dac632e19b14347f2bcf43994d662460e2a5806075",
+                "name": "Syria"
+              },
+              {
+                "id": "f0966be1f5c0b0f09b2462c2e1a7f590b4e830f2e1c1e9c5045903a5fc7da105",
+                "name": "Taiwan"
+              },
+              {
+                "id": "75c8c5adfe3eb8a2c47c766e690de7f7771969c2d9e04d12a84a5ab93b035cfd",
+                "name": "Tajikistan"
+              },
+              {
+                "id": "4574803f773bc1fc7fde3bfa7df90796ad3e0cf967717df204b4aceb9be4d145",
+                "name": "Tanzania"
+              },
+              {
+                "id": "655b101ae2460b48c80c1421ac448edac29b1523b28d8145f10d26d7b14038a4",
+                "name": "Thailand"
+              },
+              {
+                "id": "4eda5f773eed77eb203633bff645cc15f6af8d4060b52fe98bb886183e679531",
+                "name": "Togo"
+              },
+              {
+                "id": "ebee8e4825139419869566372068d107b3a818f28ed5885b7e20f57cc2c54d0d",
+                "name": "Tonga"
+              },
+              {
+                "id": "3ed3b7caa0441cf371ca4c3e70e1e77e342cebe3ff443f54343579674da53f8f",
+                "name": "Trinidad & Tobago"
+              },
+              {
+                "id": "c75e343ee1f892fd18d2f0f8d00565c0938b301c08ab1ea778a28ca7b898a41b",
+                "name": "Tunisia"
+              },
+              {
+                "id": "59e475cbf81f0af6ab4d2a4e55b543b1a6254504ce7b87f7e8a592954e38d9db",
+                "name": "Turkey"
+              },
+              {
+                "id": "dc4f3904c41b121c381ba2d0a5fb575aefbd8e8eae8eec9f62ae44ab60a8792c",
+                "name": "Turkmenistan"
+              },
+              {
+                "id": "9a4b810e1b77085a1f17a2a4200ee44bc84278ca8e55950cb55bd89c1ebc6a91",
+                "name": "Tuvalu"
+              },
+              {
+                "id": "ec91b201a030c95f1987323891b3ca8e5e9fa9e1e2c41b1f64eb58e0a4b120c1",
+                "name": "Uganda"
+              },
+              {
+                "id": "a1709231cfa69c7a94f022afeae9dcd21271875b43e6f72c252d6d54f8cefd1a",
+                "name": "Ukraine"
+              },
+              {
+                "id": "17be395722a7ae6cccf4351c457ace51bb97f474ebd21bd9c7cc6bfff02ddfda",
+                "name": "United Arab Emirates"
+              },
+              {
+                "id": "ef4c52f8e51d78c4b7fcd1f97287527090c4961c088cbf421ea05188df2ddee5",
+                "name": "United Kingdom"
+              },
+              {
+                "id": "f470174adefc1c43c3427a436fd1fd51321aebc19908d42558a609bfda10bacb",
+                "name": "United States"
+              },
+              {
+                "id": "8b794e2f637e8188a9e04d009fa3d5b72cb54dee36970fbcab63410a4e5fb3a1",
+                "name": "Uruguay"
+              },
+              {
+                "id": "d881781ed16f532465a84047d818df7e54339297c6809bb7088403a788e203df",
+                "name": "Uzbekistan"
+              },
+              {
+                "id": "71ee752ae2e46602cd49c21fede88b97bc31748fec818f66d361fcbb66735f07",
+                "name": "Vanuatu"
+              },
+              {
+                "id": "0bb3f34c28a14b66e6e8e15ae469ce118070894ffc754ea8c0eef413d6edb776",
+                "name": "Vatican City"
+              },
+              {
+                "id": "e4b262b458fa741c14a8ac1b2c949ae23a0698dd82cb7e42d5e992d193d9cb8b",
+                "name": "Venezuela"
+              },
+              {
+                "id": "e559278d0027673aa7011f024445f5a662cab1e27839a12b7bfe36a21fd97caa",
+                "name": "Vietnam"
+              },
+              {
+                "id": "e8aafc77356c800c64fca66a72bafee70badf5295885921bd625caf8493d07a8",
+                "name": "Yemen"
+              },
+              {
+                "id": "4304aa3d2b9f6503ca12ca837ff4d0913e12140d652856294e2cc79d6e8d1d00",
+                "name": "Zambia"
+              },
+              {
+                "id": "f32128255000057d53ec478b12b4825085c69b67767092affdec618cfe43d9be",
+                "name": "Zimbabwe"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad18ef93387ad1a1bf168c9796436dcda8b2fcd0139be55f547e96890bab07a0",
+      "name": "Guests",
+      "nodes": [
+        {
+          "id": "85ac7fd536bf4032ecceba02e85796d58744046350060befd72e8e0387c8a37a",
+          "name": "Bring some company 👯‍♂️",
+          "nameVisible": true,
+          "description": "**You may bring up to 3 guests.**\nPlease let us know how many guests you'd like to invite and enter their name(s).",
+          "block": {
+            "type": "tripetto-block-paragraph",
+            "version": "4.0.0",
+            "caption": "The more people, the more joy!"
+          }
+        },
+        {
+          "id": "cd191717c82bf66b059a909f5e290790b51857043da325235558d304ffc600fc",
+          "name": "Number of guests",
+          "nameVisible": false,
+          "placeholder": "Select your number of guests...",
+          "slots": [
+            {
+              "id": "aff67697360ecce0115e98c7765121ae65908f05c2fe2b7708a445c433fe0ea9",
+              "type": "string",
+              "kind": "static",
+              "reference": "option",
+              "label": "Selected option",
+              "required": true
+            },
+            {
+              "id": "20806af68df69e796c8415e4523796226f5243bfa0e50ecc3d222c248194eeb6",
+              "type": "numeric",
+              "kind": "feature",
+              "reference": "score",
+              "label": "Score",
+              "exportable": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-dropdown",
+            "version": "5.1.1",
+            "options": [
+              {
+                "id": "e1ed3fba2cd9dd9fd5951e7cf03f9f35966c6b1fb6170c62b96eb4bc7d1cd807",
+                "name": "No guests"
+              },
+              {
+                "id": "830b2b7ef5718a4fc5bc2b35ceaf26d986db9934cd7d438de084e1dfc7d7bda3",
+                "name": "1 Guest",
+                "score": 1
+              },
+              {
+                "id": "6da93507fc235dc927e6d07004b37f26e52f4bb72fb9d0af59a9edbce6457554",
+                "name": "2 Guests",
+                "score": 2
+              },
+              {
+                "id": "660647270597d27bb7fbfb9cf1c12fad11318452aa6e9cf749082f3ba1c162b0",
+                "name": "3 Guests",
+                "score": 3
+              }
+            ]
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "50095b76f771fd4723e26b32bb8141f474500c62a739614d612c703138d3d851",
+          "name": "Branch for No guests",
+          "clusters": [
+            {
+              "id": "000956f917fda7624921a76a03aa33602b81050b962b0bb2d7ffaf2e195ec737",
+              "name": "No guests",
+              "nodes": [
+                {
+                  "id": "80dbd79a92b1a08709200d8dfd155ec460dc35cf4f302914b453246b4b09896b",
+                  "name": "No guests message",
+                  "nameVisible": false,
+                  "description": "No problem of course, we'll make sure you meet some new people during the event!",
+                  "block": {
+                    "type": "tripetto-block-paragraph",
+                    "version": "4.0.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "7fc94b891b20147e684360e63e258ebf37e1c2743c09d25f1da403cd30848d6e",
+              "block": {
+                "option": "e1ed3fba2cd9dd9fd5951e7cf03f9f35966c6b1fb6170c62b96eb4bc7d1cd807",
+                "type": "tripetto-block-dropdown",
+                "version": "5.1.1",
+                "node": "cd191717c82bf66b059a909f5e290790b51857043da325235558d304ffc600fc",
+                "slot": "aff67697360ecce0115e98c7765121ae65908f05c2fe2b7708a445c433fe0ea9"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e2bb18f2cc90846f04d4ef4194a080284c4b0a39a55a165233885c900635aadd",
+          "name": "Iterating branch for guest(s)",
+          "clusters": [
+            {
+              "id": "a0f4db0660e92d436f8436340dd4b24348c367715b8ca2d9d56f04da028e0da6",
+              "name": "Guest name(s)",
+              "nodes": [
+                {
+                  "id": "3498d2cc77e5b046e4fc24c97aef7cc5671087314c1c68c8f07a12031b2ca367",
+                  "name": "Guest name",
+                  "nameVisible": true,
+                  "slots": [
+                    {
+                      "id": "36b635e7d9130dbed845f76f28af67d870fc250a83ebce3d9875dd7ceca89ad4",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Text",
+                      "required": true
+                    }
+                  ],
+                  "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "07dca9362991ae44995842fe6327ea7c5ca524d2a524a326528fd236ae1ab18e",
+              "block": {
+                "type": "tripetto-block-dropdown:score",
+                "version": "5.1.1",
+                "node": "cd191717c82bf66b059a909f5e290790b51857043da325235558d304ffc600fc",
+                "slot": "20806af68df69e796c8415e4523796226f5243bfa0e50ecc3d222c248194eeb6",
+                "mode": "above",
+                "value": 0
+              }
+            },
+            {
+              "id": "d421b860f791a37471ae7bdeeb40b67bc8988a2ddb3929567155059f9fe0101e",
+              "block": {
+                "type": "tripetto-block-dropdown:score",
+                "version": "5.1.1",
+                "node": "cd191717c82bf66b059a909f5e290790b51857043da325235558d304ffc600fc",
+                "slot": "20806af68df69e796c8415e4523796226f5243bfa0e50ecc3d222c248194eeb6",
+                "mode": "above",
+                "value": 1
+              }
+            },
+            {
+              "id": "fcb18aa0c5138e4cc8965764839f8b1da70c1ed47aa58c5554ef562a5192e272",
+              "block": {
+                "type": "tripetto-block-dropdown:score",
+                "version": "5.1.1",
+                "node": "cd191717c82bf66b059a909f5e290790b51857043da325235558d304ffc600fc",
+                "slot": "20806af68df69e796c8415e4523796226f5243bfa0e50ecc3d222c248194eeb6",
+                "mode": "above",
+                "value": 2
+              }
+            }
+          ],
+          "culling": "each"
+        }
+      ]
+    },
+    {
+      "id": "3e2954f8b567b606b7baeb24ae11cadaf9e922499e60f9abdf1004b6573c5a62",
+      "name": "Workshops",
+      "nodes": [
+        {
+          "id": "9abd71a7f60c72aafeb13ceb83682cc936e4de04bdbc90140ce567705e6c4577",
+          "name": "Attend our workshops 💁‍♂️",
+          "nameVisible": true,
+          "description": "**You can register for up to 3 workshops.**\nPlease let us know which workshop(s) you'd like to attend.",
+          "block": {
+            "type": "tripetto-block-paragraph",
+            "version": "4.0.0",
+            "caption": "This year we're organizing multiple workshops for you."
+          }
+        },
+        {
+          "id": "df39afba44ebaed9d8696c70e1c78605f5c08d0a2e77e8e8eab63809e388dff8",
+          "explanation": "**You selected @b6fc43fc397610adbf7caf8bf60044bf92759033265f838220700b4cb51b7565 of maximum 3 workshops.**\n*Images from [unsplash](https://unsplash.com/).*",
+          "name": "Workshops",
+          "nameVisible": false,
+          "slots": [
+            {
+              "id": "02dec776cc90637a5f9c9a041387a6847f9dc6451da2dc97239ed00813dbc01f",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "3967ff34ee84105f67d25514bed446a9b8be097e2ae60ec0e1934a73d715d60e",
+              "sequence": 0,
+              "label": "Image",
+              "name": "Marketing Strategies",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "897883fa7f4bda0f8c5a77282a09a9a0225e3d448a8c46067fe080dcc56fac04",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "feefb39b230395a9394985929564cfd56bcd8f7b680e7cf5e5eb0759b125407a",
+              "sequence": 1,
+              "label": "Image",
+              "name": "Social Media Marketing",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "e5bc39b6e6f1b374e6783ff61da1356a8b8808c64550674db3a9de17a38f6f69",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "1c70b4a36db512d180f0c1c4c14cce2c3ffcb485997694b081545a2f6dec574b",
+              "sequence": 2,
+              "label": "Image",
+              "name": "Power of Influencers",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "4cd9c3120bdfc06f7819fe6582e20de8e3bd3f32e470473dfd9b80a2d3a39328",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "b3e776c0b7977caac35152ddbad5cbdf68aff0c9a5e66114e8139dcd007d6a5a",
+              "sequence": 3,
+              "label": "Image",
+              "name": "Offline Marketing",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "a08f1f1ecee766b1f9f4a666f0105ae166dfdcd1b4c192d6d1cdf70b95045e0c",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "be6fd41d6f8f1d6559127689f0e8ce6ed008630ca07e17c4ac419f98e4ab8cfd",
+              "sequence": 4,
+              "label": "Image",
+              "name": "Special Guest Lecture",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "8593cdb8938f365a03dd17f8eb5f0fe5befd5294f7ade030c24d2e7e3a960acd",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "8ee30ba4cdc13e5219960d2991282bfc7fc547b5457f463380ea850ae3d73757",
+              "sequence": 5,
+              "label": "Image",
+              "name": "Marketing Scan",
+              "required": true,
+              "pipeable": {
+                "label": "Image",
+                "content": "name",
+                "legacy": "Image"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "b6fc43fc397610adbf7caf8bf60044bf92759033265f838220700b4cb51b7565",
+              "type": "number",
+              "kind": "feature",
+              "reference": "counter",
+              "label": "Counter",
+              "exportable": false
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-picture-choice",
+            "version": "4.1.0",
+            "choices": [
+              {
+                "id": "3967ff34ee84105f67d25514bed446a9b8be097e2ae60ec0e1934a73d715d60e",
+                "name": "Marketing Strategies",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1624&q=80",
+                "description": "⏱ 60 minutes"
+              },
+              {
+                "id": "feefb39b230395a9394985929564cfd56bcd8f7b680e7cf5e5eb0759b125407a",
+                "name": "Social Media Marketing",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1548&q=80",
+                "description": "⏱ 30 minutes"
+              },
+              {
+                "id": "1c70b4a36db512d180f0c1c4c14cce2c3ffcb485997694b081545a2f6dec574b",
+                "name": "Power of Influencers",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1522860747050-bb0c1af38ae9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80",
+                "description": "⏱ 40 minutes"
+              },
+              {
+                "id": "b3e776c0b7977caac35152ddbad5cbdf68aff0c9a5e66114e8139dcd007d6a5a",
+                "name": "Offline Marketing",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1542586484-1ba19fe1ad53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+                "description": "⏱ 20 minutes"
+              },
+              {
+                "id": "be6fd41d6f8f1d6559127689f0e8ce6ed008630ca07e17c4ac419f98e4ab8cfd",
+                "name": "Special Guest Lecture",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1622461962082-fc68f58622ed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+                "description": "⏱ 20 minutes"
+              },
+              {
+                "id": "8ee30ba4cdc13e5219960d2991282bfc7fc547b5457f463380ea850ae3d73757",
+                "name": "Marketing Scan",
+                "nameVisible": true,
+                "image": "https://images.unsplash.com/photo-1562564055-71e051d33c19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80",
+                "description": "⏱ 10 minutes"
+              }
+            ],
+            "multiple": true,
+            "min": 1,
+            "max": 3,
+            "required": true,
+            "size": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9c933b54dfa78f2cbf620b2a4a33d24e6e25a6bca3dee88db959c6cd7e56bc8e",
+      "name": "Confirmation",
+      "nodes": [
+        {
+          "id": "b20a1df5a95d460a83c5e8858c32f3c52154897293e253a1dbc9f94337c68abf",
+          "name": "Almost there 🚀",
+          "nameVisible": true,
+          "description": "Check the box below to confirm your registration.",
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "b30d1ac5e6f9fa4973caea63e608f9bd2d5dbc74ecc56a498242fb9f7807de85",
+          "explanation": "I'm bringing @20806af68df69e796c8415e4523796226f5243bfa0e50ecc3d222c248194eeb6 guest(s).\nI'll be attending @b6fc43fc397610adbf7caf8bf60044bf92759033265f838220700b4cb51b7565 workshop(s).",
+          "placeholder": "**Yes, I hereby confirm my registration**",
+          "slots": [
+            {
+              "id": "508c2d178a1f75d99da06b20bbd1967548f277723b2a6de903e6364deaf84c63",
+              "type": "boolean",
+              "kind": "static",
+              "reference": "checked",
+              "label": "Checkbox",
+              "required": true,
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            }
+          ],
+          "block": { "type": "tripetto-block-checkbox", "version": "5.1.0" }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

@@ -1,0 +1,597 @@
+{
+  "name": "Job Application",
+  "language": "en",
+  "prologue": {
+    "title": "Join Us!",
+    "description": "We're looking for a **social media marketeer**.\n**You're up for that?**",
+    "button": "Yes, let's go!"
+  },
+  "epilogue": {
+    "title": "Application completed!",
+    "description": "Thanks for your application. We will contact you within 7 days.\nHopefully see you soon!"
+  },
+  "clusters": [
+    {
+      "id": "0cb4625bca788ec62f57a47f1afafbda20dd6250d79236900f68b650293f5b21",
+      "name": "Introduction",
+      "nodes": [
+        {
+          "id": "99bdd64834dc950928c1639883391b18714cce02f44fa5dfe06d1fb3ecd68274",
+          "name": "To start, what's your first name?",
+          "nameVisible": true,
+          "placeholder": "Enter your first name...",
+          "slots": [
+            {
+              "id": "c11ad17a870d45c90f861bf6b49989155ed1e9c8f626ec83b03a14e66526d9ee",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "alias": "Name",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "0d53bce00c602f7515addf8e28fbd17798116e809e033e752f77cbebb4e95ecd",
+          "name": "Nice to meet you, @c11ad17a870d45c90f861bf6b49989155ed1e9c8f626ec83b03a14e66526d9ee 👋",
+          "nameVisible": true,
+          "description": "It's a fulltime 9-5 job for 5 days a week. And you can spend all of this time on the socials! **Isn't that a dream job?!**\n\nYour task will be to think of new social media strategies, but also develop, design and execute your ideas.\n\nSounds like you? Quick, click **Next** to apply! 👇",
+          "block": {
+            "type": "tripetto-block-paragraph",
+            "version": "4.0.0",
+            "caption": "Let us tell you more about this job."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fe0419f226b7e5b2f63fc90e7269f28af56c6041b4726569db6ba769f085ffaa",
+      "name": "Job - Part 1",
+      "nodes": [
+        {
+          "id": "9a36b67fbf659ae056118f4a3279b237062317cdd0b60d18620396551959b514",
+          "name": "First, let's see if you're a match for the challenge.",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "3e844885d3494cb8472b4661212a84f87d53aaef31388ce3b027b8214c1e655b",
+          "name": "What's your experience as a social media marketeer?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "2ae4d8438fbc6d887aa3e384b4e9ea922488899967fd3cb299df9f9ccd38d189",
+              "type": "string",
+              "kind": "static",
+              "reference": "scale",
+              "label": "Scale",
+              "required": true
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-scale",
+            "version": "3.0.1",
+            "mode": "options",
+            "options": [
+              {
+                "id": "a790c0fcfd74bf0ca0a8abbf30c13e9b231d877776f51c34db3a9dc172e155a9",
+                "name": "None"
+              },
+              {
+                "id": "1378e8d7e3ede8010d92ccfdcb3384c21cdf691debca3e73ba64a1708ed780d4",
+                "name": "1-3 years"
+              },
+              {
+                "id": "2dbe9a3a8cdd1c5a6f8dc8bfe0306cc7f08268cc37a4dffca80ca84ab5191cde",
+                "name": "4-10 years"
+              },
+              {
+                "id": "72a4e219899460c3465f796aec667809351b47c2e1ef2e462a84e69c6ae02443",
+                "name": "10+ years"
+              }
+            ],
+            "justify": true
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "b8cbfca1d8b0e4eae34611bbe44e9da63589502fff8825023a51a427c0c6d599",
+          "name": "Branch for No Experience",
+          "clusters": [
+            {
+              "id": "820f9f552de1ae1be894179ef1f9ca43efb3f8380a0878e0c85fdede39426a54",
+              "name": "No Experience",
+              "nodes": [
+                {
+                  "id": "3843ddbfedf9d7d5e6dc8a2d34c595b5354775c468adfa5f10d81fd42f3e2b68",
+                  "name": "No experience doesn't have to be a deal breaker for us.",
+                  "nameVisible": true,
+                  "placeholder": "Enter your motivation...",
+                  "description": "Can you explain why you think you're still a good match for this job?",
+                  "slots": [
+                    {
+                      "id": "db59603d5211346032aa2f2e9ba42aa4572bbdcaf8b419259abe8c7d2264e18b",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Multi-line text",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-textarea",
+                    "version": "5.1.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "b3d99f46d529377d30f3b09a2bb169c337cf99c40b8699f8647982a457d44351",
+              "block": {
+                "option": "a790c0fcfd74bf0ca0a8abbf30c13e9b231d877776f51c34db3a9dc172e155a9",
+                "type": "tripetto-block-scale:match",
+                "version": "3.0.1",
+                "node": "3e844885d3494cb8472b4661212a84f87d53aaef31388ce3b027b8214c1e655b",
+                "slot": "2ae4d8438fbc6d887aa3e384b4e9ea922488899967fd3cb299df9f9ccd38d189"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7819f1f7ddbe0398438d73d830a0b828934bf14e92cac87149966dd5e6dddcc",
+      "name": "Job - Part 2",
+      "nodes": [
+        {
+          "id": "eac458fd957ea8cddb87f6e132b275bdd06bc53497752f7e5c7dffe3bc3fed01",
+          "name": "How would you rate your knowledge of the following social media platforms?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "3f34c5d2752f82c3efda72dd3f524137b0d190a1835cb2911c786b20b4bbd94c",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "e3a26b3f8c2452ba38e281c1f8ca8e4664352c16c178cc3caf40ba81a576ebcf",
+              "sequence": 0,
+              "label": "Matrix row",
+              "name": "Facebook",
+              "required": true,
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            },
+            {
+              "id": "c064c1b2e130945014c26d536646815332fd08031c75bcd4f36ba10c8cfe6a7f",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "9b5827423e1f4c72deaf81bb17842ee3ad7ef9e4984b273ab4ad6a6b01da1067",
+              "sequence": 1,
+              "label": "Matrix row",
+              "name": "Twitter",
+              "required": false,
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            },
+            {
+              "id": "be7a414e608646149b0a6d9a1bd29e3839b1fabad825c70f7efbcb8e37955cf6",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "2ee35403fb1d1818c2a4480f00f0f11d18b8a249aee8810d07fc93b529727706",
+              "sequence": 2,
+              "label": "Matrix row",
+              "name": "Instagram",
+              "required": false,
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            },
+            {
+              "id": "f2d72fcd0259efaaf4309404151a0bec4162c17305facf5bdd7ddb433570cbf2",
+              "type": "string",
+              "kind": "dynamic",
+              "reference": "249aedd1e9c60dc557e9849628251014b6f143635e1855d56f85fef2b239161c",
+              "sequence": 3,
+              "label": "Matrix row",
+              "name": "TikTok",
+              "required": false,
+              "pipeable": {
+                "label": "Row",
+                "content": "value",
+                "legacy": "Row"
+              }
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-matrix",
+            "version": "4.1.0",
+            "columns": [
+              {
+                "id": "077c03d31ee772796cefa423e857328932261254685d74fd2f0fe38b6c35e142",
+                "label": "⭐"
+              },
+              {
+                "id": "dee22034c0884246dd3c0c3919868c4baef71743c86804b06e53cad34fde83fa",
+                "label": "⭐⭐"
+              },
+              {
+                "id": "1a5546f74d18b5640f1219ab7545666165ff43fc045639ac3d044c4f3677761c",
+                "label": "⭐ ⭐ ⭐"
+              }
+            ],
+            "rows": [
+              {
+                "id": "e3a26b3f8c2452ba38e281c1f8ca8e4664352c16c178cc3caf40ba81a576ebcf",
+                "name": "Facebook"
+              },
+              {
+                "id": "9b5827423e1f4c72deaf81bb17842ee3ad7ef9e4984b273ab4ad6a6b01da1067",
+                "name": "Twitter"
+              },
+              {
+                "id": "2ee35403fb1d1818c2a4480f00f0f11d18b8a249aee8810d07fc93b529727706",
+                "name": "Instagram"
+              },
+              {
+                "id": "249aedd1e9c60dc557e9849628251014b6f143635e1855d56f85fef2b239161c",
+                "name": "TikTok"
+              }
+            ],
+            "required": true
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "8e8808385ef621aa5c87537d17025a5548bda141cf18fdcfca9e2dbdac23ae4e",
+          "name": "Branch for 1 star(s)",
+          "clusters": [
+            {
+              "id": "c592fbc52034850567a9cc87c877a7f4ac4c203767baeef5d28c1976f9a4d0ff",
+              "name": "1 star(s)",
+              "nodes": [
+                {
+                  "id": "63ee21677a5447d265f37785d0c08d7ee70462590d41b3c143bf35ac2f19451f",
+                  "name": "You selected ⭐ (1 star) for a social media platform.",
+                  "nameVisible": true,
+                  "description": "Can you explain why you think you're still a good match for this job?",
+                  "slots": [
+                    {
+                      "id": "070be00c26502b711de87b199331e1f1bdab7a8762b39707e85972e95a77388f",
+                      "type": "text",
+                      "kind": "static",
+                      "reference": "value",
+                      "label": "Multi-line text",
+                      "required": true
+                    }
+                  ],
+                  "block": {
+                    "type": "tripetto-block-textarea",
+                    "version": "5.1.0"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "bca84e10633744801ed6f5e903b77f32081dd34b707ec908c33ee9ee4ec93961",
+              "block": {
+                "row": "e3a26b3f8c2452ba38e281c1f8ca8e4664352c16c178cc3caf40ba81a576ebcf",
+                "column": "077c03d31ee772796cefa423e857328932261254685d74fd2f0fe38b6c35e142",
+                "type": "tripetto-block-matrix",
+                "version": "4.1.0",
+                "node": "eac458fd957ea8cddb87f6e132b275bdd06bc53497752f7e5c7dffe3bc3fed01",
+                "slot": "3f34c5d2752f82c3efda72dd3f524137b0d190a1835cb2911c786b20b4bbd94c"
+              }
+            },
+            {
+              "id": "3479d0eaadb0cf968aaee8606bb25b9b9cfc1b175191f5e56b8286f4ef64c35c",
+              "block": {
+                "row": "9b5827423e1f4c72deaf81bb17842ee3ad7ef9e4984b273ab4ad6a6b01da1067",
+                "column": "077c03d31ee772796cefa423e857328932261254685d74fd2f0fe38b6c35e142",
+                "type": "tripetto-block-matrix",
+                "version": "4.1.0",
+                "node": "eac458fd957ea8cddb87f6e132b275bdd06bc53497752f7e5c7dffe3bc3fed01",
+                "slot": "c064c1b2e130945014c26d536646815332fd08031c75bcd4f36ba10c8cfe6a7f"
+              }
+            },
+            {
+              "id": "36d44ad4fe50d192862ee429d6648e09e32747294cde16663e5606f0183f1448",
+              "block": {
+                "row": "2ee35403fb1d1818c2a4480f00f0f11d18b8a249aee8810d07fc93b529727706",
+                "column": "077c03d31ee772796cefa423e857328932261254685d74fd2f0fe38b6c35e142",
+                "type": "tripetto-block-matrix",
+                "version": "4.1.0",
+                "node": "eac458fd957ea8cddb87f6e132b275bdd06bc53497752f7e5c7dffe3bc3fed01",
+                "slot": "be7a414e608646149b0a6d9a1bd29e3839b1fabad825c70f7efbcb8e37955cf6"
+              }
+            },
+            {
+              "id": "85fcf4cdc8696b0b6e0e22109b6994ae85e6f197c4c64e503d66968d8bc94760",
+              "block": {
+                "row": "249aedd1e9c60dc557e9849628251014b6f143635e1855d56f85fef2b239161c",
+                "column": "077c03d31ee772796cefa423e857328932261254685d74fd2f0fe38b6c35e142",
+                "type": "tripetto-block-matrix",
+                "version": "4.1.0",
+                "node": "eac458fd957ea8cddb87f6e132b275bdd06bc53497752f7e5c7dffe3bc3fed01",
+                "slot": "f2d72fcd0259efaaf4309404151a0bec4162c17305facf5bdd7ddb433570cbf2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8bb82ef12f9014403569d097d687e1b76e3da423ce243340293d9a28d333e433",
+      "name": "Company",
+      "nodes": [
+        {
+          "id": "b0b2a21dfe29b382279a6d0ef33cab6e7d1ddcf33e12d442e611fa2f5a21aac1",
+          "name": "Next, let's see if you're a match for our company.",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "362fe59b5ece14e12fd29c3e8621cf5821ea11e2868e44ecd1551842d745c61d",
+          "name": "What's important for you to have a good working environment?",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "a2a8e5dcf51abaa8177f7eafe3665271d9221d593041213218f825d26c6b20b0",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "a5348b60dc3265f8b073138ce73db9b2a2ba769a1e2b35f6ef2bf49919d20316",
+              "sequence": 0,
+              "label": "Choice",
+              "name": "Salary",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "82542bf4df8515f274dcfc94e992f2793cc9e8ec82965c092ede9549212d968b",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "398730c85365bfff6e75af302ae3edab865780a149a2cef1b02f516850d9756d",
+              "sequence": 1,
+              "label": "Choice",
+              "name": "Car",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "34213db2a2594f0428ce638a34517a670b43f7762c3c44af09eccf534fd4e6c2",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "83664125a5400b03c957fc0cbec806a55855da54557e118cc0115d2e27ac1b21",
+              "sequence": 2,
+              "label": "Choice",
+              "name": "Lunch",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "7ca37346b3ad606f76841d2a6a61456c55252eac9c3056bb3c64acda4307dd64",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "8e3d35283235a817bfdbdc8402d19010de779011bbd7a624138b5989941f96c9",
+              "sequence": 3,
+              "label": "Choice",
+              "name": "Informal atmosphere",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "58da9f469a544df5716892b61c2278269ff2b6aaf1aa035adceecfd664f2986e",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "b6e24ea1779f98a7009b16eb3a89a0c5561c75406491e375d7730872521ca23f",
+              "sequence": 4,
+              "label": "Choice",
+              "name": "Flexible times",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "fd5609c4e07b3e628fa7aa97cf4d136ccaeab352e6f2d829daec9c74245670cf",
+              "type": "boolean",
+              "kind": "dynamic",
+              "reference": "6ee20517711b615523a6c2f9a8c6e148aebf64758e96250cd8cae9c86ea41ffb",
+              "sequence": 5,
+              "label": "Choice",
+              "name": "Work from home",
+              "required": true,
+              "pipeable": {
+                "label": "Choice",
+                "content": "name",
+                "legacy": "Choice"
+              },
+              "labelForFalse": "Not selected",
+              "labelForTrue": "Selected"
+            },
+            {
+              "id": "adf130efc359fa737354acb63c078501ae60752eb6041fa41347c5dba5648116",
+              "type": "number",
+              "kind": "feature",
+              "reference": "counter",
+              "label": "Counter",
+              "exportable": false
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-multiple-choice",
+            "version": "5.1.0",
+            "choices": [
+              {
+                "id": "a5348b60dc3265f8b073138ce73db9b2a2ba769a1e2b35f6ef2bf49919d20316",
+                "name": "Salary"
+              },
+              {
+                "id": "398730c85365bfff6e75af302ae3edab865780a149a2cef1b02f516850d9756d",
+                "name": "Car"
+              },
+              {
+                "id": "83664125a5400b03c957fc0cbec806a55855da54557e118cc0115d2e27ac1b21",
+                "name": "Lunch"
+              },
+              {
+                "id": "8e3d35283235a817bfdbdc8402d19010de779011bbd7a624138b5989941f96c9",
+                "name": "Informal atmosphere"
+              },
+              {
+                "id": "b6e24ea1779f98a7009b16eb3a89a0c5561c75406491e375d7730872521ca23f",
+                "name": "Flexible times"
+              },
+              {
+                "id": "6ee20517711b615523a6c2f9a8c6e148aebf64758e96250cd8cae9c86ea41ffb",
+                "name": "Work from home"
+              }
+            ],
+            "multiple": true,
+            "alignment": true,
+            "required": true,
+            "randomize": true
+          }
+        },
+        {
+          "id": "68e396e42d98b0566921d71666de713b27268acfefcd0766697183097830acf9",
+          "name": "What makes you want to work at our company?",
+          "nameVisible": true,
+          "placeholder": "Enter your motivation...",
+          "slots": [
+            {
+              "id": "f9ce4f6f0a0e0acd3217de76cabc9844460a86c6767daf85e3b864017e6598ea",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Multi-line text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-textarea", "version": "5.1.0" }
+        }
+      ]
+    },
+    {
+      "id": "b9ddf1d18f456dee9d75b7c561c6561a9fef9a6a660771bc3dd477c73aa01373",
+      "name": "Applicant",
+      "nodes": [
+        {
+          "id": "4602f73b28134535c6582caba4a4e172cd467ea4f85c35534ba655f9efd27039",
+          "name": "Lastly, let's dive a little deeper into you!",
+          "nameVisible": true,
+          "block": { "type": "tripetto-block-paragraph", "version": "4.0.0" }
+        },
+        {
+          "id": "16d1b800e69d273aa89d7f1550fb2bc2785c833f2bdc0f0675e09302348b32eb",
+          "name": "What's your full name?",
+          "nameVisible": true,
+          "placeholder": "Enter your full name...",
+          "slots": [
+            {
+              "id": "50119e640df05c367ebfaaea8ffbe7faedc02352f71f2e1879a666eaec185d42",
+              "type": "text",
+              "kind": "static",
+              "reference": "value",
+              "label": "Text",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-text", "version": "5.0.3" }
+        },
+        {
+          "id": "a7833cf6db8b9056e1d8c004f6cbed86025dbff2848a1d4540af9569135d3314",
+          "name": "What's your email address?",
+          "nameVisible": true,
+          "placeholder": "Enter your email address...",
+          "slots": [
+            {
+              "id": "24db59de85cd1b6136e1162fb0909a3d49b8b356a46ed8d1cdce2a94a645e65b",
+              "type": "string",
+              "kind": "static",
+              "reference": "email",
+              "label": "Email address",
+              "required": true
+            }
+          ],
+          "block": { "type": "tripetto-block-email", "version": "5.0.0" }
+        },
+        {
+          "id": "9fc95e7597e3f1ef4d93161d5553ea6fb251b0854f7afa41512cce0fa34e119d",
+          "name": "Optionally, what's your LinkedIn profile?",
+          "nameVisible": true,
+          "placeholder": "Enter the full URL to your LinkedIn profile...",
+          "slots": [
+            {
+              "id": "f5633aa9606d71ea21028b964c908cb0b315b2ef767a5403fbab3a958b7fdcfd",
+              "type": "string",
+              "kind": "static",
+              "reference": "url",
+              "label": "URL"
+            }
+          ],
+          "block": { "type": "tripetto-block-url", "version": "5.0.0" }
+        },
+        {
+          "id": "604d356ce4a39950d8dae293b8d45d2fa0c5a27f467cfc884b59a3fce5d30bbd",
+          "name": "Optionally, share your resume with us.",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "1c5a8ceeb8963ac1bd5f16b9fb5953cd4c472944e05776a1296aab18389a9cc1",
+              "type": "string",
+              "kind": "static",
+              "reference": "file",
+              "label": "File upload",
+              "protected": true
+            }
+          ],
+          "block": { "type": "tripetto-block-file-upload", "version": "4.0.0" }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}

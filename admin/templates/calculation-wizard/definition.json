@@ -1,0 +1,372 @@
+{
+  "name": "BMI Calculation",
+  "language": "en",
+  "prologue": {
+    "title": "Your Body Mass Index (BMI) is an easy check to see how healthy your weight is.",
+    "description": "All you have to do is enter your weight and height and we can instantly show you your BMI.",
+    "button": "Let's find out!",
+    "image": "https://www.apolloprotocol.com/img/body-mass/bmi-berekening.jpg"
+  },
+  "epilogue": {
+    "title": "We were not able to give you a correct calculation.",
+    "repeatable": true,
+    "description": "Please enter your data again."
+  },
+  "clusters": [
+    {
+      "id": "0fe4ececdffefd8b0aaffad176c54d13b2a5928595de306061e2c0fcf5c70dc5",
+      "name": "Height",
+      "nodes": [
+        {
+          "id": "0b6cd4ec4cf91465513b9bc67e7b8f4ebedd20b7d5f4274adef67c7f69404ddc",
+          "name": "What's your height?",
+          "nameVisible": true,
+          "description": "Please enter your height in meters or centimeters.",
+          "slots": [
+            {
+              "id": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "number",
+              "label": "Number",
+              "alias": "HEIGHT",
+              "required": true,
+              "precision": 2
+            }
+          ],
+          "block": { "type": "tripetto-block-number", "version": "7.0.2" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "bb9a15e534f3b91d7689bcbf6dd29b5945ba2d57f38cac5261aab06c1e35921f",
+          "name": "Check height input",
+          "clusters": [
+            {
+              "id": "7834791fd4cf0c28861c7a12ce7a29d4b8f5448e0bcd471539397b11367e83c7",
+              "name": "Invalid height",
+              "nodes": [
+                {
+                  "id": "03cdafd261522bf7a30289de686b9b4e70dc9f21f820557592ac37cdea86d609",
+                  "name": "That's not a valid height you entered.",
+                  "nameVisible": true,
+                  "description": "You can enter your height in centimeters between 100cm and 230cm, or in meters between 1.00m and 2.30m.\n\nPlease go back to the previous question and enter a valid height.",
+                  "block": { "type": "tripetto-block-stop", "version": "2.0.0" }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "de3c2f921ffdc970eb57152d7899d680f078b2ccff2b18fcc9da23fa5a0055cd",
+              "block": {
+                "type": "tripetto-block-number",
+                "version": "7.0.2",
+                "node": "0b6cd4ec4cf91465513b9bc67e7b8f4ebedd20b7d5f4274adef67c7f69404ddc",
+                "slot": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14",
+                "mode": "below",
+                "value": 1
+              }
+            },
+            {
+              "id": "162850ef0efd763002be057a12c5164d051c78d1f76f5e8a436da98ad46ce660",
+              "block": {
+                "type": "tripetto-block-number",
+                "version": "7.0.2",
+                "node": "0b6cd4ec4cf91465513b9bc67e7b8f4ebedd20b7d5f4274adef67c7f69404ddc",
+                "slot": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14",
+                "mode": "between",
+                "value": 2.31,
+                "to": 99.99
+              }
+            },
+            {
+              "id": "7341b57ad870435c2d20d402ca57a95254290109c7186ff53cc93158c172c20e",
+              "block": {
+                "type": "tripetto-block-number",
+                "version": "7.0.2",
+                "node": "0b6cd4ec4cf91465513b9bc67e7b8f4ebedd20b7d5f4274adef67c7f69404ddc",
+                "slot": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14",
+                "mode": "above",
+                "value": 230
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fdee5f56141560f14929e7edd842bd3b50a9b85e9b1dbe054f345f1958b76ad8",
+      "name": "Weight",
+      "nodes": [
+        {
+          "id": "2298730e434d8b621226181bcc70cd8a1dc36a51d41b9ec97e467fb511604120",
+          "name": "What's your weight?",
+          "nameVisible": true,
+          "description": "Please enter your weight in kilograms.",
+          "slots": [
+            {
+              "id": "ba63a540525dd0a5ec5024e6cd80d67717a27cc3a5c75046c730634c26193a45",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "number",
+              "label": "Number",
+              "alias": "WEIGHT",
+              "required": true,
+              "precision": 0
+            }
+          ],
+          "block": { "type": "tripetto-block-number", "version": "7.0.2" }
+        }
+      ],
+      "branches": [
+        {
+          "id": "066ff654eecdd1c3e3bc29115ccdc48cdfcccffabc600eb052a027f946e7c05b",
+          "name": "Check weight input",
+          "clusters": [
+            {
+              "id": "a12f64cff3dafd747150a44bf872ebc787b958f8124c7d6e9de564c89c327e4b",
+              "name": "Invalid weight",
+              "nodes": [
+                {
+                  "id": "38c09fc9746efb4d78504e4b6221c246ae2bc211b428b60ea9a9ff33bfb4a58b",
+                  "name": "That's not a valid weight you entered.",
+                  "nameVisible": true,
+                  "description": "You can enter your weight in kilograms between 20kg and 300kg.\n\nPlease go back to the previous question and enter a valid weight.",
+                  "block": { "type": "tripetto-block-stop", "version": "2.0.0" }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "03727c60ba5de82765533653b5e152900f7d67f01e1972d55fcb0b33acda7d2c",
+              "block": {
+                "type": "tripetto-block-number",
+                "version": "7.0.2",
+                "node": "2298730e434d8b621226181bcc70cd8a1dc36a51d41b9ec97e467fb511604120",
+                "slot": "ba63a540525dd0a5ec5024e6cd80d67717a27cc3a5c75046c730634c26193a45",
+                "mode": "not-between",
+                "value": 20,
+                "to": 300
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "863b3bb1e141ed16cf34a7dae0246bc7650901956448202af7d3dc59aff4c113",
+      "name": "BMI Calculation",
+      "nodes": [
+        {
+          "id": "f1033d5dd198279c20a9236a31289de2e6ad7b45a55ccdfbc95387b49e42b180",
+          "name": "Calculate height in meters",
+          "slots": [
+            {
+              "id": "e5bb80201688e734de5992b0796225be91a374bfac7711ece2a7539b26fb37b3",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Calculate height in meters",
+              "alias": "HEIGHT (METERS)",
+              "exportable": false,
+              "precision": 2
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "3baed31559ff438a56fe65a32b36d941273ddfb96064fa6eb9d5203e33ea9147",
+                "operator": "+",
+                "opcode": "number",
+                "value": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14"
+              },
+              {
+                "id": "2feba6762a3ceafda67a614359a607291925bd2386190580cb9f02056874dca8",
+                "operator": "/",
+                "opcode": "equation",
+                "value": "358dd21c68078bb5b179229d1eff984aa8e3406573e9b352e24683cb655e3e14",
+                "cona": 100,
+                "conb": 0,
+                "outa": 100,
+                "outb": 1,
+                "compareMode": "above"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+          "name": "Calculate BMI",
+          "slots": [
+            {
+              "id": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+              "type": "numeric",
+              "kind": "static",
+              "reference": "calculator",
+              "label": "Calculate BMI",
+              "alias": "BMI",
+              "precision": 1
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-calculator",
+            "version": "3.1.1",
+            "operations": [
+              {
+                "id": "a1cc8a722058ae298cb4137073154c971e696876d37232c1ff3a503f106fb2be",
+                "operator": "+",
+                "opcode": "number",
+                "value": "ba63a540525dd0a5ec5024e6cd80d67717a27cc3a5c75046c730634c26193a45"
+              },
+              {
+                "id": "9e33c6f0e3f0f3a2f3a001ab7fa1d3386eb62b203d6ae5a310f9e1a414e465f0",
+                "operator": "/",
+                "opcode": "calc",
+                "operations": [
+                  {
+                    "id": "cfd4b211beed85f56e143409de16bdcf719d56159174490bb43a1472b824f34d",
+                    "operator": "=",
+                    "opcode": "number",
+                    "value": "e5bb80201688e734de5992b0796225be91a374bfac7711ece2a7539b26fb37b3"
+                  },
+                  {
+                    "id": "4fe8b82b709adf7e96e73a3e8da5d3f571ad08b66153341535fd5e90a1c37071",
+                    "operator": "*",
+                    "opcode": "number",
+                    "value": "e5bb80201688e734de5992b0796225be91a374bfac7711ece2a7539b26fb37b3"
+                  }
+                ],
+                "description": "Height * height"
+              }
+            ]
+          }
+        }
+      ],
+      "branches": [
+        {
+          "id": "91667c3d7ad28c97beac901c05dc52c1f45e4b55c0dcb1e183a850a50f7c2570",
+          "name": "< 18.5",
+          "conditions": [
+            {
+              "id": "a03bc2afb72cf51555407bf9eaeb63935d98c3e2cd5a55f74c9febb33e4fe010",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+                "slot": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+                "mode": "below",
+                "value": 18.5
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Your BMI is: @820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+            "description": "This means you're _underweight_.",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "331d540f9660d61f04fadba2daa9552e01afb51bcad89e46d1bc94238474fa61",
+          "name": "18.5-25.0",
+          "conditions": [
+            {
+              "id": "76a4e7a18fb0cc85c732bcafaf6b21b6f6c0b775a6dfb296c00e4f8a40bebe91",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+                "slot": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+                "mode": "between",
+                "value": 18.5,
+                "to": 24.99
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Your BMI is: @820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+            "description": "This means you have a _healthy BMI_.",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "886aaaa08c5974b1077b360190ec0922e787d5904ca9b77082132f6792e1aad9",
+          "name": "25.0-30.0",
+          "conditions": [
+            {
+              "id": "a1909652044fc7c5bad05957b3e5c58f422491312c306b3fc04185b1f2b93601",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+                "slot": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+                "mode": "between",
+                "value": 25,
+                "to": 29.99
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Your BMI is: @820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+            "description": "This means you're _overweight_.",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "bdf5bd84f7893a103f8386bfe490661592c2c24d896c68cdd3d3f5a01e63c384",
+          "name": "30.0-40.0",
+          "conditions": [
+            {
+              "id": "5c3c2f5f2c3c44f288592ae8cf9002953c8e4983984cf1138481f89b77df923f",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+                "slot": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+                "mode": "between",
+                "value": 30,
+                "to": 39.99
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Your BMI is: @820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+            "description": "This means you're in _obesitas_.",
+            "repeatable": true
+          }
+        },
+        {
+          "id": "15f07e9b6e33427ea08fbf936561154b97328846b7ef50e5f0a1a045a369d89b",
+          "name": "40.0 +",
+          "conditions": [
+            {
+              "id": "700d7dcc1d27906e1e5b6ee527eb5e5f5257b3ad1cb3ae63aad080739840484e",
+              "block": {
+                "type": "tripetto-block-calculator",
+                "version": "3.1.1",
+                "node": "f3b9e7c888377bbb327669c2adf5122909a15414bb3a0393078a60ed7485a320",
+                "slot": "820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+                "mode": "above",
+                "value": 39.99
+              }
+            }
+          ],
+          "jump": "abort",
+          "epilogue": {
+            "title": "Your BMI is: @820a9a8a48907f755af31f2f2024cd897ffb4e5fa9712e7985e0f26e8c97f991",
+            "description": "This means you're in _morbide obesitas_.",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "4.4.2" }
+}
